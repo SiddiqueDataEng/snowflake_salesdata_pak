@@ -1,0 +1,301 @@
+EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE,HIRE_DATE,JOB_TITLE,DEPARTMENT,STORE_ID,MANAGER_ID,SALARY,IS_ACTIVE
+1,Maryam,Rizwan,maryam.rizwan@company.com,+92-323-2136283,2020-11-03,Cashier,Sales,14,,34904,True
+2,Sana,Khalid,sana.khalid@company.com,+92-323-6574196,2022-02-21,Sales Associate,Customer Service,73,214.0,49429,True
+3,Hassan,Hussain,hassan.hussain@company.com,+92-327-7953934,2022-11-10,Supervisor,Customer Service,61,225.0,87608,False
+4,Zara,Naeem,zara.naeem@company.com,+92-316-4251433,2023-02-21,Customer Service,Sales,44,,37164,False
+5,Arham,Ahmed,arham.ahmed@company.com,+92-314-8796926,2022-04-30,Cashier,Operations,9,,53613,False
+6,Yusuf,Hashmi,yusuf.hashmi@company.com,+92-326-3939064,2024-01-08,Manager,Management,60,,93881,True
+7,Maryam,Rizwan,maryam.rizwan@company.com,+92-315-3637357,2022-10-22,Supervisor,Management,75,,60996,True
+8,Hussein,Nadeem,hussein.nadeem@company.com,+92-308-3320990,2021-12-31,Cashier,Sales,23,,55478,False
+9,Ayan,Rizvi,ayan.rizvi@company.com,+92-342-9167176,2024-04-27,Customer Service,Customer Service,67,275.0,44760,True
+10,Abdullah,Siddiqui,abdullah.siddiqui@company.com,+92-300-7948440,2024-03-29,Supervisor,Operations,5,,63060,True
+11,Hamza,Raza,hamza.raza@company.com,+92-341-5116316,2025-06-24,Sales Associate,Management,70,,43731,True
+12,Sadia,Shah,sadia.shah@company.com,+92-308-7133272,2025-08-10,Manager,Operations,31,,91550,False
+13,Khadija,Hussain,khadija.hussain@company.com,+92-323-6359206,2021-11-15,Cashier,Operations,70,,57160,False
+14,Umar,Raza,umar.raza@company.com,+92-300-7877839,2021-09-22,Sales Associate,Inventory,41,,37607,True
+15,Nida,Zahid,nida.zahid@company.com,+92-332-7934451,2022-04-19,Manager,Management,33,,139423,True
+16,Hafsa,Akhtar,hafsa.akhtar@company.com,+92-346-9399030,2024-09-01,Supervisor,Sales,46,,67237,False
+17,Umar,Qureshi,umar.qureshi@company.com,+92-346-6556680,2022-07-17,Manager,Customer Service,51,,144125,True
+18,Mariam,Akhtar,mariam.akhtar@company.com,+92-325-4714719,2024-01-15,Manager,Inventory,35,,80833,False
+19,Aisha,Saeed,aisha.saeed@company.com,+92-312-7349732,2023-08-14,Sales Associate,Operations,70,6.0,52913,True
+20,Haris,Ali,haris.ali@company.com,+92-306-1677983,2024-02-11,Cashier,Management,41,,33911,True
+21,Jannat,Naeem,jannat.naeem@company.com,+92-310-5705718,2021-07-18,Stock Clerk,Management,25,,37039,True
+22,Nida,Waseem,nida.waseem@company.com,+92-307-1264939,2023-11-27,Cashier,Sales,1,,40700,True
+23,Bilal,Rizwan,bilal.rizwan@company.com,+92-320-8683966,2025-01-16,Manager,Operations,2,,90416,False
+24,Hussein,Hashmi,hussein.hashmi@company.com,+92-302-3996270,2025-07-22,Supervisor,Customer Service,63,63.0,70835,True
+25,Ahmed,Hashmi,ahmed.hashmi@company.com,+92-300-7422641,2023-10-28,Sales Associate,Sales,31,231.0,47913,False
+26,Hussein,Naeem,hussein.naeem@company.com,+92-320-3136481,2024-09-12,Sales Associate,Sales,23,,33540,True
+27,Sadia,Akhtar,sadia.akhtar@company.com,+92-301-7981362,2024-04-02,Cashier,Sales,53,,45223,False
+28,Abdullah,Rehman,abdullah.rehman@company.com,+92-335-5441604,2024-09-14,Manager,Inventory,70,,102322,True
+29,Rabia,Hassan,rabia.hassan@company.com,+92-323-7979590,2021-07-05,Customer Service,Sales,52,,37650,True
+30,Amaan,Saeed,amaan.saeed@company.com,+92-321-1249177,2023-08-01,Cashier,Customer Service,48,,40894,False
+31,Khadija,Akhtar,khadija.akhtar@company.com,+92-349-2428140,2022-06-23,Sales Associate,Sales,45,202.0,39789,True
+32,Muhammad,Farooq,muhammad.farooq@company.com,+92-306-5114739,2023-02-01,Cashier,Operations,40,,42492,True
+33,Sumaya,Saeed,sumaya.saeed@company.com,+92-338-7008619,2021-07-22,Supervisor,Inventory,75,,68874,True
+34,Ali,Raza,ali.raza@company.com,+92-312-9519633,2021-08-26,Customer Service,Operations,55,,59546,True
+35,Maryam,Hussain,maryam.hussain@company.com,+92-345-8055041,2024-04-26,Customer Service,Inventory,54,,38472,True
+36,Hania,Khalid,hania.khalid@company.com,+92-319-7020730,2021-10-30,Manager,Sales,41,,141164,True
+37,Ahmed,Ali,ahmed.ali@company.com,+92-310-1865738,2023-07-27,Customer Service,Operations,55,,32747,True
+38,Ali,Ahmed,ali.ahmed@company.com,+92-318-6570737,2022-11-13,Stock Clerk,Sales,2,,56925,False
+39,Sana,Raza,sana.raza@company.com,+92-308-9216490,2024-08-03,Supervisor,Inventory,54,,81549,False
+40,Amaan,Zaidi,amaan.zaidi@company.com,+92-337-2568249,2021-07-09,Customer Service,Customer Service,15,,32748,False
+41,Alina,Rizwan,alina.rizwan@company.com,+92-309-9463658,2020-11-09,Customer Service,Operations,1,,36960,True
+42,Ayan,Hashmi,ayan.hashmi@company.com,+92-312-3380021,2023-08-01,Stock Clerk,Customer Service,14,,45323,True
+43,Hania,Saeed,hania.saeed@company.com,+92-329-2333421,2022-08-31,Manager,Management,15,,149187,True
+44,Usman,Tariq,usman.tariq@company.com,+92-316-9101154,2022-06-23,Sales Associate,Inventory,51,,51481,True
+45,Alina,Abbas,alina.abbas@company.com,+92-313-4451999,2022-01-27,Customer Service,Sales,25,276.0,48305,True
+46,Rayyan,Ahmed,rayyan.ahmed@company.com,+92-347-6622618,2024-07-29,Customer Service,Management,36,,57669,True
+47,Mariam,Rashid,mariam.rashid@company.com,+92-336-5400963,2021-01-09,Stock Clerk,Management,55,,51919,True
+48,Muhammad,Naqvi,muhammad.naqvi@company.com,+92-306-3463939,2020-11-16,Customer Service,Sales,17,,50200,True
+49,Rabia,Zahid,rabia.zahid@company.com,+92-320-1758158,2022-08-10,Supervisor,Operations,67,,73194,True
+50,Usman,Khan,usman.khan@company.com,+92-338-9825562,2021-03-21,Cashier,Management,69,290.0,58421,False
+51,Sana,Rashid,sana.rashid@company.com,+92-343-1205791,2023-01-04,Customer Service,Management,62,,30541,True
+52,Rabia,Iqbal,rabia.iqbal@company.com,+92-305-4737722,2025-04-13,Supervisor,Operations,32,,94596,True
+53,Ibrahim,Saeed,ibrahim.saeed@company.com,+92-335-3145958,2022-06-06,Customer Service,Customer Service,18,283.0,44545,True
+54,Haris,Khan,haris.khan@company.com,+92-348-1684004,2023-10-30,Sales Associate,Management,33,,40004,True
+55,Hania,Khalid,hania.khalid@company.com,+92-330-6033840,2024-03-16,Supervisor,Inventory,36,36.0,97947,False
+56,Mariam,Ahmed,mariam.ahmed@company.com,+92-330-1053070,2021-10-28,Sales Associate,Customer Service,24,87.0,55488,True
+57,Zoya,Ahmed,zoya.ahmed@company.com,+92-311-9072211,2022-08-18,Stock Clerk,Customer Service,5,,33685,True
+58,Amina,Raza,amina.raza@company.com,+92-303-3677400,2024-09-02,Supervisor,Management,6,127.0,66746,True
+59,Ali,Abbas,ali.abbas@company.com,+92-315-1415058,2023-01-06,Customer Service,Customer Service,69,,58573,True
+60,Arham,Raza,arham.raza@company.com,+92-319-2303980,2021-10-15,Manager,Operations,45,,125107,True
+61,Hafsa,Raza,hafsa.raza@company.com,+92-334-3476696,2024-09-18,Supervisor,Inventory,19,,66804,True
+62,Sumaya,Rizvi,sumaya.rizvi@company.com,+92-344-3646840,2020-11-07,Stock Clerk,Operations,57,,39936,False
+63,Umar,Shah,umar.shah@company.com,+92-312-3088746,2024-11-30,Manager,Operations,69,,98147,True
+64,Ahmed,Rehman,ahmed.rehman@company.com,+92-343-6734369,2024-07-23,Supervisor,Operations,32,248.0,64709,False
+65,Hafsa,Hussain,hafsa.hussain@company.com,+92-323-8278009,2023-10-19,Cashier,Customer Service,41,283.0,47743,True
+66,Hussein,Jafri,hussein.jafri@company.com,+92-316-3870336,2022-09-28,Cashier,Management,13,,53388,False
+67,Yusuf,Naeem,yusuf.naeem@company.com,+92-300-1711997,2025-03-05,Sales Associate,Management,39,,55915,True
+68,Usman,Raza,usman.raza@company.com,+92-320-3875672,2025-03-21,Manager,Sales,67,,88373,True
+69,Alina,Nadeem,alina.nadeem@company.com,+92-332-4796629,2022-01-15,Cashier,Customer Service,24,,47401,True
+70,Hassan,Khan,hassan.khan@company.com,+92-347-7721817,2024-02-26,Manager,Sales,45,,120941,True
+71,Alina,Malik,alina.malik@company.com,+92-302-7922299,2022-02-27,Supervisor,Customer Service,42,,89311,True
+72,Sadia,Abbas,sadia.abbas@company.com,+92-337-3666954,2022-08-17,Sales Associate,Inventory,36,,41517,False
+73,Rabia,Zahid,rabia.zahid@company.com,+92-301-4646903,2022-10-10,Customer Service,Customer Service,63,,39856,False
+74,Ayan,Raza,ayan.raza@company.com,+92-321-5485019,2021-01-01,Cashier,Inventory,61,,54455,False
+75,Rayyan,Waseem,rayyan.waseem@company.com,+92-334-4126365,2021-12-22,Manager,Inventory,11,,86581,True
+76,Ayan,Jafri,ayan.jafri@company.com,+92-300-6924064,2021-12-09,Supervisor,Management,4,,70074,True
+77,Zayan,Khalid,zayan.khalid@company.com,+92-346-3279067,2023-03-01,Supervisor,Inventory,46,222.0,82501,True
+78,Nida,Malik,nida.malik@company.com,+92-321-5586998,2024-07-28,Manager,Sales,31,,148211,True
+79,Sadia,Hashmi,sadia.hashmi@company.com,+92-346-5184731,2024-03-17,Cashier,Inventory,52,,33137,True
+80,Sana,Jafri,sana.jafri@company.com,+92-329-1069370,2025-08-06,Manager,Operations,40,,107869,True
+81,Shahzad,Rehman,shahzad.rehman@company.com,+92-335-3026703,2023-03-30,Stock Clerk,Operations,73,,58630,True
+82,Ayan,Akhtar,ayan.akhtar@company.com,+92-314-9857846,2021-04-16,Supervisor,Inventory,49,202.0,88714,True
+83,Ayesha,Malik,ayesha.malik@company.com,+92-335-6073831,2023-01-04,Cashier,Operations,26,78.0,58423,True
+84,Rayyan,Shah,rayyan.shah@company.com,+92-300-9518275,2021-07-13,Manager,Customer Service,34,,115276,True
+85,Hassan,Raza,hassan.raza@company.com,+92-302-8548102,2024-02-28,Manager,Sales,62,,108501,True
+86,Umar,Khan,umar.khan@company.com,+92-344-6141251,2024-11-21,Stock Clerk,Operations,51,,48159,True
+87,Sadia,Naqvi,sadia.naqvi@company.com,+92-344-4710693,2024-09-03,Manager,Customer Service,50,,98817,False
+88,Sadia,Shah,sadia.shah@company.com,+92-337-1322125,2024-02-19,Manager,Customer Service,51,,115628,True
+89,Hassan,Zaidi,hassan.zaidi@company.com,+92-347-7092972,2023-05-29,Cashier,Sales,9,,30935,True
+90,Usman,Raza,usman.raza@company.com,+92-339-6097519,2022-02-10,Stock Clerk,Customer Service,56,15.0,57843,True
+91,Ayan,Khalid,ayan.khalid@company.com,+92-326-9446142,2023-04-13,Stock Clerk,Operations,23,,32168,True
+92,Ayesha,Siddiqui,ayesha.siddiqui@company.com,+92-314-4590687,2021-05-16,Stock Clerk,Inventory,6,,55662,True
+93,Zain,Tariq,zain.tariq@company.com,+92-338-5171459,2023-11-13,Supervisor,Sales,17,87.0,61277,True
+94,Amaan,Abbas,amaan.abbas@company.com,+92-321-7731610,2023-05-13,Supervisor,Customer Service,47,,87959,True
+95,Rabia,Nadeem,rabia.nadeem@company.com,+92-323-4602372,2021-03-09,Stock Clerk,Management,27,,56990,False
+96,Mahnoor,Rashid,mahnoor.rashid@company.com,+92-338-3690490,2023-05-04,Manager,Operations,59,,92676,True
+97,Rabia,Ali,rabia.ali@company.com,+92-336-9464530,2024-01-13,Manager,Operations,14,,139006,False
+98,Khadija,Malik,khadija.malik@company.com,+92-310-8449906,2021-05-29,Sales Associate,Sales,75,43.0,53034,False
+99,Ibrahim,Raza,ibrahim.raza@company.com,+92-319-3838023,2022-07-23,Customer Service,Sales,47,,47853,True
+100,Haris,Ali,haris.ali@company.com,+92-313-9525761,2025-01-01,Supervisor,Inventory,18,,81782,True
+101,Rabia,Rizwan,rabia.rizwan@company.com,+92-339-1291162,2020-09-05,Customer Service,Operations,62,,30616,False
+102,Sumaya,Hassan,sumaya.hassan@company.com,+92-335-5532803,2024-02-05,Cashier,Sales,24,6.0,58011,True
+103,Amaan,Jafri,amaan.jafri@company.com,+92-339-1888988,2024-01-18,Stock Clerk,Inventory,66,17.0,59061,True
+104,Ayan,Ali,ayan.ali@company.com,+92-313-4774450,2022-12-10,Stock Clerk,Management,7,,50858,True
+105,Hassan,Farooq,hassan.farooq@company.com,+92-334-6845467,2020-11-29,Customer Service,Management,61,,48868,False
+106,Jannat,Qureshi,jannat.qureshi@company.com,+92-306-5923740,2023-04-29,Supervisor,Operations,73,,93808,True
+107,Jannat,Khan,jannat.khan@company.com,+92-318-4337060,2021-10-14,Stock Clerk,Operations,43,15.0,45926,True
+108,Amina,Zaidi,amina.zaidi@company.com,+92-302-2049858,2025-05-03,Customer Service,Sales,30,,38524,True
+109,Usman,Zaidi,usman.zaidi@company.com,+92-349-6151143,2024-03-18,Customer Service,Sales,60,,47348,True
+110,Aisha,Waseem,aisha.waseem@company.com,+92-318-1696869,2025-03-03,Supervisor,Operations,46,,98815,True
+111,Sana,Siddiqui,sana.siddiqui@company.com,+92-306-1884196,2023-03-27,Supervisor,Inventory,55,,96096,True
+112,Khadija,Hussain,khadija.hussain@company.com,+92-311-3410918,2023-01-18,Cashier,Inventory,61,96.0,55746,True
+113,Ahmed,Tariq,ahmed.tariq@company.com,+92-302-5790751,2021-08-07,Customer Service,Operations,28,137.0,33254,False
+114,Hania,Zahid,hania.zahid@company.com,+92-328-1049096,2025-06-06,Cashier,Management,75,,41666,False
+115,Nida,Hussain,nida.hussain@company.com,+92-329-8334664,2023-08-05,Stock Clerk,Customer Service,48,,51262,True
+116,Zayan,Naqvi,zayan.naqvi@company.com,+92-312-3148788,2023-08-06,Sales Associate,Inventory,72,,37831,False
+117,Shahzad,Naeem,shahzad.naeem@company.com,+92-339-6255845,2020-11-28,Stock Clerk,Management,1,,56329,True
+118,Nida,Jafri,nida.jafri@company.com,+92-302-6407330,2025-06-11,Cashier,Operations,62,,56397,False
+119,Muhammad,Naqvi,muhammad.naqvi@company.com,+92-333-6424118,2023-03-24,Cashier,Inventory,75,,35928,True
+120,Fatima,Siddiqui,fatima.siddiqui@company.com,+92-345-1579687,2021-02-22,Stock Clerk,Sales,63,,45033,False
+121,Fatima,Tariq,fatima.tariq@company.com,+92-307-3565020,2022-05-06,Cashier,Customer Service,19,164.0,33746,True
+122,Fatima,Akhtar,fatima.akhtar@company.com,+92-340-7408336,2021-03-16,Supervisor,Operations,13,,74678,True
+123,Abdullah,Rizvi,abdullah.rizvi@company.com,+92-306-7814855,2022-01-11,Sales Associate,Operations,64,222.0,43452,True
+124,Ahmed,Raza,ahmed.raza@company.com,+92-318-9922918,2022-12-16,Cashier,Inventory,24,,52265,True
+125,Ayesha,Hassan,ayesha.hassan@company.com,+92-309-9061897,2025-05-15,Customer Service,Sales,54,275.0,56600,True
+126,Hussein,Jafri,hussein.jafri@company.com,+92-338-3472243,2022-11-05,Sales Associate,Customer Service,49,237.0,49610,False
+127,Haris,Hassan,haris.hassan@company.com,+92-345-1934084,2025-01-15,Manager,Inventory,75,,89473,True
+128,Abdullah,Hashmi,abdullah.hashmi@company.com,+92-312-6927972,2025-06-06,Sales Associate,Operations,74,,49331,True
+129,Umar,Zahid,umar.zahid@company.com,+92-319-2934567,2023-04-30,Sales Associate,Operations,11,,33297,True
+130,Sadia,Waseem,sadia.waseem@company.com,+92-346-3497477,2023-02-04,Sales Associate,Management,51,,51604,True
+131,Arham,Qureshi,arham.qureshi@company.com,+92-318-7459636,2021-05-27,Sales Associate,Sales,46,,42658,True
+132,Hussein,Saleem,hussein.saleem@company.com,+92-316-7738325,2023-09-27,Cashier,Sales,58,,43580,False
+133,Sana,Jafri,sana.jafri@company.com,+92-324-9495889,2021-01-03,Supervisor,Inventory,46,,61127,True
+134,Zain,Zahid,zain.zahid@company.com,+92-307-2404475,2022-05-22,Cashier,Operations,37,231.0,33588,True
+135,Sana,Rizvi,sana.rizvi@company.com,+92-309-1322785,2022-04-06,Customer Service,Customer Service,68,,31378,True
+136,Ali,Zahid,ali.zahid@company.com,+92-342-2647686,2024-02-10,Sales Associate,Sales,40,,31726,True
+137,Ali,Rehman,ali.rehman@company.com,+92-322-6531894,2023-11-26,Manager,Customer Service,31,,148106,True
+138,Rayyan,Hussain,rayyan.hussain@company.com,+92-314-9675370,2024-11-05,Manager,Management,9,,101847,True
+139,Zain,Nadeem,zain.nadeem@company.com,+92-300-6663978,2024-10-01,Sales Associate,Customer Service,11,,42358,False
+140,Ayesha,Zahid,ayesha.zahid@company.com,+92-343-7589882,2022-05-14,Cashier,Inventory,36,,52375,False
+141,Muhammad,Naqvi,muhammad.naqvi@company.com,+92-322-2618358,2022-01-16,Customer Service,Management,29,,32879,True
+142,Khadija,Iqbal,khadija.iqbal@company.com,+92-344-5181081,2021-08-02,Stock Clerk,Customer Service,25,,36034,False
+143,Zoya,Rehman,zoya.rehman@company.com,+92-300-7471217,2024-12-17,Cashier,Customer Service,58,,54440,True
+144,Muhammad,Khan,muhammad.khan@company.com,+92-313-3788926,2024-09-02,Customer Service,Customer Service,61,,47012,True
+145,Maryam,Qureshi,maryam.qureshi@company.com,+92-333-4580043,2024-10-30,Customer Service,Customer Service,67,182.0,42859,False
+146,Hamza,Rizvi,hamza.rizvi@company.com,+92-344-2256575,2024-08-14,Stock Clerk,Customer Service,62,,56244,True
+147,Mahnoor,Zaidi,mahnoor.zaidi@company.com,+92-323-2947006,2021-10-17,Stock Clerk,Inventory,14,,45987,True
+148,Zara,Hussain,zara.hussain@company.com,+92-305-2242754,2021-12-15,Sales Associate,Sales,55,88.0,41640,False
+149,Hassan,Khalid,hassan.khalid@company.com,+92-331-9576173,2022-11-23,Stock Clerk,Inventory,75,,34745,True
+150,Hafsa,Siddiqui,hafsa.siddiqui@company.com,+92-338-8245003,2024-12-03,Cashier,Inventory,7,,31090,False
+151,Hussein,Ahmed,hussein.ahmed@company.com,+92-317-5488581,2024-01-31,Customer Service,Inventory,69,,35218,True
+152,Abdullah,Hashmi,abdullah.hashmi@company.com,+92-312-1576714,2022-08-26,Sales Associate,Management,4,,46399,False
+153,Ayan,Saeed,ayan.saeed@company.com,+92-326-7886333,2022-10-09,Sales Associate,Operations,69,,33722,False
+154,Hamza,Naeem,hamza.naeem@company.com,+92-334-7936305,2025-06-15,Stock Clerk,Customer Service,37,,53702,True
+155,Fatima,Shah,fatima.shah@company.com,+92-349-3204916,2023-02-15,Manager,Sales,29,,130094,True
+156,Zara,Zaidi,zara.zaidi@company.com,+92-336-4689230,2023-05-18,Cashier,Inventory,7,,38188,False
+157,Ali,Saeed,ali.saeed@company.com,+92-328-1278730,2024-03-19,Stock Clerk,Customer Service,53,63.0,44333,True
+158,Rayyan,Tariq,rayyan.tariq@company.com,+92-323-4354562,2022-02-27,Sales Associate,Sales,2,,30014,True
+159,Sana,Farooq,sana.farooq@company.com,+92-327-9063611,2022-08-29,Cashier,Inventory,56,,41116,True
+160,Maryam,Tariq,maryam.tariq@company.com,+92-329-9648066,2025-04-20,Customer Service,Sales,50,84.0,33071,True
+161,Usman,Ahmed,usman.ahmed@company.com,+92-302-3602010,2024-07-11,Cashier,Inventory,43,,34168,True
+162,Hamza,Waseem,hamza.waseem@company.com,+92-304-1814011,2024-03-30,Stock Clerk,Customer Service,21,96.0,46010,True
+163,Ahmed,Rizwan,ahmed.rizwan@company.com,+92-346-8656895,2022-11-13,Customer Service,Customer Service,6,80.0,41677,True
+164,Nida,Naqvi,nida.naqvi@company.com,+92-334-6374897,2023-12-07,Manager,Operations,24,,107404,True
+165,Hania,Farooq,hania.farooq@company.com,+92-338-7936236,2021-03-21,Customer Service,Management,4,,34003,True
+166,Hafsa,Akhtar,hafsa.akhtar@company.com,+92-305-6675788,2024-02-14,Sales Associate,Operations,35,,31992,True
+167,Fatima,Shah,fatima.shah@company.com,+92-334-8505906,2023-04-30,Cashier,Sales,72,,31704,True
+168,Rayyan,Zahid,rayyan.zahid@company.com,+92-305-3344328,2024-02-07,Manager,Customer Service,11,,124448,True
+169,Alina,Iqbal,alina.iqbal@company.com,+92-344-8659267,2025-01-27,Sales Associate,Sales,3,,56886,True
+170,Bilal,Shah,bilal.shah@company.com,+92-312-4663075,2021-07-10,Stock Clerk,Customer Service,18,,56517,False
+171,Abdullah,Ahmed,abdullah.ahmed@company.com,+92-305-2564796,2024-07-13,Manager,Management,39,,105303,True
+172,Abdullah,Khalid,abdullah.khalid@company.com,+92-308-4510878,2022-08-09,Stock Clerk,Sales,21,,50188,False
+173,Shahzad,Zaidi,shahzad.zaidi@company.com,+92-340-5347152,2022-12-19,Stock Clerk,Customer Service,64,,56704,True
+174,Mariam,Ahmed,mariam.ahmed@company.com,+92-321-2351320,2021-01-21,Customer Service,Sales,33,,43917,False
+175,Ayesha,Zaidi,ayesha.zaidi@company.com,+92-310-5066066,2020-12-02,Cashier,Inventory,49,,44330,True
+176,Ahmed,Hassan,ahmed.hassan@company.com,+92-317-7375170,2021-09-22,Manager,Operations,23,,111860,True
+177,Zara,Zaidi,zara.zaidi@company.com,+92-310-9756794,2025-01-19,Manager,Customer Service,50,,127194,True
+178,Ali,Zaidi,ali.zaidi@company.com,+92-309-9833963,2022-01-25,Cashier,Sales,53,18.0,50231,True
+179,Hamza,Hashmi,hamza.hashmi@company.com,+92-339-3566199,2021-09-11,Supervisor,Customer Service,27,,94173,True
+180,Nida,Qureshi,nida.qureshi@company.com,+92-318-9748000,2020-10-21,Stock Clerk,Management,43,,34994,False
+181,Arham,Rehman,arham.rehman@company.com,+92-321-3453744,2023-07-24,Cashier,Customer Service,37,,32246,True
+182,Haris,Saeed,haris.saeed@company.com,+92-312-1629567,2024-09-21,Manager,Sales,48,,107717,True
+183,Sumaya,Raza,sumaya.raza@company.com,+92-347-6816895,2024-03-07,Customer Service,Inventory,30,278.0,34762,True
+184,Ahmed,Shah,ahmed.shah@company.com,+92-331-4917801,2021-05-03,Supervisor,Operations,5,,72559,True
+185,Rabia,Saleem,rabia.saleem@company.com,+92-345-2428299,2022-07-20,Cashier,Sales,51,,50734,False
+186,Hussein,Malik,hussein.malik@company.com,+92-314-9783242,2023-06-18,Cashier,Inventory,8,,43847,True
+187,Mariam,Naeem,mariam.naeem@company.com,+92-317-2838201,2024-12-13,Manager,Operations,60,,149878,True
+188,Amina,Akhtar,amina.akhtar@company.com,+92-320-2472118,2025-04-16,Cashier,Operations,2,96.0,39533,False
+189,Arham,Hashmi,arham.hashmi@company.com,+92-318-1625182,2025-07-10,Stock Clerk,Sales,23,,30395,True
+190,Zain,Rehman,zain.rehman@company.com,+92-310-2118166,2024-08-08,Manager,Management,63,,129828,False
+191,Ayesha,Ahmed,ayesha.ahmed@company.com,+92-303-6630378,2024-11-07,Supervisor,Management,75,182.0,81525,True
+192,Muhammad,Hassan,muhammad.hassan@company.com,+92-339-7842871,2022-07-08,Manager,Customer Service,15,,139467,True
+193,Zain,Raza,zain.raza@company.com,+92-312-9085236,2023-03-14,Customer Service,Management,19,293.0,54078,True
+194,Bilal,Siddiqui,bilal.siddiqui@company.com,+92-309-1226732,2023-11-20,Cashier,Operations,6,80.0,53692,False
+195,Zara,Nadeem,zara.nadeem@company.com,+92-300-1860146,2025-01-26,Manager,Inventory,40,,126775,False
+196,Ahmed,Qureshi,ahmed.qureshi@company.com,+92-300-5298690,2022-02-20,Sales Associate,Inventory,19,171.0,30202,False
+197,Aisha,Iqbal,aisha.iqbal@company.com,+92-300-2226598,2024-04-25,Cashier,Sales,33,,48205,True
+198,Noor,Siddiqui,noor.siddiqui@company.com,+92-339-5743172,2022-02-07,Customer Service,Management,74,267.0,31688,True
+199,Bilal,Zahid,bilal.zahid@company.com,+92-347-7510591,2022-10-25,Sales Associate,Operations,7,63.0,35172,True
+200,Sana,Ali,sana.ali@company.com,+92-333-7714871,2022-03-18,Stock Clerk,Sales,69,,30781,True
+201,Arham,Abbas,arham.abbas@company.com,+92-320-8333395,2022-07-10,Sales Associate,Management,35,,55110,True
+202,Hassan,Farooq,hassan.farooq@company.com,+92-317-4492043,2022-08-02,Manager,Operations,54,,145684,True
+203,Ayan,Khalid,ayan.khalid@company.com,+92-323-3289050,2024-06-18,Stock Clerk,Management,67,222.0,38800,True
+204,Abdullah,Rizwan,abdullah.rizwan@company.com,+92-344-3606950,2022-11-26,Customer Service,Customer Service,44,,38436,True
+205,Ibrahim,Hashmi,ibrahim.hashmi@company.com,+92-325-2480630,2025-02-12,Stock Clerk,Inventory,53,75.0,38712,True
+206,Ibrahim,Tariq,ibrahim.tariq@company.com,+92-345-6832516,2022-05-02,Stock Clerk,Management,56,,53087,True
+207,Rabia,Ahmed,rabia.ahmed@company.com,+92-324-1334721,2024-10-14,Customer Service,Management,15,,36008,True
+208,Ahmed,Ali,ahmed.ali@company.com,+92-315-8889934,2023-09-10,Supervisor,Management,8,,77614,True
+209,Hamza,Ali,hamza.ali@company.com,+92-313-6022481,2024-11-10,Supervisor,Sales,55,96.0,98995,True
+210,Usman,Rizwan,usman.rizwan@company.com,+92-342-4226963,2020-09-04,Stock Clerk,Sales,49,,39944,True
+211,Sana,Rizvi,sana.rizvi@company.com,+92-318-8653820,2024-04-23,Stock Clerk,Inventory,64,,32319,True
+212,Rabia,Tariq,rabia.tariq@company.com,+92-316-6176410,2024-10-14,Sales Associate,Operations,44,,40237,False
+213,Zain,Rizvi,zain.rizvi@company.com,+92-342-4176673,2023-12-31,Supervisor,Management,58,,77296,True
+214,Hania,Raza,hania.raza@company.com,+92-302-9089050,2024-08-12,Manager,Customer Service,10,,120833,True
+215,Zain,Malik,zain.malik@company.com,+92-326-2548700,2022-04-26,Manager,Sales,47,,112694,True
+216,Rabia,Saleem,rabia.saleem@company.com,+92-340-6548032,2022-09-29,Supervisor,Customer Service,18,,65720,True
+217,Sana,Raza,sana.raza@company.com,+92-336-9009414,2023-10-13,Manager,Sales,69,,134872,False
+218,Zain,Hussain,zain.hussain@company.com,+92-341-5773918,2020-09-21,Sales Associate,Operations,1,,33276,True
+219,Haris,Abbas,haris.abbas@company.com,+92-302-5167780,2023-12-19,Cashier,Operations,38,,36495,True
+220,Abdullah,Saleem,abdullah.saleem@company.com,+92-339-5875165,2022-02-10,Customer Service,Customer Service,73,,59179,True
+221,Rabia,Hashmi,rabia.hashmi@company.com,+92-344-8764224,2020-12-28,Customer Service,Operations,30,,45657,False
+222,Umar,Ahmed,umar.ahmed@company.com,+92-323-8237109,2024-03-22,Manager,Inventory,22,,101930,False
+223,Abdullah,Waseem,abdullah.waseem@company.com,+92-310-3181168,2022-08-25,Cashier,Operations,16,,51665,False
+224,Noor,Zaidi,noor.zaidi@company.com,+92-305-4527041,2021-10-06,Supervisor,Customer Service,20,,77338,False
+225,Hamza,Hussain,hamza.hussain@company.com,+92-301-9992515,2021-08-13,Manager,Inventory,10,,88442,True
+226,Ali,Farooq,ali.farooq@company.com,+92-344-9548568,2023-09-17,Cashier,Sales,3,,40590,True
+227,Ahmed,Hussain,ahmed.hussain@company.com,+92-306-5054793,2024-06-24,Sales Associate,Customer Service,40,,39173,True
+228,Ayesha,Saeed,ayesha.saeed@company.com,+92-304-5136231,2021-01-11,Supervisor,Sales,2,192.0,96868,True
+229,Muhammad,Ahmed,muhammad.ahmed@company.com,+92-303-5276563,2023-07-03,Manager,Customer Service,17,,128011,True
+230,Ali,Hussain,ali.hussain@company.com,+92-322-4463580,2021-12-17,Sales Associate,Management,8,,56490,True
+231,Rayyan,Rashid,rayyan.rashid@company.com,+92-320-5555034,2021-09-05,Manager,Operations,16,,141952,True
+232,Usman,Ahmed,usman.ahmed@company.com,+92-342-9113209,2023-02-16,Customer Service,Inventory,64,192.0,33607,True
+233,Abdullah,Raza,abdullah.raza@company.com,+92-318-2370215,2023-06-23,Supervisor,Operations,55,,97237,True
+234,Hussein,Saeed,hussein.saeed@company.com,+92-321-2339094,2022-06-19,Sales Associate,Sales,39,,41068,False
+235,Sadia,Rashid,sadia.rashid@company.com,+92-342-5129648,2023-11-14,Customer Service,Customer Service,12,,51996,True
+236,Amaan,Nadeem,amaan.nadeem@company.com,+92-329-1982373,2022-07-04,Supervisor,Management,57,187.0,98111,True
+237,Abdullah,Rehman,abdullah.rehman@company.com,+92-329-8688167,2021-06-14,Manager,Inventory,51,,127487,True
+238,Sana,Rehman,sana.rehman@company.com,+92-333-3917767,2021-04-24,Customer Service,Management,16,,39578,True
+239,Abdullah,Zahid,abdullah.zahid@company.com,+92-340-7716371,2024-11-26,Manager,Inventory,29,,135184,True
+240,Maryam,Hashmi,maryam.hashmi@company.com,+92-314-7164321,2023-04-18,Sales Associate,Sales,65,80.0,42445,True
+241,Sumaya,Naqvi,sumaya.naqvi@company.com,+92-334-3344304,2024-01-10,Cashier,Management,2,290.0,38304,True
+242,Yusuf,Raza,yusuf.raza@company.com,+92-341-1045964,2025-08-02,Stock Clerk,Sales,61,97.0,54214,True
+243,Ayan,Rehman,ayan.rehman@company.com,+92-305-2059179,2023-02-25,Customer Service,Management,42,,59015,True
+244,Sumaya,Siddiqui,sumaya.siddiqui@company.com,+92-318-3817800,2025-05-12,Sales Associate,Customer Service,56,,44190,True
+245,Hafsa,Akhtar,hafsa.akhtar@company.com,+92-337-8073887,2023-05-17,Supervisor,Customer Service,12,,77928,True
+246,Mahnoor,Zahid,mahnoor.zahid@company.com,+92-316-4422508,2024-12-17,Stock Clerk,Customer Service,36,,49083,True
+247,Hafsa,Waseem,hafsa.waseem@company.com,+92-314-3872988,2021-01-07,Supervisor,Sales,24,,82083,True
+248,Ali,Nadeem,ali.nadeem@company.com,+92-309-9495701,2024-09-27,Manager,Operations,74,,101266,False
+249,Mariam,Rizvi,mariam.rizvi@company.com,+92-318-7269371,2021-08-16,Sales Associate,Operations,73,190.0,52093,True
+250,Mahnoor,Raza,mahnoor.raza@company.com,+92-341-8414237,2023-03-31,Customer Service,Customer Service,27,18.0,48835,True
+251,Hafsa,Zahid,hafsa.zahid@company.com,+92-328-5539643,2024-01-04,Stock Clerk,Customer Service,37,,33899,True
+252,Ahmed,Naqvi,ahmed.naqvi@company.com,+92-327-1737765,2022-12-19,Sales Associate,Customer Service,3,229.0,48947,True
+253,Yusuf,Tariq,yusuf.tariq@company.com,+92-327-3945873,2021-07-29,Cashier,Sales,52,177.0,44110,True
+254,Hania,Hassan,hania.hassan@company.com,+92-318-6338717,2024-08-09,Cashier,Sales,61,,56630,True
+255,Jannat,Tariq,jannat.tariq@company.com,+92-304-2738750,2020-10-30,Sales Associate,Customer Service,13,18.0,58630,True
+256,Ibrahim,Saleem,ibrahim.saleem@company.com,+92-336-2282165,2024-06-30,Customer Service,Inventory,16,,34282,True
+257,Bilal,Hassan,bilal.hassan@company.com,+92-331-9524618,2022-04-12,Manager,Sales,38,,116196,True
+258,Rabia,Waseem,rabia.waseem@company.com,+92-316-3103815,2025-07-03,Customer Service,Sales,27,127.0,47676,True
+259,Muhammad,Naqvi,muhammad.naqvi@company.com,+92-348-3502349,2024-02-27,Sales Associate,Inventory,71,,58090,False
+260,Mariam,Iqbal,mariam.iqbal@company.com,+92-321-2820003,2021-08-25,Cashier,Customer Service,24,,50511,True
+261,Mariam,Saleem,mariam.saleem@company.com,+92-317-4314985,2021-01-15,Stock Clerk,Operations,32,164.0,30165,True
+262,Sana,Hashmi,sana.hashmi@company.com,+92-310-5213226,2024-09-05,Manager,Management,51,,93733,True
+263,Sana,Saleem,sana.saleem@company.com,+92-320-6153637,2021-01-02,Sales Associate,Customer Service,64,,51796,True
+264,Amina,Abbas,amina.abbas@company.com,+92-306-2533547,2025-01-17,Sales Associate,Management,64,15.0,56297,True
+265,Hassan,Rizwan,hassan.rizwan@company.com,+92-313-6695167,2022-06-09,Stock Clerk,Sales,59,,39870,False
+266,Ibrahim,Naeem,ibrahim.naeem@company.com,+92-328-6755625,2024-09-27,Sales Associate,Operations,25,,44014,False
+267,Sumaya,Iqbal,sumaya.iqbal@company.com,+92-347-2940993,2023-12-30,Manager,Management,72,,144232,True
+268,Zoya,Hassan,zoya.hassan@company.com,+92-346-8665228,2025-05-13,Manager,Sales,2,,83776,False
+269,Rabia,Zahid,rabia.zahid@company.com,+92-310-3006647,2023-06-06,Supervisor,Customer Service,14,,93255,True
+270,Shahzad,Farooq,shahzad.farooq@company.com,+92-331-2824974,2022-07-03,Cashier,Operations,57,,44436,False
+271,Zain,Siddiqui,zain.siddiqui@company.com,+92-333-8453418,2023-08-14,Cashier,Management,75,,39274,True
+272,Sumaya,Hussain,sumaya.hussain@company.com,+92-315-3927112,2023-11-23,Customer Service,Customer Service,42,,49748,True
+273,Amina,Hashmi,amina.hashmi@company.com,+92-318-7376662,2023-02-17,Customer Service,Management,5,,37181,True
+274,Shahzad,Tariq,shahzad.tariq@company.com,+92-304-1091515,2020-11-11,Sales Associate,Inventory,13,290.0,36803,True
+275,Haris,Naeem,haris.naeem@company.com,+92-312-8737159,2025-04-21,Manager,Management,35,,139112,False
+276,Maryam,Ahmed,maryam.ahmed@company.com,+92-307-3530261,2022-07-05,Manager,Sales,66,,96990,False
+277,Bilal,Ahmed,bilal.ahmed@company.com,+92-332-1272142,2024-02-08,Customer Service,Inventory,74,,32960,False
+278,Sana,Khan,sana.khan@company.com,+92-336-9194625,2020-11-23,Manager,Customer Service,14,,130501,True
+279,Jannat,Zahid,jannat.zahid@company.com,+92-310-2537926,2020-11-06,Supervisor,Management,15,,83828,True
+280,Alina,Saeed,alina.saeed@company.com,+92-339-5281277,2023-06-20,Supervisor,Operations,50,6.0,72902,False
+281,Zayan,Saleem,zayan.saleem@company.com,+92-321-2741334,2025-01-30,Stock Clerk,Management,59,,57294,True
+282,Amaan,Raza,amaan.raza@company.com,+92-302-6346533,2024-11-16,Stock Clerk,Operations,1,,35967,True
+283,Zoya,Rizvi,zoya.rizvi@company.com,+92-320-9662640,2021-06-13,Manager,Customer Service,29,,131082,True
+284,Ayan,Akhtar,ayan.akhtar@company.com,+92-307-4201831,2021-12-24,Supervisor,Management,65,97.0,97683,True
+285,Rabia,Zaidi,rabia.zaidi@company.com,+92-341-7623988,2023-07-30,Stock Clerk,Sales,38,290.0,38581,True
+286,Amina,Zaidi,amina.zaidi@company.com,+92-309-9058445,2023-05-13,Customer Service,Operations,34,257.0,41152,True
+287,Khadija,Saeed,khadija.saeed@company.com,+92-317-2081677,2025-07-02,Stock Clerk,Inventory,3,,45880,True
+288,Hania,Malik,hania.malik@company.com,+92-330-4621655,2022-12-15,Customer Service,Sales,59,85.0,44736,False
+289,Mahnoor,Akhtar,mahnoor.akhtar@company.com,+92-326-7732958,2022-01-26,Cashier,Operations,18,,43588,True
+290,Amaan,Ali,amaan.ali@company.com,+92-345-4403106,2023-09-21,Manager,Customer Service,11,,89393,True
+291,Zoya,Shah,zoya.shah@company.com,+92-329-9799029,2025-07-16,Stock Clerk,Sales,58,,51708,True
+292,Sana,Hussain,sana.hussain@company.com,+92-347-7885815,2022-01-28,Supervisor,Inventory,25,,68401,True
+293,Ali,Shah,ali.shah@company.com,+92-331-4095358,2021-07-05,Manager,Customer Service,75,,131317,True
+294,Sadia,Hussain,sadia.hussain@company.com,+92-338-5335206,2025-07-25,Cashier,Customer Service,72,18.0,43190,True
+295,Zain,Naqvi,zain.naqvi@company.com,+92-349-5642953,2021-01-26,Cashier,Inventory,3,,58668,True
+296,Usman,Zaidi,usman.zaidi@company.com,+92-329-9118564,2022-02-13,Stock Clerk,Management,56,,41324,True
+297,Zoya,Waseem,zoya.waseem@company.com,+92-332-7928626,2024-07-12,Stock Clerk,Operations,40,,33795,True
+298,Alina,Rashid,alina.rashid@company.com,+92-318-6917249,2020-10-20,Supervisor,Sales,21,290.0,63459,False
+299,Hassan,Hashmi,hassan.hashmi@company.com,+92-340-6330462,2023-09-04,Supervisor,Inventory,38,,81996,True
+300,Abdullah,Khan,abdullah.khan@company.com,+92-310-3937936,2022-12-27,Customer Service,Inventory,54,,59447,True

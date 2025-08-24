@@ -1,0 +1,9 @@
+CATEGORY_ID,CATEGORY_NAME,DESCRIPTION,PARENT_CATEGORY_ID,IS_ACTIVE
+1,Electronics,Products in Electronics category,,True
+2,Textiles,Products in Textiles category,,True
+3,Food & Beverages,Products in Food & Beverages category,,True
+4,Automotive,Products in Automotive category,,True
+5,Home & Garden,Products in Home & Garden category,,True
+6,Beauty & Personal Care,Products in Beauty & Personal Care category,,True
+7,Sports & Fitness,Products in Sports & Fitness category,,True
+8,Books & Stationery,Products in Books & Stationery category,,True

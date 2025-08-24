@@ -1,0 +1,76 @@
+STORE_ID,STORE_NAME,STORE_CODE,ADDRESS,CITY,PROVINCE,POSTAL_CODE,PHONE,EMAIL,MANAGER_ID,STORE_TYPE,IS_ACTIVE,OPENING_DATE
+1,Prime Store 1,ST001,984 Main Road,Mirpur Khas,Sindh,77239,+92-301-1489590,info@primestore1.com,,Supermarket,True,2017-08-21
+2,Mega Center 2,ST002,528 Market Street,Turbat,Balochistan,55383,+92-314-8464878,info@megacenter2.com,268.0,Mall,True,2021-04-03
+3,Mega Plaza 3,ST003,903 Commercial Area,Nowshera,Khyber Pakhtunkhwa,32285,+92-314-4015774,info@megaplaza3.com,,Specialty Store,True,2020-08-11
+4,Elite Mall 4,ST004,983 Market Street,Jacobabad,Sindh,36962,+92-306-6051536,info@elitemall4.com,,Department Store,True,2023-05-24
+5,Premium Mart 5,ST005,935 Shopping District,Chaman,Balochistan,75881,+92-329-1882290,info@premiummart5.com,,Outlet,False,2022-10-07
+6,Prime Store 6,ST006,312 Shopping District,Larkana,Sindh,45498,+92-342-5102875,info@primestore6.com,,Retail,True,2020-11-09
+7,Super Mall 7,ST007,284 Commercial Area,Gujranwala,Punjab,37434,+92-321-8332270,info@supermall7.com,,Retail,True,2022-07-16
+8,Super Center 8,ST008,535 Commercial Area,Chilas,Gilgit-Baltistan,57029,+92-315-5770784,info@supercenter8.com,,Outlet,False,2016-06-15
+9,Elite Mall 9,ST009,831 Shopping District,Kotli,Azad Kashmir,93362,+92-325-4156865,info@elitemall9.com,138.0,Specialty Store,True,2022-08-28
+10,Express Center 10,ST010,58 Shopping District,Kotli,Azad Kashmir,72926,+92-340-9347116,info@expresscenter10.com,225.0,Department Store,False,2020-01-10
+11,Super Center 11,ST011,846 Commercial Area,Mansehra,Khyber Pakhtunkhwa,22065,+92-307-2837275,info@supercenter11.com,168.0,Retail,True,2017-05-28
+12,Mega Store 12,ST012,322 Main Road,Skardu,Gilgit-Baltistan,71710,+92-348-4122715,info@megastore12.com,,Specialty Store,False,2018-04-03
+13,Prime Mart 13,ST013,502 Main Road,Khuzdar,Balochistan,72546,+92-343-9917817,info@primemart13.com,,Retail,False,2025-01-30
+14,Express Plaza 14,ST014,281 Shopping District,Chaman,Balochistan,48683,+92-344-7457764,info@expressplaza14.com,97.0,Mall,True,2015-09-11
+15,Super Mall 15,ST015,962 Market Street,Mirpur,Azad Kashmir,66842,+92-325-3050099,info@supermall15.com,43.0,Mall,True,2023-02-20
+16,Elite Store 16,ST016,532 Market Street,Khuzdar,Balochistan,99129,+92-316-1177218,info@elitestore16.com,231.0,Specialty Store,True,2021-09-01
+17,Prime Center 17,ST017,513 Commercial Area,Nowshera,Khyber Pakhtunkhwa,18686,+92-300-2871982,info@primecenter17.com,229.0,Specialty Store,True,2025-06-06
+18,Premium Center 18,ST018,848 Market Street,Mansehra,Khyber Pakhtunkhwa,88514,+92-301-4556187,info@premiumcenter18.com,,Department Store,True,2021-09-04
+19,Elite Mart 19,ST019,74 Shopping District,Nowshera,Khyber Pakhtunkhwa,88213,+92-335-9181930,info@elitemart19.com,,Specialty Store,True,2023-02-13
+20,Mega Center 20,ST020,625 Shopping District,Quetta,Balochistan,58042,+92-327-2763615,info@megacenter20.com,,Supermarket,False,2021-01-05
+21,Prime Store 21,ST021,983 Market Street,Astore,Gilgit-Baltistan,42429,+92-305-2602004,info@primestore21.com,,Retail,True,2020-06-04
+22,Express Mall 22,ST022,565 Market Street,Astore,Gilgit-Baltistan,24921,+92-348-3552673,info@expressmall22.com,222.0,Supermarket,True,2019-03-31
+23,Prime Mall 23,ST023,655 Market Street,Mardan,Khyber Pakhtunkhwa,99929,+92-313-1125570,info@primemall23.com,176.0,Supermarket,True,2022-09-05
+24,Mega Plaza 24,ST024,616 Shopping District,Kotli,Azad Kashmir,33399,+92-307-6117148,info@megaplaza24.com,164.0,Department Store,True,2017-01-13
+25,Elite Plaza 25,ST025,663 Market Street,Mirpur,Azad Kashmir,14050,+92-301-3222061,info@eliteplaza25.com,,Specialty Store,True,2023-05-22
+26,Prime Center 26,ST026,512 Main Road,Khuzdar,Balochistan,53124,+92-325-9437415,info@primecenter26.com,,Retail,True,2018-02-16
+27,Mega Plaza 27,ST027,542 Commercial Area,Karachi,Sindh,53437,+92-309-8972511,info@megaplaza27.com,,Department Store,True,2019-05-21
+28,Premium Plaza 28,ST028,950 Commercial Area,Sialkot,Punjab,59951,+92-310-5807242,info@premiumplaza28.com,,Retail,True,2022-07-21
+29,Super Center 29,ST029,408 Main Road,Multan,Punjab,67418,+92-329-7346209,info@supercenter29.com,239.0,Supermarket,True,2015-12-29
+30,Premium Plaza 30,ST030,351 Shopping District,Hyderabad,Sindh,91318,+92-340-5204089,info@premiumplaza30.com,,Department Store,True,2025-04-13
+31,Prime Mart 31,ST031,815 Commercial Area,Sukkur,Sindh,27176,+92-345-8902039,info@primemart31.com,137.0,Specialty Store,True,2025-02-28
+32,Prime Store 32,ST032,180 Market Street,Turbat,Balochistan,16866,+92-309-9408793,info@primestore32.com,,Outlet,True,2024-07-01
+33,Super Plaza 33,ST033,448 Main Road,Jacobabad,Sindh,37925,+92-313-1466973,info@superplaza33.com,15.0,Supermarket,True,2020-04-13
+34,Mega Plaza 34,ST034,545 Main Road,Charsadda,Khyber Pakhtunkhwa,64501,+92-302-2414169,info@megaplaza34.com,84.0,Supermarket,False,2025-08-17
+35,Prime Mall 35,ST035,404 Main Road,Khuzdar,Balochistan,36100,+92-326-6731052,info@primemall35.com,18.0,Department Store,False,2020-08-02
+36,Super Store 36,ST036,325 Commercial Area,Nowshera,Khyber Pakhtunkhwa,21175,+92-301-1240095,info@superstore36.com,,Department Store,False,2016-06-26
+37,Prime Store 37,ST037,299 Shopping District,Nowshera,Khyber Pakhtunkhwa,88942,+92-319-6054064,info@primestore37.com,,Outlet,True,2016-11-19
+38,Super Mall 38,ST038,643 Market Street,Zhob,Balochistan,86569,+92-338-5665726,info@supermall38.com,257.0,Department Store,True,2020-09-01
+39,Super Plaza 39,ST039,198 Market Street,Chilas,Gilgit-Baltistan,66937,+92-321-8479615,info@superplaza39.com,171.0,Specialty Store,True,2025-03-21
+40,Prime Center 40,ST040,279 Market Street,Khuzdar,Balochistan,87306,+92-342-7009911,info@primecenter40.com,80.0,Mall,True,2019-10-21
+41,Premium Plaza 41,ST041,319 Main Road,Peshawar,Khyber Pakhtunkhwa,26762,+92-313-5597623,info@premiumplaza41.com,36.0,Specialty Store,True,2025-05-16
+42,Super Store 42,ST042,103 Shopping District,Faisalabad,Punjab,58145,+92-334-6438449,info@superstore42.com,,Mall,False,2024-12-08
+43,Elite Mart 43,ST043,210 Market Street,Quetta,Balochistan,43770,+92-344-3103950,info@elitemart43.com,,Department Store,False,2024-06-15
+44,Super Plaza 44,ST044,168 Main Road,Abbottabad,Khyber Pakhtunkhwa,96173,+92-307-7825425,info@superplaza44.com,,Mall,True,2018-05-12
+45,Super Mall 45,ST045,191 Market Street,Astore,Gilgit-Baltistan,15012,+92-346-1909605,info@supermall45.com,70.0,Department Store,True,2022-06-07
+46,Super Plaza 46,ST046,540 Shopping District,Sialkot,Punjab,66278,+92-324-6561497,info@superplaza46.com,,Specialty Store,False,2022-08-05
+47,Prime Center 47,ST047,685 Market Street,Sialkot,Punjab,72682,+92-336-8700605,info@primecenter47.com,215.0,Outlet,True,2015-10-04
+48,Prime Store 48,ST048,938 Market Street,Peshawar,Khyber Pakhtunkhwa,86601,+92-303-5492531,info@primestore48.com,182.0,Outlet,True,2022-11-21
+49,Express Mart 49,ST049,857 Shopping District,Zhob,Balochistan,28682,+92-322-6870603,info@expressmart49.com,,Retail,True,2023-06-17
+50,Super Plaza 50,ST050,102 Market Street,Chilas,Gilgit-Baltistan,26873,+92-336-7528725,info@superplaza50.com,177.0,Specialty Store,True,2022-08-26
+51,Premium Mart 51,ST051,828 Commercial Area,Sukkur,Sindh,17720,+92-347-4954547,info@premiummart51.com,237.0,Department Store,True,2023-06-25
+52,Elite Plaza 52,ST052,858 Main Road,Mardan,Khyber Pakhtunkhwa,56532,+92-302-3717518,info@eliteplaza52.com,,Retail,True,2018-07-04
+53,Super Mart 53,ST053,849 Market Street,Zhob,Balochistan,51898,+92-313-1840126,info@supermart53.com,,Retail,True,2016-03-24
+54,Premium Store 54,ST054,649 Commercial Area,Chilas,Gilgit-Baltistan,63190,+92-327-9229602,info@premiumstore54.com,202.0,Retail,True,2020-03-14
+55,Express Mall 55,ST055,653 Commercial Area,Kotli,Azad Kashmir,39254,+92-349-1934550,info@expressmall55.com,,Supermarket,False,2022-05-01
+56,Elite Center 56,ST056,39 Market Street,Kotli,Azad Kashmir,70308,+92-303-7052403,info@elitecenter56.com,,Retail,False,2019-06-30
+57,Prime Mart 57,ST057,830 Market Street,Rawalpindi,Punjab,43064,+92-311-8391635,info@primemart57.com,,Outlet,True,2024-10-09
+58,Mega Mart 58,ST058,15 Market Street,Muzaffarabad,Azad Kashmir,85689,+92-320-7148838,info@megamart58.com,,Retail,True,2018-12-11
+59,Express Store 59,ST059,788 Market Street,Faisalabad,Punjab,26854,+92-308-2437341,info@expressstore59.com,96.0,Supermarket,True,2021-06-19
+60,Prime Plaza 60,ST060,363 Market Street,Mansehra,Khyber Pakhtunkhwa,34346,+92-302-4757388,info@primeplaza60.com,6.0,Retail,False,2018-09-24
+61,Premium Store 61,ST061,579 Market Street,Hyderabad,Sindh,29775,+92-341-6190700,info@premiumstore61.com,,Retail,True,2022-06-13
+62,Premium Center 62,ST062,489 Shopping District,Chaman,Balochistan,37731,+92-309-6789132,info@premiumcenter62.com,85.0,Outlet,False,2025-08-08
+63,Prime Mart 63,ST063,789 Market Street,Karachi,Sindh,60159,+92-331-5611603,info@primemart63.com,190.0,Supermarket,True,2016-04-21
+64,Super Mart 64,ST064,578 Commercial Area,Chilas,Gilgit-Baltistan,50015,+92-339-9180402,info@supermart64.com,,Department Store,True,2016-01-07
+65,Super Mart 65,ST065,176 Market Street,Mirpur,Azad Kashmir,33445,+92-317-5931212,info@supermart65.com,,Supermarket,False,2017-11-06
+66,Super Mall 66,ST066,754 Main Road,Faisalabad,Punjab,43774,+92-332-4889689,info@supermall66.com,276.0,Retail,False,2023-04-09
+67,Mega Store 67,ST067,623 Shopping District,Muzaffarabad,Azad Kashmir,69198,+92-339-5761459,info@megastore67.com,68.0,Mall,False,2025-06-07
+68,Prime Plaza 68,ST068,610 Main Road,Swat,Khyber Pakhtunkhwa,38017,+92-312-7540636,info@primeplaza68.com,,Outlet,True,2021-09-20
+69,Prime Center 69,ST069,327 Shopping District,Nawabshah,Sindh,29608,+92-316-9145831,info@primecenter69.com,217.0,Supermarket,True,2025-03-11
+70,Elite Center 70,ST070,63 Market Street,Rawalakot,Azad Kashmir,66884,+92-344-5717449,info@elitecenter70.com,28.0,Retail,True,2020-08-23
+71,Super Plaza 71,ST071,290 Market Street,Gilgit,Gilgit-Baltistan,74556,+92-344-9419601,info@superplaza71.com,,Mall,True,2024-06-22
+72,Premium Mart 72,ST072,998 Shopping District,Larkana,Sindh,64019,+92-315-3422188,info@premiummart72.com,267.0,Department Store,True,2018-04-12
+73,Premium Center 73,ST073,487 Market Street,Faisalabad,Punjab,19976,+92-332-4670811,info@premiumcenter73.com,,Retail,True,2020-10-25
+74,Premium Mall 74,ST074,738 Market Street,Astore,Gilgit-Baltistan,42842,+92-335-3885333,info@premiummall74.com,248.0,Department Store,True,2021-12-19
+75,Mega Center 75,ST075,537 Shopping District,Rawalakot,Azad Kashmir,55734,+92-305-4468099,info@megacenter75.com,293.0,Mall,True,2019-10-21

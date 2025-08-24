@@ -1,0 +1,26 @@
+Name
+Value
+Account Identifier
+GYRQQCR-NM74015
+Data Sharing Account Identifier
+GYRQQCR.NM74015
+Organization Name
+GYRQQCR
+Account Name
+NM74015
+Account/Server URL
+GYRQQCR-NM74015.snowflakecomputing.com
+User Name
+SIDDIQUE
+Role
+ACCOUNTADMIN
+Account Locator
+AW99077
+Cloud Platform
+AZURE
+Edition
+Standard
+Table data loaded
+
+
+C:\Program Files\Snowflake CLI\snow.exe

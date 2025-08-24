@@ -1,0 +1,2402 @@
+ADDRESS_ID,CUSTOMER_ID,ADDRESS_TYPE,STREET_ADDRESS,CITY,PROVINCE,POSTAL_CODE,COUNTRY,IS_DEFAULT
+1,1,Primary,434 Park Road,Chaman,Balochistan,80256,Pakistan,True
+2,2,Primary,House 222 Industrial Area,Quetta,Balochistan,28926,Pakistan,True
+3,2,Secondary,160 Park Road,Muzaffarabad,Azad Kashmir,43086,Pakistan,False
+4,3,Primary,House 170 Main Boulevard,Charsadda,Khyber Pakhtunkhwa,54723,Pakistan,True
+5,4,Primary,House 479 Main Boulevard,Muzaffarabad,Azad Kashmir,98237,Pakistan,True
+6,5,Primary,Block E Bahria Town,Karachi,Sindh,44919,Pakistan,True
+7,6,Primary,407 Defence Housing,Muzaffarabad,Azad Kashmir,31349,Pakistan,True
+8,7,Primary,House 484 Clifton,Hyderabad,Sindh,36698,Pakistan,True
+9,8,Primary,Block A Saddar,Astore,Gilgit-Baltistan,43020,Pakistan,True
+10,8,Secondary,House 347 University Road,Gwadar,Balochistan,78395,Pakistan,False
+11,9,Primary,House 58 Mall Road,Sialkot,Punjab,39281,Pakistan,True
+12,10,Primary,52 University Road,Khuzdar,Balochistan,14862,Pakistan,True
+13,11,Primary,353 Cantt,Skardu,Gilgit-Baltistan,13020,Pakistan,True
+14,12,Primary,603 Clifton,Mirpur,Azad Kashmir,74497,Pakistan,True
+15,12,Secondary,317 Defence Housing,Faisalabad,Punjab,68157,Pakistan,False
+16,13,Primary,House 409 Johar Town,Nawabshah,Sindh,10438,Pakistan,True
+17,14,Primary,Block C Defence Housing,Chilas,Gilgit-Baltistan,96243,Pakistan,True
+18,15,Primary,House 856 Johar Town,Muzaffarabad,Azad Kashmir,92046,Pakistan,True
+19,16,Primary,Block E Model Town,Zhob,Balochistan,77322,Pakistan,True
+20,17,Primary,Block C Cantt,Hyderabad,Sindh,81564,Pakistan,True
+21,18,Primary,Block C Main Boulevard,Nowshera,Khyber Pakhtunkhwa,28774,Pakistan,True
+22,19,Primary,114 Clifton,Faisalabad,Punjab,67049,Pakistan,True
+23,20,Primary,552 College Road,Peshawar,Khyber Pakhtunkhwa,99677,Pakistan,True
+24,21,Primary,House 93 University Road,Nawabshah,Sindh,58353,Pakistan,True
+25,21,Secondary,House 574 Main Boulevard,Chilas,Gilgit-Baltistan,78982,Pakistan,False
+26,22,Primary,468 Defence Housing,Karachi,Sindh,52683,Pakistan,True
+27,22,Secondary,Block D Industrial Area,Mirpur Khas,Sindh,20218,Pakistan,False
+28,23,Primary,House 883 Park Road,Chaman,Balochistan,62162,Pakistan,True
+29,24,Primary,Block D Saddar,Gilgit,Gilgit-Baltistan,62128,Pakistan,True
+30,25,Primary,Block E Bahria Town,Turbat,Balochistan,23776,Pakistan,True
+31,26,Primary,422 Bahria Town,Sargodha,Punjab,58028,Pakistan,True
+32,27,Primary,Block A College Road,Hyderabad,Sindh,67048,Pakistan,True
+33,28,Primary,House 495 Johar Town,Hyderabad,Sindh,23704,Pakistan,True
+34,29,Primary,135 Johar Town,Gwadar,Balochistan,39992,Pakistan,True
+35,30,Primary,Block D Johar Town,Faisalabad,Punjab,63220,Pakistan,True
+36,31,Primary,House 304 Saddar,Mirpur Khas,Sindh,96141,Pakistan,True
+37,32,Primary,194 Cantt,Lahore,Punjab,97090,Pakistan,True
+38,33,Primary,House 847 Industrial Area,Quetta,Balochistan,15918,Pakistan,True
+39,34,Primary,370 Model Town,Mardan,Khyber Pakhtunkhwa,79460,Pakistan,True
+40,35,Primary,311 Johar Town,Zhob,Balochistan,37580,Pakistan,True
+41,36,Primary,House 99 Industrial Area,Nowshera,Khyber Pakhtunkhwa,88163,Pakistan,True
+42,37,Primary,House 528 Defence Housing,Nawabshah,Sindh,81393,Pakistan,True
+43,38,Primary,House 384 College Road,Rawalakot,Azad Kashmir,11307,Pakistan,True
+44,38,Secondary,House 500 Saddar,Chaman,Balochistan,85362,Pakistan,False
+45,39,Primary,Block A University Road,Zhob,Balochistan,90761,Pakistan,True
+46,40,Primary,Block C Industrial Area,Skardu,Gilgit-Baltistan,59213,Pakistan,True
+47,41,Primary,Block E Main Boulevard,Zhob,Balochistan,68642,Pakistan,True
+48,42,Primary,House 803 Main Boulevard,Rawalpindi,Punjab,64072,Pakistan,True
+49,42,Secondary,Block C DHA,Muzaffarabad,Azad Kashmir,70494,Pakistan,False
+50,43,Primary,House 269 Model Town,Swat,Khyber Pakhtunkhwa,74219,Pakistan,True
+51,44,Primary,745 Gulberg,Rawalakot,Azad Kashmir,97510,Pakistan,True
+52,45,Primary,Block B Bahria Town,Faisalabad,Punjab,14324,Pakistan,True
+53,45,Secondary,House 155 Johar Town,Multan,Punjab,63480,Pakistan,False
+54,46,Primary,House 530 Defence Housing,Muzaffarabad,Azad Kashmir,12944,Pakistan,True
+55,46,Secondary,48 DHA,Hyderabad,Sindh,54061,Pakistan,False
+56,47,Primary,688 University Road,Bahawalpur,Punjab,96869,Pakistan,True
+57,47,Secondary,House 609 Gulberg,Kotli,Azad Kashmir,84228,Pakistan,False
+58,48,Primary,House 282 College Road,Karachi,Sindh,61954,Pakistan,True
+59,49,Primary,Block C College Road,Peshawar,Khyber Pakhtunkhwa,17872,Pakistan,True
+60,50,Primary,House 343 Johar Town,Rawalakot,Azad Kashmir,25843,Pakistan,True
+61,50,Secondary,House 979 Bahria Town,Swat,Khyber Pakhtunkhwa,14162,Pakistan,False
+62,51,Primary,House 288 DHA,Larkana,Sindh,79912,Pakistan,True
+63,52,Primary,Block D Model Town,Lahore,Punjab,50851,Pakistan,True
+64,53,Primary,House 812 Johar Town,Gujranwala,Punjab,52840,Pakistan,True
+65,53,Secondary,House 834 Defence Housing,Mardan,Khyber Pakhtunkhwa,35206,Pakistan,False
+66,54,Primary,51 Defence Housing,Mirpur Khas,Sindh,60953,Pakistan,True
+67,55,Primary,House 279 Johar Town,Chilas,Gilgit-Baltistan,43797,Pakistan,True
+68,56,Primary,419 Mall Road,Hyderabad,Sindh,42669,Pakistan,True
+69,57,Primary,Block E Main Boulevard,Lahore,Punjab,54161,Pakistan,True
+70,57,Secondary,Block D Gulberg,Larkana,Sindh,58295,Pakistan,False
+71,58,Primary,486 Industrial Area,Gwadar,Balochistan,60742,Pakistan,True
+72,58,Secondary,House 676 College Road,Turbat,Balochistan,86289,Pakistan,False
+73,59,Primary,Block C College Road,Abbottabad,Khyber Pakhtunkhwa,84935,Pakistan,True
+74,60,Primary,Block A Cantt,Quetta,Balochistan,13463,Pakistan,True
+75,60,Secondary,House 172 Industrial Area,Hyderabad,Sindh,98167,Pakistan,False
+76,61,Primary,House 905 Bahria Town,Sialkot,Punjab,25365,Pakistan,True
+77,61,Secondary,House 132 Mall Road,Kotli,Azad Kashmir,61576,Pakistan,False
+78,62,Primary,195 College Road,Mansehra,Khyber Pakhtunkhwa,61952,Pakistan,True
+79,62,Secondary,House 27 College Road,Abbottabad,Khyber Pakhtunkhwa,26080,Pakistan,False
+80,63,Primary,House 886 Defence Housing,Mansehra,Khyber Pakhtunkhwa,68571,Pakistan,True
+81,64,Primary,Block A Defence Housing,Mirpur,Azad Kashmir,69453,Pakistan,True
+82,65,Primary,House 363 Main Boulevard,Skardu,Gilgit-Baltistan,77907,Pakistan,True
+83,65,Secondary,Block D Main Boulevard,Mirpur,Azad Kashmir,15267,Pakistan,False
+84,66,Primary,157 Johar Town,Mirpur,Azad Kashmir,79398,Pakistan,True
+85,67,Primary,Block D Mall Road,Gilgit,Gilgit-Baltistan,93987,Pakistan,True
+86,68,Primary,462 Industrial Area,Chaman,Balochistan,81322,Pakistan,True
+87,68,Secondary,House 953 Johar Town,Mirpur,Azad Kashmir,10187,Pakistan,False
+88,69,Primary,94 Gulberg,Swat,Khyber Pakhtunkhwa,73190,Pakistan,True
+89,70,Primary,Block C Cantt,Swat,Khyber Pakhtunkhwa,87589,Pakistan,True
+90,71,Primary,Block C College Road,Abbottabad,Khyber Pakhtunkhwa,56070,Pakistan,True
+91,72,Primary,House 157 Defence Housing,Mirpur Khas,Sindh,85229,Pakistan,True
+92,73,Primary,964 Industrial Area,Abbottabad,Khyber Pakhtunkhwa,91224,Pakistan,True
+93,74,Primary,House 143 Bahria Town,Mardan,Khyber Pakhtunkhwa,48643,Pakistan,True
+94,74,Secondary,Block B Park Road,Khuzdar,Balochistan,36366,Pakistan,False
+95,75,Primary,Block A Industrial Area,Nowshera,Khyber Pakhtunkhwa,73968,Pakistan,True
+96,75,Secondary,Block B Saddar,Peshawar,Khyber Pakhtunkhwa,76323,Pakistan,False
+97,76,Primary,Block C Industrial Area,Sargodha,Punjab,64389,Pakistan,True
+98,77,Primary,351 Main Boulevard,Chaman,Balochistan,19824,Pakistan,True
+99,77,Secondary,884 Mall Road,Gilgit,Gilgit-Baltistan,75768,Pakistan,False
+100,78,Primary,Block A Cantt,Nowshera,Khyber Pakhtunkhwa,87115,Pakistan,True
+101,79,Primary,Block E Clifton,Hyderabad,Sindh,93240,Pakistan,True
+102,80,Primary,Block B Industrial Area,Quetta,Balochistan,85943,Pakistan,True
+103,81,Primary,Block A Clifton,Kotli,Azad Kashmir,89921,Pakistan,True
+104,82,Primary,House 234 DHA,Sargodha,Punjab,65249,Pakistan,True
+105,83,Primary,Block D DHA,Mirpur Khas,Sindh,67339,Pakistan,True
+106,84,Primary,Block E Saddar,Mirpur Khas,Sindh,19299,Pakistan,True
+107,85,Primary,860 Bahria Town,Mirpur,Azad Kashmir,77378,Pakistan,True
+108,85,Secondary,649 DHA,Chilas,Gilgit-Baltistan,17777,Pakistan,False
+109,86,Primary,Block B University Road,Larkana,Sindh,27261,Pakistan,True
+110,86,Secondary,390 Saddar,Skardu,Gilgit-Baltistan,76201,Pakistan,False
+111,87,Primary,House 459 Model Town,Mansehra,Khyber Pakhtunkhwa,69771,Pakistan,True
+112,88,Primary,550 DHA,Chilas,Gilgit-Baltistan,87146,Pakistan,True
+113,89,Primary,Block D Cantt,Khuzdar,Balochistan,40644,Pakistan,True
+114,89,Secondary,House 38 Cantt,Sialkot,Punjab,92995,Pakistan,False
+115,90,Primary,Block A Mall Road,Gilgit,Gilgit-Baltistan,95094,Pakistan,True
+116,91,Primary,173 Saddar,Chilas,Gilgit-Baltistan,77379,Pakistan,True
+117,91,Secondary,House 197 Main Boulevard,Gwadar,Balochistan,44678,Pakistan,False
+118,92,Primary,House 961 Johar Town,Khuzdar,Balochistan,52803,Pakistan,True
+119,93,Primary,Block C Model Town,Sialkot,Punjab,42293,Pakistan,True
+120,94,Primary,Block A Industrial Area,Sukkur,Sindh,87256,Pakistan,True
+121,95,Primary,House 84 Cantt,Kotli,Azad Kashmir,69315,Pakistan,True
+122,96,Primary,Block E Industrial Area,Mardan,Khyber Pakhtunkhwa,33409,Pakistan,True
+123,97,Primary,Block B DHA,Chilas,Gilgit-Baltistan,72661,Pakistan,True
+124,98,Primary,Block B Clifton,Khuzdar,Balochistan,20343,Pakistan,True
+125,98,Secondary,House 207 Johar Town,Rawalakot,Azad Kashmir,55353,Pakistan,False
+126,99,Primary,Block E Clifton,Sialkot,Punjab,86782,Pakistan,True
+127,100,Primary,Block E Industrial Area,Gujranwala,Punjab,79691,Pakistan,True
+128,100,Secondary,450 Cantt,Gilgit,Gilgit-Baltistan,59007,Pakistan,False
+129,101,Primary,305 College Road,Chaman,Balochistan,10646,Pakistan,True
+130,102,Primary,House 353 College Road,Kotli,Azad Kashmir,17612,Pakistan,True
+131,103,Primary,Block A Model Town,Mirpur,Azad Kashmir,30395,Pakistan,True
+132,104,Primary,277 Cantt,Quetta,Balochistan,75916,Pakistan,True
+133,104,Secondary,176 Gulberg,Peshawar,Khyber Pakhtunkhwa,93505,Pakistan,False
+134,105,Primary,Block D Industrial Area,Jacobabad,Sindh,48095,Pakistan,True
+135,105,Secondary,House 294 Park Road,Sialkot,Punjab,23572,Pakistan,False
+136,106,Primary,Block E Gulberg,Gilgit,Gilgit-Baltistan,55693,Pakistan,True
+137,107,Primary,House 215 Park Road,Kotli,Azad Kashmir,76403,Pakistan,True
+138,108,Primary,House 466 Main Boulevard,Mardan,Khyber Pakhtunkhwa,72444,Pakistan,True
+139,109,Primary,House 65 Industrial Area,Rawalakot,Azad Kashmir,22773,Pakistan,True
+140,110,Primary,258 Park Road,Jacobabad,Sindh,54049,Pakistan,True
+141,111,Primary,528 Defence Housing,Hyderabad,Sindh,80251,Pakistan,True
+142,112,Primary,957 Park Road,Astore,Gilgit-Baltistan,32580,Pakistan,True
+143,113,Primary,House 865 Park Road,Zhob,Balochistan,39993,Pakistan,True
+144,114,Primary,House 236 Park Road,Khuzdar,Balochistan,57427,Pakistan,True
+145,115,Primary,Block B Bahria Town,Sukkur,Sindh,13485,Pakistan,True
+146,116,Primary,Block B College Road,Karachi,Sindh,55601,Pakistan,True
+147,117,Primary,Block E University Road,Sialkot,Punjab,61843,Pakistan,True
+148,117,Secondary,Block E College Road,Astore,Gilgit-Baltistan,36716,Pakistan,False
+149,118,Primary,Block E University Road,Mansehra,Khyber Pakhtunkhwa,68744,Pakistan,True
+150,119,Primary,House 8 Defence Housing,Abbottabad,Khyber Pakhtunkhwa,33362,Pakistan,True
+151,120,Primary,774 College Road,Mardan,Khyber Pakhtunkhwa,35272,Pakistan,True
+152,121,Primary,Block E Clifton,Charsadda,Khyber Pakhtunkhwa,77580,Pakistan,True
+153,122,Primary,Block D Park Road,Turbat,Balochistan,65595,Pakistan,True
+154,122,Secondary,House 642 Defence Housing,Muzaffarabad,Azad Kashmir,80502,Pakistan,False
+155,123,Primary,House 639 Gulberg,Zhob,Balochistan,19612,Pakistan,True
+156,124,Primary,House 13 University Road,Skardu,Gilgit-Baltistan,34548,Pakistan,True
+157,125,Primary,Block C Model Town,Mirpur,Azad Kashmir,19812,Pakistan,True
+158,126,Primary,Block B Bahria Town,Kotli,Azad Kashmir,66633,Pakistan,True
+159,127,Primary,Block B Defence Housing,Hyderabad,Sindh,82740,Pakistan,True
+160,127,Secondary,Block D Cantt,Sukkur,Sindh,15645,Pakistan,False
+161,128,Primary,Block A University Road,Gilgit,Gilgit-Baltistan,83280,Pakistan,True
+162,128,Secondary,13 Gulberg,Swat,Khyber Pakhtunkhwa,12535,Pakistan,False
+163,129,Primary,House 570 College Road,Skardu,Gilgit-Baltistan,92821,Pakistan,True
+164,130,Primary,House 780 Clifton,Mardan,Khyber Pakhtunkhwa,67330,Pakistan,True
+165,131,Primary,Block C Clifton,Gujranwala,Punjab,71706,Pakistan,True
+166,132,Primary,774 Industrial Area,Kotli,Azad Kashmir,76207,Pakistan,True
+167,133,Primary,House 207 Johar Town,Rawalpindi,Punjab,18907,Pakistan,True
+168,133,Secondary,53 Saddar,Quetta,Balochistan,67413,Pakistan,False
+169,134,Primary,House 271 DHA,Multan,Punjab,49297,Pakistan,True
+170,135,Primary,House 320 University Road,Bahawalpur,Punjab,78100,Pakistan,True
+171,136,Primary,Block C Mall Road,Chaman,Balochistan,37441,Pakistan,True
+172,136,Secondary,Block A DHA,Mirpur Khas,Sindh,33845,Pakistan,False
+173,137,Primary,House 176 Johar Town,Sialkot,Punjab,48647,Pakistan,True
+174,138,Primary,Block E Defence Housing,Charsadda,Khyber Pakhtunkhwa,57083,Pakistan,True
+175,139,Primary,House 890 College Road,Sialkot,Punjab,46872,Pakistan,True
+176,140,Primary,House 710 Saddar,Lahore,Punjab,26111,Pakistan,True
+177,141,Primary,House 358 DHA,Gwadar,Balochistan,35539,Pakistan,True
+178,141,Secondary,256 Model Town,Nawabshah,Sindh,96524,Pakistan,False
+179,142,Primary,House 914 Cantt,Sukkur,Sindh,56719,Pakistan,True
+180,142,Secondary,Block C Clifton,Kotli,Azad Kashmir,48855,Pakistan,False
+181,143,Primary,Block B Main Boulevard,Khuzdar,Balochistan,66260,Pakistan,True
+182,143,Secondary,8 Industrial Area,Sialkot,Punjab,48906,Pakistan,False
+183,144,Primary,Block A Defence Housing,Chilas,Gilgit-Baltistan,49673,Pakistan,True
+184,145,Primary,House 526 Industrial Area,Sialkot,Punjab,68798,Pakistan,True
+185,146,Primary,Block B Johar Town,Multan,Punjab,54005,Pakistan,True
+186,147,Primary,247 DHA,Faisalabad,Punjab,17279,Pakistan,True
+187,147,Secondary,House 847 Main Boulevard,Gwadar,Balochistan,40941,Pakistan,False
+188,148,Primary,279 Gulberg,Muzaffarabad,Azad Kashmir,77398,Pakistan,True
+189,149,Primary,261 Park Road,Bahawalpur,Punjab,84549,Pakistan,True
+190,149,Secondary,House 67 Saddar,Mansehra,Khyber Pakhtunkhwa,61282,Pakistan,False
+191,150,Primary,964 Clifton,Rawalakot,Azad Kashmir,86232,Pakistan,True
+192,151,Primary,House 427 Cantt,Nowshera,Khyber Pakhtunkhwa,15426,Pakistan,True
+193,151,Secondary,569 College Road,Mirpur Khas,Sindh,37927,Pakistan,False
+194,152,Primary,Block B Main Boulevard,Rawalakot,Azad Kashmir,94302,Pakistan,True
+195,153,Primary,Block E College Road,Jacobabad,Sindh,64899,Pakistan,True
+196,154,Primary,Block C Bahria Town,Rawalakot,Azad Kashmir,26469,Pakistan,True
+197,154,Secondary,House 486 Industrial Area,Mirpur,Azad Kashmir,15908,Pakistan,False
+198,155,Primary,Block C University Road,Kotli,Azad Kashmir,75206,Pakistan,True
+199,155,Secondary,966 Defence Housing,Muzaffarabad,Azad Kashmir,63159,Pakistan,False
+200,156,Primary,House 541 College Road,Zhob,Balochistan,57626,Pakistan,True
+201,157,Primary,769 Defence Housing,Charsadda,Khyber Pakhtunkhwa,69769,Pakistan,True
+202,158,Primary,725 Industrial Area,Rawalakot,Azad Kashmir,20272,Pakistan,True
+203,158,Secondary,192 College Road,Jacobabad,Sindh,66026,Pakistan,False
+204,159,Primary,840 College Road,Gwadar,Balochistan,14392,Pakistan,True
+205,160,Primary,Block B Johar Town,Muzaffarabad,Azad Kashmir,16817,Pakistan,True
+206,160,Secondary,Block E Cantt,Mirpur Khas,Sindh,63868,Pakistan,False
+207,161,Primary,Block A Park Road,Mirpur Khas,Sindh,78763,Pakistan,True
+208,161,Secondary,House 448 Mall Road,Rawalpindi,Punjab,47985,Pakistan,False
+209,162,Primary,House 651 Main Boulevard,Mirpur,Azad Kashmir,40818,Pakistan,True
+210,163,Primary,House 885 College Road,Nowshera,Khyber Pakhtunkhwa,79311,Pakistan,True
+211,164,Primary,Block D Mall Road,Chilas,Gilgit-Baltistan,87516,Pakistan,True
+212,165,Primary,822 Industrial Area,Gujranwala,Punjab,33097,Pakistan,True
+213,166,Primary,House 870 Model Town,Bahawalpur,Punjab,64177,Pakistan,True
+214,167,Primary,Block D Cantt,Larkana,Sindh,11360,Pakistan,True
+215,168,Primary,299 College Road,Rawalpindi,Punjab,10400,Pakistan,True
+216,169,Primary,343 DHA,Gwadar,Balochistan,57547,Pakistan,True
+217,170,Primary,Block E Cantt,Khuzdar,Balochistan,14074,Pakistan,True
+218,170,Secondary,106 Saddar,Chilas,Gilgit-Baltistan,43707,Pakistan,False
+219,171,Primary,891 Model Town,Khuzdar,Balochistan,16410,Pakistan,True
+220,172,Primary,Block C DHA,Gwadar,Balochistan,27206,Pakistan,True
+221,173,Primary,102 Main Boulevard,Skardu,Gilgit-Baltistan,25819,Pakistan,True
+222,174,Primary,House 465 Cantt,Sargodha,Punjab,30568,Pakistan,True
+223,175,Primary,House 943 Park Road,Turbat,Balochistan,36441,Pakistan,True
+224,176,Primary,577 University Road,Zhob,Balochistan,97325,Pakistan,True
+225,177,Primary,House 525 Cantt,Jacobabad,Sindh,73961,Pakistan,True
+226,178,Primary,House 247 College Road,Kotli,Azad Kashmir,97299,Pakistan,True
+227,178,Secondary,288 Clifton,Mardan,Khyber Pakhtunkhwa,74216,Pakistan,False
+228,179,Primary,319 Bahria Town,Gilgit,Gilgit-Baltistan,31279,Pakistan,True
+229,180,Primary,House 607 Johar Town,Kotli,Azad Kashmir,73495,Pakistan,True
+230,181,Primary,977 Mall Road,Zhob,Balochistan,70878,Pakistan,True
+231,182,Primary,House 592 Park Road,Karachi,Sindh,42542,Pakistan,True
+232,183,Primary,House 783 Defence Housing,Gwadar,Balochistan,88426,Pakistan,True
+233,184,Primary,Block D Cantt,Multan,Punjab,76876,Pakistan,True
+234,185,Primary,House 114 Defence Housing,Mardan,Khyber Pakhtunkhwa,97352,Pakistan,True
+235,186,Primary,950 Clifton,Kotli,Azad Kashmir,96598,Pakistan,True
+236,186,Secondary,Block A Clifton,Muzaffarabad,Azad Kashmir,99549,Pakistan,False
+237,187,Primary,Block E DHA,Mirpur Khas,Sindh,33632,Pakistan,True
+238,188,Primary,545 Saddar,Astore,Gilgit-Baltistan,12510,Pakistan,True
+239,189,Primary,623 Mall Road,Nowshera,Khyber Pakhtunkhwa,47605,Pakistan,True
+240,190,Primary,152 Clifton,Zhob,Balochistan,53831,Pakistan,True
+241,191,Primary,Block B Saddar,Quetta,Balochistan,42504,Pakistan,True
+242,191,Secondary,639 Defence Housing,Bahawalpur,Punjab,97095,Pakistan,False
+243,192,Primary,348 DHA,Turbat,Balochistan,48407,Pakistan,True
+244,193,Primary,Block E Saddar,Quetta,Balochistan,87965,Pakistan,True
+245,194,Primary,House 954 Main Boulevard,Mardan,Khyber Pakhtunkhwa,92061,Pakistan,True
+246,195,Primary,House 924 DHA,Lahore,Punjab,61469,Pakistan,True
+247,196,Primary,Block A Mall Road,Skardu,Gilgit-Baltistan,58212,Pakistan,True
+248,197,Primary,Block D Cantt,Khuzdar,Balochistan,50939,Pakistan,True
+249,198,Primary,74 Park Road,Karachi,Sindh,84316,Pakistan,True
+250,199,Primary,Block D DHA,Quetta,Balochistan,70425,Pakistan,True
+251,200,Primary,Block E Johar Town,Quetta,Balochistan,81689,Pakistan,True
+252,201,Primary,Block D Defence Housing,Mirpur,Azad Kashmir,45773,Pakistan,True
+253,202,Primary,904 Gulberg,Muzaffarabad,Azad Kashmir,25345,Pakistan,True
+254,203,Primary,House 332 College Road,Rawalpindi,Punjab,88073,Pakistan,True
+255,203,Secondary,582 Industrial Area,Gwadar,Balochistan,78318,Pakistan,False
+256,204,Primary,Block D Defence Housing,Chaman,Balochistan,68912,Pakistan,True
+257,205,Primary,763 Model Town,Peshawar,Khyber Pakhtunkhwa,32017,Pakistan,True
+258,205,Secondary,House 261 University Road,Chaman,Balochistan,32353,Pakistan,False
+259,206,Primary,House 919 Mall Road,Karachi,Sindh,75785,Pakistan,True
+260,207,Primary,House 670 Saddar,Quetta,Balochistan,89255,Pakistan,True
+261,208,Primary,Block D Model Town,Zhob,Balochistan,34658,Pakistan,True
+262,209,Primary,Block D Bahria Town,Charsadda,Khyber Pakhtunkhwa,32298,Pakistan,True
+263,209,Secondary,Block C Mall Road,Gujranwala,Punjab,24370,Pakistan,False
+264,210,Primary,House 830 Clifton,Multan,Punjab,74073,Pakistan,True
+265,211,Primary,Block B DHA,Mansehra,Khyber Pakhtunkhwa,28430,Pakistan,True
+266,212,Primary,Block D Park Road,Skardu,Gilgit-Baltistan,11799,Pakistan,True
+267,212,Secondary,House 384 College Road,Rawalakot,Azad Kashmir,24718,Pakistan,False
+268,213,Primary,688 Park Road,Sialkot,Punjab,28464,Pakistan,True
+269,214,Primary,Block D Defence Housing,Rawalakot,Azad Kashmir,18864,Pakistan,True
+270,215,Primary,Block D Park Road,Lahore,Punjab,88147,Pakistan,True
+271,216,Primary,House 968 Park Road,Kotli,Azad Kashmir,82224,Pakistan,True
+272,217,Primary,792 Bahria Town,Charsadda,Khyber Pakhtunkhwa,74959,Pakistan,True
+273,218,Primary,House 236 University Road,Kotli,Azad Kashmir,66755,Pakistan,True
+274,218,Secondary,127 College Road,Mansehra,Khyber Pakhtunkhwa,38951,Pakistan,False
+275,219,Primary,388 Park Road,Chilas,Gilgit-Baltistan,27736,Pakistan,True
+276,220,Primary,House 45 Clifton,Mansehra,Khyber Pakhtunkhwa,68112,Pakistan,True
+277,220,Secondary,283 University Road,Abbottabad,Khyber Pakhtunkhwa,25026,Pakistan,False
+278,221,Primary,Block B Johar Town,Mirpur,Azad Kashmir,20306,Pakistan,True
+279,221,Secondary,Block D Defence Housing,Faisalabad,Punjab,42755,Pakistan,False
+280,222,Primary,Block E Saddar,Jacobabad,Sindh,59171,Pakistan,True
+281,223,Primary,321 Gulberg,Nowshera,Khyber Pakhtunkhwa,73621,Pakistan,True
+282,224,Primary,668 Mall Road,Lahore,Punjab,55102,Pakistan,True
+283,225,Primary,162 Clifton,Gilgit,Gilgit-Baltistan,81953,Pakistan,True
+284,225,Secondary,House 781 College Road,Larkana,Sindh,26191,Pakistan,False
+285,226,Primary,House 567 Model Town,Jacobabad,Sindh,90881,Pakistan,True
+286,227,Primary,House 6 University Road,Lahore,Punjab,39942,Pakistan,True
+287,227,Secondary,Block D Saddar,Astore,Gilgit-Baltistan,29243,Pakistan,False
+288,228,Primary,919 Model Town,Rawalpindi,Punjab,30243,Pakistan,True
+289,229,Primary,House 213 Bahria Town,Lahore,Punjab,42148,Pakistan,True
+290,230,Primary,468 DHA,Chilas,Gilgit-Baltistan,75665,Pakistan,True
+291,231,Primary,301 Defence Housing,Mirpur Khas,Sindh,27583,Pakistan,True
+292,232,Primary,Block D Gulberg,Larkana,Sindh,60931,Pakistan,True
+293,233,Primary,Block B Industrial Area,Mirpur,Azad Kashmir,58547,Pakistan,True
+294,234,Primary,House 589 Mall Road,Chilas,Gilgit-Baltistan,75274,Pakistan,True
+295,234,Secondary,427 Mall Road,Karachi,Sindh,76655,Pakistan,False
+296,235,Primary,831 Clifton,Zhob,Balochistan,63087,Pakistan,True
+297,236,Primary,Block C Clifton,Chaman,Balochistan,38064,Pakistan,True
+298,237,Primary,House 697 Clifton,Larkana,Sindh,94368,Pakistan,True
+299,238,Primary,Block E Mall Road,Turbat,Balochistan,92764,Pakistan,True
+300,239,Primary,House 294 Mall Road,Lahore,Punjab,77337,Pakistan,True
+301,240,Primary,House 794 Main Boulevard,Mirpur,Azad Kashmir,28834,Pakistan,True
+302,241,Primary,318 Cantt,Mirpur Khas,Sindh,30729,Pakistan,True
+303,242,Primary,House 712 Defence Housing,Nowshera,Khyber Pakhtunkhwa,90356,Pakistan,True
+304,243,Primary,Block C Park Road,Skardu,Gilgit-Baltistan,35153,Pakistan,True
+305,244,Primary,House 51 Bahria Town,Multan,Punjab,15041,Pakistan,True
+306,244,Secondary,609 Park Road,Kotli,Azad Kashmir,43226,Pakistan,False
+307,245,Primary,House 797 DHA,Gwadar,Balochistan,96762,Pakistan,True
+308,246,Primary,House 682 Clifton,Jacobabad,Sindh,53225,Pakistan,True
+309,247,Primary,House 767 Main Boulevard,Hyderabad,Sindh,82034,Pakistan,True
+310,247,Secondary,House 523 Mall Road,Chilas,Gilgit-Baltistan,14082,Pakistan,False
+311,248,Primary,731 Main Boulevard,Chilas,Gilgit-Baltistan,15958,Pakistan,True
+312,249,Primary,House 97 Bahria Town,Rawalpindi,Punjab,14062,Pakistan,True
+313,250,Primary,387 Mall Road,Faisalabad,Punjab,86015,Pakistan,True
+314,251,Primary,907 Saddar,Charsadda,Khyber Pakhtunkhwa,28942,Pakistan,True
+315,252,Primary,House 249 Model Town,Faisalabad,Punjab,69568,Pakistan,True
+316,253,Primary,376 Main Boulevard,Bahawalpur,Punjab,79053,Pakistan,True
+317,254,Primary,Block E Mall Road,Astore,Gilgit-Baltistan,58768,Pakistan,True
+318,255,Primary,House 9 Industrial Area,Rawalakot,Azad Kashmir,29180,Pakistan,True
+319,255,Secondary,766 Model Town,Gwadar,Balochistan,20097,Pakistan,False
+320,256,Primary,House 609 University Road,Jacobabad,Sindh,96308,Pakistan,True
+321,257,Primary,979 Saddar,Lahore,Punjab,80979,Pakistan,True
+322,257,Secondary,745 College Road,Skardu,Gilgit-Baltistan,80879,Pakistan,False
+323,258,Primary,759 Johar Town,Karachi,Sindh,56197,Pakistan,True
+324,259,Primary,41 Model Town,Zhob,Balochistan,35395,Pakistan,True
+325,260,Primary,Block D Main Boulevard,Mansehra,Khyber Pakhtunkhwa,67978,Pakistan,True
+326,261,Primary,628 Main Boulevard,Astore,Gilgit-Baltistan,48014,Pakistan,True
+327,262,Primary,Block C Cantt,Mirpur Khas,Sindh,82624,Pakistan,True
+328,263,Primary,120 University Road,Quetta,Balochistan,53987,Pakistan,True
+329,264,Primary,House 383 Park Road,Muzaffarabad,Azad Kashmir,19474,Pakistan,True
+330,265,Primary,House 383 Industrial Area,Khuzdar,Balochistan,84176,Pakistan,True
+331,266,Primary,House 819 Industrial Area,Karachi,Sindh,74232,Pakistan,True
+332,267,Primary,House 551 College Road,Sukkur,Sindh,85499,Pakistan,True
+333,268,Primary,Block C Johar Town,Astore,Gilgit-Baltistan,14341,Pakistan,True
+334,269,Primary,858 Park Road,Faisalabad,Punjab,14799,Pakistan,True
+335,270,Primary,Block B Defence Housing,Quetta,Balochistan,76558,Pakistan,True
+336,271,Primary,House 288 DHA,Kotli,Azad Kashmir,83574,Pakistan,True
+337,271,Secondary,House 335 Model Town,Skardu,Gilgit-Baltistan,73602,Pakistan,False
+338,272,Primary,293 DHA,Sukkur,Sindh,53069,Pakistan,True
+339,273,Primary,Block D Gulberg,Swat,Khyber Pakhtunkhwa,70409,Pakistan,True
+340,274,Primary,Block C Model Town,Gilgit,Gilgit-Baltistan,81647,Pakistan,True
+341,275,Primary,211 College Road,Nowshera,Khyber Pakhtunkhwa,48787,Pakistan,True
+342,276,Primary,266 Industrial Area,Swat,Khyber Pakhtunkhwa,84070,Pakistan,True
+343,277,Primary,Block B Cantt,Khuzdar,Balochistan,70265,Pakistan,True
+344,277,Secondary,974 Model Town,Skardu,Gilgit-Baltistan,74419,Pakistan,False
+345,278,Primary,Block D Cantt,Skardu,Gilgit-Baltistan,77515,Pakistan,True
+346,279,Primary,987 DHA,Multan,Punjab,70822,Pakistan,True
+347,280,Primary,Block C Bahria Town,Lahore,Punjab,58333,Pakistan,True
+348,281,Primary,344 Defence Housing,Mardan,Khyber Pakhtunkhwa,23281,Pakistan,True
+349,282,Primary,262 Gulberg,Chaman,Balochistan,12825,Pakistan,True
+350,283,Primary,737 Cantt,Bahawalpur,Punjab,41709,Pakistan,True
+351,284,Primary,House 759 Johar Town,Faisalabad,Punjab,65700,Pakistan,True
+352,285,Primary,746 Model Town,Nawabshah,Sindh,21559,Pakistan,True
+353,286,Primary,Block E Main Boulevard,Larkana,Sindh,81099,Pakistan,True
+354,287,Primary,Block C University Road,Mirpur Khas,Sindh,86471,Pakistan,True
+355,287,Secondary,Block D Park Road,Hyderabad,Sindh,33950,Pakistan,False
+356,288,Primary,318 Gulberg,Rawalakot,Azad Kashmir,40580,Pakistan,True
+357,289,Primary,Block D Industrial Area,Skardu,Gilgit-Baltistan,32870,Pakistan,True
+358,290,Primary,Block A Park Road,Abbottabad,Khyber Pakhtunkhwa,31025,Pakistan,True
+359,291,Primary,903 Park Road,Mirpur,Azad Kashmir,68569,Pakistan,True
+360,292,Primary,312 Cantt,Karachi,Sindh,13270,Pakistan,True
+361,293,Primary,Block E Industrial Area,Mansehra,Khyber Pakhtunkhwa,72277,Pakistan,True
+362,294,Primary,894 Main Boulevard,Hyderabad,Sindh,28622,Pakistan,True
+363,295,Primary,Block B Model Town,Swat,Khyber Pakhtunkhwa,56274,Pakistan,True
+364,296,Primary,472 Park Road,Gujranwala,Punjab,81142,Pakistan,True
+365,297,Primary,272 Park Road,Rawalakot,Azad Kashmir,50295,Pakistan,True
+366,298,Primary,Block A College Road,Larkana,Sindh,84782,Pakistan,True
+367,299,Primary,Block D Saddar,Larkana,Sindh,13431,Pakistan,True
+368,299,Secondary,Block B Bahria Town,Peshawar,Khyber Pakhtunkhwa,80076,Pakistan,False
+369,300,Primary,Block B Main Boulevard,Gwadar,Balochistan,50650,Pakistan,True
+370,301,Primary,317 Johar Town,Sialkot,Punjab,58956,Pakistan,True
+371,302,Primary,Block A Saddar,Karachi,Sindh,29603,Pakistan,True
+372,302,Secondary,Block B Industrial Area,Rawalakot,Azad Kashmir,44787,Pakistan,False
+373,303,Primary,Block E Mall Road,Nawabshah,Sindh,12126,Pakistan,True
+374,304,Primary,Block B Mall Road,Sukkur,Sindh,36539,Pakistan,True
+375,304,Secondary,Block C University Road,Faisalabad,Punjab,89643,Pakistan,False
+376,305,Primary,702 University Road,Chaman,Balochistan,60599,Pakistan,True
+377,306,Primary,669 College Road,Skardu,Gilgit-Baltistan,11465,Pakistan,True
+378,307,Primary,Block A Model Town,Gwadar,Balochistan,18156,Pakistan,True
+379,308,Primary,Block B Clifton,Peshawar,Khyber Pakhtunkhwa,75175,Pakistan,True
+380,309,Primary,Block B DHA,Gwadar,Balochistan,84113,Pakistan,True
+381,310,Primary,893 DHA,Faisalabad,Punjab,39669,Pakistan,True
+382,311,Primary,House 607 Park Road,Jacobabad,Sindh,74652,Pakistan,True
+383,312,Primary,Block D University Road,Quetta,Balochistan,20317,Pakistan,True
+384,313,Primary,Block B Industrial Area,Muzaffarabad,Azad Kashmir,82351,Pakistan,True
+385,314,Primary,971 Clifton,Skardu,Gilgit-Baltistan,72242,Pakistan,True
+386,314,Secondary,712 Park Road,Rawalakot,Azad Kashmir,63811,Pakistan,False
+387,315,Primary,House 701 Clifton,Mirpur Khas,Sindh,12269,Pakistan,True
+388,316,Primary,House 394 College Road,Jacobabad,Sindh,50987,Pakistan,True
+389,317,Primary,Block B Park Road,Quetta,Balochistan,21458,Pakistan,True
+390,318,Primary,House 989 Cantt,Gilgit,Gilgit-Baltistan,81872,Pakistan,True
+391,319,Primary,House 174 Main Boulevard,Charsadda,Khyber Pakhtunkhwa,45745,Pakistan,True
+392,320,Primary,861 Johar Town,Jacobabad,Sindh,69565,Pakistan,True
+393,321,Primary,341 Saddar,Skardu,Gilgit-Baltistan,23949,Pakistan,True
+394,322,Primary,586 Cantt,Sukkur,Sindh,33081,Pakistan,True
+395,323,Primary,Block C Bahria Town,Sukkur,Sindh,12868,Pakistan,True
+396,324,Primary,House 945 Main Boulevard,Mardan,Khyber Pakhtunkhwa,70492,Pakistan,True
+397,324,Secondary,142 DHA,Faisalabad,Punjab,29694,Pakistan,False
+398,325,Primary,Block C DHA,Mirpur,Azad Kashmir,31355,Pakistan,True
+399,326,Primary,Block D Cantt,Chilas,Gilgit-Baltistan,14943,Pakistan,True
+400,327,Primary,Block B Mall Road,Gwadar,Balochistan,67924,Pakistan,True
+401,327,Secondary,877 Park Road,Charsadda,Khyber Pakhtunkhwa,54850,Pakistan,False
+402,328,Primary,House 770 College Road,Multan,Punjab,23593,Pakistan,True
+403,329,Primary,Block E Park Road,Rawalakot,Azad Kashmir,75559,Pakistan,True
+404,329,Secondary,House 728 Bahria Town,Sialkot,Punjab,68316,Pakistan,False
+405,330,Primary,232 Johar Town,Nawabshah,Sindh,43801,Pakistan,True
+406,330,Secondary,House 601 Model Town,Kotli,Azad Kashmir,37014,Pakistan,False
+407,331,Primary,Block A Defence Housing,Larkana,Sindh,35981,Pakistan,True
+408,331,Secondary,House 514 DHA,Muzaffarabad,Azad Kashmir,43384,Pakistan,False
+409,332,Primary,162 DHA,Astore,Gilgit-Baltistan,45030,Pakistan,True
+410,333,Primary,Block D Gulberg,Rawalakot,Azad Kashmir,34098,Pakistan,True
+411,334,Primary,House 510 Mall Road,Jacobabad,Sindh,68624,Pakistan,True
+412,335,Primary,Block E Clifton,Charsadda,Khyber Pakhtunkhwa,94140,Pakistan,True
+413,336,Primary,House 63 College Road,Zhob,Balochistan,70323,Pakistan,True
+414,337,Primary,Block A Mall Road,Astore,Gilgit-Baltistan,43892,Pakistan,True
+415,338,Primary,640 Defence Housing,Mirpur,Azad Kashmir,82498,Pakistan,True
+416,338,Secondary,House 328 Bahria Town,Gwadar,Balochistan,53955,Pakistan,False
+417,339,Primary,217 Main Boulevard,Abbottabad,Khyber Pakhtunkhwa,29218,Pakistan,True
+418,339,Secondary,319 Clifton,Chilas,Gilgit-Baltistan,29611,Pakistan,False
+419,340,Primary,Block A Park Road,Gilgit,Gilgit-Baltistan,96608,Pakistan,True
+420,340,Secondary,House 776 Johar Town,Skardu,Gilgit-Baltistan,62800,Pakistan,False
+421,341,Primary,Block D Gulberg,Kotli,Azad Kashmir,94397,Pakistan,True
+422,341,Secondary,Block C College Road,Chilas,Gilgit-Baltistan,65137,Pakistan,False
+423,342,Primary,645 Bahria Town,Faisalabad,Punjab,20162,Pakistan,True
+424,343,Primary,House 83 Cantt,Rawalpindi,Punjab,57968,Pakistan,True
+425,344,Primary,House 199 University Road,Kotli,Azad Kashmir,10138,Pakistan,True
+426,344,Secondary,House 627 Cantt,Bahawalpur,Punjab,26518,Pakistan,False
+427,345,Primary,House 21 Model Town,Rawalakot,Azad Kashmir,96166,Pakistan,True
+428,346,Primary,Block D Defence Housing,Nowshera,Khyber Pakhtunkhwa,11365,Pakistan,True
+429,346,Secondary,201 Defence Housing,Rawalakot,Azad Kashmir,18526,Pakistan,False
+430,347,Primary,House 843 College Road,Zhob,Balochistan,16851,Pakistan,True
+431,348,Primary,Block C Model Town,Chilas,Gilgit-Baltistan,50617,Pakistan,True
+432,349,Primary,Block A Model Town,Mirpur Khas,Sindh,19484,Pakistan,True
+433,350,Primary,House 567 University Road,Gwadar,Balochistan,95821,Pakistan,True
+434,351,Primary,28 Park Road,Hyderabad,Sindh,80837,Pakistan,True
+435,352,Primary,532 Industrial Area,Mardan,Khyber Pakhtunkhwa,89969,Pakistan,True
+436,353,Primary,House 234 Bahria Town,Sargodha,Punjab,97154,Pakistan,True
+437,354,Primary,466 DHA,Charsadda,Khyber Pakhtunkhwa,54804,Pakistan,True
+438,355,Primary,Block A University Road,Faisalabad,Punjab,16450,Pakistan,True
+439,356,Primary,Block E Main Boulevard,Gwadar,Balochistan,17219,Pakistan,True
+440,356,Secondary,Block D Bahria Town,Gilgit,Gilgit-Baltistan,15858,Pakistan,False
+441,357,Primary,Block B Cantt,Mirpur,Azad Kashmir,27086,Pakistan,True
+442,358,Primary,300 DHA,Rawalakot,Azad Kashmir,85345,Pakistan,True
+443,359,Primary,Block E Industrial Area,Mardan,Khyber Pakhtunkhwa,15554,Pakistan,True
+444,360,Primary,223 Model Town,Chilas,Gilgit-Baltistan,51137,Pakistan,True
+445,361,Primary,House 49 College Road,Quetta,Balochistan,51235,Pakistan,True
+446,362,Primary,794 Johar Town,Multan,Punjab,23789,Pakistan,True
+447,363,Primary,759 Park Road,Kotli,Azad Kashmir,58397,Pakistan,True
+448,364,Primary,House 808 University Road,Jacobabad,Sindh,15045,Pakistan,True
+449,364,Secondary,House 693 Defence Housing,Skardu,Gilgit-Baltistan,13700,Pakistan,False
+450,365,Primary,Block C Cantt,Gilgit,Gilgit-Baltistan,35421,Pakistan,True
+451,366,Primary,Block B Bahria Town,Charsadda,Khyber Pakhtunkhwa,53476,Pakistan,True
+452,367,Primary,House 659 Model Town,Gilgit,Gilgit-Baltistan,54014,Pakistan,True
+453,368,Primary,742 Clifton,Larkana,Sindh,44655,Pakistan,True
+454,369,Primary,Block A Industrial Area,Larkana,Sindh,14270,Pakistan,True
+455,370,Primary,107 Bahria Town,Mirpur,Azad Kashmir,32324,Pakistan,True
+456,371,Primary,House 272 College Road,Karachi,Sindh,79761,Pakistan,True
+457,372,Primary,194 Bahria Town,Charsadda,Khyber Pakhtunkhwa,37382,Pakistan,True
+458,372,Secondary,146 Cantt,Mirpur,Azad Kashmir,18041,Pakistan,False
+459,373,Primary,12 Saddar,Mirpur,Azad Kashmir,94328,Pakistan,True
+460,374,Primary,Block D Clifton,Kotli,Azad Kashmir,53381,Pakistan,True
+461,375,Primary,Block D Park Road,Sialkot,Punjab,45218,Pakistan,True
+462,376,Primary,Block B DHA,Muzaffarabad,Azad Kashmir,37659,Pakistan,True
+463,377,Primary,262 Johar Town,Mardan,Khyber Pakhtunkhwa,72718,Pakistan,True
+464,378,Primary,114 Johar Town,Rawalakot,Azad Kashmir,27265,Pakistan,True
+465,378,Secondary,House 355 Gulberg,Faisalabad,Punjab,28010,Pakistan,False
+466,379,Primary,82 Clifton,Mardan,Khyber Pakhtunkhwa,48856,Pakistan,True
+467,380,Primary,House 629 Park Road,Muzaffarabad,Azad Kashmir,43948,Pakistan,True
+468,381,Primary,680 Defence Housing,Astore,Gilgit-Baltistan,56966,Pakistan,True
+469,382,Primary,House 86 Main Boulevard,Sargodha,Punjab,54521,Pakistan,True
+470,383,Primary,House 405 Bahria Town,Jacobabad,Sindh,98206,Pakistan,True
+471,384,Primary,House 849 Johar Town,Larkana,Sindh,35384,Pakistan,True
+472,385,Primary,699 Mall Road,Sargodha,Punjab,46464,Pakistan,True
+473,386,Primary,Block A Johar Town,Swat,Khyber Pakhtunkhwa,84062,Pakistan,True
+474,387,Primary,Block A College Road,Gilgit,Gilgit-Baltistan,61537,Pakistan,True
+475,388,Primary,Block E Main Boulevard,Mirpur Khas,Sindh,48145,Pakistan,True
+476,389,Primary,House 358 Cantt,Abbottabad,Khyber Pakhtunkhwa,64420,Pakistan,True
+477,390,Primary,Block A College Road,Zhob,Balochistan,76531,Pakistan,True
+478,391,Primary,376 Model Town,Hyderabad,Sindh,85896,Pakistan,True
+479,391,Secondary,38 Clifton,Rawalakot,Azad Kashmir,45087,Pakistan,False
+480,392,Primary,House 906 Model Town,Turbat,Balochistan,44354,Pakistan,True
+481,393,Primary,Block E Main Boulevard,Mirpur,Azad Kashmir,64713,Pakistan,True
+482,394,Primary,House 811 Industrial Area,Nawabshah,Sindh,93788,Pakistan,True
+483,395,Primary,House 612 University Road,Gujranwala,Punjab,63916,Pakistan,True
+484,396,Primary,970 Park Road,Karachi,Sindh,82851,Pakistan,True
+485,397,Primary,Block E Cantt,Charsadda,Khyber Pakhtunkhwa,72591,Pakistan,True
+486,398,Primary,House 684 Defence Housing,Bahawalpur,Punjab,19572,Pakistan,True
+487,399,Primary,House 10 University Road,Larkana,Sindh,57849,Pakistan,True
+488,400,Primary,448 Gulberg,Jacobabad,Sindh,18353,Pakistan,True
+489,401,Primary,338 Mall Road,Gwadar,Balochistan,26015,Pakistan,True
+490,402,Primary,Block B Model Town,Chilas,Gilgit-Baltistan,22493,Pakistan,True
+491,403,Primary,House 304 Clifton,Gilgit,Gilgit-Baltistan,60644,Pakistan,True
+492,404,Primary,871 Defence Housing,Skardu,Gilgit-Baltistan,96507,Pakistan,True
+493,405,Primary,Block E College Road,Peshawar,Khyber Pakhtunkhwa,61511,Pakistan,True
+494,406,Primary,Block E Gulberg,Multan,Punjab,83035,Pakistan,True
+495,407,Primary,House 744 College Road,Chilas,Gilgit-Baltistan,10574,Pakistan,True
+496,408,Primary,House 427 Industrial Area,Lahore,Punjab,40889,Pakistan,True
+497,408,Secondary,Block B Clifton,Khuzdar,Balochistan,45075,Pakistan,False
+498,409,Primary,Block D College Road,Mansehra,Khyber Pakhtunkhwa,95301,Pakistan,True
+499,410,Primary,House 71 College Road,Rawalakot,Azad Kashmir,76311,Pakistan,True
+500,411,Primary,451 Industrial Area,Skardu,Gilgit-Baltistan,84022,Pakistan,True
+501,412,Primary,House 166 Bahria Town,Quetta,Balochistan,53125,Pakistan,True
+502,413,Primary,House 55 Mall Road,Kotli,Azad Kashmir,33098,Pakistan,True
+503,414,Primary,567 Saddar,Muzaffarabad,Azad Kashmir,51269,Pakistan,True
+504,415,Primary,House 232 Johar Town,Skardu,Gilgit-Baltistan,55467,Pakistan,True
+505,416,Primary,House 183 Defence Housing,Gilgit,Gilgit-Baltistan,89272,Pakistan,True
+506,417,Primary,Block E College Road,Faisalabad,Punjab,87758,Pakistan,True
+507,418,Primary,Block D College Road,Abbottabad,Khyber Pakhtunkhwa,66939,Pakistan,True
+508,419,Primary,House 199 Saddar,Rawalakot,Azad Kashmir,99033,Pakistan,True
+509,420,Primary,Block C Defence Housing,Mardan,Khyber Pakhtunkhwa,60228,Pakistan,True
+510,421,Primary,Block C Clifton,Chilas,Gilgit-Baltistan,82052,Pakistan,True
+511,421,Secondary,House 344 Defence Housing,Faisalabad,Punjab,20289,Pakistan,False
+512,422,Primary,605 Defence Housing,Muzaffarabad,Azad Kashmir,47019,Pakistan,True
+513,422,Secondary,House 38 DHA,Kotli,Azad Kashmir,13350,Pakistan,False
+514,423,Primary,House 364 Cantt,Sargodha,Punjab,38010,Pakistan,True
+515,424,Primary,Block A Clifton,Astore,Gilgit-Baltistan,47794,Pakistan,True
+516,425,Primary,Block C Park Road,Larkana,Sindh,89899,Pakistan,True
+517,426,Primary,Block C Clifton,Skardu,Gilgit-Baltistan,20608,Pakistan,True
+518,427,Primary,889 DHA,Sukkur,Sindh,76270,Pakistan,True
+519,427,Secondary,Block E Johar Town,Karachi,Sindh,35033,Pakistan,False
+520,428,Primary,537 Main Boulevard,Gilgit,Gilgit-Baltistan,63022,Pakistan,True
+521,429,Primary,89 Saddar,Muzaffarabad,Azad Kashmir,45783,Pakistan,True
+522,430,Primary,Block B Park Road,Jacobabad,Sindh,23912,Pakistan,True
+523,431,Primary,98 Cantt,Gwadar,Balochistan,89251,Pakistan,True
+524,432,Primary,Block C Defence Housing,Khuzdar,Balochistan,16450,Pakistan,True
+525,433,Primary,Block E College Road,Mirpur,Azad Kashmir,45372,Pakistan,True
+526,434,Primary,816 University Road,Nowshera,Khyber Pakhtunkhwa,74883,Pakistan,True
+527,435,Primary,House 146 Bahria Town,Peshawar,Khyber Pakhtunkhwa,60536,Pakistan,True
+528,435,Secondary,898 Park Road,Chilas,Gilgit-Baltistan,70199,Pakistan,False
+529,436,Primary,House 258 Main Boulevard,Rawalakot,Azad Kashmir,11945,Pakistan,True
+530,437,Primary,Block B Saddar,Skardu,Gilgit-Baltistan,48077,Pakistan,True
+531,438,Primary,420 College Road,Muzaffarabad,Azad Kashmir,92367,Pakistan,True
+532,439,Primary,761 Model Town,Faisalabad,Punjab,21423,Pakistan,True
+533,440,Primary,House 32 Gulberg,Faisalabad,Punjab,68996,Pakistan,True
+534,441,Primary,House 624 Cantt,Kotli,Azad Kashmir,14999,Pakistan,True
+535,442,Primary,Block E Model Town,Rawalpindi,Punjab,53725,Pakistan,True
+536,443,Primary,House 783 University Road,Chaman,Balochistan,99511,Pakistan,True
+537,444,Primary,129 Defence Housing,Skardu,Gilgit-Baltistan,88929,Pakistan,True
+538,445,Primary,657 College Road,Mirpur,Azad Kashmir,30784,Pakistan,True
+539,446,Primary,Block A Johar Town,Muzaffarabad,Azad Kashmir,58251,Pakistan,True
+540,447,Primary,Block C Model Town,Abbottabad,Khyber Pakhtunkhwa,13749,Pakistan,True
+541,447,Secondary,Block D University Road,Larkana,Sindh,88715,Pakistan,False
+542,448,Primary,Block B Clifton,Muzaffarabad,Azad Kashmir,57995,Pakistan,True
+543,449,Primary,910 Bahria Town,Jacobabad,Sindh,38159,Pakistan,True
+544,450,Primary,House 42 DHA,Kotli,Azad Kashmir,39874,Pakistan,True
+545,451,Primary,House 901 Saddar,Rawalpindi,Punjab,31562,Pakistan,True
+546,452,Primary,Block E Industrial Area,Larkana,Sindh,21524,Pakistan,True
+547,452,Secondary,House 893 Industrial Area,Sukkur,Sindh,85793,Pakistan,False
+548,453,Primary,842 Johar Town,Astore,Gilgit-Baltistan,18608,Pakistan,True
+549,454,Primary,370 University Road,Abbottabad,Khyber Pakhtunkhwa,80838,Pakistan,True
+550,454,Secondary,Block A Park Road,Peshawar,Khyber Pakhtunkhwa,54010,Pakistan,False
+551,455,Primary,516 Bahria Town,Turbat,Balochistan,90499,Pakistan,True
+552,456,Primary,132 Bahria Town,Muzaffarabad,Azad Kashmir,22268,Pakistan,True
+553,457,Primary,Block A College Road,Rawalpindi,Punjab,42671,Pakistan,True
+554,458,Primary,House 890 Main Boulevard,Quetta,Balochistan,85322,Pakistan,True
+555,459,Primary,3 Bahria Town,Jacobabad,Sindh,47982,Pakistan,True
+556,460,Primary,Block E Saddar,Chilas,Gilgit-Baltistan,72925,Pakistan,True
+557,461,Primary,Block B Park Road,Mirpur,Azad Kashmir,81226,Pakistan,True
+558,461,Secondary,House 358 Model Town,Kotli,Azad Kashmir,98988,Pakistan,False
+559,462,Primary,362 Clifton,Nawabshah,Sindh,70062,Pakistan,True
+560,463,Primary,House 372 Defence Housing,Rawalpindi,Punjab,30749,Pakistan,True
+561,464,Primary,529 Bahria Town,Gwadar,Balochistan,21799,Pakistan,True
+562,464,Secondary,Block D Industrial Area,Kotli,Azad Kashmir,39625,Pakistan,False
+563,465,Primary,House 481 University Road,Muzaffarabad,Azad Kashmir,93356,Pakistan,True
+564,465,Secondary,Block C Park Road,Karachi,Sindh,95675,Pakistan,False
+565,466,Primary,Block E Mall Road,Muzaffarabad,Azad Kashmir,90878,Pakistan,True
+566,467,Primary,House 490 Saddar,Chilas,Gilgit-Baltistan,39314,Pakistan,True
+567,468,Primary,515 DHA,Jacobabad,Sindh,18825,Pakistan,True
+568,469,Primary,Block D Gulberg,Sukkur,Sindh,83202,Pakistan,True
+569,470,Primary,House 603 Park Road,Gilgit,Gilgit-Baltistan,68815,Pakistan,True
+570,471,Primary,Block C Park Road,Faisalabad,Punjab,49167,Pakistan,True
+571,472,Primary,House 249 Industrial Area,Astore,Gilgit-Baltistan,14369,Pakistan,True
+572,473,Primary,Block B Defence Housing,Karachi,Sindh,10075,Pakistan,True
+573,474,Primary,House 950 Model Town,Mirpur,Azad Kashmir,14848,Pakistan,True
+574,474,Secondary,Block C College Road,Khuzdar,Balochistan,11428,Pakistan,False
+575,475,Primary,Block B Gulberg,Zhob,Balochistan,46657,Pakistan,True
+576,476,Primary,House 428 Defence Housing,Gilgit,Gilgit-Baltistan,38523,Pakistan,True
+577,477,Primary,House 166 Industrial Area,Sialkot,Punjab,33842,Pakistan,True
+578,478,Primary,House 830 Mall Road,Mardan,Khyber Pakhtunkhwa,11727,Pakistan,True
+579,479,Primary,488 Cantt,Khuzdar,Balochistan,92574,Pakistan,True
+580,479,Secondary,Block B Bahria Town,Muzaffarabad,Azad Kashmir,66509,Pakistan,False
+581,480,Primary,215 Defence Housing,Multan,Punjab,75386,Pakistan,True
+582,481,Primary,Block E Gulberg,Khuzdar,Balochistan,66197,Pakistan,True
+583,482,Primary,House 921 Clifton,Rawalpindi,Punjab,88666,Pakistan,True
+584,483,Primary,Block D College Road,Mardan,Khyber Pakhtunkhwa,17547,Pakistan,True
+585,484,Primary,House 784 University Road,Multan,Punjab,74634,Pakistan,True
+586,485,Primary,Block E Mall Road,Rawalpindi,Punjab,96843,Pakistan,True
+587,486,Primary,Block D Clifton,Mansehra,Khyber Pakhtunkhwa,82740,Pakistan,True
+588,486,Secondary,641 Saddar,Gilgit,Gilgit-Baltistan,67608,Pakistan,False
+589,487,Primary,56 University Road,Gilgit,Gilgit-Baltistan,66614,Pakistan,True
+590,488,Primary,House 51 DHA,Zhob,Balochistan,41423,Pakistan,True
+591,489,Primary,House 222 DHA,Sargodha,Punjab,43996,Pakistan,True
+592,489,Secondary,123 Park Road,Gilgit,Gilgit-Baltistan,92862,Pakistan,False
+593,490,Primary,House 13 College Road,Gujranwala,Punjab,53616,Pakistan,True
+594,491,Primary,652 Park Road,Rawalakot,Azad Kashmir,99094,Pakistan,True
+595,492,Primary,71 University Road,Mirpur,Azad Kashmir,41947,Pakistan,True
+596,492,Secondary,House 688 College Road,Mardan,Khyber Pakhtunkhwa,99379,Pakistan,False
+597,493,Primary,977 Model Town,Charsadda,Khyber Pakhtunkhwa,64909,Pakistan,True
+598,493,Secondary,Block E Main Boulevard,Bahawalpur,Punjab,98022,Pakistan,False
+599,494,Primary,Block D DHA,Mardan,Khyber Pakhtunkhwa,81520,Pakistan,True
+600,495,Primary,House 815 Clifton,Mirpur Khas,Sindh,43449,Pakistan,True
+601,496,Primary,982 Park Road,Gilgit,Gilgit-Baltistan,98998,Pakistan,True
+602,497,Primary,Block C Mall Road,Gwadar,Balochistan,49787,Pakistan,True
+603,498,Primary,Block D College Road,Gwadar,Balochistan,17574,Pakistan,True
+604,499,Primary,629 Industrial Area,Turbat,Balochistan,50516,Pakistan,True
+605,500,Primary,House 37 Defence Housing,Nowshera,Khyber Pakhtunkhwa,77171,Pakistan,True
+606,501,Primary,House 23 Gulberg,Rawalakot,Azad Kashmir,75048,Pakistan,True
+607,502,Primary,716 Park Road,Lahore,Punjab,41698,Pakistan,True
+608,503,Primary,370 Bahria Town,Chaman,Balochistan,99861,Pakistan,True
+609,504,Primary,685 Gulberg,Zhob,Balochistan,31545,Pakistan,True
+610,505,Primary,866 Clifton,Swat,Khyber Pakhtunkhwa,13766,Pakistan,True
+611,506,Primary,House 1 Defence Housing,Lahore,Punjab,93680,Pakistan,True
+612,507,Primary,235 Main Boulevard,Abbottabad,Khyber Pakhtunkhwa,49703,Pakistan,True
+613,507,Secondary,House 606 Park Road,Khuzdar,Balochistan,68325,Pakistan,False
+614,508,Primary,House 392 Gulberg,Khuzdar,Balochistan,84596,Pakistan,True
+615,509,Primary,Block A Mall Road,Karachi,Sindh,27850,Pakistan,True
+616,510,Primary,House 114 Bahria Town,Rawalakot,Azad Kashmir,78641,Pakistan,True
+617,511,Primary,827 DHA,Larkana,Sindh,91688,Pakistan,True
+618,512,Primary,978 Mall Road,Muzaffarabad,Azad Kashmir,68445,Pakistan,True
+619,513,Primary,50 Park Road,Muzaffarabad,Azad Kashmir,30459,Pakistan,True
+620,513,Secondary,696 Cantt,Muzaffarabad,Azad Kashmir,76799,Pakistan,False
+621,514,Primary,Block C Cantt,Chilas,Gilgit-Baltistan,60834,Pakistan,True
+622,515,Primary,Block E Main Boulevard,Sialkot,Punjab,52559,Pakistan,True
+623,516,Primary,House 390 Model Town,Muzaffarabad,Azad Kashmir,64071,Pakistan,True
+624,517,Primary,902 University Road,Zhob,Balochistan,39371,Pakistan,True
+625,518,Primary,Block C Johar Town,Chilas,Gilgit-Baltistan,65481,Pakistan,True
+626,519,Primary,House 916 Saddar,Sukkur,Sindh,52424,Pakistan,True
+627,520,Primary,Block C University Road,Rawalakot,Azad Kashmir,67099,Pakistan,True
+628,521,Primary,House 325 Cantt,Skardu,Gilgit-Baltistan,49447,Pakistan,True
+629,522,Primary,House 861 Johar Town,Mirpur,Azad Kashmir,57659,Pakistan,True
+630,523,Primary,Block E Industrial Area,Kotli,Azad Kashmir,15138,Pakistan,True
+631,524,Primary,221 Model Town,Swat,Khyber Pakhtunkhwa,29541,Pakistan,True
+632,525,Primary,986 Bahria Town,Gilgit,Gilgit-Baltistan,71264,Pakistan,True
+633,525,Secondary,449 Industrial Area,Karachi,Sindh,26377,Pakistan,False
+634,526,Primary,Block B Saddar,Bahawalpur,Punjab,79087,Pakistan,True
+635,527,Primary,110 College Road,Muzaffarabad,Azad Kashmir,18646,Pakistan,True
+636,528,Primary,Block C Mall Road,Rawalakot,Azad Kashmir,40907,Pakistan,True
+637,529,Primary,House 549 Cantt,Gwadar,Balochistan,64709,Pakistan,True
+638,530,Primary,Block A Park Road,Rawalakot,Azad Kashmir,36000,Pakistan,True
+639,531,Primary,House 434 Mall Road,Nowshera,Khyber Pakhtunkhwa,56978,Pakistan,True
+640,532,Primary,Block A DHA,Turbat,Balochistan,98098,Pakistan,True
+641,532,Secondary,Block E Industrial Area,Nawabshah,Sindh,12674,Pakistan,False
+642,533,Primary,435 DHA,Swat,Khyber Pakhtunkhwa,13797,Pakistan,True
+643,534,Primary,Block D Main Boulevard,Larkana,Sindh,25064,Pakistan,True
+644,534,Secondary,498 Defence Housing,Swat,Khyber Pakhtunkhwa,37393,Pakistan,False
+645,535,Primary,Block B Bahria Town,Quetta,Balochistan,88559,Pakistan,True
+646,536,Primary,Block D Bahria Town,Larkana,Sindh,97054,Pakistan,True
+647,537,Primary,Block C Main Boulevard,Jacobabad,Sindh,68517,Pakistan,True
+648,538,Primary,Block C Bahria Town,Hyderabad,Sindh,70473,Pakistan,True
+649,539,Primary,House 71 Clifton,Astore,Gilgit-Baltistan,70318,Pakistan,True
+650,540,Primary,Block E Bahria Town,Hyderabad,Sindh,82692,Pakistan,True
+651,541,Primary,Block A Saddar,Chilas,Gilgit-Baltistan,37012,Pakistan,True
+652,542,Primary,Block C Bahria Town,Mansehra,Khyber Pakhtunkhwa,81224,Pakistan,True
+653,543,Primary,Block C Gulberg,Mirpur Khas,Sindh,52070,Pakistan,True
+654,544,Primary,Block B Gulberg,Gujranwala,Punjab,61477,Pakistan,True
+655,544,Secondary,House 632 Industrial Area,Gilgit,Gilgit-Baltistan,47711,Pakistan,False
+656,545,Primary,House 237 DHA,Kotli,Azad Kashmir,88041,Pakistan,True
+657,546,Primary,House 772 DHA,Charsadda,Khyber Pakhtunkhwa,31673,Pakistan,True
+658,547,Primary,House 974 Park Road,Jacobabad,Sindh,58664,Pakistan,True
+659,547,Secondary,House 11 Mall Road,Chaman,Balochistan,50203,Pakistan,False
+660,548,Primary,House 301 Defence Housing,Kotli,Azad Kashmir,88962,Pakistan,True
+661,549,Primary,Block B University Road,Larkana,Sindh,40134,Pakistan,True
+662,549,Secondary,Block A Defence Housing,Larkana,Sindh,36250,Pakistan,False
+663,550,Primary,House 329 Defence Housing,Hyderabad,Sindh,21188,Pakistan,True
+664,551,Primary,797 DHA,Chaman,Balochistan,69396,Pakistan,True
+665,552,Primary,House 981 Mall Road,Quetta,Balochistan,41699,Pakistan,True
+666,553,Primary,4 College Road,Gwadar,Balochistan,38440,Pakistan,True
+667,554,Primary,Block E University Road,Skardu,Gilgit-Baltistan,49578,Pakistan,True
+668,555,Primary,988 Main Boulevard,Mirpur Khas,Sindh,56569,Pakistan,True
+669,555,Secondary,House 23 Johar Town,Multan,Punjab,61148,Pakistan,False
+670,556,Primary,Block D Model Town,Sargodha,Punjab,54546,Pakistan,True
+671,557,Primary,House 51 Industrial Area,Abbottabad,Khyber Pakhtunkhwa,41607,Pakistan,True
+672,557,Secondary,House 528 Bahria Town,Kotli,Azad Kashmir,89408,Pakistan,False
+673,558,Primary,House 158 Johar Town,Nowshera,Khyber Pakhtunkhwa,12405,Pakistan,True
+674,558,Secondary,614 Saddar,Gilgit,Gilgit-Baltistan,83705,Pakistan,False
+675,559,Primary,House 75 Cantt,Nawabshah,Sindh,59939,Pakistan,True
+676,560,Primary,918 College Road,Rawalpindi,Punjab,28294,Pakistan,True
+677,560,Secondary,Block E Park Road,Mirpur,Azad Kashmir,73627,Pakistan,False
+678,561,Primary,House 351 Industrial Area,Mardan,Khyber Pakhtunkhwa,69373,Pakistan,True
+679,562,Primary,House 224 Park Road,Faisalabad,Punjab,88631,Pakistan,True
+680,563,Primary,House 483 Saddar,Kotli,Azad Kashmir,88045,Pakistan,True
+681,564,Primary,Block C Johar Town,Zhob,Balochistan,50139,Pakistan,True
+682,565,Primary,505 University Road,Chilas,Gilgit-Baltistan,99415,Pakistan,True
+683,566,Primary,House 641 Cantt,Kotli,Azad Kashmir,58599,Pakistan,True
+684,567,Primary,949 Saddar,Mansehra,Khyber Pakhtunkhwa,32674,Pakistan,True
+685,568,Primary,667 Mall Road,Karachi,Sindh,57702,Pakistan,True
+686,569,Primary,757 University Road,Astore,Gilgit-Baltistan,13127,Pakistan,True
+687,570,Primary,Block B Gulberg,Khuzdar,Balochistan,25966,Pakistan,True
+688,571,Primary,House 259 Johar Town,Mirpur,Azad Kashmir,28811,Pakistan,True
+689,572,Primary,House 25 Cantt,Peshawar,Khyber Pakhtunkhwa,30710,Pakistan,True
+690,573,Primary,Block C Defence Housing,Faisalabad,Punjab,39051,Pakistan,True
+691,574,Primary,House 258 University Road,Gilgit,Gilgit-Baltistan,49388,Pakistan,True
+692,574,Secondary,House 643 Saddar,Sialkot,Punjab,10867,Pakistan,False
+693,575,Primary,House 360 Industrial Area,Rawalakot,Azad Kashmir,59889,Pakistan,True
+694,575,Secondary,532 Clifton,Gilgit,Gilgit-Baltistan,41517,Pakistan,False
+695,576,Primary,Block C Industrial Area,Astore,Gilgit-Baltistan,87430,Pakistan,True
+696,576,Secondary,House 270 University Road,Muzaffarabad,Azad Kashmir,20305,Pakistan,False
+697,577,Primary,Block D University Road,Gilgit,Gilgit-Baltistan,30887,Pakistan,True
+698,578,Primary,Block A Johar Town,Kotli,Azad Kashmir,78602,Pakistan,True
+699,579,Primary,House 34 Gulberg,Kotli,Azad Kashmir,24424,Pakistan,True
+700,580,Primary,House 640 Clifton,Abbottabad,Khyber Pakhtunkhwa,31926,Pakistan,True
+701,581,Primary,Block E Saddar,Rawalakot,Azad Kashmir,26258,Pakistan,True
+702,582,Primary,762 Model Town,Rawalakot,Azad Kashmir,12232,Pakistan,True
+703,583,Primary,667 Main Boulevard,Zhob,Balochistan,73261,Pakistan,True
+704,583,Secondary,390 Cantt,Kotli,Azad Kashmir,65017,Pakistan,False
+705,584,Primary,451 DHA,Abbottabad,Khyber Pakhtunkhwa,87664,Pakistan,True
+706,585,Primary,Block D Park Road,Quetta,Balochistan,99299,Pakistan,True
+707,585,Secondary,Block C Park Road,Kotli,Azad Kashmir,32914,Pakistan,False
+708,586,Primary,House 973 Johar Town,Chaman,Balochistan,38832,Pakistan,True
+709,587,Primary,House 867 Bahria Town,Hyderabad,Sindh,73061,Pakistan,True
+710,588,Primary,Block A Industrial Area,Kotli,Azad Kashmir,88198,Pakistan,True
+711,588,Secondary,Block D College Road,Chaman,Balochistan,30820,Pakistan,False
+712,589,Primary,546 Defence Housing,Lahore,Punjab,71169,Pakistan,True
+713,590,Primary,House 339 College Road,Kotli,Azad Kashmir,93867,Pakistan,True
+714,591,Primary,Block B Gulberg,Faisalabad,Punjab,73513,Pakistan,True
+715,591,Secondary,920 Defence Housing,Skardu,Gilgit-Baltistan,91523,Pakistan,False
+716,592,Primary,730 Clifton,Mirpur,Azad Kashmir,60530,Pakistan,True
+717,593,Primary,House 91 Gulberg,Mansehra,Khyber Pakhtunkhwa,72257,Pakistan,True
+718,594,Primary,150 Saddar,Rawalakot,Azad Kashmir,64664,Pakistan,True
+719,594,Secondary,154 Industrial Area,Peshawar,Khyber Pakhtunkhwa,15136,Pakistan,False
+720,595,Primary,Block E Model Town,Sukkur,Sindh,50388,Pakistan,True
+721,596,Primary,Block C Bahria Town,Astore,Gilgit-Baltistan,90806,Pakistan,True
+722,597,Primary,House 747 Mall Road,Mirpur,Azad Kashmir,69211,Pakistan,True
+723,597,Secondary,Block D Cantt,Faisalabad,Punjab,93539,Pakistan,False
+724,598,Primary,Block D Mall Road,Turbat,Balochistan,37590,Pakistan,True
+725,599,Primary,Block A Main Boulevard,Astore,Gilgit-Baltistan,20005,Pakistan,True
+726,600,Primary,Block E Clifton,Rawalpindi,Punjab,90613,Pakistan,True
+727,600,Secondary,Block B Main Boulevard,Sukkur,Sindh,24443,Pakistan,False
+728,601,Primary,House 199 Industrial Area,Skardu,Gilgit-Baltistan,75415,Pakistan,True
+729,602,Primary,Block C Bahria Town,Kotli,Azad Kashmir,62054,Pakistan,True
+730,603,Primary,Block E Main Boulevard,Peshawar,Khyber Pakhtunkhwa,44531,Pakistan,True
+731,604,Primary,Block C Bahria Town,Nawabshah,Sindh,77316,Pakistan,True
+732,605,Primary,Block B Model Town,Gwadar,Balochistan,54443,Pakistan,True
+733,605,Secondary,House 962 College Road,Sukkur,Sindh,11297,Pakistan,False
+734,606,Primary,Block D Clifton,Chaman,Balochistan,57386,Pakistan,True
+735,607,Primary,Block A Bahria Town,Mansehra,Khyber Pakhtunkhwa,23010,Pakistan,True
+736,608,Primary,183 Clifton,Larkana,Sindh,86235,Pakistan,True
+737,609,Primary,9 Mall Road,Multan,Punjab,11465,Pakistan,True
+738,610,Primary,976 Mall Road,Rawalakot,Azad Kashmir,38043,Pakistan,True
+739,611,Primary,Block D Mall Road,Hyderabad,Sindh,43713,Pakistan,True
+740,612,Primary,Block B Clifton,Kotli,Azad Kashmir,91708,Pakistan,True
+741,613,Primary,House 881 Main Boulevard,Chaman,Balochistan,74169,Pakistan,True
+742,614,Primary,Block C Mall Road,Charsadda,Khyber Pakhtunkhwa,74202,Pakistan,True
+743,614,Secondary,House 909 Defence Housing,Mirpur Khas,Sindh,49789,Pakistan,False
+744,615,Primary,House 257 Model Town,Swat,Khyber Pakhtunkhwa,98306,Pakistan,True
+745,616,Primary,488 Bahria Town,Gujranwala,Punjab,40532,Pakistan,True
+746,617,Primary,House 339 Johar Town,Abbottabad,Khyber Pakhtunkhwa,82136,Pakistan,True
+747,618,Primary,Block C Gulberg,Karachi,Sindh,54012,Pakistan,True
+748,619,Primary,48 Clifton,Swat,Khyber Pakhtunkhwa,91555,Pakistan,True
+749,620,Primary,House 260 College Road,Nawabshah,Sindh,48095,Pakistan,True
+750,621,Primary,House 686 College Road,Kotli,Azad Kashmir,93107,Pakistan,True
+751,621,Secondary,Block E College Road,Nawabshah,Sindh,84076,Pakistan,False
+752,622,Primary,Block C Bahria Town,Multan,Punjab,20081,Pakistan,True
+753,623,Primary,91 Bahria Town,Larkana,Sindh,90678,Pakistan,True
+754,624,Primary,House 86 DHA,Gwadar,Balochistan,41139,Pakistan,True
+755,625,Primary,90 DHA,Rawalpindi,Punjab,98814,Pakistan,True
+756,626,Primary,House 736 Johar Town,Nawabshah,Sindh,76311,Pakistan,True
+757,627,Primary,765 Bahria Town,Astore,Gilgit-Baltistan,52740,Pakistan,True
+758,628,Primary,House 118 Bahria Town,Rawalakot,Azad Kashmir,17503,Pakistan,True
+759,629,Primary,645 Industrial Area,Nawabshah,Sindh,62655,Pakistan,True
+760,629,Secondary,House 529 Industrial Area,Zhob,Balochistan,97118,Pakistan,False
+761,630,Primary,House 605 Defence Housing,Quetta,Balochistan,94301,Pakistan,True
+762,631,Primary,716 DHA,Kotli,Azad Kashmir,55667,Pakistan,True
+763,632,Primary,House 611 Clifton,Muzaffarabad,Azad Kashmir,88038,Pakistan,True
+764,633,Primary,579 Cantt,Gujranwala,Punjab,66233,Pakistan,True
+765,633,Secondary,955 Park Road,Sukkur,Sindh,79619,Pakistan,False
+766,634,Primary,House 549 Model Town,Faisalabad,Punjab,72584,Pakistan,True
+767,635,Primary,180 Cantt,Abbottabad,Khyber Pakhtunkhwa,20262,Pakistan,True
+768,635,Secondary,Block B Defence Housing,Zhob,Balochistan,71968,Pakistan,False
+769,636,Primary,House 18 College Road,Skardu,Gilgit-Baltistan,58025,Pakistan,True
+770,637,Primary,542 College Road,Larkana,Sindh,47752,Pakistan,True
+771,637,Secondary,Block B Bahria Town,Faisalabad,Punjab,76973,Pakistan,False
+772,638,Primary,House 735 Model Town,Skardu,Gilgit-Baltistan,21973,Pakistan,True
+773,639,Primary,House 123 Gulberg,Quetta,Balochistan,17120,Pakistan,True
+774,640,Primary,839 DHA,Kotli,Azad Kashmir,60931,Pakistan,True
+775,641,Primary,934 Main Boulevard,Rawalakot,Azad Kashmir,27831,Pakistan,True
+776,642,Primary,Block C Industrial Area,Astore,Gilgit-Baltistan,31237,Pakistan,True
+777,643,Primary,House 12 Main Boulevard,Muzaffarabad,Azad Kashmir,86317,Pakistan,True
+778,644,Primary,House 915 Defence Housing,Gilgit,Gilgit-Baltistan,51352,Pakistan,True
+779,645,Primary,Block A DHA,Mirpur Khas,Sindh,99952,Pakistan,True
+780,646,Primary,House 7 College Road,Larkana,Sindh,84100,Pakistan,True
+781,647,Primary,Block B Bahria Town,Turbat,Balochistan,81960,Pakistan,True
+782,648,Primary,House 251 DHA,Mirpur,Azad Kashmir,50083,Pakistan,True
+783,649,Primary,Block B Clifton,Multan,Punjab,59626,Pakistan,True
+784,649,Secondary,875 Saddar,Zhob,Balochistan,72930,Pakistan,False
+785,650,Primary,House 402 Model Town,Sialkot,Punjab,76274,Pakistan,True
+786,650,Secondary,625 Clifton,Mardan,Khyber Pakhtunkhwa,46019,Pakistan,False
+787,651,Primary,House 712 Saddar,Astore,Gilgit-Baltistan,40430,Pakistan,True
+788,652,Primary,House 288 College Road,Sargodha,Punjab,92045,Pakistan,True
+789,653,Primary,Block D Mall Road,Astore,Gilgit-Baltistan,65810,Pakistan,True
+790,654,Primary,Block D Defence Housing,Mansehra,Khyber Pakhtunkhwa,90467,Pakistan,True
+791,655,Primary,113 Gulberg,Mardan,Khyber Pakhtunkhwa,35445,Pakistan,True
+792,656,Primary,Block E Bahria Town,Zhob,Balochistan,19774,Pakistan,True
+793,657,Primary,Block A Mall Road,Astore,Gilgit-Baltistan,79298,Pakistan,True
+794,658,Primary,Block C Bahria Town,Peshawar,Khyber Pakhtunkhwa,73322,Pakistan,True
+795,659,Primary,145 Cantt,Rawalpindi,Punjab,61343,Pakistan,True
+796,659,Secondary,Block E DHA,Mansehra,Khyber Pakhtunkhwa,82505,Pakistan,False
+797,660,Primary,203 DHA,Chilas,Gilgit-Baltistan,74432,Pakistan,True
+798,661,Primary,Block A Main Boulevard,Multan,Punjab,53651,Pakistan,True
+799,661,Secondary,Block E College Road,Gwadar,Balochistan,44351,Pakistan,False
+800,662,Primary,Block E Gulberg,Quetta,Balochistan,15037,Pakistan,True
+801,663,Primary,Block A Bahria Town,Astore,Gilgit-Baltistan,51850,Pakistan,True
+802,664,Primary,Block C Defence Housing,Lahore,Punjab,22603,Pakistan,True
+803,665,Primary,House 81 Saddar,Peshawar,Khyber Pakhtunkhwa,78829,Pakistan,True
+804,666,Primary,Block B University Road,Peshawar,Khyber Pakhtunkhwa,29274,Pakistan,True
+805,666,Secondary,House 942 Main Boulevard,Mirpur Khas,Sindh,79542,Pakistan,False
+806,667,Primary,Block C Johar Town,Chilas,Gilgit-Baltistan,25909,Pakistan,True
+807,668,Primary,House 294 Model Town,Astore,Gilgit-Baltistan,61285,Pakistan,True
+808,669,Primary,House 196 DHA,Gilgit,Gilgit-Baltistan,31680,Pakistan,True
+809,669,Secondary,Block D Cantt,Gwadar,Balochistan,61749,Pakistan,False
+810,670,Primary,Block D Industrial Area,Chilas,Gilgit-Baltistan,78605,Pakistan,True
+811,671,Primary,House 312 Johar Town,Gujranwala,Punjab,37845,Pakistan,True
+812,672,Primary,Block E Model Town,Rawalpindi,Punjab,19514,Pakistan,True
+813,673,Primary,House 368 University Road,Skardu,Gilgit-Baltistan,49791,Pakistan,True
+814,673,Secondary,526 Defence Housing,Khuzdar,Balochistan,55319,Pakistan,False
+815,674,Primary,House 904 Cantt,Gujranwala,Punjab,99119,Pakistan,True
+816,675,Primary,Block E Model Town,Khuzdar,Balochistan,93522,Pakistan,True
+817,676,Primary,737 Johar Town,Nawabshah,Sindh,74713,Pakistan,True
+818,676,Secondary,House 900 Clifton,Mirpur Khas,Sindh,22202,Pakistan,False
+819,677,Primary,581 Main Boulevard,Rawalpindi,Punjab,45238,Pakistan,True
+820,678,Primary,Block E Main Boulevard,Karachi,Sindh,30940,Pakistan,True
+821,678,Secondary,House 386 Johar Town,Lahore,Punjab,87035,Pakistan,False
+822,679,Primary,792 Johar Town,Kotli,Azad Kashmir,98722,Pakistan,True
+823,680,Primary,House 627 DHA,Sukkur,Sindh,22791,Pakistan,True
+824,681,Primary,Block D Main Boulevard,Turbat,Balochistan,93333,Pakistan,True
+825,682,Primary,House 939 DHA,Chilas,Gilgit-Baltistan,57390,Pakistan,True
+826,683,Primary,Block C College Road,Gilgit,Gilgit-Baltistan,88920,Pakistan,True
+827,684,Primary,Block C Bahria Town,Gilgit,Gilgit-Baltistan,68334,Pakistan,True
+828,685,Primary,House 513 Defence Housing,Mirpur,Azad Kashmir,82660,Pakistan,True
+829,686,Primary,Block C University Road,Rawalpindi,Punjab,92538,Pakistan,True
+830,687,Primary,House 437 Johar Town,Mirpur,Azad Kashmir,51361,Pakistan,True
+831,687,Secondary,490 Industrial Area,Mansehra,Khyber Pakhtunkhwa,76268,Pakistan,False
+832,688,Primary,567 University Road,Lahore,Punjab,25313,Pakistan,True
+833,689,Primary,Block A College Road,Gwadar,Balochistan,87472,Pakistan,True
+834,690,Primary,738 Defence Housing,Chilas,Gilgit-Baltistan,55205,Pakistan,True
+835,691,Primary,469 Gulberg,Chilas,Gilgit-Baltistan,87521,Pakistan,True
+836,692,Primary,House 451 Defence Housing,Gilgit,Gilgit-Baltistan,13644,Pakistan,True
+837,693,Primary,194 Clifton,Kotli,Azad Kashmir,36562,Pakistan,True
+838,694,Primary,Block C Main Boulevard,Jacobabad,Sindh,84157,Pakistan,True
+839,695,Primary,42 Johar Town,Sargodha,Punjab,75025,Pakistan,True
+840,696,Primary,House 591 Johar Town,Hyderabad,Sindh,95269,Pakistan,True
+841,697,Primary,660 Gulberg,Charsadda,Khyber Pakhtunkhwa,85642,Pakistan,True
+842,698,Primary,53 Johar Town,Mirpur,Azad Kashmir,91216,Pakistan,True
+843,699,Primary,28 Clifton,Turbat,Balochistan,72443,Pakistan,True
+844,700,Primary,352 DHA,Lahore,Punjab,47957,Pakistan,True
+845,701,Primary,Block A Gulberg,Sargodha,Punjab,90181,Pakistan,True
+846,701,Secondary,House 428 Johar Town,Chaman,Balochistan,71028,Pakistan,False
+847,702,Primary,524 University Road,Charsadda,Khyber Pakhtunkhwa,30809,Pakistan,True
+848,703,Primary,Block A Mall Road,Astore,Gilgit-Baltistan,19021,Pakistan,True
+849,704,Primary,House 417 Park Road,Nowshera,Khyber Pakhtunkhwa,21678,Pakistan,True
+850,705,Primary,Block D University Road,Nowshera,Khyber Pakhtunkhwa,73999,Pakistan,True
+851,705,Secondary,Block E Johar Town,Quetta,Balochistan,58939,Pakistan,False
+852,706,Primary,440 DHA,Larkana,Sindh,41766,Pakistan,True
+853,707,Primary,Block A College Road,Gilgit,Gilgit-Baltistan,87267,Pakistan,True
+854,708,Primary,918 College Road,Sukkur,Sindh,49620,Pakistan,True
+855,709,Primary,House 119 Model Town,Rawalakot,Azad Kashmir,85042,Pakistan,True
+856,710,Primary,742 Mall Road,Larkana,Sindh,11543,Pakistan,True
+857,711,Primary,469 Mall Road,Khuzdar,Balochistan,67906,Pakistan,True
+858,712,Primary,House 799 Industrial Area,Mirpur Khas,Sindh,86619,Pakistan,True
+859,713,Primary,House 804 Bahria Town,Sargodha,Punjab,70237,Pakistan,True
+860,714,Primary,Block E College Road,Hyderabad,Sindh,87503,Pakistan,True
+861,715,Primary,125 Bahria Town,Chilas,Gilgit-Baltistan,30171,Pakistan,True
+862,716,Primary,Block D Defence Housing,Astore,Gilgit-Baltistan,43802,Pakistan,True
+863,716,Secondary,544 Model Town,Lahore,Punjab,24153,Pakistan,False
+864,717,Primary,491 DHA,Gwadar,Balochistan,21383,Pakistan,True
+865,718,Primary,592 Johar Town,Hyderabad,Sindh,35122,Pakistan,True
+866,719,Primary,926 Industrial Area,Chaman,Balochistan,65786,Pakistan,True
+867,720,Primary,463 Main Boulevard,Rawalpindi,Punjab,67801,Pakistan,True
+868,721,Primary,Block C Mall Road,Bahawalpur,Punjab,58984,Pakistan,True
+869,722,Primary,House 711 Saddar,Gilgit,Gilgit-Baltistan,35489,Pakistan,True
+870,722,Secondary,House 75 DHA,Rawalakot,Azad Kashmir,54500,Pakistan,False
+871,723,Primary,Block A Cantt,Rawalakot,Azad Kashmir,75211,Pakistan,True
+872,724,Primary,House 907 Industrial Area,Abbottabad,Khyber Pakhtunkhwa,92068,Pakistan,True
+873,724,Secondary,90 Cantt,Khuzdar,Balochistan,42095,Pakistan,False
+874,725,Primary,House 934 Gulberg,Karachi,Sindh,40959,Pakistan,True
+875,725,Secondary,House 440 Saddar,Chilas,Gilgit-Baltistan,20376,Pakistan,False
+876,726,Primary,Block D Clifton,Mansehra,Khyber Pakhtunkhwa,86673,Pakistan,True
+877,727,Primary,Block E Bahria Town,Chaman,Balochistan,90871,Pakistan,True
+878,728,Primary,Block E Cantt,Kotli,Azad Kashmir,70914,Pakistan,True
+879,729,Primary,69 College Road,Rawalakot,Azad Kashmir,53597,Pakistan,True
+880,730,Primary,Block B Saddar,Peshawar,Khyber Pakhtunkhwa,15165,Pakistan,True
+881,730,Secondary,House 637 Cantt,Nowshera,Khyber Pakhtunkhwa,95738,Pakistan,False
+882,731,Primary,House 735 Saddar,Charsadda,Khyber Pakhtunkhwa,58384,Pakistan,True
+883,732,Primary,Block D Bahria Town,Sargodha,Punjab,84713,Pakistan,True
+884,733,Primary,125 Model Town,Astore,Gilgit-Baltistan,94093,Pakistan,True
+885,734,Primary,Block C Clifton,Multan,Punjab,48166,Pakistan,True
+886,735,Primary,713 Clifton,Faisalabad,Punjab,44517,Pakistan,True
+887,736,Primary,Block D Gulberg,Rawalpindi,Punjab,44440,Pakistan,True
+888,737,Primary,House 820 College Road,Gilgit,Gilgit-Baltistan,94685,Pakistan,True
+889,737,Secondary,Block A Defence Housing,Rawalpindi,Punjab,81955,Pakistan,False
+890,738,Primary,House 440 Model Town,Hyderabad,Sindh,68265,Pakistan,True
+891,739,Primary,House 87 Mall Road,Bahawalpur,Punjab,23120,Pakistan,True
+892,740,Primary,Block B Johar Town,Rawalakot,Azad Kashmir,64987,Pakistan,True
+893,741,Primary,661 Clifton,Gilgit,Gilgit-Baltistan,22937,Pakistan,True
+894,742,Primary,Block D Clifton,Sargodha,Punjab,35480,Pakistan,True
+895,743,Primary,450 DHA,Gwadar,Balochistan,56107,Pakistan,True
+896,744,Primary,874 Defence Housing,Multan,Punjab,59750,Pakistan,True
+897,745,Primary,Block D Mall Road,Rawalpindi,Punjab,53674,Pakistan,True
+898,745,Secondary,House 412 Park Road,Jacobabad,Sindh,79954,Pakistan,False
+899,746,Primary,House 328 Park Road,Lahore,Punjab,76045,Pakistan,True
+900,747,Primary,House 189 Cantt,Zhob,Balochistan,87972,Pakistan,True
+901,748,Primary,House 933 Clifton,Gwadar,Balochistan,87741,Pakistan,True
+902,748,Secondary,House 403 College Road,Kotli,Azad Kashmir,36927,Pakistan,False
+903,749,Primary,Block A DHA,Nawabshah,Sindh,29374,Pakistan,True
+904,749,Secondary,Block C Main Boulevard,Quetta,Balochistan,16103,Pakistan,False
+905,750,Primary,House 770 DHA,Mirpur,Azad Kashmir,21420,Pakistan,True
+906,751,Primary,Block B Saddar,Karachi,Sindh,58288,Pakistan,True
+907,752,Primary,Block D Johar Town,Rawalakot,Azad Kashmir,41604,Pakistan,True
+908,753,Primary,House 268 College Road,Nawabshah,Sindh,69513,Pakistan,True
+909,754,Primary,332 Park Road,Gwadar,Balochistan,86644,Pakistan,True
+910,755,Primary,Block D Model Town,Gwadar,Balochistan,96475,Pakistan,True
+911,756,Primary,508 Gulberg,Faisalabad,Punjab,44894,Pakistan,True
+912,757,Primary,Block B College Road,Rawalakot,Azad Kashmir,47357,Pakistan,True
+913,758,Primary,569 Main Boulevard,Zhob,Balochistan,57286,Pakistan,True
+914,759,Primary,437 Main Boulevard,Swat,Khyber Pakhtunkhwa,77880,Pakistan,True
+915,759,Secondary,Block A Mall Road,Khuzdar,Balochistan,63004,Pakistan,False
+916,760,Primary,House 210 Mall Road,Rawalpindi,Punjab,76514,Pakistan,True
+917,761,Primary,318 Industrial Area,Khuzdar,Balochistan,57220,Pakistan,True
+918,761,Secondary,865 Industrial Area,Mirpur Khas,Sindh,94520,Pakistan,False
+919,762,Primary,House 138 Industrial Area,Jacobabad,Sindh,70697,Pakistan,True
+920,762,Secondary,House 970 University Road,Quetta,Balochistan,73798,Pakistan,False
+921,763,Primary,Block C Park Road,Nowshera,Khyber Pakhtunkhwa,54685,Pakistan,True
+922,763,Secondary,472 Industrial Area,Abbottabad,Khyber Pakhtunkhwa,41754,Pakistan,False
+923,764,Primary,House 953 Cantt,Muzaffarabad,Azad Kashmir,47649,Pakistan,True
+924,765,Primary,House 682 College Road,Chilas,Gilgit-Baltistan,57839,Pakistan,True
+925,766,Primary,290 DHA,Karachi,Sindh,64109,Pakistan,True
+926,767,Primary,333 College Road,Karachi,Sindh,62761,Pakistan,True
+927,768,Primary,130 College Road,Gwadar,Balochistan,91213,Pakistan,True
+928,769,Primary,House 661 Clifton,Karachi,Sindh,82906,Pakistan,True
+929,769,Secondary,House 75 Model Town,Bahawalpur,Punjab,78598,Pakistan,False
+930,770,Primary,185 Clifton,Kotli,Azad Kashmir,79814,Pakistan,True
+931,771,Primary,House 480 Model Town,Sukkur,Sindh,41998,Pakistan,True
+932,771,Secondary,Block D Model Town,Astore,Gilgit-Baltistan,57418,Pakistan,False
+933,772,Primary,811 Saddar,Gwadar,Balochistan,83555,Pakistan,True
+934,773,Primary,Block E Mall Road,Rawalakot,Azad Kashmir,16703,Pakistan,True
+935,774,Primary,House 880 Cantt,Rawalakot,Azad Kashmir,90939,Pakistan,True
+936,775,Primary,Block A College Road,Abbottabad,Khyber Pakhtunkhwa,36521,Pakistan,True
+937,776,Primary,Block C Defence Housing,Jacobabad,Sindh,61149,Pakistan,True
+938,777,Primary,Block C Park Road,Multan,Punjab,66942,Pakistan,True
+939,778,Primary,Block A College Road,Larkana,Sindh,88662,Pakistan,True
+940,778,Secondary,615 Main Boulevard,Muzaffarabad,Azad Kashmir,75763,Pakistan,False
+941,779,Primary,House 320 Gulberg,Kotli,Azad Kashmir,66867,Pakistan,True
+942,780,Primary,Block A Defence Housing,Abbottabad,Khyber Pakhtunkhwa,86032,Pakistan,True
+943,781,Primary,Block A Bahria Town,Nowshera,Khyber Pakhtunkhwa,87706,Pakistan,True
+944,781,Secondary,House 186 Main Boulevard,Rawalakot,Azad Kashmir,79928,Pakistan,False
+945,782,Primary,Block A University Road,Mirpur,Azad Kashmir,66183,Pakistan,True
+946,782,Secondary,House 575 Defence Housing,Turbat,Balochistan,69539,Pakistan,False
+947,783,Primary,326 Bahria Town,Rawalpindi,Punjab,53173,Pakistan,True
+948,784,Primary,House 962 Industrial Area,Muzaffarabad,Azad Kashmir,91972,Pakistan,True
+949,785,Primary,446 University Road,Chaman,Balochistan,49672,Pakistan,True
+950,786,Primary,Block A Gulberg,Lahore,Punjab,21636,Pakistan,True
+951,787,Primary,House 809 Mall Road,Sargodha,Punjab,11688,Pakistan,True
+952,788,Primary,House 109 Saddar,Astore,Gilgit-Baltistan,19568,Pakistan,True
+953,789,Primary,House 996 Defence Housing,Swat,Khyber Pakhtunkhwa,74267,Pakistan,True
+954,790,Primary,House 354 Defence Housing,Khuzdar,Balochistan,76939,Pakistan,True
+955,791,Primary,Block E College Road,Skardu,Gilgit-Baltistan,84401,Pakistan,True
+956,792,Primary,Block A Industrial Area,Larkana,Sindh,17782,Pakistan,True
+957,793,Primary,557 University Road,Bahawalpur,Punjab,70205,Pakistan,True
+958,794,Primary,41 Gulberg,Quetta,Balochistan,74148,Pakistan,True
+959,795,Primary,House 501 Clifton,Astore,Gilgit-Baltistan,75873,Pakistan,True
+960,796,Primary,Block D Industrial Area,Swat,Khyber Pakhtunkhwa,64328,Pakistan,True
+961,797,Primary,Block B Park Road,Sialkot,Punjab,53477,Pakistan,True
+962,798,Primary,716 Park Road,Sukkur,Sindh,88812,Pakistan,True
+963,799,Primary,482 Cantt,Nowshera,Khyber Pakhtunkhwa,20047,Pakistan,True
+964,800,Primary,346 Main Boulevard,Mirpur Khas,Sindh,45920,Pakistan,True
+965,800,Secondary,House 270 Johar Town,Multan,Punjab,84964,Pakistan,False
+966,801,Primary,57 University Road,Mirpur,Azad Kashmir,88469,Pakistan,True
+967,802,Primary,Block A Gulberg,Gujranwala,Punjab,75591,Pakistan,True
+968,803,Primary,871 Mall Road,Zhob,Balochistan,53602,Pakistan,True
+969,804,Primary,Block C Cantt,Nawabshah,Sindh,76426,Pakistan,True
+970,805,Primary,Block D Saddar,Quetta,Balochistan,76420,Pakistan,True
+971,806,Primary,953 Cantt,Skardu,Gilgit-Baltistan,51602,Pakistan,True
+972,807,Primary,House 286 Gulberg,Larkana,Sindh,46232,Pakistan,True
+973,808,Primary,748 Park Road,Muzaffarabad,Azad Kashmir,69050,Pakistan,True
+974,809,Primary,979 Main Boulevard,Swat,Khyber Pakhtunkhwa,22981,Pakistan,True
+975,810,Primary,Block B Industrial Area,Rawalpindi,Punjab,54303,Pakistan,True
+976,811,Primary,Block E College Road,Rawalpindi,Punjab,87506,Pakistan,True
+977,812,Primary,House 396 Industrial Area,Abbottabad,Khyber Pakhtunkhwa,38663,Pakistan,True
+978,813,Primary,House 964 Defence Housing,Sukkur,Sindh,66712,Pakistan,True
+979,813,Secondary,Block E Model Town,Khuzdar,Balochistan,63645,Pakistan,False
+980,814,Primary,House 898 Model Town,Nowshera,Khyber Pakhtunkhwa,40344,Pakistan,True
+981,814,Secondary,981 Park Road,Chilas,Gilgit-Baltistan,33164,Pakistan,False
+982,815,Primary,House 949 University Road,Sargodha,Punjab,90601,Pakistan,True
+983,815,Secondary,House 891 Mall Road,Faisalabad,Punjab,55856,Pakistan,False
+984,816,Primary,Block E Industrial Area,Kotli,Azad Kashmir,15309,Pakistan,True
+985,817,Primary,889 Main Boulevard,Khuzdar,Balochistan,21304,Pakistan,True
+986,817,Secondary,House 579 Clifton,Karachi,Sindh,17507,Pakistan,False
+987,818,Primary,Block C Saddar,Skardu,Gilgit-Baltistan,23503,Pakistan,True
+988,819,Primary,Block B Johar Town,Abbottabad,Khyber Pakhtunkhwa,50830,Pakistan,True
+989,820,Primary,House 398 Clifton,Astore,Gilgit-Baltistan,84985,Pakistan,True
+990,821,Primary,Block C Saddar,Jacobabad,Sindh,18532,Pakistan,True
+991,822,Primary,House 236 University Road,Mirpur,Azad Kashmir,23912,Pakistan,True
+992,823,Primary,107 Saddar,Gujranwala,Punjab,32959,Pakistan,True
+993,824,Primary,613 Bahria Town,Gilgit,Gilgit-Baltistan,82569,Pakistan,True
+994,825,Primary,234 Mall Road,Chaman,Balochistan,21286,Pakistan,True
+995,826,Primary,House 354 Mall Road,Sialkot,Punjab,78091,Pakistan,True
+996,827,Primary,House 399 Model Town,Mirpur,Azad Kashmir,84661,Pakistan,True
+997,827,Secondary,206 Model Town,Mirpur Khas,Sindh,93842,Pakistan,False
+998,828,Primary,Block E Saddar,Nawabshah,Sindh,80674,Pakistan,True
+999,829,Primary,Block B Cantt,Gwadar,Balochistan,92196,Pakistan,True
+1000,830,Primary,House 473 Bahria Town,Sialkot,Punjab,58233,Pakistan,True
+1001,831,Primary,487 Gulberg,Multan,Punjab,87368,Pakistan,True
+1002,832,Primary,Block D Gulberg,Peshawar,Khyber Pakhtunkhwa,55169,Pakistan,True
+1003,832,Secondary,406 Mall Road,Sukkur,Sindh,56012,Pakistan,False
+1004,833,Primary,Block C University Road,Peshawar,Khyber Pakhtunkhwa,42605,Pakistan,True
+1005,834,Primary,House 449 Johar Town,Mirpur Khas,Sindh,24176,Pakistan,True
+1006,835,Primary,House 935 University Road,Khuzdar,Balochistan,88294,Pakistan,True
+1007,836,Primary,745 Cantt,Mirpur,Azad Kashmir,31296,Pakistan,True
+1008,837,Primary,722 Cantt,Kotli,Azad Kashmir,19976,Pakistan,True
+1009,838,Primary,843 Defence Housing,Karachi,Sindh,53868,Pakistan,True
+1010,839,Primary,House 523 College Road,Muzaffarabad,Azad Kashmir,72989,Pakistan,True
+1011,840,Primary,996 Clifton,Khuzdar,Balochistan,20115,Pakistan,True
+1012,841,Primary,Block D Park Road,Skardu,Gilgit-Baltistan,77019,Pakistan,True
+1013,841,Secondary,Block A Bahria Town,Astore,Gilgit-Baltistan,77527,Pakistan,False
+1014,842,Primary,House 746 Mall Road,Astore,Gilgit-Baltistan,81962,Pakistan,True
+1015,842,Secondary,House 337 Clifton,Gujranwala,Punjab,55366,Pakistan,False
+1016,843,Primary,Block A Mall Road,Khuzdar,Balochistan,21178,Pakistan,True
+1017,844,Primary,Block D Gulberg,Hyderabad,Sindh,56927,Pakistan,True
+1018,844,Secondary,House 89 Defence Housing,Muzaffarabad,Azad Kashmir,13189,Pakistan,False
+1019,845,Primary,774 Johar Town,Peshawar,Khyber Pakhtunkhwa,39944,Pakistan,True
+1020,846,Primary,House 83 Cantt,Kotli,Azad Kashmir,70283,Pakistan,True
+1021,847,Primary,Block D Cantt,Rawalakot,Azad Kashmir,68981,Pakistan,True
+1022,848,Primary,House 248 Saddar,Quetta,Balochistan,23696,Pakistan,True
+1023,849,Primary,House 741 Johar Town,Jacobabad,Sindh,79434,Pakistan,True
+1024,850,Primary,Block D Saddar,Nowshera,Khyber Pakhtunkhwa,81571,Pakistan,True
+1025,851,Primary,684 Park Road,Rawalakot,Azad Kashmir,38264,Pakistan,True
+1026,852,Primary,Block E Saddar,Multan,Punjab,48338,Pakistan,True
+1027,853,Primary,House 472 Saddar,Mirpur Khas,Sindh,78094,Pakistan,True
+1028,854,Primary,389 Model Town,Muzaffarabad,Azad Kashmir,97698,Pakistan,True
+1029,855,Primary,Block C College Road,Chilas,Gilgit-Baltistan,78830,Pakistan,True
+1030,856,Primary,House 639 Johar Town,Rawalpindi,Punjab,10651,Pakistan,True
+1031,857,Primary,House 884 Park Road,Karachi,Sindh,63242,Pakistan,True
+1032,858,Primary,78 Park Road,Skardu,Gilgit-Baltistan,48007,Pakistan,True
+1033,859,Primary,832 Bahria Town,Chilas,Gilgit-Baltistan,54427,Pakistan,True
+1034,860,Primary,Block E College Road,Karachi,Sindh,16253,Pakistan,True
+1035,861,Primary,House 901 Cantt,Chilas,Gilgit-Baltistan,40174,Pakistan,True
+1036,862,Primary,Block C Bahria Town,Swat,Khyber Pakhtunkhwa,84824,Pakistan,True
+1037,863,Primary,Block A Industrial Area,Mirpur,Azad Kashmir,30477,Pakistan,True
+1038,864,Primary,Block C Bahria Town,Muzaffarabad,Azad Kashmir,34489,Pakistan,True
+1039,865,Primary,81 DHA,Sargodha,Punjab,45403,Pakistan,True
+1040,866,Primary,Block D Industrial Area,Gilgit,Gilgit-Baltistan,39580,Pakistan,True
+1041,866,Secondary,967 Cantt,Faisalabad,Punjab,44992,Pakistan,False
+1042,867,Primary,468 DHA,Kotli,Azad Kashmir,25051,Pakistan,True
+1043,868,Primary,364 Bahria Town,Gilgit,Gilgit-Baltistan,71408,Pakistan,True
+1044,869,Primary,House 976 Industrial Area,Rawalakot,Azad Kashmir,10710,Pakistan,True
+1045,870,Primary,Block E College Road,Bahawalpur,Punjab,38328,Pakistan,True
+1046,870,Secondary,666 Bahria Town,Skardu,Gilgit-Baltistan,14911,Pakistan,False
+1047,871,Primary,Block C Park Road,Nawabshah,Sindh,24374,Pakistan,True
+1048,871,Secondary,House 242 College Road,Khuzdar,Balochistan,64270,Pakistan,False
+1049,872,Primary,78 Park Road,Rawalakot,Azad Kashmir,86758,Pakistan,True
+1050,873,Primary,820 Model Town,Muzaffarabad,Azad Kashmir,90279,Pakistan,True
+1051,873,Secondary,367 Industrial Area,Kotli,Azad Kashmir,34310,Pakistan,False
+1052,874,Primary,House 859 College Road,Muzaffarabad,Azad Kashmir,51496,Pakistan,True
+1053,874,Secondary,House 339 Johar Town,Mirpur Khas,Sindh,29258,Pakistan,False
+1054,875,Primary,Block E University Road,Mardan,Khyber Pakhtunkhwa,87764,Pakistan,True
+1055,876,Primary,Block C Defence Housing,Charsadda,Khyber Pakhtunkhwa,97131,Pakistan,True
+1056,876,Secondary,House 727 University Road,Bahawalpur,Punjab,17204,Pakistan,False
+1057,877,Primary,139 University Road,Zhob,Balochistan,53645,Pakistan,True
+1058,878,Primary,Block A Main Boulevard,Karachi,Sindh,27855,Pakistan,True
+1059,878,Secondary,House 970 College Road,Larkana,Sindh,75616,Pakistan,False
+1060,879,Primary,Block C University Road,Faisalabad,Punjab,77566,Pakistan,True
+1061,880,Primary,Block C Defence Housing,Turbat,Balochistan,40089,Pakistan,True
+1062,880,Secondary,Block E Industrial Area,Rawalpindi,Punjab,14618,Pakistan,False
+1063,881,Primary,House 949 Park Road,Mirpur,Azad Kashmir,88203,Pakistan,True
+1064,882,Primary,House 444 Model Town,Sukkur,Sindh,23967,Pakistan,True
+1065,883,Primary,House 919 Bahria Town,Zhob,Balochistan,85271,Pakistan,True
+1066,884,Primary,Block D University Road,Gujranwala,Punjab,96491,Pakistan,True
+1067,885,Primary,House 161 Industrial Area,Swat,Khyber Pakhtunkhwa,31075,Pakistan,True
+1068,886,Primary,Block B Bahria Town,Kotli,Azad Kashmir,58775,Pakistan,True
+1069,886,Secondary,Block E College Road,Mirpur,Azad Kashmir,80488,Pakistan,False
+1070,887,Primary,House 365 Clifton,Skardu,Gilgit-Baltistan,34370,Pakistan,True
+1071,888,Primary,344 University Road,Sargodha,Punjab,18478,Pakistan,True
+1072,889,Primary,House 727 University Road,Skardu,Gilgit-Baltistan,41371,Pakistan,True
+1073,889,Secondary,33 Cantt,Gilgit,Gilgit-Baltistan,90844,Pakistan,False
+1074,890,Primary,House 589 Mall Road,Gilgit,Gilgit-Baltistan,78405,Pakistan,True
+1075,890,Secondary,Block A Park Road,Mirpur,Azad Kashmir,61947,Pakistan,False
+1076,891,Primary,438 Mall Road,Zhob,Balochistan,97648,Pakistan,True
+1077,891,Secondary,House 651 Clifton,Nawabshah,Sindh,21513,Pakistan,False
+1078,892,Primary,House 95 Model Town,Swat,Khyber Pakhtunkhwa,78422,Pakistan,True
+1079,892,Secondary,House 669 College Road,Gwadar,Balochistan,28892,Pakistan,False
+1080,893,Primary,House 875 Industrial Area,Mansehra,Khyber Pakhtunkhwa,43566,Pakistan,True
+1081,893,Secondary,House 359 Gulberg,Zhob,Balochistan,79514,Pakistan,False
+1082,894,Primary,House 52 Model Town,Gwadar,Balochistan,38462,Pakistan,True
+1083,895,Primary,House 207 Defence Housing,Zhob,Balochistan,61653,Pakistan,True
+1084,896,Primary,434 Defence Housing,Charsadda,Khyber Pakhtunkhwa,52230,Pakistan,True
+1085,897,Primary,Block D DHA,Jacobabad,Sindh,70544,Pakistan,True
+1086,898,Primary,684 College Road,Zhob,Balochistan,17542,Pakistan,True
+1087,899,Primary,105 Defence Housing,Jacobabad,Sindh,85787,Pakistan,True
+1088,900,Primary,House 567 Saddar,Zhob,Balochistan,68910,Pakistan,True
+1089,901,Primary,955 Model Town,Skardu,Gilgit-Baltistan,80636,Pakistan,True
+1090,902,Primary,House 962 DHA,Abbottabad,Khyber Pakhtunkhwa,84238,Pakistan,True
+1091,903,Primary,House 229 Gulberg,Mansehra,Khyber Pakhtunkhwa,70486,Pakistan,True
+1092,903,Secondary,44 Cantt,Gilgit,Gilgit-Baltistan,56326,Pakistan,False
+1093,904,Primary,Block D Model Town,Kotli,Azad Kashmir,24482,Pakistan,True
+1094,905,Primary,Block E Defence Housing,Skardu,Gilgit-Baltistan,75495,Pakistan,True
+1095,906,Primary,Block C Gulberg,Khuzdar,Balochistan,84258,Pakistan,True
+1096,907,Primary,823 Saddar,Hyderabad,Sindh,27644,Pakistan,True
+1097,908,Primary,Block C Clifton,Muzaffarabad,Azad Kashmir,62005,Pakistan,True
+1098,909,Primary,239 University Road,Mirpur,Azad Kashmir,64801,Pakistan,True
+1099,910,Primary,House 23 Cantt,Muzaffarabad,Azad Kashmir,50754,Pakistan,True
+1100,911,Primary,House 985 Industrial Area,Abbottabad,Khyber Pakhtunkhwa,83627,Pakistan,True
+1101,912,Primary,House 825 Clifton,Turbat,Balochistan,95507,Pakistan,True
+1102,913,Primary,525 Main Boulevard,Mirpur Khas,Sindh,21469,Pakistan,True
+1103,914,Primary,874 Saddar,Jacobabad,Sindh,54202,Pakistan,True
+1104,914,Secondary,Block A Cantt,Kotli,Azad Kashmir,83112,Pakistan,False
+1105,915,Primary,House 237 DHA,Skardu,Gilgit-Baltistan,52430,Pakistan,True
+1106,915,Secondary,Block D DHA,Quetta,Balochistan,50515,Pakistan,False
+1107,916,Primary,House 876 Clifton,Mirpur,Azad Kashmir,16713,Pakistan,True
+1108,917,Primary,Block A Main Boulevard,Nawabshah,Sindh,94815,Pakistan,True
+1109,918,Primary,House 250 Saddar,Chilas,Gilgit-Baltistan,65937,Pakistan,True
+1110,919,Primary,845 Park Road,Peshawar,Khyber Pakhtunkhwa,45558,Pakistan,True
+1111,919,Secondary,Block C Main Boulevard,Khuzdar,Balochistan,28473,Pakistan,False
+1112,920,Primary,140 Johar Town,Muzaffarabad,Azad Kashmir,12289,Pakistan,True
+1113,921,Primary,House 888 Mall Road,Multan,Punjab,40638,Pakistan,True
+1114,921,Secondary,998 Cantt,Bahawalpur,Punjab,31377,Pakistan,False
+1115,922,Primary,House 371 Park Road,Lahore,Punjab,15534,Pakistan,True
+1116,923,Primary,197 Mall Road,Mardan,Khyber Pakhtunkhwa,18972,Pakistan,True
+1117,924,Primary,Block B Model Town,Nawabshah,Sindh,59131,Pakistan,True
+1118,925,Primary,Block A Johar Town,Chilas,Gilgit-Baltistan,49941,Pakistan,True
+1119,925,Secondary,986 DHA,Gwadar,Balochistan,12739,Pakistan,False
+1120,926,Primary,Block A Saddar,Jacobabad,Sindh,85877,Pakistan,True
+1121,927,Primary,House 381 Clifton,Nawabshah,Sindh,49298,Pakistan,True
+1122,927,Secondary,Block E Bahria Town,Swat,Khyber Pakhtunkhwa,90184,Pakistan,False
+1123,928,Primary,44 DHA,Skardu,Gilgit-Baltistan,33404,Pakistan,True
+1124,929,Primary,Block C Model Town,Mansehra,Khyber Pakhtunkhwa,43301,Pakistan,True
+1125,930,Primary,House 138 Industrial Area,Lahore,Punjab,41077,Pakistan,True
+1126,931,Primary,Block E Industrial Area,Chilas,Gilgit-Baltistan,55843,Pakistan,True
+1127,932,Primary,415 Johar Town,Quetta,Balochistan,21854,Pakistan,True
+1128,933,Primary,House 3 Bahria Town,Chilas,Gilgit-Baltistan,42332,Pakistan,True
+1129,934,Primary,762 Park Road,Rawalakot,Azad Kashmir,16152,Pakistan,True
+1130,935,Primary,778 Mall Road,Rawalakot,Azad Kashmir,52772,Pakistan,True
+1131,936,Primary,Block C University Road,Chilas,Gilgit-Baltistan,80545,Pakistan,True
+1132,937,Primary,House 691 Defence Housing,Zhob,Balochistan,16719,Pakistan,True
+1133,938,Primary,House 540 DHA,Sialkot,Punjab,72780,Pakistan,True
+1134,939,Primary,Block E Clifton,Turbat,Balochistan,99796,Pakistan,True
+1135,939,Secondary,House 32 Johar Town,Gwadar,Balochistan,16441,Pakistan,False
+1136,940,Primary,House 450 Saddar,Abbottabad,Khyber Pakhtunkhwa,10390,Pakistan,True
+1137,941,Primary,House 228 Bahria Town,Swat,Khyber Pakhtunkhwa,18019,Pakistan,True
+1138,942,Primary,Block E Clifton,Chilas,Gilgit-Baltistan,73030,Pakistan,True
+1139,943,Primary,House 329 DHA,Rawalakot,Azad Kashmir,25419,Pakistan,True
+1140,944,Primary,827 Park Road,Chilas,Gilgit-Baltistan,27597,Pakistan,True
+1141,944,Secondary,556 Model Town,Muzaffarabad,Azad Kashmir,87292,Pakistan,False
+1142,945,Primary,222 Saddar,Kotli,Azad Kashmir,98164,Pakistan,True
+1143,945,Secondary,120 Bahria Town,Kotli,Azad Kashmir,80675,Pakistan,False
+1144,946,Primary,Block B Industrial Area,Mirpur Khas,Sindh,78732,Pakistan,True
+1145,947,Primary,House 153 College Road,Gilgit,Gilgit-Baltistan,45529,Pakistan,True
+1146,948,Primary,House 899 Defence Housing,Bahawalpur,Punjab,39600,Pakistan,True
+1147,949,Primary,743 Bahria Town,Mardan,Khyber Pakhtunkhwa,91159,Pakistan,True
+1148,950,Primary,703 Gulberg,Mirpur Khas,Sindh,87653,Pakistan,True
+1149,951,Primary,Block E Gulberg,Lahore,Punjab,50438,Pakistan,True
+1150,952,Primary,688 Main Boulevard,Chilas,Gilgit-Baltistan,51378,Pakistan,True
+1151,953,Primary,594 Park Road,Rawalakot,Azad Kashmir,54095,Pakistan,True
+1152,954,Primary,603 Main Boulevard,Mirpur,Azad Kashmir,54364,Pakistan,True
+1153,955,Primary,Block C Main Boulevard,Mirpur Khas,Sindh,30554,Pakistan,True
+1154,955,Secondary,708 Saddar,Larkana,Sindh,43275,Pakistan,False
+1155,956,Primary,Block A College Road,Kotli,Azad Kashmir,49899,Pakistan,True
+1156,957,Primary,House 768 Clifton,Swat,Khyber Pakhtunkhwa,65583,Pakistan,True
+1157,958,Primary,House 24 Model Town,Lahore,Punjab,51478,Pakistan,True
+1158,959,Primary,480 Park Road,Khuzdar,Balochistan,59360,Pakistan,True
+1159,960,Primary,Block E Johar Town,Charsadda,Khyber Pakhtunkhwa,44078,Pakistan,True
+1160,961,Primary,House 946 DHA,Turbat,Balochistan,51203,Pakistan,True
+1161,962,Primary,House 89 Main Boulevard,Swat,Khyber Pakhtunkhwa,80148,Pakistan,True
+1162,963,Primary,Block E Clifton,Gilgit,Gilgit-Baltistan,61080,Pakistan,True
+1163,963,Secondary,House 85 Defence Housing,Skardu,Gilgit-Baltistan,21660,Pakistan,False
+1164,964,Primary,Block C University Road,Sargodha,Punjab,17149,Pakistan,True
+1165,965,Primary,347 Main Boulevard,Astore,Gilgit-Baltistan,66991,Pakistan,True
+1166,965,Secondary,Block B Mall Road,Peshawar,Khyber Pakhtunkhwa,35361,Pakistan,False
+1167,966,Primary,House 494 Defence Housing,Bahawalpur,Punjab,15903,Pakistan,True
+1168,967,Primary,House 964 Main Boulevard,Quetta,Balochistan,73902,Pakistan,True
+1169,967,Secondary,House 828 Clifton,Lahore,Punjab,93458,Pakistan,False
+1170,968,Primary,Block A Gulberg,Sialkot,Punjab,76111,Pakistan,True
+1171,969,Primary,945 College Road,Chaman,Balochistan,51239,Pakistan,True
+1172,970,Primary,556 Clifton,Multan,Punjab,86296,Pakistan,True
+1173,971,Primary,697 University Road,Skardu,Gilgit-Baltistan,48065,Pakistan,True
+1174,972,Primary,House 655 College Road,Khuzdar,Balochistan,22039,Pakistan,True
+1175,973,Primary,Block C Defence Housing,Jacobabad,Sindh,60641,Pakistan,True
+1176,974,Primary,Block A Park Road,Peshawar,Khyber Pakhtunkhwa,69071,Pakistan,True
+1177,975,Primary,Block A Saddar,Muzaffarabad,Azad Kashmir,28022,Pakistan,True
+1178,976,Primary,462 Park Road,Mirpur,Azad Kashmir,36306,Pakistan,True
+1179,977,Primary,40 Main Boulevard,Skardu,Gilgit-Baltistan,86890,Pakistan,True
+1180,978,Primary,House 317 Bahria Town,Rawalakot,Azad Kashmir,70786,Pakistan,True
+1181,979,Primary,House 85 Park Road,Kotli,Azad Kashmir,53737,Pakistan,True
+1182,980,Primary,287 DHA,Mardan,Khyber Pakhtunkhwa,90845,Pakistan,True
+1183,981,Primary,House 348 Model Town,Multan,Punjab,71425,Pakistan,True
+1184,982,Primary,Block D Defence Housing,Sargodha,Punjab,50491,Pakistan,True
+1185,983,Primary,102 Bahria Town,Mansehra,Khyber Pakhtunkhwa,52422,Pakistan,True
+1186,984,Primary,965 University Road,Karachi,Sindh,51308,Pakistan,True
+1187,985,Primary,House 632 Defence Housing,Nawabshah,Sindh,78581,Pakistan,True
+1188,985,Secondary,House 126 College Road,Turbat,Balochistan,78330,Pakistan,False
+1189,986,Primary,787 Cantt,Charsadda,Khyber Pakhtunkhwa,35416,Pakistan,True
+1190,987,Primary,146 Cantt,Gujranwala,Punjab,81122,Pakistan,True
+1191,987,Secondary,House 119 Bahria Town,Khuzdar,Balochistan,67102,Pakistan,False
+1192,988,Primary,939 Cantt,Peshawar,Khyber Pakhtunkhwa,99060,Pakistan,True
+1193,989,Primary,House 430 Gulberg,Kotli,Azad Kashmir,30218,Pakistan,True
+1194,990,Primary,House 41 Johar Town,Astore,Gilgit-Baltistan,29195,Pakistan,True
+1195,991,Primary,House 61 Gulberg,Larkana,Sindh,79984,Pakistan,True
+1196,992,Primary,Block C Saddar,Lahore,Punjab,19050,Pakistan,True
+1197,992,Secondary,171 Main Boulevard,Astore,Gilgit-Baltistan,80352,Pakistan,False
+1198,993,Primary,797 Mall Road,Mansehra,Khyber Pakhtunkhwa,32171,Pakistan,True
+1199,994,Primary,154 Model Town,Rawalpindi,Punjab,75007,Pakistan,True
+1200,995,Primary,Block B Industrial Area,Skardu,Gilgit-Baltistan,46883,Pakistan,True
+1201,996,Primary,House 614 Bahria Town,Sialkot,Punjab,84070,Pakistan,True
+1202,997,Primary,601 Gulberg,Nawabshah,Sindh,78809,Pakistan,True
+1203,997,Secondary,Block D Industrial Area,Turbat,Balochistan,37752,Pakistan,False
+1204,998,Primary,House 413 Gulberg,Swat,Khyber Pakhtunkhwa,37395,Pakistan,True
+1205,999,Primary,Block E University Road,Turbat,Balochistan,15120,Pakistan,True
+1206,1000,Primary,Block B Industrial Area,Chilas,Gilgit-Baltistan,23229,Pakistan,True
+1207,1001,Primary,House 342 College Road,Sukkur,Sindh,52809,Pakistan,True
+1208,1002,Primary,Block A University Road,Quetta,Balochistan,39500,Pakistan,True
+1209,1002,Secondary,Block E University Road,Mardan,Khyber Pakhtunkhwa,26241,Pakistan,False
+1210,1003,Primary,House 23 Saddar,Skardu,Gilgit-Baltistan,40461,Pakistan,True
+1211,1004,Primary,House 322 Industrial Area,Skardu,Gilgit-Baltistan,91696,Pakistan,True
+1212,1005,Primary,Block C Cantt,Lahore,Punjab,38320,Pakistan,True
+1213,1006,Primary,House 71 Mall Road,Larkana,Sindh,60323,Pakistan,True
+1214,1007,Primary,Block B Mall Road,Sargodha,Punjab,20020,Pakistan,True
+1215,1007,Secondary,Block D Saddar,Zhob,Balochistan,74180,Pakistan,False
+1216,1008,Primary,Block B Bahria Town,Sukkur,Sindh,25403,Pakistan,True
+1217,1009,Primary,Block D Main Boulevard,Jacobabad,Sindh,86076,Pakistan,True
+1218,1010,Primary,139 Cantt,Swat,Khyber Pakhtunkhwa,80818,Pakistan,True
+1219,1010,Secondary,Block D Main Boulevard,Muzaffarabad,Azad Kashmir,65538,Pakistan,False
+1220,1011,Primary,574 Bahria Town,Mardan,Khyber Pakhtunkhwa,77313,Pakistan,True
+1221,1012,Primary,House 988 Model Town,Skardu,Gilgit-Baltistan,42358,Pakistan,True
+1222,1013,Primary,House 237 Park Road,Rawalakot,Azad Kashmir,54863,Pakistan,True
+1223,1013,Secondary,House 572 Saddar,Astore,Gilgit-Baltistan,36550,Pakistan,False
+1224,1014,Primary,450 Park Road,Chaman,Balochistan,48181,Pakistan,True
+1225,1015,Primary,302 Saddar,Jacobabad,Sindh,95139,Pakistan,True
+1226,1015,Secondary,House 256 Industrial Area,Gujranwala,Punjab,61756,Pakistan,False
+1227,1016,Primary,Block D Industrial Area,Faisalabad,Punjab,76686,Pakistan,True
+1228,1017,Primary,House 702 Johar Town,Peshawar,Khyber Pakhtunkhwa,26862,Pakistan,True
+1229,1018,Primary,28 Defence Housing,Skardu,Gilgit-Baltistan,63737,Pakistan,True
+1230,1018,Secondary,Block A Park Road,Hyderabad,Sindh,36332,Pakistan,False
+1231,1019,Primary,Block E Johar Town,Skardu,Gilgit-Baltistan,47323,Pakistan,True
+1232,1020,Primary,934 Cantt,Mansehra,Khyber Pakhtunkhwa,74801,Pakistan,True
+1233,1020,Secondary,Block D Saddar,Rawalpindi,Punjab,34506,Pakistan,False
+1234,1021,Primary,993 Industrial Area,Hyderabad,Sindh,58957,Pakistan,True
+1235,1022,Primary,Block C Gulberg,Gwadar,Balochistan,73443,Pakistan,True
+1236,1022,Secondary,House 689 Bahria Town,Bahawalpur,Punjab,28306,Pakistan,False
+1237,1023,Primary,703 Defence Housing,Astore,Gilgit-Baltistan,21239,Pakistan,True
+1238,1024,Primary,House 363 Main Boulevard,Karachi,Sindh,86983,Pakistan,True
+1239,1025,Primary,Block E Park Road,Gwadar,Balochistan,42186,Pakistan,True
+1240,1026,Primary,House 215 College Road,Faisalabad,Punjab,33727,Pakistan,True
+1241,1027,Primary,House 66 Main Boulevard,Faisalabad,Punjab,14271,Pakistan,True
+1242,1027,Secondary,House 210 Gulberg,Turbat,Balochistan,95485,Pakistan,False
+1243,1028,Primary,Block A Gulberg,Kotli,Azad Kashmir,30430,Pakistan,True
+1244,1028,Secondary,457 Model Town,Turbat,Balochistan,99967,Pakistan,False
+1245,1029,Primary,941 Gulberg,Chilas,Gilgit-Baltistan,26321,Pakistan,True
+1246,1030,Primary,121 University Road,Chilas,Gilgit-Baltistan,33351,Pakistan,True
+1247,1031,Primary,352 Saddar,Khuzdar,Balochistan,62342,Pakistan,True
+1248,1031,Secondary,208 Clifton,Astore,Gilgit-Baltistan,71747,Pakistan,False
+1249,1032,Primary,Block C Saddar,Sialkot,Punjab,21197,Pakistan,True
+1250,1033,Primary,House 711 Park Road,Bahawalpur,Punjab,11888,Pakistan,True
+1251,1034,Primary,500 Clifton,Rawalakot,Azad Kashmir,90245,Pakistan,True
+1252,1035,Primary,Block A Johar Town,Nawabshah,Sindh,15416,Pakistan,True
+1253,1036,Primary,Block C Saddar,Jacobabad,Sindh,40032,Pakistan,True
+1254,1037,Primary,House 974 Model Town,Astore,Gilgit-Baltistan,54776,Pakistan,True
+1255,1038,Primary,859 Industrial Area,Bahawalpur,Punjab,92917,Pakistan,True
+1256,1039,Primary,286 Main Boulevard,Skardu,Gilgit-Baltistan,71414,Pakistan,True
+1257,1040,Primary,Block E Saddar,Khuzdar,Balochistan,49382,Pakistan,True
+1258,1040,Secondary,House 906 Gulberg,Kotli,Azad Kashmir,96519,Pakistan,False
+1259,1041,Primary,546 Defence Housing,Astore,Gilgit-Baltistan,99634,Pakistan,True
+1260,1042,Primary,721 Main Boulevard,Quetta,Balochistan,83236,Pakistan,True
+1261,1043,Primary,907 Mall Road,Skardu,Gilgit-Baltistan,17902,Pakistan,True
+1262,1044,Primary,House 293 Main Boulevard,Quetta,Balochistan,32067,Pakistan,True
+1263,1045,Primary,House 188 Clifton,Sukkur,Sindh,11235,Pakistan,True
+1264,1046,Primary,Block C DHA,Sialkot,Punjab,24987,Pakistan,True
+1265,1046,Secondary,Block C Park Road,Charsadda,Khyber Pakhtunkhwa,88682,Pakistan,False
+1266,1047,Primary,Block E Bahria Town,Gwadar,Balochistan,87255,Pakistan,True
+1267,1048,Primary,House 529 Model Town,Larkana,Sindh,24286,Pakistan,True
+1268,1049,Primary,Block C Bahria Town,Peshawar,Khyber Pakhtunkhwa,91486,Pakistan,True
+1269,1049,Secondary,House 881 Main Boulevard,Chaman,Balochistan,98536,Pakistan,False
+1270,1050,Primary,Block C DHA,Sukkur,Sindh,27841,Pakistan,True
+1271,1050,Secondary,House 480 Clifton,Turbat,Balochistan,39915,Pakistan,False
+1272,1051,Primary,House 163 Mall Road,Charsadda,Khyber Pakhtunkhwa,91559,Pakistan,True
+1273,1052,Primary,House 514 Cantt,Nawabshah,Sindh,93402,Pakistan,True
+1274,1053,Primary,867 University Road,Charsadda,Khyber Pakhtunkhwa,13165,Pakistan,True
+1275,1054,Primary,856 Cantt,Muzaffarabad,Azad Kashmir,34961,Pakistan,True
+1276,1055,Primary,748 Bahria Town,Skardu,Gilgit-Baltistan,31033,Pakistan,True
+1277,1056,Primary,House 935 Saddar,Muzaffarabad,Azad Kashmir,58633,Pakistan,True
+1278,1056,Secondary,Block C Gulberg,Bahawalpur,Punjab,86477,Pakistan,False
+1279,1057,Primary,House 761 Model Town,Abbottabad,Khyber Pakhtunkhwa,15264,Pakistan,True
+1280,1058,Primary,427 Defence Housing,Mirpur,Azad Kashmir,94668,Pakistan,True
+1281,1059,Primary,House 983 Industrial Area,Quetta,Balochistan,41162,Pakistan,True
+1282,1060,Primary,451 Bahria Town,Hyderabad,Sindh,22949,Pakistan,True
+1283,1061,Primary,House 379 University Road,Mirpur,Azad Kashmir,27520,Pakistan,True
+1284,1062,Primary,House 507 Model Town,Mirpur,Azad Kashmir,41149,Pakistan,True
+1285,1063,Primary,House 542 DHA,Peshawar,Khyber Pakhtunkhwa,18616,Pakistan,True
+1286,1063,Secondary,House 714 Gulberg,Mardan,Khyber Pakhtunkhwa,28729,Pakistan,False
+1287,1064,Primary,639 Clifton,Kotli,Azad Kashmir,27308,Pakistan,True
+1288,1064,Secondary,House 472 Gulberg,Gilgit,Gilgit-Baltistan,30878,Pakistan,False
+1289,1065,Primary,Block A Clifton,Multan,Punjab,21694,Pakistan,True
+1290,1066,Primary,House 761 Clifton,Gujranwala,Punjab,30488,Pakistan,True
+1291,1067,Primary,House 889 Park Road,Gwadar,Balochistan,15175,Pakistan,True
+1292,1068,Primary,914 Industrial Area,Charsadda,Khyber Pakhtunkhwa,70798,Pakistan,True
+1293,1069,Primary,Block B Saddar,Turbat,Balochistan,66905,Pakistan,True
+1294,1070,Primary,250 University Road,Nowshera,Khyber Pakhtunkhwa,77731,Pakistan,True
+1295,1071,Primary,House 565 Clifton,Muzaffarabad,Azad Kashmir,15148,Pakistan,True
+1296,1072,Primary,106 DHA,Lahore,Punjab,18956,Pakistan,True
+1297,1073,Primary,563 Mall Road,Larkana,Sindh,73217,Pakistan,True
+1298,1074,Primary,Block C University Road,Mirpur,Azad Kashmir,33561,Pakistan,True
+1299,1075,Primary,954 Gulberg,Bahawalpur,Punjab,79676,Pakistan,True
+1300,1076,Primary,Block B Gulberg,Gujranwala,Punjab,58057,Pakistan,True
+1301,1077,Primary,House 532 DHA,Turbat,Balochistan,54518,Pakistan,True
+1302,1078,Primary,450 Bahria Town,Sargodha,Punjab,46479,Pakistan,True
+1303,1079,Primary,Block B Mall Road,Abbottabad,Khyber Pakhtunkhwa,18163,Pakistan,True
+1304,1080,Primary,House 884 Defence Housing,Kotli,Azad Kashmir,88412,Pakistan,True
+1305,1080,Secondary,131 Industrial Area,Bahawalpur,Punjab,55696,Pakistan,False
+1306,1081,Primary,House 903 DHA,Chaman,Balochistan,40172,Pakistan,True
+1307,1082,Primary,127 Clifton,Jacobabad,Sindh,88768,Pakistan,True
+1308,1083,Primary,House 811 Model Town,Nowshera,Khyber Pakhtunkhwa,84094,Pakistan,True
+1309,1084,Primary,Block C Saddar,Muzaffarabad,Azad Kashmir,94334,Pakistan,True
+1310,1085,Primary,House 212 College Road,Charsadda,Khyber Pakhtunkhwa,32628,Pakistan,True
+1311,1085,Secondary,House 452 Defence Housing,Mirpur Khas,Sindh,68760,Pakistan,False
+1312,1086,Primary,Block B DHA,Nawabshah,Sindh,62994,Pakistan,True
+1313,1087,Primary,602 Industrial Area,Nowshera,Khyber Pakhtunkhwa,55374,Pakistan,True
+1314,1088,Primary,Block E DHA,Jacobabad,Sindh,81403,Pakistan,True
+1315,1088,Secondary,House 853 Gulberg,Abbottabad,Khyber Pakhtunkhwa,33131,Pakistan,False
+1316,1089,Primary,302 Johar Town,Gilgit,Gilgit-Baltistan,51123,Pakistan,True
+1317,1090,Primary,House 230 Park Road,Abbottabad,Khyber Pakhtunkhwa,65269,Pakistan,True
+1318,1091,Primary,Block E Industrial Area,Mansehra,Khyber Pakhtunkhwa,55463,Pakistan,True
+1319,1092,Primary,20 Cantt,Chilas,Gilgit-Baltistan,40324,Pakistan,True
+1320,1093,Primary,Block B College Road,Gujranwala,Punjab,55083,Pakistan,True
+1321,1094,Primary,House 662 Cantt,Mardan,Khyber Pakhtunkhwa,18879,Pakistan,True
+1322,1095,Primary,Block D DHA,Sukkur,Sindh,87927,Pakistan,True
+1323,1095,Secondary,Block C Clifton,Jacobabad,Sindh,50982,Pakistan,False
+1324,1096,Primary,House 513 Gulberg,Quetta,Balochistan,48454,Pakistan,True
+1325,1096,Secondary,Block B University Road,Peshawar,Khyber Pakhtunkhwa,25106,Pakistan,False
+1326,1097,Primary,Block A College Road,Astore,Gilgit-Baltistan,66457,Pakistan,True
+1327,1098,Primary,House 859 Cantt,Kotli,Azad Kashmir,76923,Pakistan,True
+1328,1099,Primary,House 38 Clifton,Multan,Punjab,51959,Pakistan,True
+1329,1100,Primary,Block D DHA,Bahawalpur,Punjab,93814,Pakistan,True
+1330,1100,Secondary,873 DHA,Chilas,Gilgit-Baltistan,54335,Pakistan,False
+1331,1101,Primary,6 Main Boulevard,Chaman,Balochistan,88447,Pakistan,True
+1332,1102,Primary,Block B Main Boulevard,Jacobabad,Sindh,58892,Pakistan,True
+1333,1103,Primary,Block A Gulberg,Kotli,Azad Kashmir,36893,Pakistan,True
+1334,1104,Primary,847 Saddar,Chilas,Gilgit-Baltistan,91896,Pakistan,True
+1335,1105,Primary,478 Bahria Town,Zhob,Balochistan,49291,Pakistan,True
+1336,1105,Secondary,House 703 Industrial Area,Muzaffarabad,Azad Kashmir,87365,Pakistan,False
+1337,1106,Primary,House 891 Industrial Area,Mirpur,Azad Kashmir,28683,Pakistan,True
+1338,1107,Primary,Block D Main Boulevard,Gujranwala,Punjab,84397,Pakistan,True
+1339,1108,Primary,405 Saddar,Sukkur,Sindh,42953,Pakistan,True
+1340,1109,Primary,House 25 Gulberg,Charsadda,Khyber Pakhtunkhwa,99799,Pakistan,True
+1341,1109,Secondary,804 Bahria Town,Chaman,Balochistan,43485,Pakistan,False
+1342,1110,Primary,350 Main Boulevard,Peshawar,Khyber Pakhtunkhwa,97205,Pakistan,True
+1343,1111,Primary,554 College Road,Skardu,Gilgit-Baltistan,36297,Pakistan,True
+1344,1112,Primary,23 Bahria Town,Hyderabad,Sindh,22982,Pakistan,True
+1345,1113,Primary,Block C University Road,Turbat,Balochistan,86653,Pakistan,True
+1346,1114,Primary,Block A Defence Housing,Sargodha,Punjab,63214,Pakistan,True
+1347,1114,Secondary,House 605 Saddar,Turbat,Balochistan,87378,Pakistan,False
+1348,1115,Primary,582 Bahria Town,Rawalpindi,Punjab,54727,Pakistan,True
+1349,1115,Secondary,House 138 Clifton,Sialkot,Punjab,20704,Pakistan,False
+1350,1116,Primary,House 179 Saddar,Muzaffarabad,Azad Kashmir,14964,Pakistan,True
+1351,1117,Primary,Block D Bahria Town,Gwadar,Balochistan,30745,Pakistan,True
+1352,1118,Primary,Block A Gulberg,Chilas,Gilgit-Baltistan,80809,Pakistan,True
+1353,1119,Primary,Block A Defence Housing,Turbat,Balochistan,83001,Pakistan,True
+1354,1120,Primary,House 769 DHA,Karachi,Sindh,76622,Pakistan,True
+1355,1120,Secondary,House 129 Main Boulevard,Faisalabad,Punjab,96435,Pakistan,False
+1356,1121,Primary,Block C Mall Road,Swat,Khyber Pakhtunkhwa,61714,Pakistan,True
+1357,1122,Primary,770 Gulberg,Mirpur,Azad Kashmir,80820,Pakistan,True
+1358,1123,Primary,Block E Mall Road,Gilgit,Gilgit-Baltistan,36536,Pakistan,True
+1359,1124,Primary,House 15 Main Boulevard,Mardan,Khyber Pakhtunkhwa,15855,Pakistan,True
+1360,1125,Primary,360 University Road,Sukkur,Sindh,65911,Pakistan,True
+1361,1126,Primary,Block B University Road,Turbat,Balochistan,31527,Pakistan,True
+1362,1127,Primary,751 Gulberg,Faisalabad,Punjab,74587,Pakistan,True
+1363,1128,Primary,House 304 Gulberg,Gwadar,Balochistan,18144,Pakistan,True
+1364,1129,Primary,House 83 Clifton,Gilgit,Gilgit-Baltistan,93281,Pakistan,True
+1365,1130,Primary,House 45 DHA,Peshawar,Khyber Pakhtunkhwa,26889,Pakistan,True
+1366,1131,Primary,House 160 Main Boulevard,Mirpur Khas,Sindh,70380,Pakistan,True
+1367,1132,Primary,House 289 University Road,Larkana,Sindh,46380,Pakistan,True
+1368,1132,Secondary,House 756 Park Road,Sargodha,Punjab,51561,Pakistan,False
+1369,1133,Primary,House 690 Bahria Town,Muzaffarabad,Azad Kashmir,76167,Pakistan,True
+1370,1134,Primary,350 Model Town,Sukkur,Sindh,17915,Pakistan,True
+1371,1134,Secondary,941 University Road,Skardu,Gilgit-Baltistan,32158,Pakistan,False
+1372,1135,Primary,Block C Model Town,Turbat,Balochistan,29107,Pakistan,True
+1373,1135,Secondary,290 Clifton,Chilas,Gilgit-Baltistan,87752,Pakistan,False
+1374,1136,Primary,Block D Gulberg,Skardu,Gilgit-Baltistan,57397,Pakistan,True
+1375,1137,Primary,925 Bahria Town,Astore,Gilgit-Baltistan,67511,Pakistan,True
+1376,1138,Primary,House 742 Main Boulevard,Peshawar,Khyber Pakhtunkhwa,43750,Pakistan,True
+1377,1139,Primary,House 525 Saddar,Quetta,Balochistan,24351,Pakistan,True
+1378,1139,Secondary,House 890 Defence Housing,Skardu,Gilgit-Baltistan,54457,Pakistan,False
+1379,1140,Primary,61 Model Town,Bahawalpur,Punjab,90617,Pakistan,True
+1380,1141,Primary,House 268 Industrial Area,Khuzdar,Balochistan,42737,Pakistan,True
+1381,1141,Secondary,434 College Road,Lahore,Punjab,84997,Pakistan,False
+1382,1142,Primary,Block B University Road,Mansehra,Khyber Pakhtunkhwa,65619,Pakistan,True
+1383,1143,Primary,Block D Industrial Area,Nowshera,Khyber Pakhtunkhwa,19511,Pakistan,True
+1384,1144,Primary,House 219 Park Road,Quetta,Balochistan,62826,Pakistan,True
+1385,1144,Secondary,474 Model Town,Chaman,Balochistan,69266,Pakistan,False
+1386,1145,Primary,Block D University Road,Muzaffarabad,Azad Kashmir,76604,Pakistan,True
+1387,1146,Primary,482 Defence Housing,Swat,Khyber Pakhtunkhwa,30282,Pakistan,True
+1388,1147,Primary,678 Mall Road,Skardu,Gilgit-Baltistan,22307,Pakistan,True
+1389,1148,Primary,House 663 Gulberg,Sargodha,Punjab,38110,Pakistan,True
+1390,1149,Primary,Block A Model Town,Larkana,Sindh,64952,Pakistan,True
+1391,1150,Primary,House 412 Johar Town,Chilas,Gilgit-Baltistan,91082,Pakistan,True
+1392,1151,Primary,Block D Cantt,Bahawalpur,Punjab,12380,Pakistan,True
+1393,1152,Primary,House 678 Model Town,Muzaffarabad,Azad Kashmir,44988,Pakistan,True
+1394,1153,Primary,House 757 Main Boulevard,Sialkot,Punjab,69089,Pakistan,True
+1395,1154,Primary,323 Johar Town,Chaman,Balochistan,86948,Pakistan,True
+1396,1155,Primary,632 Saddar,Gujranwala,Punjab,67574,Pakistan,True
+1397,1156,Primary,House 890 Park Road,Astore,Gilgit-Baltistan,10630,Pakistan,True
+1398,1157,Primary,872 Saddar,Nowshera,Khyber Pakhtunkhwa,24997,Pakistan,True
+1399,1158,Primary,660 DHA,Peshawar,Khyber Pakhtunkhwa,92106,Pakistan,True
+1400,1159,Primary,House 97 Bahria Town,Gilgit,Gilgit-Baltistan,65992,Pakistan,True
+1401,1160,Primary,Block C Johar Town,Astore,Gilgit-Baltistan,13322,Pakistan,True
+1402,1161,Primary,232 Main Boulevard,Mardan,Khyber Pakhtunkhwa,33652,Pakistan,True
+1403,1162,Primary,House 474 Saddar,Bahawalpur,Punjab,12723,Pakistan,True
+1404,1163,Primary,855 Industrial Area,Nowshera,Khyber Pakhtunkhwa,12375,Pakistan,True
+1405,1164,Primary,House 232 Bahria Town,Skardu,Gilgit-Baltistan,83509,Pakistan,True
+1406,1165,Primary,Block E Gulberg,Rawalakot,Azad Kashmir,67951,Pakistan,True
+1407,1166,Primary,Block A Defence Housing,Zhob,Balochistan,40413,Pakistan,True
+1408,1167,Primary,House 869 College Road,Rawalakot,Azad Kashmir,65664,Pakistan,True
+1409,1168,Primary,913 Main Boulevard,Peshawar,Khyber Pakhtunkhwa,54725,Pakistan,True
+1410,1169,Primary,761 Saddar,Kotli,Azad Kashmir,83691,Pakistan,True
+1411,1169,Secondary,Block E University Road,Jacobabad,Sindh,93388,Pakistan,False
+1412,1170,Primary,246 Johar Town,Kotli,Azad Kashmir,47909,Pakistan,True
+1413,1171,Primary,191 Industrial Area,Turbat,Balochistan,35674,Pakistan,True
+1414,1172,Primary,House 354 Clifton,Gujranwala,Punjab,51411,Pakistan,True
+1415,1173,Primary,House 952 DHA,Sargodha,Punjab,24017,Pakistan,True
+1416,1174,Primary,884 Saddar,Chilas,Gilgit-Baltistan,19927,Pakistan,True
+1417,1175,Primary,222 Clifton,Turbat,Balochistan,43229,Pakistan,True
+1418,1176,Primary,House 805 Model Town,Faisalabad,Punjab,53253,Pakistan,True
+1419,1177,Primary,House 75 Saddar,Mansehra,Khyber Pakhtunkhwa,84465,Pakistan,True
+1420,1178,Primary,809 University Road,Sukkur,Sindh,64382,Pakistan,True
+1421,1179,Primary,774 Clifton,Nawabshah,Sindh,24161,Pakistan,True
+1422,1180,Primary,167 Bahria Town,Nowshera,Khyber Pakhtunkhwa,61874,Pakistan,True
+1423,1181,Primary,903 Defence Housing,Hyderabad,Sindh,82578,Pakistan,True
+1424,1182,Primary,House 909 Model Town,Hyderabad,Sindh,73840,Pakistan,True
+1425,1183,Primary,House 325 DHA,Faisalabad,Punjab,71838,Pakistan,True
+1426,1184,Primary,House 119 Clifton,Bahawalpur,Punjab,67102,Pakistan,True
+1427,1185,Primary,929 Defence Housing,Gwadar,Balochistan,72690,Pakistan,True
+1428,1186,Primary,Block B Main Boulevard,Lahore,Punjab,82784,Pakistan,True
+1429,1187,Primary,735 Defence Housing,Chilas,Gilgit-Baltistan,15929,Pakistan,True
+1430,1188,Primary,Block C Main Boulevard,Mirpur Khas,Sindh,55320,Pakistan,True
+1431,1189,Primary,House 964 University Road,Sukkur,Sindh,36017,Pakistan,True
+1432,1190,Primary,430 Bahria Town,Multan,Punjab,70764,Pakistan,True
+1433,1190,Secondary,588 University Road,Swat,Khyber Pakhtunkhwa,43004,Pakistan,False
+1434,1191,Primary,702 DHA,Gwadar,Balochistan,50069,Pakistan,True
+1435,1191,Secondary,House 209 Mall Road,Peshawar,Khyber Pakhtunkhwa,17180,Pakistan,False
+1436,1192,Primary,Block B Park Road,Kotli,Azad Kashmir,54704,Pakistan,True
+1437,1193,Primary,692 University Road,Swat,Khyber Pakhtunkhwa,82560,Pakistan,True
+1438,1194,Primary,House 468 Bahria Town,Multan,Punjab,11698,Pakistan,True
+1439,1194,Secondary,612 College Road,Chilas,Gilgit-Baltistan,39321,Pakistan,False
+1440,1195,Primary,911 Cantt,Mirpur,Azad Kashmir,32799,Pakistan,True
+1441,1196,Primary,House 452 University Road,Abbottabad,Khyber Pakhtunkhwa,37844,Pakistan,True
+1442,1197,Primary,House 255 Main Boulevard,Rawalakot,Azad Kashmir,56298,Pakistan,True
+1443,1198,Primary,Block A Defence Housing,Rawalakot,Azad Kashmir,77993,Pakistan,True
+1444,1199,Primary,407 Johar Town,Khuzdar,Balochistan,71660,Pakistan,True
+1445,1200,Primary,House 207 College Road,Turbat,Balochistan,73854,Pakistan,True
+1446,1201,Primary,House 154 Gulberg,Gilgit,Gilgit-Baltistan,70141,Pakistan,True
+1447,1202,Primary,836 University Road,Abbottabad,Khyber Pakhtunkhwa,30693,Pakistan,True
+1448,1202,Secondary,Block B DHA,Karachi,Sindh,48955,Pakistan,False
+1449,1203,Primary,Block B Main Boulevard,Zhob,Balochistan,59576,Pakistan,True
+1450,1204,Primary,House 378 Clifton,Sargodha,Punjab,30467,Pakistan,True
+1451,1205,Primary,201 Clifton,Turbat,Balochistan,38182,Pakistan,True
+1452,1206,Primary,457 Main Boulevard,Muzaffarabad,Azad Kashmir,48858,Pakistan,True
+1453,1206,Secondary,Block B Main Boulevard,Nowshera,Khyber Pakhtunkhwa,66951,Pakistan,False
+1454,1207,Primary,Block C Model Town,Gwadar,Balochistan,74561,Pakistan,True
+1455,1207,Secondary,House 638 Gulberg,Muzaffarabad,Azad Kashmir,37575,Pakistan,False
+1456,1208,Primary,198 Saddar,Quetta,Balochistan,16131,Pakistan,True
+1457,1208,Secondary,Block D Main Boulevard,Astore,Gilgit-Baltistan,72811,Pakistan,False
+1458,1209,Primary,House 321 Gulberg,Gwadar,Balochistan,76186,Pakistan,True
+1459,1210,Primary,House 115 Saddar,Chilas,Gilgit-Baltistan,64491,Pakistan,True
+1460,1211,Primary,House 621 Saddar,Astore,Gilgit-Baltistan,17060,Pakistan,True
+1461,1212,Primary,880 Clifton,Gujranwala,Punjab,25615,Pakistan,True
+1462,1213,Primary,Block B DHA,Chaman,Balochistan,75217,Pakistan,True
+1463,1214,Primary,Block B Bahria Town,Nawabshah,Sindh,18788,Pakistan,True
+1464,1215,Primary,274 Defence Housing,Abbottabad,Khyber Pakhtunkhwa,47391,Pakistan,True
+1465,1215,Secondary,Block D Park Road,Gujranwala,Punjab,36622,Pakistan,False
+1466,1216,Primary,Block B Johar Town,Mirpur,Azad Kashmir,74054,Pakistan,True
+1467,1216,Secondary,House 897 Bahria Town,Karachi,Sindh,64698,Pakistan,False
+1468,1217,Primary,208 Clifton,Mardan,Khyber Pakhtunkhwa,65781,Pakistan,True
+1469,1218,Primary,Block A Main Boulevard,Rawalakot,Azad Kashmir,49960,Pakistan,True
+1470,1219,Primary,Block D Clifton,Faisalabad,Punjab,20622,Pakistan,True
+1471,1220,Primary,House 40 Johar Town,Hyderabad,Sindh,34221,Pakistan,True
+1472,1221,Primary,Block C Defence Housing,Nowshera,Khyber Pakhtunkhwa,90806,Pakistan,True
+1473,1222,Primary,House 146 Main Boulevard,Gwadar,Balochistan,81880,Pakistan,True
+1474,1223,Primary,708 Johar Town,Multan,Punjab,24801,Pakistan,True
+1475,1224,Primary,Block C University Road,Muzaffarabad,Azad Kashmir,62508,Pakistan,True
+1476,1225,Primary,House 917 Bahria Town,Kotli,Azad Kashmir,45157,Pakistan,True
+1477,1226,Primary,754 Mall Road,Swat,Khyber Pakhtunkhwa,82296,Pakistan,True
+1478,1227,Primary,Block C College Road,Faisalabad,Punjab,60568,Pakistan,True
+1479,1227,Secondary,Block C Industrial Area,Zhob,Balochistan,95631,Pakistan,False
+1480,1228,Primary,460 Industrial Area,Nawabshah,Sindh,90947,Pakistan,True
+1481,1229,Primary,Block E College Road,Peshawar,Khyber Pakhtunkhwa,91967,Pakistan,True
+1482,1229,Secondary,Block A Park Road,Sialkot,Punjab,59377,Pakistan,False
+1483,1230,Primary,Block A Industrial Area,Sukkur,Sindh,65493,Pakistan,True
+1484,1231,Primary,654 Saddar,Gwadar,Balochistan,65978,Pakistan,True
+1485,1232,Primary,817 Industrial Area,Nawabshah,Sindh,77573,Pakistan,True
+1486,1233,Primary,248 Park Road,Abbottabad,Khyber Pakhtunkhwa,54002,Pakistan,True
+1487,1234,Primary,Block E Main Boulevard,Jacobabad,Sindh,86221,Pakistan,True
+1488,1235,Primary,Block A Park Road,Muzaffarabad,Azad Kashmir,15305,Pakistan,True
+1489,1236,Primary,Block E Mall Road,Kotli,Azad Kashmir,39620,Pakistan,True
+1490,1237,Primary,Block D Saddar,Gujranwala,Punjab,12472,Pakistan,True
+1491,1238,Primary,Block B Gulberg,Karachi,Sindh,42564,Pakistan,True
+1492,1239,Primary,House 948 Main Boulevard,Chilas,Gilgit-Baltistan,78982,Pakistan,True
+1493,1240,Primary,House 787 Bahria Town,Kotli,Azad Kashmir,73923,Pakistan,True
+1494,1241,Primary,509 Gulberg,Gilgit,Gilgit-Baltistan,56430,Pakistan,True
+1495,1242,Primary,House 341 Model Town,Zhob,Balochistan,15604,Pakistan,True
+1496,1243,Primary,319 Johar Town,Mardan,Khyber Pakhtunkhwa,47245,Pakistan,True
+1497,1244,Primary,590 Park Road,Lahore,Punjab,77074,Pakistan,True
+1498,1245,Primary,House 522 College Road,Lahore,Punjab,15175,Pakistan,True
+1499,1246,Primary,Block C Cantt,Chilas,Gilgit-Baltistan,91283,Pakistan,True
+1500,1247,Primary,Block E College Road,Zhob,Balochistan,36471,Pakistan,True
+1501,1248,Primary,House 767 Park Road,Swat,Khyber Pakhtunkhwa,37758,Pakistan,True
+1502,1249,Primary,House 638 Saddar,Chilas,Gilgit-Baltistan,68450,Pakistan,True
+1503,1250,Primary,House 359 Mall Road,Astore,Gilgit-Baltistan,31997,Pakistan,True
+1504,1250,Secondary,Block A Model Town,Mardan,Khyber Pakhtunkhwa,38149,Pakistan,False
+1505,1251,Primary,Block A Main Boulevard,Skardu,Gilgit-Baltistan,90326,Pakistan,True
+1506,1252,Primary,House 415 Mall Road,Gujranwala,Punjab,59665,Pakistan,True
+1507,1252,Secondary,Block C Defence Housing,Muzaffarabad,Azad Kashmir,32417,Pakistan,False
+1508,1253,Primary,Block C Bahria Town,Muzaffarabad,Azad Kashmir,27267,Pakistan,True
+1509,1254,Primary,Block D Main Boulevard,Chilas,Gilgit-Baltistan,85234,Pakistan,True
+1510,1254,Secondary,Block C Main Boulevard,Quetta,Balochistan,65654,Pakistan,False
+1511,1255,Primary,189 DHA,Karachi,Sindh,11226,Pakistan,True
+1512,1255,Secondary,Block A Clifton,Astore,Gilgit-Baltistan,66482,Pakistan,False
+1513,1256,Primary,486 DHA,Gujranwala,Punjab,45953,Pakistan,True
+1514,1256,Secondary,House 275 Park Road,Karachi,Sindh,38365,Pakistan,False
+1515,1257,Primary,House 7 University Road,Gilgit,Gilgit-Baltistan,23892,Pakistan,True
+1516,1258,Primary,Block B Mall Road,Larkana,Sindh,95431,Pakistan,True
+1517,1258,Secondary,376 Bahria Town,Turbat,Balochistan,56445,Pakistan,False
+1518,1259,Primary,Block E University Road,Rawalakot,Azad Kashmir,17260,Pakistan,True
+1519,1260,Primary,Block E Main Boulevard,Khuzdar,Balochistan,69738,Pakistan,True
+1520,1261,Primary,Block A Saddar,Bahawalpur,Punjab,43005,Pakistan,True
+1521,1262,Primary,222 College Road,Mirpur,Azad Kashmir,43882,Pakistan,True
+1522,1263,Primary,House 734 DHA,Gwadar,Balochistan,74896,Pakistan,True
+1523,1264,Primary,379 Clifton,Kotli,Azad Kashmir,35788,Pakistan,True
+1524,1265,Primary,576 Cantt,Hyderabad,Sindh,12702,Pakistan,True
+1525,1266,Primary,Block A Main Boulevard,Peshawar,Khyber Pakhtunkhwa,19053,Pakistan,True
+1526,1267,Primary,679 Main Boulevard,Skardu,Gilgit-Baltistan,48260,Pakistan,True
+1527,1268,Primary,House 892 Park Road,Charsadda,Khyber Pakhtunkhwa,63382,Pakistan,True
+1528,1269,Primary,House 127 Park Road,Sargodha,Punjab,41596,Pakistan,True
+1529,1270,Primary,919 College Road,Bahawalpur,Punjab,44411,Pakistan,True
+1530,1271,Primary,Block B College Road,Gilgit,Gilgit-Baltistan,19519,Pakistan,True
+1531,1272,Primary,House 596 Johar Town,Sialkot,Punjab,61516,Pakistan,True
+1532,1273,Primary,576 University Road,Rawalakot,Azad Kashmir,30060,Pakistan,True
+1533,1274,Primary,939 DHA,Gwadar,Balochistan,11751,Pakistan,True
+1534,1275,Primary,House 262 Bahria Town,Peshawar,Khyber Pakhtunkhwa,82044,Pakistan,True
+1535,1275,Secondary,49 Cantt,Gilgit,Gilgit-Baltistan,58194,Pakistan,False
+1536,1276,Primary,128 College Road,Mirpur Khas,Sindh,44697,Pakistan,True
+1537,1277,Primary,House 788 Johar Town,Peshawar,Khyber Pakhtunkhwa,56951,Pakistan,True
+1538,1278,Primary,House 927 Defence Housing,Mardan,Khyber Pakhtunkhwa,50670,Pakistan,True
+1539,1279,Primary,703 Saddar,Bahawalpur,Punjab,58814,Pakistan,True
+1540,1279,Secondary,Block C University Road,Gilgit,Gilgit-Baltistan,43099,Pakistan,False
+1541,1280,Primary,188 Johar Town,Chilas,Gilgit-Baltistan,44650,Pakistan,True
+1542,1281,Primary,886 Industrial Area,Astore,Gilgit-Baltistan,86230,Pakistan,True
+1543,1282,Primary,430 University Road,Karachi,Sindh,67488,Pakistan,True
+1544,1282,Secondary,290 College Road,Lahore,Punjab,77267,Pakistan,False
+1545,1283,Primary,391 Mall Road,Swat,Khyber Pakhtunkhwa,73238,Pakistan,True
+1546,1283,Secondary,House 239 College Road,Multan,Punjab,49552,Pakistan,False
+1547,1284,Primary,743 Park Road,Mirpur Khas,Sindh,57370,Pakistan,True
+1548,1285,Primary,Block D DHA,Gwadar,Balochistan,87151,Pakistan,True
+1549,1286,Primary,House 777 Johar Town,Peshawar,Khyber Pakhtunkhwa,35203,Pakistan,True
+1550,1287,Primary,House 61 Bahria Town,Mirpur,Azad Kashmir,10771,Pakistan,True
+1551,1288,Primary,Block C Johar Town,Charsadda,Khyber Pakhtunkhwa,63367,Pakistan,True
+1552,1289,Primary,Block E Saddar,Bahawalpur,Punjab,95983,Pakistan,True
+1553,1289,Secondary,373 Cantt,Gilgit,Gilgit-Baltistan,46345,Pakistan,False
+1554,1290,Primary,941 DHA,Quetta,Balochistan,88561,Pakistan,True
+1555,1290,Secondary,House 868 Defence Housing,Zhob,Balochistan,58699,Pakistan,False
+1556,1291,Primary,House 353 Mall Road,Bahawalpur,Punjab,68376,Pakistan,True
+1557,1292,Primary,198 Gulberg,Skardu,Gilgit-Baltistan,18641,Pakistan,True
+1558,1292,Secondary,House 386 Saddar,Swat,Khyber Pakhtunkhwa,98078,Pakistan,False
+1559,1293,Primary,House 800 University Road,Peshawar,Khyber Pakhtunkhwa,51304,Pakistan,True
+1560,1294,Primary,938 Johar Town,Chaman,Balochistan,91713,Pakistan,True
+1561,1294,Secondary,224 Cantt,Gwadar,Balochistan,58824,Pakistan,False
+1562,1295,Primary,House 212 Johar Town,Bahawalpur,Punjab,16879,Pakistan,True
+1563,1296,Primary,191 Park Road,Swat,Khyber Pakhtunkhwa,22062,Pakistan,True
+1564,1297,Primary,House 508 Gulberg,Multan,Punjab,61307,Pakistan,True
+1565,1298,Primary,Block B Johar Town,Sukkur,Sindh,36457,Pakistan,True
+1566,1298,Secondary,Block C Bahria Town,Peshawar,Khyber Pakhtunkhwa,90707,Pakistan,False
+1567,1299,Primary,House 971 Bahria Town,Gujranwala,Punjab,64197,Pakistan,True
+1568,1300,Primary,Block A Cantt,Jacobabad,Sindh,31085,Pakistan,True
+1569,1301,Primary,Block A Saddar,Gilgit,Gilgit-Baltistan,24798,Pakistan,True
+1570,1302,Primary,808 Model Town,Mirpur,Azad Kashmir,87234,Pakistan,True
+1571,1303,Primary,Block E Park Road,Jacobabad,Sindh,68152,Pakistan,True
+1572,1304,Primary,House 646 DHA,Muzaffarabad,Azad Kashmir,46718,Pakistan,True
+1573,1304,Secondary,Block C Gulberg,Sukkur,Sindh,50486,Pakistan,False
+1574,1305,Primary,153 College Road,Peshawar,Khyber Pakhtunkhwa,65464,Pakistan,True
+1575,1306,Primary,551 Defence Housing,Quetta,Balochistan,90657,Pakistan,True
+1576,1307,Primary,House 891 Gulberg,Charsadda,Khyber Pakhtunkhwa,17726,Pakistan,True
+1577,1307,Secondary,890 Clifton,Abbottabad,Khyber Pakhtunkhwa,46425,Pakistan,False
+1578,1308,Primary,Block D Saddar,Quetta,Balochistan,99789,Pakistan,True
+1579,1309,Primary,House 595 Clifton,Gilgit,Gilgit-Baltistan,61215,Pakistan,True
+1580,1310,Primary,Block A Clifton,Faisalabad,Punjab,49011,Pakistan,True
+1581,1311,Primary,Block C Clifton,Astore,Gilgit-Baltistan,54991,Pakistan,True
+1582,1312,Primary,996 Cantt,Mansehra,Khyber Pakhtunkhwa,72854,Pakistan,True
+1583,1313,Primary,House 789 Clifton,Larkana,Sindh,48781,Pakistan,True
+1584,1314,Primary,House 647 Main Boulevard,Mirpur Khas,Sindh,62193,Pakistan,True
+1585,1315,Primary,House 149 Saddar,Sukkur,Sindh,75986,Pakistan,True
+1586,1316,Primary,House 340 Saddar,Nowshera,Khyber Pakhtunkhwa,31546,Pakistan,True
+1587,1317,Primary,Block E College Road,Hyderabad,Sindh,36180,Pakistan,True
+1588,1318,Primary,House 78 Johar Town,Khuzdar,Balochistan,95745,Pakistan,True
+1589,1319,Primary,Block A Defence Housing,Jacobabad,Sindh,42393,Pakistan,True
+1590,1320,Primary,Block C Defence Housing,Astore,Gilgit-Baltistan,84388,Pakistan,True
+1591,1321,Primary,Block A Saddar,Peshawar,Khyber Pakhtunkhwa,45835,Pakistan,True
+1592,1322,Primary,House 282 Johar Town,Astore,Gilgit-Baltistan,52525,Pakistan,True
+1593,1323,Primary,House 584 Johar Town,Rawalpindi,Punjab,26111,Pakistan,True
+1594,1324,Primary,Block D Cantt,Mirpur,Azad Kashmir,51669,Pakistan,True
+1595,1325,Primary,House 109 DHA,Bahawalpur,Punjab,97655,Pakistan,True
+1596,1325,Secondary,House 253 Mall Road,Sukkur,Sindh,62567,Pakistan,False
+1597,1326,Primary,Block D Saddar,Kotli,Azad Kashmir,79661,Pakistan,True
+1598,1327,Primary,Block B Park Road,Chilas,Gilgit-Baltistan,20833,Pakistan,True
+1599,1328,Primary,Block B College Road,Rawalpindi,Punjab,55342,Pakistan,True
+1600,1329,Primary,House 12 Defence Housing,Turbat,Balochistan,40338,Pakistan,True
+1601,1330,Primary,153 Bahria Town,Mirpur,Azad Kashmir,85866,Pakistan,True
+1602,1331,Primary,Block B Cantt,Rawalpindi,Punjab,99479,Pakistan,True
+1603,1332,Primary,994 College Road,Charsadda,Khyber Pakhtunkhwa,53399,Pakistan,True
+1604,1332,Secondary,House 183 Clifton,Faisalabad,Punjab,69655,Pakistan,False
+1605,1333,Primary,855 Model Town,Gujranwala,Punjab,37195,Pakistan,True
+1606,1334,Primary,595 Defence Housing,Jacobabad,Sindh,49719,Pakistan,True
+1607,1335,Primary,House 966 DHA,Zhob,Balochistan,74538,Pakistan,True
+1608,1336,Primary,Block E Clifton,Muzaffarabad,Azad Kashmir,80616,Pakistan,True
+1609,1337,Primary,728 Defence Housing,Charsadda,Khyber Pakhtunkhwa,30212,Pakistan,True
+1610,1338,Primary,741 Industrial Area,Kotli,Azad Kashmir,64963,Pakistan,True
+1611,1339,Primary,163 Industrial Area,Peshawar,Khyber Pakhtunkhwa,24178,Pakistan,True
+1612,1340,Primary,279 Park Road,Skardu,Gilgit-Baltistan,65426,Pakistan,True
+1613,1341,Primary,House 735 Mall Road,Mirpur Khas,Sindh,45475,Pakistan,True
+1614,1341,Secondary,837 Industrial Area,Hyderabad,Sindh,57040,Pakistan,False
+1615,1342,Primary,Block D DHA,Gwadar,Balochistan,91183,Pakistan,True
+1616,1342,Secondary,661 Cantt,Charsadda,Khyber Pakhtunkhwa,35706,Pakistan,False
+1617,1343,Primary,630 DHA,Kotli,Azad Kashmir,74138,Pakistan,True
+1618,1343,Secondary,Block C Cantt,Turbat,Balochistan,79627,Pakistan,False
+1619,1344,Primary,Block E Model Town,Larkana,Sindh,28567,Pakistan,True
+1620,1345,Primary,House 487 Clifton,Quetta,Balochistan,97638,Pakistan,True
+1621,1345,Secondary,Block D Main Boulevard,Abbottabad,Khyber Pakhtunkhwa,18859,Pakistan,False
+1622,1346,Primary,House 705 Gulberg,Swat,Khyber Pakhtunkhwa,14733,Pakistan,True
+1623,1347,Primary,Block D Model Town,Kotli,Azad Kashmir,73005,Pakistan,True
+1624,1348,Primary,Block A Gulberg,Sargodha,Punjab,22098,Pakistan,True
+1625,1349,Primary,614 Bahria Town,Kotli,Azad Kashmir,28905,Pakistan,True
+1626,1350,Primary,369 University Road,Larkana,Sindh,47866,Pakistan,True
+1627,1351,Primary,209 Cantt,Karachi,Sindh,99396,Pakistan,True
+1628,1352,Primary,House 399 Saddar,Nowshera,Khyber Pakhtunkhwa,19070,Pakistan,True
+1629,1353,Primary,Block A DHA,Mirpur Khas,Sindh,20230,Pakistan,True
+1630,1354,Primary,93 Saddar,Sukkur,Sindh,31925,Pakistan,True
+1631,1355,Primary,Block E Industrial Area,Sialkot,Punjab,84095,Pakistan,True
+1632,1356,Primary,919 Model Town,Chaman,Balochistan,11706,Pakistan,True
+1633,1357,Primary,House 503 Johar Town,Peshawar,Khyber Pakhtunkhwa,56299,Pakistan,True
+1634,1358,Primary,Block D Main Boulevard,Gwadar,Balochistan,87777,Pakistan,True
+1635,1358,Secondary,House 558 DHA,Gwadar,Balochistan,86267,Pakistan,False
+1636,1359,Primary,Block B University Road,Turbat,Balochistan,29740,Pakistan,True
+1637,1360,Primary,77 Clifton,Zhob,Balochistan,36098,Pakistan,True
+1638,1360,Secondary,Block D Main Boulevard,Larkana,Sindh,47942,Pakistan,False
+1639,1361,Primary,969 College Road,Quetta,Balochistan,87944,Pakistan,True
+1640,1362,Primary,House 503 Industrial Area,Hyderabad,Sindh,32510,Pakistan,True
+1641,1363,Primary,31 Industrial Area,Rawalakot,Azad Kashmir,50037,Pakistan,True
+1642,1364,Primary,Block A Gulberg,Hyderabad,Sindh,66866,Pakistan,True
+1643,1365,Primary,Block B Mall Road,Zhob,Balochistan,45225,Pakistan,True
+1644,1366,Primary,Block B DHA,Khuzdar,Balochistan,35312,Pakistan,True
+1645,1367,Primary,501 Industrial Area,Nawabshah,Sindh,37059,Pakistan,True
+1646,1368,Primary,House 809 Saddar,Astore,Gilgit-Baltistan,70589,Pakistan,True
+1647,1369,Primary,336 Model Town,Gilgit,Gilgit-Baltistan,75534,Pakistan,True
+1648,1370,Primary,House 600 Cantt,Mirpur,Azad Kashmir,49210,Pakistan,True
+1649,1371,Primary,Block D Main Boulevard,Sukkur,Sindh,56103,Pakistan,True
+1650,1372,Primary,435 DHA,Rawalpindi,Punjab,90325,Pakistan,True
+1651,1372,Secondary,Block B Main Boulevard,Muzaffarabad,Azad Kashmir,70573,Pakistan,False
+1652,1373,Primary,House 646 Cantt,Turbat,Balochistan,70520,Pakistan,True
+1653,1374,Primary,House 905 Cantt,Sukkur,Sindh,24963,Pakistan,True
+1654,1375,Primary,House 143 Clifton,Gujranwala,Punjab,33543,Pakistan,True
+1655,1376,Primary,Block A Clifton,Astore,Gilgit-Baltistan,26359,Pakistan,True
+1656,1377,Primary,Block D Mall Road,Multan,Punjab,67434,Pakistan,True
+1657,1378,Primary,414 Defence Housing,Multan,Punjab,52664,Pakistan,True
+1658,1379,Primary,936 Johar Town,Faisalabad,Punjab,52489,Pakistan,True
+1659,1379,Secondary,Block E Park Road,Quetta,Balochistan,19478,Pakistan,False
+1660,1380,Primary,House 892 Cantt,Quetta,Balochistan,22873,Pakistan,True
+1661,1381,Primary,Block B Park Road,Skardu,Gilgit-Baltistan,71712,Pakistan,True
+1662,1382,Primary,Block D Gulberg,Khuzdar,Balochistan,65735,Pakistan,True
+1663,1382,Secondary,House 8 Industrial Area,Chaman,Balochistan,99940,Pakistan,False
+1664,1383,Primary,Block A Cantt,Larkana,Sindh,42335,Pakistan,True
+1665,1384,Primary,House 665 Bahria Town,Swat,Khyber Pakhtunkhwa,92005,Pakistan,True
+1666,1385,Primary,324 Clifton,Peshawar,Khyber Pakhtunkhwa,36798,Pakistan,True
+1667,1386,Primary,Block C Park Road,Muzaffarabad,Azad Kashmir,70691,Pakistan,True
+1668,1387,Primary,Block A Industrial Area,Peshawar,Khyber Pakhtunkhwa,85220,Pakistan,True
+1669,1388,Primary,241 Main Boulevard,Kotli,Azad Kashmir,31620,Pakistan,True
+1670,1389,Primary,House 205 Model Town,Jacobabad,Sindh,83447,Pakistan,True
+1671,1390,Primary,832 Main Boulevard,Larkana,Sindh,27783,Pakistan,True
+1672,1391,Primary,Block B Gulberg,Rawalakot,Azad Kashmir,83702,Pakistan,True
+1673,1392,Primary,House 35 Clifton,Karachi,Sindh,62884,Pakistan,True
+1674,1393,Primary,330 Model Town,Sukkur,Sindh,33867,Pakistan,True
+1675,1394,Primary,House 357 Mall Road,Gujranwala,Punjab,89320,Pakistan,True
+1676,1394,Secondary,House 737 Saddar,Karachi,Sindh,99108,Pakistan,False
+1677,1395,Primary,817 Defence Housing,Bahawalpur,Punjab,34049,Pakistan,True
+1678,1396,Primary,House 641 Main Boulevard,Faisalabad,Punjab,36306,Pakistan,True
+1679,1396,Secondary,344 Park Road,Muzaffarabad,Azad Kashmir,17711,Pakistan,False
+1680,1397,Primary,Block B College Road,Sargodha,Punjab,12097,Pakistan,True
+1681,1398,Primary,House 444 Clifton,Bahawalpur,Punjab,34603,Pakistan,True
+1682,1399,Primary,448 Johar Town,Khuzdar,Balochistan,64310,Pakistan,True
+1683,1400,Primary,Block C Gulberg,Bahawalpur,Punjab,15133,Pakistan,True
+1684,1401,Primary,26 DHA,Bahawalpur,Punjab,40693,Pakistan,True
+1685,1402,Primary,Block C Saddar,Charsadda,Khyber Pakhtunkhwa,24002,Pakistan,True
+1686,1402,Secondary,House 46 Park Road,Sialkot,Punjab,10581,Pakistan,False
+1687,1403,Primary,885 Main Boulevard,Chaman,Balochistan,41884,Pakistan,True
+1688,1404,Primary,Block D Park Road,Peshawar,Khyber Pakhtunkhwa,43528,Pakistan,True
+1689,1404,Secondary,962 Model Town,Muzaffarabad,Azad Kashmir,94124,Pakistan,False
+1690,1405,Primary,House 168 Gulberg,Gilgit,Gilgit-Baltistan,76472,Pakistan,True
+1691,1406,Primary,433 Park Road,Zhob,Balochistan,84994,Pakistan,True
+1692,1406,Secondary,Block A University Road,Abbottabad,Khyber Pakhtunkhwa,48463,Pakistan,False
+1693,1407,Primary,House 289 Industrial Area,Mansehra,Khyber Pakhtunkhwa,60405,Pakistan,True
+1694,1408,Primary,Block A Park Road,Nawabshah,Sindh,28939,Pakistan,True
+1695,1409,Primary,963 Mall Road,Sargodha,Punjab,26442,Pakistan,True
+1696,1410,Primary,636 Defence Housing,Khuzdar,Balochistan,94997,Pakistan,True
+1697,1411,Primary,30 Johar Town,Chilas,Gilgit-Baltistan,79260,Pakistan,True
+1698,1412,Primary,984 University Road,Zhob,Balochistan,97340,Pakistan,True
+1699,1413,Primary,House 639 Johar Town,Peshawar,Khyber Pakhtunkhwa,15917,Pakistan,True
+1700,1414,Primary,839 Model Town,Hyderabad,Sindh,82765,Pakistan,True
+1701,1415,Primary,Block A Mall Road,Gilgit,Gilgit-Baltistan,21713,Pakistan,True
+1702,1416,Primary,Block C Clifton,Muzaffarabad,Azad Kashmir,70908,Pakistan,True
+1703,1416,Secondary,181 Gulberg,Bahawalpur,Punjab,45211,Pakistan,False
+1704,1417,Primary,376 Defence Housing,Bahawalpur,Punjab,23331,Pakistan,True
+1705,1418,Primary,304 Gulberg,Rawalakot,Azad Kashmir,22147,Pakistan,True
+1706,1419,Primary,386 Saddar,Jacobabad,Sindh,25703,Pakistan,True
+1707,1420,Primary,Block E Park Road,Peshawar,Khyber Pakhtunkhwa,60206,Pakistan,True
+1708,1421,Primary,House 189 Defence Housing,Skardu,Gilgit-Baltistan,24617,Pakistan,True
+1709,1422,Primary,House 373 DHA,Skardu,Gilgit-Baltistan,28094,Pakistan,True
+1710,1423,Primary,Block D University Road,Sukkur,Sindh,87309,Pakistan,True
+1711,1424,Primary,House 789 Mall Road,Rawalakot,Azad Kashmir,84876,Pakistan,True
+1712,1425,Primary,Block B Model Town,Muzaffarabad,Azad Kashmir,97781,Pakistan,True
+1713,1426,Primary,Block B Defence Housing,Nawabshah,Sindh,72235,Pakistan,True
+1714,1426,Secondary,House 280 University Road,Sukkur,Sindh,65041,Pakistan,False
+1715,1427,Primary,729 Cantt,Bahawalpur,Punjab,86941,Pakistan,True
+1716,1427,Secondary,510 College Road,Skardu,Gilgit-Baltistan,10542,Pakistan,False
+1717,1428,Primary,319 Clifton,Zhob,Balochistan,55900,Pakistan,True
+1718,1429,Primary,703 Park Road,Gwadar,Balochistan,18004,Pakistan,True
+1719,1429,Secondary,House 578 Defence Housing,Nawabshah,Sindh,46710,Pakistan,False
+1720,1430,Primary,Block C College Road,Multan,Punjab,59543,Pakistan,True
+1721,1431,Primary,660 Johar Town,Gilgit,Gilgit-Baltistan,20599,Pakistan,True
+1722,1432,Primary,Block A Model Town,Jacobabad,Sindh,49993,Pakistan,True
+1723,1432,Secondary,Block A Gulberg,Muzaffarabad,Azad Kashmir,46062,Pakistan,False
+1724,1433,Primary,House 74 Bahria Town,Rawalakot,Azad Kashmir,15611,Pakistan,True
+1725,1434,Primary,42 Main Boulevard,Sialkot,Punjab,69034,Pakistan,True
+1726,1435,Primary,House 983 Defence Housing,Swat,Khyber Pakhtunkhwa,95950,Pakistan,True
+1727,1436,Primary,Block B Bahria Town,Turbat,Balochistan,30065,Pakistan,True
+1728,1437,Primary,386 Park Road,Larkana,Sindh,42896,Pakistan,True
+1729,1437,Secondary,House 546 Model Town,Rawalpindi,Punjab,44026,Pakistan,False
+1730,1438,Primary,320 Park Road,Nawabshah,Sindh,79977,Pakistan,True
+1731,1439,Primary,405 Industrial Area,Nowshera,Khyber Pakhtunkhwa,67521,Pakistan,True
+1732,1440,Primary,Block E Bahria Town,Chilas,Gilgit-Baltistan,12230,Pakistan,True
+1733,1441,Primary,Block C Main Boulevard,Khuzdar,Balochistan,36779,Pakistan,True
+1734,1442,Primary,Block E Park Road,Rawalakot,Azad Kashmir,49949,Pakistan,True
+1735,1443,Primary,Block A Main Boulevard,Lahore,Punjab,63935,Pakistan,True
+1736,1443,Secondary,House 682 Mall Road,Astore,Gilgit-Baltistan,77309,Pakistan,False
+1737,1444,Primary,Block C Bahria Town,Skardu,Gilgit-Baltistan,99873,Pakistan,True
+1738,1445,Primary,Block E Park Road,Turbat,Balochistan,63711,Pakistan,True
+1739,1446,Primary,House 981 Johar Town,Rawalakot,Azad Kashmir,80052,Pakistan,True
+1740,1446,Secondary,Block D Bahria Town,Multan,Punjab,10972,Pakistan,False
+1741,1447,Primary,411 Main Boulevard,Nawabshah,Sindh,32525,Pakistan,True
+1742,1447,Secondary,House 48 DHA,Chilas,Gilgit-Baltistan,29060,Pakistan,False
+1743,1448,Primary,Block D DHA,Karachi,Sindh,10498,Pakistan,True
+1744,1449,Primary,Block E Johar Town,Gilgit,Gilgit-Baltistan,53650,Pakistan,True
+1745,1449,Secondary,722 Gulberg,Nawabshah,Sindh,63850,Pakistan,False
+1746,1450,Primary,459 Gulberg,Nawabshah,Sindh,52967,Pakistan,True
+1747,1451,Primary,471 Saddar,Larkana,Sindh,61396,Pakistan,True
+1748,1452,Primary,House 629 Gulberg,Mirpur,Azad Kashmir,72159,Pakistan,True
+1749,1453,Primary,House 772 College Road,Rawalakot,Azad Kashmir,91520,Pakistan,True
+1750,1454,Primary,Block C Industrial Area,Charsadda,Khyber Pakhtunkhwa,69506,Pakistan,True
+1751,1455,Primary,House 484 Johar Town,Muzaffarabad,Azad Kashmir,36947,Pakistan,True
+1752,1456,Primary,House 49 Park Road,Quetta,Balochistan,27435,Pakistan,True
+1753,1457,Primary,467 Model Town,Hyderabad,Sindh,60391,Pakistan,True
+1754,1457,Secondary,527 Saddar,Abbottabad,Khyber Pakhtunkhwa,36387,Pakistan,False
+1755,1458,Primary,House 137 University Road,Mirpur,Azad Kashmir,17276,Pakistan,True
+1756,1459,Primary,House 999 Main Boulevard,Sargodha,Punjab,52037,Pakistan,True
+1757,1460,Primary,535 Defence Housing,Swat,Khyber Pakhtunkhwa,90952,Pakistan,True
+1758,1461,Primary,Block A Defence Housing,Nowshera,Khyber Pakhtunkhwa,79077,Pakistan,True
+1759,1462,Primary,House 823 Bahria Town,Gilgit,Gilgit-Baltistan,82505,Pakistan,True
+1760,1463,Primary,752 Mall Road,Quetta,Balochistan,85321,Pakistan,True
+1761,1464,Primary,37 University Road,Quetta,Balochistan,24131,Pakistan,True
+1762,1465,Primary,615 Mall Road,Mirpur Khas,Sindh,28816,Pakistan,True
+1763,1466,Primary,498 College Road,Astore,Gilgit-Baltistan,47522,Pakistan,True
+1764,1467,Primary,664 Defence Housing,Muzaffarabad,Azad Kashmir,94368,Pakistan,True
+1765,1467,Secondary,House 330 DHA,Bahawalpur,Punjab,63917,Pakistan,False
+1766,1468,Primary,359 Bahria Town,Turbat,Balochistan,86019,Pakistan,True
+1767,1469,Primary,Block E Mall Road,Chilas,Gilgit-Baltistan,51369,Pakistan,True
+1768,1470,Primary,House 111 DHA,Rawalpindi,Punjab,12911,Pakistan,True
+1769,1471,Primary,Block B Saddar,Kotli,Azad Kashmir,49403,Pakistan,True
+1770,1472,Primary,Block B University Road,Gilgit,Gilgit-Baltistan,13180,Pakistan,True
+1771,1473,Primary,House 436 Saddar,Kotli,Azad Kashmir,32563,Pakistan,True
+1772,1474,Primary,Block B Clifton,Nowshera,Khyber Pakhtunkhwa,16959,Pakistan,True
+1773,1475,Primary,377 Saddar,Chilas,Gilgit-Baltistan,48373,Pakistan,True
+1774,1475,Secondary,House 742 Clifton,Jacobabad,Sindh,35618,Pakistan,False
+1775,1476,Primary,14 Park Road,Multan,Punjab,70199,Pakistan,True
+1776,1477,Primary,425 Mall Road,Khuzdar,Balochistan,81964,Pakistan,True
+1777,1478,Primary,House 631 Cantt,Khuzdar,Balochistan,71165,Pakistan,True
+1778,1478,Secondary,695 Mall Road,Skardu,Gilgit-Baltistan,15724,Pakistan,False
+1779,1479,Primary,House 129 Saddar,Chaman,Balochistan,21226,Pakistan,True
+1780,1480,Primary,House 598 University Road,Bahawalpur,Punjab,52094,Pakistan,True
+1781,1481,Primary,Block E DHA,Muzaffarabad,Azad Kashmir,29493,Pakistan,True
+1782,1482,Primary,House 327 Model Town,Bahawalpur,Punjab,49302,Pakistan,True
+1783,1483,Primary,Block E Gulberg,Gujranwala,Punjab,54721,Pakistan,True
+1784,1484,Primary,House 96 Park Road,Chaman,Balochistan,27261,Pakistan,True
+1785,1484,Secondary,864 Bahria Town,Nowshera,Khyber Pakhtunkhwa,96043,Pakistan,False
+1786,1485,Primary,House 231 Model Town,Astore,Gilgit-Baltistan,12846,Pakistan,True
+1787,1486,Primary,621 Saddar,Muzaffarabad,Azad Kashmir,26288,Pakistan,True
+1788,1487,Primary,House 893 Gulberg,Skardu,Gilgit-Baltistan,34649,Pakistan,True
+1789,1488,Primary,House 241 Park Road,Mirpur,Azad Kashmir,91782,Pakistan,True
+1790,1489,Primary,House 115 Model Town,Abbottabad,Khyber Pakhtunkhwa,76693,Pakistan,True
+1791,1490,Primary,64 Park Road,Sukkur,Sindh,24047,Pakistan,True
+1792,1491,Primary,Block C Johar Town,Multan,Punjab,32372,Pakistan,True
+1793,1492,Primary,809 Defence Housing,Larkana,Sindh,60604,Pakistan,True
+1794,1492,Secondary,House 18 Gulberg,Gilgit,Gilgit-Baltistan,75889,Pakistan,False
+1795,1493,Primary,289 Mall Road,Muzaffarabad,Azad Kashmir,13343,Pakistan,True
+1796,1494,Primary,987 Johar Town,Rawalakot,Azad Kashmir,32758,Pakistan,True
+1797,1495,Primary,336 Cantt,Swat,Khyber Pakhtunkhwa,51972,Pakistan,True
+1798,1496,Primary,Block A Gulberg,Chilas,Gilgit-Baltistan,18115,Pakistan,True
+1799,1497,Primary,107 Mall Road,Rawalpindi,Punjab,50429,Pakistan,True
+1800,1498,Primary,520 Saddar,Sialkot,Punjab,95306,Pakistan,True
+1801,1498,Secondary,Block C DHA,Mirpur,Azad Kashmir,52792,Pakistan,False
+1802,1499,Primary,559 Johar Town,Turbat,Balochistan,73280,Pakistan,True
+1803,1500,Primary,632 Bahria Town,Sukkur,Sindh,13751,Pakistan,True
+1804,1501,Primary,634 Gulberg,Lahore,Punjab,81542,Pakistan,True
+1805,1501,Secondary,Block D Defence Housing,Mirpur,Azad Kashmir,24959,Pakistan,False
+1806,1502,Primary,Block C Defence Housing,Chilas,Gilgit-Baltistan,83147,Pakistan,True
+1807,1503,Primary,House 57 DHA,Karachi,Sindh,23555,Pakistan,True
+1808,1504,Primary,54 Bahria Town,Sargodha,Punjab,71569,Pakistan,True
+1809,1505,Primary,House 278 Bahria Town,Quetta,Balochistan,13258,Pakistan,True
+1810,1506,Primary,House 424 Saddar,Rawalpindi,Punjab,54915,Pakistan,True
+1811,1507,Primary,Block A Main Boulevard,Sialkot,Punjab,55781,Pakistan,True
+1812,1508,Primary,House 838 Main Boulevard,Swat,Khyber Pakhtunkhwa,18921,Pakistan,True
+1813,1509,Primary,Block C Saddar,Muzaffarabad,Azad Kashmir,79598,Pakistan,True
+1814,1510,Primary,Block C Defence Housing,Sargodha,Punjab,35794,Pakistan,True
+1815,1511,Primary,Block E Model Town,Sukkur,Sindh,96885,Pakistan,True
+1816,1511,Secondary,844 Clifton,Sargodha,Punjab,60548,Pakistan,False
+1817,1512,Primary,170 Mall Road,Rawalpindi,Punjab,41610,Pakistan,True
+1818,1513,Primary,739 Park Road,Peshawar,Khyber Pakhtunkhwa,89875,Pakistan,True
+1819,1514,Primary,House 917 College Road,Astore,Gilgit-Baltistan,25755,Pakistan,True
+1820,1515,Primary,House 733 Cantt,Gilgit,Gilgit-Baltistan,50124,Pakistan,True
+1821,1516,Primary,Block B Model Town,Gilgit,Gilgit-Baltistan,40383,Pakistan,True
+1822,1517,Primary,Block C Johar Town,Hyderabad,Sindh,47376,Pakistan,True
+1823,1518,Primary,923 Industrial Area,Turbat,Balochistan,13237,Pakistan,True
+1824,1519,Primary,Block E Bahria Town,Nowshera,Khyber Pakhtunkhwa,62226,Pakistan,True
+1825,1520,Primary,Block C DHA,Khuzdar,Balochistan,50158,Pakistan,True
+1826,1521,Primary,Block A Model Town,Chaman,Balochistan,97451,Pakistan,True
+1827,1521,Secondary,104 Bahria Town,Astore,Gilgit-Baltistan,94051,Pakistan,False
+1828,1522,Primary,34 College Road,Swat,Khyber Pakhtunkhwa,37584,Pakistan,True
+1829,1523,Primary,162 Cantt,Kotli,Azad Kashmir,75600,Pakistan,True
+1830,1524,Primary,House 54 Main Boulevard,Mardan,Khyber Pakhtunkhwa,43181,Pakistan,True
+1831,1525,Primary,892 College Road,Mirpur Khas,Sindh,10839,Pakistan,True
+1832,1526,Primary,609 Industrial Area,Chaman,Balochistan,26430,Pakistan,True
+1833,1527,Primary,Block B Cantt,Khuzdar,Balochistan,17997,Pakistan,True
+1834,1528,Primary,333 Model Town,Gilgit,Gilgit-Baltistan,37345,Pakistan,True
+1835,1529,Primary,Block A Industrial Area,Abbottabad,Khyber Pakhtunkhwa,70424,Pakistan,True
+1836,1529,Secondary,479 Model Town,Astore,Gilgit-Baltistan,85665,Pakistan,False
+1837,1530,Primary,House 33 Park Road,Mirpur,Azad Kashmir,75456,Pakistan,True
+1838,1531,Primary,Block B DHA,Gilgit,Gilgit-Baltistan,21258,Pakistan,True
+1839,1532,Primary,Block B Saddar,Mansehra,Khyber Pakhtunkhwa,22841,Pakistan,True
+1840,1532,Secondary,259 Model Town,Charsadda,Khyber Pakhtunkhwa,97798,Pakistan,False
+1841,1533,Primary,House 850 College Road,Bahawalpur,Punjab,99640,Pakistan,True
+1842,1533,Secondary,Block C Johar Town,Chaman,Balochistan,39081,Pakistan,False
+1843,1534,Primary,655 DHA,Peshawar,Khyber Pakhtunkhwa,71943,Pakistan,True
+1844,1535,Primary,House 424 Industrial Area,Lahore,Punjab,44267,Pakistan,True
+1845,1535,Secondary,Block E DHA,Bahawalpur,Punjab,50190,Pakistan,False
+1846,1536,Primary,Block D Gulberg,Jacobabad,Sindh,38413,Pakistan,True
+1847,1537,Primary,Block E DHA,Hyderabad,Sindh,53513,Pakistan,True
+1848,1538,Primary,House 850 Park Road,Jacobabad,Sindh,21574,Pakistan,True
+1849,1539,Primary,Block A Park Road,Zhob,Balochistan,42047,Pakistan,True
+1850,1540,Primary,Block E Mall Road,Sukkur,Sindh,60121,Pakistan,True
+1851,1541,Primary,Block E Saddar,Hyderabad,Sindh,62950,Pakistan,True
+1852,1542,Primary,817 College Road,Nawabshah,Sindh,25748,Pakistan,True
+1853,1543,Primary,Block E Cantt,Gwadar,Balochistan,81798,Pakistan,True
+1854,1544,Primary,House 90 University Road,Chilas,Gilgit-Baltistan,90335,Pakistan,True
+1855,1545,Primary,Block E Cantt,Kotli,Azad Kashmir,85645,Pakistan,True
+1856,1546,Primary,909 Mall Road,Gilgit,Gilgit-Baltistan,66438,Pakistan,True
+1857,1547,Primary,759 Main Boulevard,Chilas,Gilgit-Baltistan,20911,Pakistan,True
+1858,1548,Primary,525 Park Road,Chaman,Balochistan,30556,Pakistan,True
+1859,1548,Secondary,House 357 Cantt,Multan,Punjab,34087,Pakistan,False
+1860,1549,Primary,House 476 Industrial Area,Kotli,Azad Kashmir,12842,Pakistan,True
+1861,1549,Secondary,House 370 College Road,Gwadar,Balochistan,65215,Pakistan,False
+1862,1550,Primary,House 98 College Road,Mardan,Khyber Pakhtunkhwa,87685,Pakistan,True
+1863,1551,Primary,833 Mall Road,Gilgit,Gilgit-Baltistan,61054,Pakistan,True
+1864,1552,Primary,Block B Industrial Area,Zhob,Balochistan,14857,Pakistan,True
+1865,1553,Primary,616 Mall Road,Bahawalpur,Punjab,45516,Pakistan,True
+1866,1554,Primary,Block A College Road,Chaman,Balochistan,92263,Pakistan,True
+1867,1554,Secondary,118 Model Town,Sukkur,Sindh,92102,Pakistan,False
+1868,1555,Primary,Block B Industrial Area,Kotli,Azad Kashmir,98828,Pakistan,True
+1869,1556,Primary,House 172 Main Boulevard,Sialkot,Punjab,70600,Pakistan,True
+1870,1557,Primary,Block E Clifton,Mirpur,Azad Kashmir,87267,Pakistan,True
+1871,1557,Secondary,641 University Road,Sialkot,Punjab,81350,Pakistan,False
+1872,1558,Primary,125 Main Boulevard,Chilas,Gilgit-Baltistan,11445,Pakistan,True
+1873,1559,Primary,House 59 Cantt,Rawalpindi,Punjab,14065,Pakistan,True
+1874,1560,Primary,House 755 Bahria Town,Sukkur,Sindh,47372,Pakistan,True
+1875,1561,Primary,Block E Bahria Town,Mansehra,Khyber Pakhtunkhwa,85680,Pakistan,True
+1876,1562,Primary,Block E Cantt,Zhob,Balochistan,10503,Pakistan,True
+1877,1563,Primary,987 DHA,Mirpur,Azad Kashmir,70709,Pakistan,True
+1878,1564,Primary,298 Model Town,Astore,Gilgit-Baltistan,13874,Pakistan,True
+1879,1565,Primary,708 Cantt,Peshawar,Khyber Pakhtunkhwa,85583,Pakistan,True
+1880,1566,Primary,Block A Saddar,Astore,Gilgit-Baltistan,43857,Pakistan,True
+1881,1567,Primary,Block B University Road,Muzaffarabad,Azad Kashmir,22453,Pakistan,True
+1882,1568,Primary,Block A Cantt,Kotli,Azad Kashmir,69056,Pakistan,True
+1883,1568,Secondary,550 DHA,Mirpur,Azad Kashmir,62089,Pakistan,False
+1884,1569,Primary,585 Gulberg,Gilgit,Gilgit-Baltistan,70394,Pakistan,True
+1885,1570,Primary,Block A Clifton,Gilgit,Gilgit-Baltistan,97223,Pakistan,True
+1886,1571,Primary,Block D Johar Town,Gwadar,Balochistan,83906,Pakistan,True
+1887,1571,Secondary,891 Mall Road,Turbat,Balochistan,78204,Pakistan,False
+1888,1572,Primary,House 521 Industrial Area,Mirpur Khas,Sindh,29354,Pakistan,True
+1889,1573,Primary,Block E Park Road,Astore,Gilgit-Baltistan,63585,Pakistan,True
+1890,1574,Primary,307 Defence Housing,Turbat,Balochistan,52299,Pakistan,True
+1891,1575,Primary,Block C Park Road,Peshawar,Khyber Pakhtunkhwa,97864,Pakistan,True
+1892,1576,Primary,Block A University Road,Gwadar,Balochistan,20798,Pakistan,True
+1893,1577,Primary,388 Bahria Town,Mirpur,Azad Kashmir,68795,Pakistan,True
+1894,1578,Primary,House 292 Saddar,Jacobabad,Sindh,47224,Pakistan,True
+1895,1579,Primary,Block A Defence Housing,Turbat,Balochistan,18874,Pakistan,True
+1896,1580,Primary,245 Cantt,Charsadda,Khyber Pakhtunkhwa,10953,Pakistan,True
+1897,1581,Primary,792 Main Boulevard,Kotli,Azad Kashmir,51081,Pakistan,True
+1898,1582,Primary,House 643 Gulberg,Skardu,Gilgit-Baltistan,71294,Pakistan,True
+1899,1583,Primary,House 409 Johar Town,Sargodha,Punjab,22419,Pakistan,True
+1900,1584,Primary,Block E Bahria Town,Astore,Gilgit-Baltistan,96642,Pakistan,True
+1901,1585,Primary,House 263 College Road,Chilas,Gilgit-Baltistan,22570,Pakistan,True
+1902,1586,Primary,House 851 University Road,Muzaffarabad,Azad Kashmir,26701,Pakistan,True
+1903,1587,Primary,Block A Johar Town,Gwadar,Balochistan,27404,Pakistan,True
+1904,1587,Secondary,Block A Main Boulevard,Abbottabad,Khyber Pakhtunkhwa,39659,Pakistan,False
+1905,1588,Primary,670 Mall Road,Abbottabad,Khyber Pakhtunkhwa,81710,Pakistan,True
+1906,1589,Primary,309 Gulberg,Kotli,Azad Kashmir,16698,Pakistan,True
+1907,1590,Primary,Block D Main Boulevard,Lahore,Punjab,38808,Pakistan,True
+1908,1590,Secondary,Block C Main Boulevard,Jacobabad,Sindh,23861,Pakistan,False
+1909,1591,Primary,House 418 Model Town,Bahawalpur,Punjab,12369,Pakistan,True
+1910,1591,Secondary,Block C Saddar,Chilas,Gilgit-Baltistan,57209,Pakistan,False
+1911,1592,Primary,House 905 Gulberg,Rawalakot,Azad Kashmir,61109,Pakistan,True
+1912,1593,Primary,757 Saddar,Quetta,Balochistan,99103,Pakistan,True
+1913,1593,Secondary,Block E College Road,Gwadar,Balochistan,50089,Pakistan,False
+1914,1594,Primary,House 699 Gulberg,Gujranwala,Punjab,65617,Pakistan,True
+1915,1595,Primary,Block B Saddar,Kotli,Azad Kashmir,76537,Pakistan,True
+1916,1596,Primary,949 College Road,Gujranwala,Punjab,64263,Pakistan,True
+1917,1597,Primary,House 676 Model Town,Charsadda,Khyber Pakhtunkhwa,83725,Pakistan,True
+1918,1598,Primary,Block A DHA,Zhob,Balochistan,81193,Pakistan,True
+1919,1598,Secondary,690 Mall Road,Mansehra,Khyber Pakhtunkhwa,84849,Pakistan,False
+1920,1599,Primary,657 Cantt,Mirpur,Azad Kashmir,82009,Pakistan,True
+1921,1600,Primary,Block A Saddar,Nowshera,Khyber Pakhtunkhwa,25201,Pakistan,True
+1922,1601,Primary,784 Model Town,Faisalabad,Punjab,67104,Pakistan,True
+1923,1602,Primary,674 Johar Town,Bahawalpur,Punjab,19182,Pakistan,True
+1924,1602,Secondary,Block A Park Road,Kotli,Azad Kashmir,85619,Pakistan,False
+1925,1603,Primary,House 418 Main Boulevard,Zhob,Balochistan,87586,Pakistan,True
+1926,1604,Primary,House 752 University Road,Abbottabad,Khyber Pakhtunkhwa,49638,Pakistan,True
+1927,1605,Primary,171 Cantt,Gilgit,Gilgit-Baltistan,95421,Pakistan,True
+1928,1606,Primary,House 223 Mall Road,Khuzdar,Balochistan,28592,Pakistan,True
+1929,1607,Primary,366 Main Boulevard,Mardan,Khyber Pakhtunkhwa,98332,Pakistan,True
+1930,1608,Primary,House 960 Defence Housing,Abbottabad,Khyber Pakhtunkhwa,45412,Pakistan,True
+1931,1608,Secondary,Block E Saddar,Bahawalpur,Punjab,81497,Pakistan,False
+1932,1609,Primary,Block E DHA,Bahawalpur,Punjab,10450,Pakistan,True
+1933,1610,Primary,712 DHA,Mardan,Khyber Pakhtunkhwa,31497,Pakistan,True
+1934,1611,Primary,22 Bahria Town,Jacobabad,Sindh,74790,Pakistan,True
+1935,1612,Primary,House 96 Saddar,Khuzdar,Balochistan,44390,Pakistan,True
+1936,1612,Secondary,House 488 DHA,Gilgit,Gilgit-Baltistan,64286,Pakistan,False
+1937,1613,Primary,539 Johar Town,Gwadar,Balochistan,99487,Pakistan,True
+1938,1614,Primary,Block D Main Boulevard,Muzaffarabad,Azad Kashmir,14134,Pakistan,True
+1939,1614,Secondary,Block C Cantt,Sialkot,Punjab,65204,Pakistan,False
+1940,1615,Primary,House 338 Bahria Town,Gwadar,Balochistan,61238,Pakistan,True
+1941,1616,Primary,House 223 Defence Housing,Multan,Punjab,82559,Pakistan,True
+1942,1617,Primary,85 Main Boulevard,Chaman,Balochistan,24661,Pakistan,True
+1943,1617,Secondary,House 897 College Road,Bahawalpur,Punjab,29802,Pakistan,False
+1944,1618,Primary,283 College Road,Kotli,Azad Kashmir,86089,Pakistan,True
+1945,1619,Primary,791 College Road,Rawalakot,Azad Kashmir,77091,Pakistan,True
+1946,1620,Primary,699 Model Town,Turbat,Balochistan,33337,Pakistan,True
+1947,1621,Primary,House 856 Bahria Town,Chaman,Balochistan,86584,Pakistan,True
+1948,1622,Primary,Block E University Road,Swat,Khyber Pakhtunkhwa,67737,Pakistan,True
+1949,1623,Primary,Block A Model Town,Muzaffarabad,Azad Kashmir,53665,Pakistan,True
+1950,1624,Primary,586 Gulberg,Khuzdar,Balochistan,43354,Pakistan,True
+1951,1625,Primary,Block B Mall Road,Muzaffarabad,Azad Kashmir,78273,Pakistan,True
+1952,1626,Primary,Block B Saddar,Quetta,Balochistan,25283,Pakistan,True
+1953,1626,Secondary,450 University Road,Nawabshah,Sindh,78918,Pakistan,False
+1954,1627,Primary,Block B Clifton,Charsadda,Khyber Pakhtunkhwa,11918,Pakistan,True
+1955,1628,Primary,Block E University Road,Larkana,Sindh,22461,Pakistan,True
+1956,1629,Primary,690 College Road,Nowshera,Khyber Pakhtunkhwa,73849,Pakistan,True
+1957,1630,Primary,21 Industrial Area,Mirpur,Azad Kashmir,40816,Pakistan,True
+1958,1631,Primary,322 Main Boulevard,Abbottabad,Khyber Pakhtunkhwa,49801,Pakistan,True
+1959,1632,Primary,House 456 Model Town,Kotli,Azad Kashmir,65590,Pakistan,True
+1960,1633,Primary,71 Industrial Area,Karachi,Sindh,50352,Pakistan,True
+1961,1634,Primary,House 507 Main Boulevard,Sialkot,Punjab,46977,Pakistan,True
+1962,1634,Secondary,House 250 Johar Town,Faisalabad,Punjab,50446,Pakistan,False
+1963,1635,Primary,412 University Road,Larkana,Sindh,46487,Pakistan,True
+1964,1635,Secondary,153 University Road,Astore,Gilgit-Baltistan,85627,Pakistan,False
+1965,1636,Primary,704 Clifton,Rawalpindi,Punjab,65270,Pakistan,True
+1966,1637,Primary,House 401 Industrial Area,Gilgit,Gilgit-Baltistan,12116,Pakistan,True
+1967,1638,Primary,Block D Mall Road,Lahore,Punjab,50799,Pakistan,True
+1968,1639,Primary,Block E Defence Housing,Rawalakot,Azad Kashmir,86520,Pakistan,True
+1969,1640,Primary,Block B Park Road,Bahawalpur,Punjab,46315,Pakistan,True
+1970,1641,Primary,Block C Defence Housing,Gujranwala,Punjab,26756,Pakistan,True
+1971,1642,Primary,House 447 Defence Housing,Chaman,Balochistan,49006,Pakistan,True
+1972,1642,Secondary,House 738 University Road,Peshawar,Khyber Pakhtunkhwa,55929,Pakistan,False
+1973,1643,Primary,24 College Road,Karachi,Sindh,94365,Pakistan,True
+1974,1644,Primary,Block A Saddar,Abbottabad,Khyber Pakhtunkhwa,62912,Pakistan,True
+1975,1645,Primary,House 884 Cantt,Muzaffarabad,Azad Kashmir,64352,Pakistan,True
+1976,1646,Primary,Block B Clifton,Lahore,Punjab,98712,Pakistan,True
+1977,1647,Primary,834 Industrial Area,Sargodha,Punjab,66119,Pakistan,True
+1978,1647,Secondary,Block B DHA,Kotli,Azad Kashmir,40163,Pakistan,False
+1979,1648,Primary,Block C Cantt,Larkana,Sindh,67873,Pakistan,True
+1980,1649,Primary,Block A Cantt,Gujranwala,Punjab,35423,Pakistan,True
+1981,1649,Secondary,House 125 Model Town,Turbat,Balochistan,78556,Pakistan,False
+1982,1650,Primary,175 Saddar,Chilas,Gilgit-Baltistan,21633,Pakistan,True
+1983,1651,Primary,395 Park Road,Bahawalpur,Punjab,46193,Pakistan,True
+1984,1652,Primary,194 College Road,Mirpur,Azad Kashmir,46256,Pakistan,True
+1985,1653,Primary,Block C University Road,Nowshera,Khyber Pakhtunkhwa,65079,Pakistan,True
+1986,1653,Secondary,305 University Road,Mirpur,Azad Kashmir,84745,Pakistan,False
+1987,1654,Primary,884 Industrial Area,Chaman,Balochistan,99154,Pakistan,True
+1988,1655,Primary,House 880 Mall Road,Gwadar,Balochistan,15557,Pakistan,True
+1989,1656,Primary,Block D Saddar,Larkana,Sindh,72900,Pakistan,True
+1990,1657,Primary,811 Mall Road,Kotli,Azad Kashmir,33184,Pakistan,True
+1991,1658,Primary,813 College Road,Rawalakot,Azad Kashmir,17382,Pakistan,True
+1992,1659,Primary,Block B Gulberg,Kotli,Azad Kashmir,90013,Pakistan,True
+1993,1660,Primary,Block B DHA,Faisalabad,Punjab,20420,Pakistan,True
+1994,1661,Primary,Block A Mall Road,Chaman,Balochistan,76711,Pakistan,True
+1995,1661,Secondary,Block C Clifton,Swat,Khyber Pakhtunkhwa,20880,Pakistan,False
+1996,1662,Primary,Block E DHA,Swat,Khyber Pakhtunkhwa,91841,Pakistan,True
+1997,1663,Primary,Block B Gulberg,Astore,Gilgit-Baltistan,60036,Pakistan,True
+1998,1664,Primary,Block E Defence Housing,Sialkot,Punjab,42993,Pakistan,True
+1999,1665,Primary,House 866 Cantt,Charsadda,Khyber Pakhtunkhwa,64449,Pakistan,True
+2000,1666,Primary,641 Cantt,Turbat,Balochistan,14216,Pakistan,True
+2001,1667,Primary,House 170 Industrial Area,Chilas,Gilgit-Baltistan,36757,Pakistan,True
+2002,1668,Primary,217 Cantt,Sargodha,Punjab,86863,Pakistan,True
+2003,1669,Primary,House 91 Main Boulevard,Chilas,Gilgit-Baltistan,22247,Pakistan,True
+2004,1670,Primary,House 295 Cantt,Kotli,Azad Kashmir,98507,Pakistan,True
+2005,1671,Primary,997 Main Boulevard,Chilas,Gilgit-Baltistan,71285,Pakistan,True
+2006,1672,Primary,Block D Mall Road,Muzaffarabad,Azad Kashmir,76773,Pakistan,True
+2007,1673,Primary,Block E Industrial Area,Khuzdar,Balochistan,13301,Pakistan,True
+2008,1674,Primary,Block C Industrial Area,Swat,Khyber Pakhtunkhwa,12368,Pakistan,True
+2009,1675,Primary,Block E Saddar,Turbat,Balochistan,90521,Pakistan,True
+2010,1676,Primary,Block D Main Boulevard,Quetta,Balochistan,78703,Pakistan,True
+2011,1677,Primary,450 Gulberg,Quetta,Balochistan,17302,Pakistan,True
+2012,1678,Primary,Block C Mall Road,Gwadar,Balochistan,75504,Pakistan,True
+2013,1679,Primary,House 581 University Road,Sialkot,Punjab,95909,Pakistan,True
+2014,1680,Primary,Block D Main Boulevard,Rawalakot,Azad Kashmir,82216,Pakistan,True
+2015,1681,Primary,House 819 Bahria Town,Sialkot,Punjab,62447,Pakistan,True
+2016,1682,Primary,640 Industrial Area,Multan,Punjab,65699,Pakistan,True
+2017,1683,Primary,748 University Road,Mardan,Khyber Pakhtunkhwa,82101,Pakistan,True
+2018,1684,Primary,Block A Gulberg,Nawabshah,Sindh,53054,Pakistan,True
+2019,1685,Primary,Block D University Road,Chilas,Gilgit-Baltistan,61910,Pakistan,True
+2020,1686,Primary,761 Saddar,Faisalabad,Punjab,67336,Pakistan,True
+2021,1686,Secondary,Block E Defence Housing,Turbat,Balochistan,53533,Pakistan,False
+2022,1687,Primary,House 505 DHA,Nowshera,Khyber Pakhtunkhwa,52769,Pakistan,True
+2023,1688,Primary,293 DHA,Sukkur,Sindh,94151,Pakistan,True
+2024,1689,Primary,House 796 Model Town,Muzaffarabad,Azad Kashmir,52534,Pakistan,True
+2025,1690,Primary,Block B Cantt,Quetta,Balochistan,54260,Pakistan,True
+2026,1691,Primary,471 Bahria Town,Nowshera,Khyber Pakhtunkhwa,55321,Pakistan,True
+2027,1692,Primary,House 728 Main Boulevard,Astore,Gilgit-Baltistan,66524,Pakistan,True
+2028,1692,Secondary,House 318 Clifton,Khuzdar,Balochistan,91640,Pakistan,False
+2029,1693,Primary,Block B Mall Road,Charsadda,Khyber Pakhtunkhwa,67156,Pakistan,True
+2030,1694,Primary,662 Park Road,Chilas,Gilgit-Baltistan,56810,Pakistan,True
+2031,1695,Primary,House 631 Park Road,Mardan,Khyber Pakhtunkhwa,28309,Pakistan,True
+2032,1696,Primary,646 Park Road,Gilgit,Gilgit-Baltistan,40666,Pakistan,True
+2033,1697,Primary,387 Bahria Town,Rawalpindi,Punjab,82684,Pakistan,True
+2034,1697,Secondary,Block C University Road,Faisalabad,Punjab,30909,Pakistan,False
+2035,1698,Primary,House 396 Model Town,Gilgit,Gilgit-Baltistan,64269,Pakistan,True
+2036,1699,Primary,House 6 Industrial Area,Skardu,Gilgit-Baltistan,16232,Pakistan,True
+2037,1700,Primary,House 998 Industrial Area,Rawalpindi,Punjab,68631,Pakistan,True
+2038,1701,Primary,House 940 Bahria Town,Rawalakot,Azad Kashmir,20908,Pakistan,True
+2039,1702,Primary,House 485 Main Boulevard,Sukkur,Sindh,13943,Pakistan,True
+2040,1703,Primary,House 358 Bahria Town,Nowshera,Khyber Pakhtunkhwa,10226,Pakistan,True
+2041,1704,Primary,House 739 Saddar,Multan,Punjab,31090,Pakistan,True
+2042,1705,Primary,695 Main Boulevard,Kotli,Azad Kashmir,99109,Pakistan,True
+2043,1705,Secondary,868 Main Boulevard,Gilgit,Gilgit-Baltistan,31736,Pakistan,False
+2044,1706,Primary,777 Gulberg,Muzaffarabad,Azad Kashmir,30085,Pakistan,True
+2045,1706,Secondary,House 349 Model Town,Kotli,Azad Kashmir,18226,Pakistan,False
+2046,1707,Primary,885 Main Boulevard,Faisalabad,Punjab,39972,Pakistan,True
+2047,1708,Primary,Block C Industrial Area,Gwadar,Balochistan,27936,Pakistan,True
+2048,1709,Primary,House 361 Model Town,Chaman,Balochistan,18531,Pakistan,True
+2049,1710,Primary,981 Model Town,Mirpur Khas,Sindh,92177,Pakistan,True
+2050,1711,Primary,House 49 University Road,Skardu,Gilgit-Baltistan,12927,Pakistan,True
+2051,1712,Primary,Block E Johar Town,Turbat,Balochistan,68096,Pakistan,True
+2052,1713,Primary,Block E Gulberg,Sargodha,Punjab,53176,Pakistan,True
+2053,1713,Secondary,Block B University Road,Gilgit,Gilgit-Baltistan,58651,Pakistan,False
+2054,1714,Primary,House 865 Clifton,Sukkur,Sindh,54877,Pakistan,True
+2055,1714,Secondary,Block B Clifton,Chilas,Gilgit-Baltistan,49098,Pakistan,False
+2056,1715,Primary,844 DHA,Gujranwala,Punjab,12571,Pakistan,True
+2057,1716,Primary,House 352 Johar Town,Sialkot,Punjab,46024,Pakistan,True
+2058,1717,Primary,Block D Bahria Town,Gujranwala,Punjab,67801,Pakistan,True
+2059,1718,Primary,44 Gulberg,Zhob,Balochistan,97039,Pakistan,True
+2060,1719,Primary,117 Johar Town,Gujranwala,Punjab,18132,Pakistan,True
+2061,1719,Secondary,House 742 Main Boulevard,Zhob,Balochistan,61139,Pakistan,False
+2062,1720,Primary,Block D Bahria Town,Sargodha,Punjab,33046,Pakistan,True
+2063,1721,Primary,122 Clifton,Gilgit,Gilgit-Baltistan,51280,Pakistan,True
+2064,1722,Primary,House 915 Bahria Town,Skardu,Gilgit-Baltistan,28210,Pakistan,True
+2065,1723,Primary,Block C Saddar,Jacobabad,Sindh,47346,Pakistan,True
+2066,1724,Primary,Block D Model Town,Muzaffarabad,Azad Kashmir,48681,Pakistan,True
+2067,1725,Primary,Block E Cantt,Turbat,Balochistan,85052,Pakistan,True
+2068,1726,Primary,Block A Park Road,Gwadar,Balochistan,49366,Pakistan,True
+2069,1727,Primary,House 959 Cantt,Abbottabad,Khyber Pakhtunkhwa,60195,Pakistan,True
+2070,1728,Primary,225 Mall Road,Astore,Gilgit-Baltistan,23991,Pakistan,True
+2071,1729,Primary,Block C Bahria Town,Abbottabad,Khyber Pakhtunkhwa,97381,Pakistan,True
+2072,1730,Primary,House 775 Main Boulevard,Gilgit,Gilgit-Baltistan,20801,Pakistan,True
+2073,1730,Secondary,House 336 Industrial Area,Hyderabad,Sindh,31507,Pakistan,False
+2074,1731,Primary,Block A Clifton,Quetta,Balochistan,88549,Pakistan,True
+2075,1732,Primary,Block A Clifton,Quetta,Balochistan,87319,Pakistan,True
+2076,1733,Primary,House 749 Clifton,Multan,Punjab,63480,Pakistan,True
+2077,1733,Secondary,House 93 Johar Town,Mirpur,Azad Kashmir,70237,Pakistan,False
+2078,1734,Primary,Block A Saddar,Gilgit,Gilgit-Baltistan,33193,Pakistan,True
+2079,1735,Primary,Block A University Road,Chilas,Gilgit-Baltistan,13218,Pakistan,True
+2080,1736,Primary,Block B Main Boulevard,Kotli,Azad Kashmir,16085,Pakistan,True
+2081,1737,Primary,House 868 Bahria Town,Skardu,Gilgit-Baltistan,68445,Pakistan,True
+2082,1738,Primary,302 Bahria Town,Khuzdar,Balochistan,48380,Pakistan,True
+2083,1739,Primary,362 Model Town,Gujranwala,Punjab,17730,Pakistan,True
+2084,1740,Primary,586 Model Town,Astore,Gilgit-Baltistan,83393,Pakistan,True
+2085,1740,Secondary,House 479 Model Town,Swat,Khyber Pakhtunkhwa,93175,Pakistan,False
+2086,1741,Primary,House 671 University Road,Hyderabad,Sindh,98936,Pakistan,True
+2087,1742,Primary,730 Industrial Area,Skardu,Gilgit-Baltistan,69903,Pakistan,True
+2088,1743,Primary,House 36 Gulberg,Peshawar,Khyber Pakhtunkhwa,27623,Pakistan,True
+2089,1744,Primary,House 153 Johar Town,Chilas,Gilgit-Baltistan,80793,Pakistan,True
+2090,1745,Primary,632 University Road,Hyderabad,Sindh,93071,Pakistan,True
+2091,1746,Primary,House 199 Bahria Town,Mirpur,Azad Kashmir,32106,Pakistan,True
+2092,1747,Primary,House 835 Bahria Town,Chilas,Gilgit-Baltistan,16148,Pakistan,True
+2093,1748,Primary,176 Industrial Area,Abbottabad,Khyber Pakhtunkhwa,83675,Pakistan,True
+2094,1749,Primary,House 414 Gulberg,Karachi,Sindh,60830,Pakistan,True
+2095,1749,Secondary,Block E College Road,Skardu,Gilgit-Baltistan,50628,Pakistan,False
+2096,1750,Primary,664 College Road,Mardan,Khyber Pakhtunkhwa,61242,Pakistan,True
+2097,1751,Primary,Block C Johar Town,Gwadar,Balochistan,13659,Pakistan,True
+2098,1752,Primary,Block D DHA,Mirpur,Azad Kashmir,65552,Pakistan,True
+2099,1753,Primary,17 Park Road,Abbottabad,Khyber Pakhtunkhwa,54840,Pakistan,True
+2100,1753,Secondary,House 270 University Road,Astore,Gilgit-Baltistan,44371,Pakistan,False
+2101,1754,Primary,859 Defence Housing,Mardan,Khyber Pakhtunkhwa,78174,Pakistan,True
+2102,1754,Secondary,893 Main Boulevard,Multan,Punjab,82453,Pakistan,False
+2103,1755,Primary,935 Bahria Town,Nawabshah,Sindh,41232,Pakistan,True
+2104,1756,Primary,Block C Industrial Area,Mirpur,Azad Kashmir,71245,Pakistan,True
+2105,1757,Primary,House 369 DHA,Gujranwala,Punjab,61010,Pakistan,True
+2106,1758,Primary,Block A Park Road,Peshawar,Khyber Pakhtunkhwa,66057,Pakistan,True
+2107,1759,Primary,Block D Main Boulevard,Khuzdar,Balochistan,62037,Pakistan,True
+2108,1760,Primary,Block E Bahria Town,Charsadda,Khyber Pakhtunkhwa,46256,Pakistan,True
+2109,1761,Primary,Block C Gulberg,Sialkot,Punjab,61742,Pakistan,True
+2110,1762,Primary,Block E Cantt,Khuzdar,Balochistan,62684,Pakistan,True
+2111,1763,Primary,House 773 Gulberg,Mardan,Khyber Pakhtunkhwa,86306,Pakistan,True
+2112,1763,Secondary,442 Model Town,Peshawar,Khyber Pakhtunkhwa,88288,Pakistan,False
+2113,1764,Primary,House 668 Clifton,Astore,Gilgit-Baltistan,88836,Pakistan,True
+2114,1764,Secondary,Block D DHA,Lahore,Punjab,85431,Pakistan,False
+2115,1765,Primary,830 Bahria Town,Sukkur,Sindh,13826,Pakistan,True
+2116,1766,Primary,Block D Defence Housing,Mirpur Khas,Sindh,10298,Pakistan,True
+2117,1767,Primary,House 988 University Road,Mirpur,Azad Kashmir,96417,Pakistan,True
+2118,1767,Secondary,House 838 Park Road,Sargodha,Punjab,68692,Pakistan,False
+2119,1768,Primary,358 Saddar,Astore,Gilgit-Baltistan,28466,Pakistan,True
+2120,1768,Secondary,918 Clifton,Bahawalpur,Punjab,49653,Pakistan,False
+2121,1769,Primary,Block E Mall Road,Karachi,Sindh,29492,Pakistan,True
+2122,1770,Primary,Block D Main Boulevard,Mirpur Khas,Sindh,47210,Pakistan,True
+2123,1771,Primary,Block A Saddar,Skardu,Gilgit-Baltistan,30098,Pakistan,True
+2124,1772,Primary,Block E Model Town,Sukkur,Sindh,96297,Pakistan,True
+2125,1773,Primary,168 Cantt,Kotli,Azad Kashmir,76875,Pakistan,True
+2126,1774,Primary,Block A Main Boulevard,Turbat,Balochistan,95381,Pakistan,True
+2127,1775,Primary,Block A Bahria Town,Sukkur,Sindh,84779,Pakistan,True
+2128,1776,Primary,762 Defence Housing,Larkana,Sindh,94963,Pakistan,True
+2129,1776,Secondary,Block A DHA,Larkana,Sindh,21390,Pakistan,False
+2130,1777,Primary,House 674 Park Road,Lahore,Punjab,32011,Pakistan,True
+2131,1778,Primary,125 Defence Housing,Rawalakot,Azad Kashmir,93753,Pakistan,True
+2132,1779,Primary,Block E Cantt,Lahore,Punjab,75465,Pakistan,True
+2133,1780,Primary,Block E Bahria Town,Sukkur,Sindh,64605,Pakistan,True
+2134,1781,Primary,House 624 Defence Housing,Astore,Gilgit-Baltistan,25090,Pakistan,True
+2135,1782,Primary,Block A Clifton,Muzaffarabad,Azad Kashmir,97063,Pakistan,True
+2136,1783,Primary,Block B Bahria Town,Larkana,Sindh,69408,Pakistan,True
+2137,1784,Primary,680 Saddar,Astore,Gilgit-Baltistan,36268,Pakistan,True
+2138,1785,Primary,Block D Saddar,Astore,Gilgit-Baltistan,16889,Pakistan,True
+2139,1786,Primary,Block D Johar Town,Sargodha,Punjab,99645,Pakistan,True
+2140,1787,Primary,House 470 Main Boulevard,Gujranwala,Punjab,98187,Pakistan,True
+2141,1787,Secondary,725 Industrial Area,Hyderabad,Sindh,78700,Pakistan,False
+2142,1788,Primary,177 Cantt,Skardu,Gilgit-Baltistan,34209,Pakistan,True
+2143,1789,Primary,House 699 Bahria Town,Gilgit,Gilgit-Baltistan,23405,Pakistan,True
+2144,1790,Primary,Block E Model Town,Nawabshah,Sindh,81279,Pakistan,True
+2145,1790,Secondary,Block C Clifton,Lahore,Punjab,63869,Pakistan,False
+2146,1791,Primary,House 648 Industrial Area,Bahawalpur,Punjab,28995,Pakistan,True
+2147,1792,Primary,Block C University Road,Gwadar,Balochistan,75260,Pakistan,True
+2148,1793,Primary,855 Industrial Area,Mirpur,Azad Kashmir,68398,Pakistan,True
+2149,1793,Secondary,956 Clifton,Gwadar,Balochistan,60227,Pakistan,False
+2150,1794,Primary,Block E Johar Town,Chilas,Gilgit-Baltistan,57924,Pakistan,True
+2151,1795,Primary,120 Gulberg,Quetta,Balochistan,92887,Pakistan,True
+2152,1796,Primary,Block A Defence Housing,Skardu,Gilgit-Baltistan,29166,Pakistan,True
+2153,1797,Primary,House 560 Johar Town,Chilas,Gilgit-Baltistan,45475,Pakistan,True
+2154,1798,Primary,House 895 Gulberg,Zhob,Balochistan,56069,Pakistan,True
+2155,1799,Primary,Block E Defence Housing,Hyderabad,Sindh,77247,Pakistan,True
+2156,1800,Primary,Block B Gulberg,Larkana,Sindh,18430,Pakistan,True
+2157,1801,Primary,Block E Park Road,Skardu,Gilgit-Baltistan,31964,Pakistan,True
+2158,1802,Primary,Block D Park Road,Hyderabad,Sindh,75471,Pakistan,True
+2159,1802,Secondary,479 Mall Road,Sargodha,Punjab,32301,Pakistan,False
+2160,1803,Primary,Block D Gulberg,Mirpur Khas,Sindh,64157,Pakistan,True
+2161,1804,Primary,House 286 Mall Road,Chilas,Gilgit-Baltistan,45130,Pakistan,True
+2162,1805,Primary,House 97 College Road,Chilas,Gilgit-Baltistan,97916,Pakistan,True
+2163,1806,Primary,Block C Mall Road,Karachi,Sindh,11881,Pakistan,True
+2164,1807,Primary,803 Main Boulevard,Khuzdar,Balochistan,63609,Pakistan,True
+2165,1808,Primary,Block B Defence Housing,Lahore,Punjab,65440,Pakistan,True
+2166,1809,Primary,House 438 Saddar,Gwadar,Balochistan,34112,Pakistan,True
+2167,1810,Primary,Block B Park Road,Sukkur,Sindh,25987,Pakistan,True
+2168,1811,Primary,Block B Mall Road,Sukkur,Sindh,96020,Pakistan,True
+2169,1812,Primary,Block E Main Boulevard,Turbat,Balochistan,45896,Pakistan,True
+2170,1813,Primary,208 Johar Town,Mirpur,Azad Kashmir,93624,Pakistan,True
+2171,1813,Secondary,House 959 DHA,Karachi,Sindh,92261,Pakistan,False
+2172,1814,Primary,Block C College Road,Mansehra,Khyber Pakhtunkhwa,89982,Pakistan,True
+2173,1815,Primary,Block C College Road,Sukkur,Sindh,66501,Pakistan,True
+2174,1815,Secondary,House 704 University Road,Khuzdar,Balochistan,84936,Pakistan,False
+2175,1816,Primary,House 762 Bahria Town,Gilgit,Gilgit-Baltistan,51434,Pakistan,True
+2176,1817,Primary,38 Park Road,Kotli,Azad Kashmir,40736,Pakistan,True
+2177,1818,Primary,282 Industrial Area,Khuzdar,Balochistan,58502,Pakistan,True
+2178,1819,Primary,House 372 University Road,Chilas,Gilgit-Baltistan,45783,Pakistan,True
+2179,1820,Primary,Block C Cantt,Quetta,Balochistan,59931,Pakistan,True
+2180,1821,Primary,House 237 College Road,Skardu,Gilgit-Baltistan,36441,Pakistan,True
+2181,1822,Primary,542 Cantt,Chilas,Gilgit-Baltistan,46425,Pakistan,True
+2182,1823,Primary,House 965 DHA,Turbat,Balochistan,38461,Pakistan,True
+2183,1823,Secondary,Block C Mall Road,Sargodha,Punjab,83546,Pakistan,False
+2184,1824,Primary,106 University Road,Larkana,Sindh,74499,Pakistan,True
+2185,1825,Primary,House 713 Defence Housing,Peshawar,Khyber Pakhtunkhwa,32929,Pakistan,True
+2186,1826,Primary,House 742 Main Boulevard,Mirpur,Azad Kashmir,76018,Pakistan,True
+2187,1827,Primary,Block C Bahria Town,Gilgit,Gilgit-Baltistan,91652,Pakistan,True
+2188,1828,Primary,498 Clifton,Charsadda,Khyber Pakhtunkhwa,67864,Pakistan,True
+2189,1828,Secondary,330 College Road,Kotli,Azad Kashmir,41176,Pakistan,False
+2190,1829,Primary,Block E Park Road,Kotli,Azad Kashmir,73252,Pakistan,True
+2191,1830,Primary,Block C Clifton,Mardan,Khyber Pakhtunkhwa,82981,Pakistan,True
+2192,1831,Primary,216 Park Road,Mirpur,Azad Kashmir,43648,Pakistan,True
+2193,1831,Secondary,Block C Cantt,Rawalakot,Azad Kashmir,83683,Pakistan,False
+2194,1832,Primary,Block B Clifton,Chilas,Gilgit-Baltistan,17916,Pakistan,True
+2195,1833,Primary,Block B Clifton,Mansehra,Khyber Pakhtunkhwa,11582,Pakistan,True
+2196,1833,Secondary,House 35 Johar Town,Turbat,Balochistan,33126,Pakistan,False
+2197,1834,Primary,House 696 Main Boulevard,Gwadar,Balochistan,11856,Pakistan,True
+2198,1835,Primary,Block E University Road,Swat,Khyber Pakhtunkhwa,79908,Pakistan,True
+2199,1836,Primary,House 168 College Road,Rawalakot,Azad Kashmir,53722,Pakistan,True
+2200,1837,Primary,House 94 Bahria Town,Chaman,Balochistan,17073,Pakistan,True
+2201,1838,Primary,985 College Road,Gwadar,Balochistan,13928,Pakistan,True
+2202,1839,Primary,Block B Model Town,Multan,Punjab,19061,Pakistan,True
+2203,1840,Primary,Block E College Road,Mirpur,Azad Kashmir,97420,Pakistan,True
+2204,1841,Primary,908 Mall Road,Mirpur,Azad Kashmir,65985,Pakistan,True
+2205,1842,Primary,332 Clifton,Khuzdar,Balochistan,79363,Pakistan,True
+2206,1843,Primary,House 605 Gulberg,Multan,Punjab,63993,Pakistan,True
+2207,1844,Primary,897 Johar Town,Gujranwala,Punjab,58635,Pakistan,True
+2208,1844,Secondary,685 Industrial Area,Lahore,Punjab,59076,Pakistan,False
+2209,1845,Primary,Block B Johar Town,Chaman,Balochistan,62961,Pakistan,True
+2210,1845,Secondary,House 784 DHA,Quetta,Balochistan,39243,Pakistan,False
+2211,1846,Primary,Block D College Road,Muzaffarabad,Azad Kashmir,86386,Pakistan,True
+2212,1847,Primary,House 960 Johar Town,Astore,Gilgit-Baltistan,27559,Pakistan,True
+2213,1848,Primary,Block E College Road,Karachi,Sindh,92695,Pakistan,True
+2214,1849,Primary,209 Clifton,Chaman,Balochistan,82669,Pakistan,True
+2215,1849,Secondary,House 283 Main Boulevard,Nawabshah,Sindh,22977,Pakistan,False
+2216,1850,Primary,595 Mall Road,Kotli,Azad Kashmir,89130,Pakistan,True
+2217,1851,Primary,378 Johar Town,Lahore,Punjab,53926,Pakistan,True
+2218,1851,Secondary,291 Johar Town,Abbottabad,Khyber Pakhtunkhwa,71352,Pakistan,False
+2219,1852,Primary,632 Bahria Town,Nowshera,Khyber Pakhtunkhwa,22236,Pakistan,True
+2220,1853,Primary,House 636 Clifton,Larkana,Sindh,96199,Pakistan,True
+2221,1854,Primary,House 847 Gulberg,Kotli,Azad Kashmir,49462,Pakistan,True
+2222,1855,Primary,362 Industrial Area,Multan,Punjab,82991,Pakistan,True
+2223,1856,Primary,House 391 Model Town,Kotli,Azad Kashmir,52954,Pakistan,True
+2224,1857,Primary,Block E Main Boulevard,Chilas,Gilgit-Baltistan,84525,Pakistan,True
+2225,1858,Primary,311 Clifton,Khuzdar,Balochistan,46485,Pakistan,True
+2226,1859,Primary,602 Cantt,Peshawar,Khyber Pakhtunkhwa,78985,Pakistan,True
+2227,1860,Primary,825 DHA,Jacobabad,Sindh,37233,Pakistan,True
+2228,1860,Secondary,Block E University Road,Mirpur Khas,Sindh,64296,Pakistan,False
+2229,1861,Primary,Block C Model Town,Larkana,Sindh,67372,Pakistan,True
+2230,1861,Secondary,Block D Johar Town,Khuzdar,Balochistan,81519,Pakistan,False
+2231,1862,Primary,Block A University Road,Larkana,Sindh,18004,Pakistan,True
+2232,1862,Secondary,Block A Clifton,Nowshera,Khyber Pakhtunkhwa,46400,Pakistan,False
+2233,1863,Primary,House 840 Mall Road,Astore,Gilgit-Baltistan,45103,Pakistan,True
+2234,1864,Primary,House 138 DHA,Rawalakot,Azad Kashmir,61464,Pakistan,True
+2235,1865,Primary,468 Model Town,Charsadda,Khyber Pakhtunkhwa,46675,Pakistan,True
+2236,1866,Primary,Block E Gulberg,Charsadda,Khyber Pakhtunkhwa,47464,Pakistan,True
+2237,1867,Primary,393 University Road,Sukkur,Sindh,68579,Pakistan,True
+2238,1868,Primary,Block A Park Road,Rawalakot,Azad Kashmir,22410,Pakistan,True
+2239,1869,Primary,218 Industrial Area,Bahawalpur,Punjab,54074,Pakistan,True
+2240,1869,Secondary,407 College Road,Larkana,Sindh,88792,Pakistan,False
+2241,1870,Primary,957 Mall Road,Khuzdar,Balochistan,40320,Pakistan,True
+2242,1871,Primary,614 Bahria Town,Zhob,Balochistan,92583,Pakistan,True
+2243,1872,Primary,927 College Road,Chilas,Gilgit-Baltistan,63908,Pakistan,True
+2244,1873,Primary,House 978 DHA,Sialkot,Punjab,47485,Pakistan,True
+2245,1874,Primary,863 Clifton,Nawabshah,Sindh,76267,Pakistan,True
+2246,1875,Primary,310 Defence Housing,Hyderabad,Sindh,87124,Pakistan,True
+2247,1876,Primary,Block E Johar Town,Sialkot,Punjab,45216,Pakistan,True
+2248,1877,Primary,House 704 Defence Housing,Chaman,Balochistan,26377,Pakistan,True
+2249,1878,Primary,House 832 Cantt,Quetta,Balochistan,68582,Pakistan,True
+2250,1879,Primary,134 Cantt,Mirpur,Azad Kashmir,31464,Pakistan,True
+2251,1880,Primary,House 358 Gulberg,Rawalakot,Azad Kashmir,97087,Pakistan,True
+2252,1881,Primary,Block D Gulberg,Turbat,Balochistan,51978,Pakistan,True
+2253,1881,Secondary,House 872 Cantt,Lahore,Punjab,67578,Pakistan,False
+2254,1882,Primary,Block C Clifton,Mansehra,Khyber Pakhtunkhwa,71762,Pakistan,True
+2255,1883,Primary,931 Defence Housing,Sargodha,Punjab,29664,Pakistan,True
+2256,1884,Primary,House 583 University Road,Hyderabad,Sindh,57893,Pakistan,True
+2257,1885,Primary,528 Saddar,Chilas,Gilgit-Baltistan,92603,Pakistan,True
+2258,1886,Primary,House 169 Main Boulevard,Turbat,Balochistan,24162,Pakistan,True
+2259,1886,Secondary,House 81 University Road,Turbat,Balochistan,43942,Pakistan,False
+2260,1887,Primary,309 Cantt,Quetta,Balochistan,18962,Pakistan,True
+2261,1888,Primary,213 Mall Road,Mirpur,Azad Kashmir,78179,Pakistan,True
+2262,1889,Primary,969 Bahria Town,Rawalakot,Azad Kashmir,68642,Pakistan,True
+2263,1890,Primary,167 Bahria Town,Mirpur Khas,Sindh,38295,Pakistan,True
+2264,1890,Secondary,Block E Main Boulevard,Quetta,Balochistan,20403,Pakistan,False
+2265,1891,Primary,House 232 Saddar,Mirpur,Azad Kashmir,87608,Pakistan,True
+2266,1892,Primary,House 896 Clifton,Lahore,Punjab,68825,Pakistan,True
+2267,1893,Primary,92 Park Road,Kotli,Azad Kashmir,39435,Pakistan,True
+2268,1894,Primary,613 Cantt,Mirpur Khas,Sindh,93266,Pakistan,True
+2269,1895,Primary,916 Defence Housing,Mirpur Khas,Sindh,32735,Pakistan,True
+2270,1895,Secondary,Block D Gulberg,Hyderabad,Sindh,11524,Pakistan,False
+2271,1896,Primary,978 Gulberg,Charsadda,Khyber Pakhtunkhwa,85962,Pakistan,True
+2272,1897,Primary,404 Saddar,Gujranwala,Punjab,78161,Pakistan,True
+2273,1898,Primary,House 568 DHA,Mirpur Khas,Sindh,74036,Pakistan,True
+2274,1898,Secondary,House 640 Gulberg,Charsadda,Khyber Pakhtunkhwa,28749,Pakistan,False
+2275,1899,Primary,775 Clifton,Multan,Punjab,15475,Pakistan,True
+2276,1900,Primary,House 467 Johar Town,Gilgit,Gilgit-Baltistan,54792,Pakistan,True
+2277,1901,Primary,444 Bahria Town,Multan,Punjab,45198,Pakistan,True
+2278,1902,Primary,Block B Gulberg,Nowshera,Khyber Pakhtunkhwa,69701,Pakistan,True
+2279,1903,Primary,Block B Defence Housing,Larkana,Sindh,31747,Pakistan,True
+2280,1904,Primary,Block E Model Town,Sukkur,Sindh,66713,Pakistan,True
+2281,1905,Primary,991 University Road,Abbottabad,Khyber Pakhtunkhwa,92562,Pakistan,True
+2282,1905,Secondary,Block E Defence Housing,Swat,Khyber Pakhtunkhwa,75840,Pakistan,False
+2283,1906,Primary,House 351 Industrial Area,Rawalakot,Azad Kashmir,19778,Pakistan,True
+2284,1907,Primary,Block C Park Road,Jacobabad,Sindh,98678,Pakistan,True
+2285,1907,Secondary,House 750 Mall Road,Bahawalpur,Punjab,64429,Pakistan,False
+2286,1908,Primary,299 Main Boulevard,Abbottabad,Khyber Pakhtunkhwa,99567,Pakistan,True
+2287,1909,Primary,226 Park Road,Larkana,Sindh,54092,Pakistan,True
+2288,1909,Secondary,Block A Clifton,Muzaffarabad,Azad Kashmir,20657,Pakistan,False
+2289,1910,Primary,House 473 DHA,Sukkur,Sindh,24201,Pakistan,True
+2290,1910,Secondary,574 Gulberg,Rawalakot,Azad Kashmir,14321,Pakistan,False
+2291,1911,Primary,912 Clifton,Skardu,Gilgit-Baltistan,78072,Pakistan,True
+2292,1911,Secondary,Block A Industrial Area,Gujranwala,Punjab,22777,Pakistan,False
+2293,1912,Primary,906 Park Road,Khuzdar,Balochistan,37765,Pakistan,True
+2294,1913,Primary,House 64 Model Town,Abbottabad,Khyber Pakhtunkhwa,92036,Pakistan,True
+2295,1913,Secondary,187 Defence Housing,Multan,Punjab,74095,Pakistan,False
+2296,1914,Primary,555 Main Boulevard,Kotli,Azad Kashmir,86899,Pakistan,True
+2297,1915,Primary,72 Industrial Area,Astore,Gilgit-Baltistan,97064,Pakistan,True
+2298,1916,Primary,House 212 Johar Town,Mardan,Khyber Pakhtunkhwa,53559,Pakistan,True
+2299,1917,Primary,955 Johar Town,Skardu,Gilgit-Baltistan,43258,Pakistan,True
+2300,1918,Primary,Block A Johar Town,Abbottabad,Khyber Pakhtunkhwa,90903,Pakistan,True
+2301,1918,Secondary,Block C Industrial Area,Peshawar,Khyber Pakhtunkhwa,82673,Pakistan,False
+2302,1919,Primary,Block B Saddar,Rawalakot,Azad Kashmir,27947,Pakistan,True
+2303,1920,Primary,Block A Clifton,Zhob,Balochistan,10149,Pakistan,True
+2304,1920,Secondary,House 991 DHA,Mansehra,Khyber Pakhtunkhwa,97502,Pakistan,False
+2305,1921,Primary,House 629 College Road,Mirpur,Azad Kashmir,51060,Pakistan,True
+2306,1922,Primary,Block E Main Boulevard,Bahawalpur,Punjab,21743,Pakistan,True
+2307,1922,Secondary,Block B Industrial Area,Turbat,Balochistan,72043,Pakistan,False
+2308,1923,Primary,Block A Johar Town,Astore,Gilgit-Baltistan,82688,Pakistan,True
+2309,1924,Primary,551 Bahria Town,Sukkur,Sindh,75980,Pakistan,True
+2310,1925,Primary,671 Defence Housing,Multan,Punjab,16329,Pakistan,True
+2311,1926,Primary,Block C Park Road,Karachi,Sindh,16148,Pakistan,True
+2312,1927,Primary,396 College Road,Astore,Gilgit-Baltistan,34138,Pakistan,True
+2313,1928,Primary,House 758 University Road,Mirpur Khas,Sindh,77722,Pakistan,True
+2314,1929,Primary,Block D Main Boulevard,Zhob,Balochistan,13625,Pakistan,True
+2315,1930,Primary,Block B Gulberg,Zhob,Balochistan,46986,Pakistan,True
+2316,1931,Primary,342 Main Boulevard,Multan,Punjab,33259,Pakistan,True
+2317,1931,Secondary,9 Park Road,Quetta,Balochistan,40569,Pakistan,False
+2318,1932,Primary,House 859 DHA,Jacobabad,Sindh,28818,Pakistan,True
+2319,1933,Primary,House 768 Industrial Area,Gujranwala,Punjab,61520,Pakistan,True
+2320,1934,Primary,House 926 Defence Housing,Mirpur,Azad Kashmir,13603,Pakistan,True
+2321,1935,Primary,927 Model Town,Charsadda,Khyber Pakhtunkhwa,38909,Pakistan,True
+2322,1936,Primary,561 Main Boulevard,Faisalabad,Punjab,15621,Pakistan,True
+2323,1936,Secondary,37 Model Town,Abbottabad,Khyber Pakhtunkhwa,26791,Pakistan,False
+2324,1937,Primary,House 652 Saddar,Turbat,Balochistan,14402,Pakistan,True
+2325,1938,Primary,Block C Park Road,Bahawalpur,Punjab,15551,Pakistan,True
+2326,1939,Primary,Block D DHA,Abbottabad,Khyber Pakhtunkhwa,18909,Pakistan,True
+2327,1940,Primary,House 606 Cantt,Mardan,Khyber Pakhtunkhwa,61525,Pakistan,True
+2328,1941,Primary,House 442 Gulberg,Muzaffarabad,Azad Kashmir,19908,Pakistan,True
+2329,1942,Primary,House 725 Main Boulevard,Gwadar,Balochistan,58682,Pakistan,True
+2330,1943,Primary,Block A Park Road,Mirpur,Azad Kashmir,49752,Pakistan,True
+2331,1944,Primary,House 319 Johar Town,Mansehra,Khyber Pakhtunkhwa,38335,Pakistan,True
+2332,1945,Primary,Block B Johar Town,Rawalakot,Azad Kashmir,36332,Pakistan,True
+2333,1946,Primary,Block E Defence Housing,Peshawar,Khyber Pakhtunkhwa,89350,Pakistan,True
+2334,1947,Primary,House 741 Clifton,Swat,Khyber Pakhtunkhwa,29002,Pakistan,True
+2335,1948,Primary,Block A Model Town,Chaman,Balochistan,84753,Pakistan,True
+2336,1949,Primary,Block C Cantt,Lahore,Punjab,15446,Pakistan,True
+2337,1950,Primary,82 Johar Town,Astore,Gilgit-Baltistan,42982,Pakistan,True
+2338,1951,Primary,House 262 University Road,Gilgit,Gilgit-Baltistan,33149,Pakistan,True
+2339,1951,Secondary,House 312 Clifton,Turbat,Balochistan,21252,Pakistan,False
+2340,1952,Primary,484 Saddar,Quetta,Balochistan,99725,Pakistan,True
+2341,1953,Primary,House 765 Bahria Town,Mirpur Khas,Sindh,95157,Pakistan,True
+2342,1954,Primary,Block E Clifton,Sukkur,Sindh,40896,Pakistan,True
+2343,1955,Primary,941 Cantt,Mirpur,Azad Kashmir,11470,Pakistan,True
+2344,1956,Primary,653 University Road,Swat,Khyber Pakhtunkhwa,36935,Pakistan,True
+2345,1957,Primary,365 College Road,Skardu,Gilgit-Baltistan,12478,Pakistan,True
+2346,1958,Primary,913 Mall Road,Bahawalpur,Punjab,11808,Pakistan,True
+2347,1958,Secondary,Block D Clifton,Zhob,Balochistan,95326,Pakistan,False
+2348,1959,Primary,77 Defence Housing,Abbottabad,Khyber Pakhtunkhwa,45982,Pakistan,True
+2349,1960,Primary,Block A Cantt,Muzaffarabad,Azad Kashmir,56619,Pakistan,True
+2350,1961,Primary,Block E Saddar,Lahore,Punjab,77390,Pakistan,True
+2351,1962,Primary,137 Johar Town,Rawalakot,Azad Kashmir,33116,Pakistan,True
+2352,1962,Secondary,952 College Road,Chilas,Gilgit-Baltistan,38938,Pakistan,False
+2353,1963,Primary,Block C Industrial Area,Charsadda,Khyber Pakhtunkhwa,17869,Pakistan,True
+2354,1964,Primary,Block E University Road,Kotli,Azad Kashmir,90390,Pakistan,True
+2355,1965,Primary,Block A Gulberg,Chilas,Gilgit-Baltistan,30898,Pakistan,True
+2356,1966,Primary,847 Gulberg,Turbat,Balochistan,30316,Pakistan,True
+2357,1967,Primary,Block A Main Boulevard,Abbottabad,Khyber Pakhtunkhwa,92823,Pakistan,True
+2358,1967,Secondary,Block C DHA,Astore,Gilgit-Baltistan,96769,Pakistan,False
+2359,1968,Primary,Block D Main Boulevard,Hyderabad,Sindh,97379,Pakistan,True
+2360,1969,Primary,House 567 Defence Housing,Mirpur Khas,Sindh,57696,Pakistan,True
+2361,1970,Primary,House 574 College Road,Charsadda,Khyber Pakhtunkhwa,26036,Pakistan,True
+2362,1971,Primary,Block E Clifton,Jacobabad,Sindh,98171,Pakistan,True
+2363,1971,Secondary,House 498 Johar Town,Nowshera,Khyber Pakhtunkhwa,31399,Pakistan,False
+2364,1972,Primary,Block A College Road,Rawalakot,Azad Kashmir,78794,Pakistan,True
+2365,1973,Primary,222 Industrial Area,Nawabshah,Sindh,45591,Pakistan,True
+2366,1974,Primary,Block B Industrial Area,Mansehra,Khyber Pakhtunkhwa,32907,Pakistan,True
+2367,1975,Primary,House 460 Main Boulevard,Rawalakot,Azad Kashmir,76964,Pakistan,True
+2368,1976,Primary,564 Clifton,Muzaffarabad,Azad Kashmir,32377,Pakistan,True
+2369,1977,Primary,Block B Bahria Town,Faisalabad,Punjab,73770,Pakistan,True
+2370,1978,Primary,92 Gulberg,Lahore,Punjab,86337,Pakistan,True
+2371,1979,Primary,Block D DHA,Lahore,Punjab,73969,Pakistan,True
+2372,1980,Primary,Block D Main Boulevard,Turbat,Balochistan,53111,Pakistan,True
+2373,1980,Secondary,House 350 Cantt,Jacobabad,Sindh,17440,Pakistan,False
+2374,1981,Primary,House 574 University Road,Charsadda,Khyber Pakhtunkhwa,35631,Pakistan,True
+2375,1981,Secondary,Block A Defence Housing,Lahore,Punjab,97035,Pakistan,False
+2376,1982,Primary,928 Cantt,Mirpur,Azad Kashmir,49465,Pakistan,True
+2377,1983,Primary,House 294 College Road,Rawalakot,Azad Kashmir,14573,Pakistan,True
+2378,1984,Primary,Block C Cantt,Astore,Gilgit-Baltistan,12347,Pakistan,True
+2379,1984,Secondary,House 157 Bahria Town,Khuzdar,Balochistan,97773,Pakistan,False
+2380,1985,Primary,House 643 Main Boulevard,Chilas,Gilgit-Baltistan,24050,Pakistan,True
+2381,1986,Primary,House 559 Model Town,Abbottabad,Khyber Pakhtunkhwa,69927,Pakistan,True
+2382,1986,Secondary,8 Saddar,Mirpur,Azad Kashmir,87826,Pakistan,False
+2383,1987,Primary,House 92 University Road,Muzaffarabad,Azad Kashmir,38063,Pakistan,True
+2384,1987,Secondary,House 270 Main Boulevard,Khuzdar,Balochistan,37620,Pakistan,False
+2385,1988,Primary,485 University Road,Quetta,Balochistan,69754,Pakistan,True
+2386,1989,Primary,248 Saddar,Peshawar,Khyber Pakhtunkhwa,98121,Pakistan,True
+2387,1990,Primary,8 Industrial Area,Rawalpindi,Punjab,52002,Pakistan,True
+2388,1991,Primary,Block C Johar Town,Mardan,Khyber Pakhtunkhwa,66554,Pakistan,True
+2389,1992,Primary,Block E DHA,Sukkur,Sindh,61694,Pakistan,True
+2390,1993,Primary,Block A Park Road,Larkana,Sindh,77653,Pakistan,True
+2391,1993,Secondary,773 Clifton,Charsadda,Khyber Pakhtunkhwa,53890,Pakistan,False
+2392,1994,Primary,96 Saddar,Mardan,Khyber Pakhtunkhwa,60559,Pakistan,True
+2393,1994,Secondary,House 885 Mall Road,Peshawar,Khyber Pakhtunkhwa,23037,Pakistan,False
+2394,1995,Primary,981 Clifton,Sialkot,Punjab,21736,Pakistan,True
+2395,1996,Primary,807 Cantt,Peshawar,Khyber Pakhtunkhwa,57474,Pakistan,True
+2396,1997,Primary,Block D Saddar,Multan,Punjab,81221,Pakistan,True
+2397,1998,Primary,426 College Road,Nowshera,Khyber Pakhtunkhwa,76003,Pakistan,True
+2398,1998,Secondary,House 223 College Road,Swat,Khyber Pakhtunkhwa,88710,Pakistan,False
+2399,1999,Primary,House 417 Industrial Area,Muzaffarabad,Azad Kashmir,64733,Pakistan,True
+2400,2000,Primary,98 University Road,Sialkot,Punjab,78820,Pakistan,True
+2401,2000,Secondary,440 Gulberg,Gilgit,Gilgit-Baltistan,44360,Pakistan,False

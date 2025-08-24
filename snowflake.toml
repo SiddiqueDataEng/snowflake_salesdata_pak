@@ -1,0 +1,26 @@
+[connections.sales_analysis_prod]
+account = "GYRQQCR-NM74015"
+user = "SIDDIQUE"
+authenticator = "externalbrowser"
+role = "ACCOUNTADMIN"
+warehouse = "SNOWFLAKE_SALES_DATA_ANALYSIS_WH"
+database = "SNOWFLAKE_SALES_DATA_ANALYSIS_DB"
+schema = "PROD"
+
+[connections.sales_analysis_dev]
+account = "GYRQQCR-NM74015"
+user = "SIDDIQUE"
+authenticator = "externalbrowser"
+role = "ACCOUNTADMIN"
+warehouse = "SNOWFLAKE_SALES_DATA_ANALYSIS_WH"
+database = "SNOWFLAKE_SALES_DATA_ANALYSIS_DB"
+schema = "DEV"
+
+[connections.sales_analysis_staging]
+account = "GYRQQCR-NM74015"
+user = "SIDDIQUE"
+authenticator = "externalbrowser"
+role = "ACCOUNTADMIN"
+warehouse = "SNOWFLAKE_SALES_DATA_ANALYSIS_WH"
+database = "SNOWFLAKE_SALES_DATA_ANALYSIS_DB"
+schema = "STAGING"

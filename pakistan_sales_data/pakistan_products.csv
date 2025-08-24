@@ -1,0 +1,801 @@
+PRODUCT_ID,PRODUCT_NAME,CATEGORY_ID,BRAND,MODEL,DESCRIPTION,UNIT_COST,UNIT_PRICE,MSRP,WEIGHT_KG,DIMENSIONS_CM,IS_ACTIVE
+1,Nestle Tea,3,Nestle,Model-5690,High quality nestle tea from Nestle,15004.36,22044,28518.31,0.91,55x16x2 cm,True
+2,Tecno Smartphone 1,1,Tecno,Model-9190,High quality tecno smartphone 1 from Tecno,38412.37,49355,62510.02,1.91,89x18x15 cm,True
+3,Reebok Product 3,7,Reebok,Model-9401,High quality reebok product 3 from Reebok,20377.95,27620,32846.84,1.0,12x80x29 cm,True
+4,Huawei Charger 19,1,Huawei,Model-4092,High quality huawei charger 19 from Huawei,17250.02,27058,31055.49,1.13,67x26x43 cm,True
+5,Staedtler Product 5,8,Staedtler,Model-3726,High quality staedtler product 5 from Staedtler,4390.7,6694,7673.37,0.02,28x18x20 cm,False
+6,Interwood Product 6,5,Interwood,Model-9737,High quality interwood product 6 from Interwood,24207.8,37063,45816.69,8.62,72x52x24 cm,True
+7,Shan Foods Tea,3,Shan Foods,Model-7202,High quality shan foods tea from Shan Foods,11120.17,15490,17960.08,0.84,48x24x18 cm,True
+8,Engro Biscuits,3,Engro,Model-8289,High quality engro biscuits from Engro,27166.0,40604,51992.28,1.02,43x97x16 cm,True
+9,Puma Product 9,7,Puma,Model-3552,High quality puma product 9 from Puma,10402.71,13709,16615.57,0.04,79x85x48 cm,False
+10,Chenab Product 10,5,Chenab,Model-8003,High quality chenab product 10 from Chenab,19950.91,31465,38546.31,0.15,69x65x4 cm,True
+11,Sapphire Dress,2,Sapphire,Model-8156,High quality sapphire dress from Sapphire,25362.18,36842,45639.77,7.71,32x86x49 cm,False
+12,Samsung Charger 12,1,Samsung,Model-1925,High quality samsung charger 12 from Samsung,12767.8,17998,20646.48,4.46,68x50x22 cm,True
+13,Clean & Clear Product 13,6,Clean & Clear,Model-5723,High quality clean & clear product 13 from Clean & Clear,22792.0,30835,37765.33,2.22,15x20x32 cm,True
+14,Fair & Lovely Product 14,6,Fair & Lovely,Model-8791,High quality fair & lovely product 14 from Fair & Lovely,28351.02,37342,43840.18,2.17,76x89x30 cm,True
+15,L'Oreal Product 15,6,L'Oreal,Model-2792,High quality l'oreal product 15 from L'Oreal,3180.52,4611,5100.72,4.5,84x14x2 cm,True
+16,Under Armour Product 16,7,Under Armour,Model-2103,High quality under armour product 16 from Under Armour,38539.14,48804,59833.8,1.38,86x100x32 cm,True
+17,Reebok Product 17,7,Reebok,Model-4917,High quality reebok product 17 from Reebok,6778.34,8637,10880.91,0.72,22x58x10 cm,False
+18,Oppo TV 13,1,Oppo,Model-2652,High quality oppo tv 13 from Oppo,25005.92,39505,45371.07,2.77,37x25x30 cm,False
+19,Bonanza Scarf,2,Bonanza,Model-7926,High quality bonanza scarf from Bonanza,37959.32,49245,60311.7,3.28,70x53x29 cm,True
+20,Nestle Chocolate,3,Nestle,Model-1633,High quality nestle chocolate from Nestle,16418.18,22758,27451.85,0.57,82x56x6 cm,True
+21,Oxford Product 21,8,Oxford,Model-1002,High quality oxford product 21 from Oxford,31101.98,43651,52744.93,1.04,38x100x9 cm,True
+22,Suzuki Product 22,4,Suzuki,Model-3461,High quality suzuki product 22 from Suzuki,3740.95,4857,6056.21,6.02,37x85x44 cm,True
+23,Shan Foods Chocolate,3,Shan Foods,Model-3328,High quality shan foods chocolate from Shan Foods,10221.57,14787,19167.14,1.1,77x56x5 cm,False
+24,Ponds Product 24,6,Ponds,Model-9494,High quality ponds product 24 from Ponds,11874.55,15729,18578.95,1.08,50x92x36 cm,True
+25,Nike Product 25,7,Nike,Model-4257,High quality nike product 25 from Nike,1639.93,2552,2979.83,1.38,100x36x48 cm,False
+26,Pelikan Product 26,8,Pelikan,Model-7922,High quality pelikan product 26 from Pelikan,10560.07,16520,19172.36,1.84,52x79x27 cm,False
+27,Clean & Clear Product 27,6,Clean & Clear,Model-2971,High quality clean & clear product 27 from Clean & Clear,3868.86,6409,8314.62,5.61,36x100x8 cm,False
+28,Nike Product 28,7,Nike,Model-3147,High quality nike product 28 from Nike,35609.23,48050,59448.04,1.42,97x13x33 cm,True
+29,Suzuki Product 29,4,Suzuki,Model-9197,High quality suzuki product 29 from Suzuki,24165.4,34481,42404.45,6.6,36x32x41 cm,False
+30,Nissan Product 30,4,Nissan,Model-5189,High quality nissan product 30 from Nissan,22783.09,37381,42287.1,9.36,30x31x31 cm,False
+31,Engro Rice,3,Engro,Model-5976,High quality engro rice from Engro,7225.92,10246,12093.84,0.97,53x98x49 cm,True
+32,Samsung Camera 12,1,Samsung,Model-7916,High quality samsung camera 12 from Samsung,12097.82,16492,19411.55,3.0,95x10x37 cm,True
+33,Clean & Clear Product 33,6,Clean & Clear,Model-7837,High quality clean & clear product 33 from Clean & Clear,22110.9,33635,41975.28,5.69,65x97x11 cm,True
+34,Habitt Product 34,5,Habitt,Model-5580,High quality habitt product 34 from Habitt,10569.39,16265,20155.96,9.46,41x68x36 cm,True
+35,QMobile Speaker 4,1,QMobile,Model-7390,High quality qmobile speaker 4 from QMobile,29773.49,43863,51647.11,3.31,39x57x30 cm,True
+36,Chenab Product 36,5,Chenab,Model-5046,High quality chenab product 36 from Chenab,6097.8,9669,11688.25,5.9,45x65x25 cm,True
+37,Bonanza Suit,2,Bonanza,Model-4505,High quality bonanza suit from Bonanza,10704.02,15043,19113.86,6.82,78x64x38 cm,False
+38,Honda Product 38,4,Honda,Model-8447,High quality honda product 38 from Honda,19221.95,31132,36399.12,1.02,58x95x14 cm,True
+39,Under Armour Product 39,7,Under Armour,Model-8192,High quality under armour product 39 from Under Armour,35268.06,45497,56586.34,0.95,45x35x8 cm,True
+40,Gul Ahmed Dupatta,2,Gul Ahmed,Model-6918,High quality gul ahmed dupatta from Gul Ahmed,20843.45,27304,35301.64,7.7,45x99x33 cm,True
+41,Mitchells Juice,3,Mitchells,Model-1036,High quality mitchells juice from Mitchells,32853.08,49640,63346.28,1.26,95x93x42 cm,False
+42,Shan Foods Biscuits,3,Shan Foods,Model-3742,High quality shan foods biscuits from Shan Foods,12914.8,20451,26486.8,0.08,89x58x28 cm,True
+43,Under Armour Product 43,7,Under Armour,Model-3366,High quality under armour product 43 from Under Armour,30004.82,42545,51113.11,0.67,89x56x8 cm,True
+44,Unilever Milk,3,Unilever,Model-1854,High quality unilever milk from Unilever,25381.11,36772,42836.16,1.12,42x12x15 cm,True
+45,Fair & Lovely Product 45,6,Fair & Lovely,Model-7799,High quality fair & lovely product 45 from Fair & Lovely,31885.99,40431,52243.29,8.0,89x34x45 cm,True
+46,Reebok Product 46,7,Reebok,Model-3335,High quality reebok product 46 from Reebok,19655.81,26393,30930.77,1.95,84x14x3 cm,False
+47,Toyota Product 47,4,Toyota,Model-4495,High quality toyota product 47 from Toyota,30112.28,47559,54698.15,8.07,88x100x16 cm,True
+48,Nike Product 48,7,Nike,Model-3770,High quality nike product 48 from Nike,29666.94,37700,42038.35,0.2,56x14x39 cm,True
+49,Infinix Charger 20,1,Infinix,Model-6007,High quality infinix charger 20 from Infinix,27723.14,35696,39425.99,8.53,100x76x15 cm,True
+50,Ponds Product 50,6,Ponds,Model-4005,High quality ponds product 50 from Ponds,30049.61,39362,47854.74,6.0,95x78x3 cm,True
+51,Chen One Kurta,2,Chen One,Model-5689,High quality chen one kurta from Chen One,12008.43,15874,20086.29,4.28,45x13x9 cm,True
+52,Nissan Product 52,4,Nissan,Model-3882,High quality nissan product 52 from Nissan,4714.1,7475,8388.45,1.39,57x47x28 cm,True
+53,Alkaram Shirt,2,Alkaram,Model-5347,High quality alkaram shirt from Alkaram,26199.85,38958,50031.99,6.02,24x80x7 cm,True
+54,Staedtler Product 54,8,Staedtler,Model-6914,High quality staedtler product 54 from Staedtler,4227.19,6473,7601.3,1.57,53x91x11 cm,True
+55,Interwood Product 55,5,Interwood,Model-5619,High quality interwood product 55 from Interwood,16782.28,27399,33766.97,0.22,83x15x32 cm,True
+56,Nissan Product 56,4,Nissan,Model-4991,High quality nissan product 56 from Nissan,25272.73,38377,46690.62,2.92,68x59x10 cm,True
+57,Chenab Product 57,5,Chenab,Model-6619,High quality chenab product 57 from Chenab,17901.73,23391,29966.61,3.36,64x31x40 cm,False
+58,Daihatsu Product 58,4,Daihatsu,Model-8339,High quality daihatsu product 58 from Daihatsu,6853.44,8735,9963.69,5.27,16x26x35 cm,False
+59,Ponds Product 59,6,Ponds,Model-8123,High quality ponds product 59 from Ponds,21043.02,29617,37417.0,3.68,25x36x31 cm,True
+60,Toyota Product 60,4,Toyota,Model-5347,High quality toyota product 60 from Toyota,34582.33,46669,53759.7,1.96,27x25x2 cm,True
+61,IKEA Product 61,5,IKEA,Model-1086,High quality ikea product 61 from IKEA,26242.21,33184,38321.02,2.69,13x82x44 cm,True
+62,Under Armour Product 62,7,Under Armour,Model-4540,High quality under armour product 62 from Under Armour,38399.61,49542,62453.36,0.24,40x80x8 cm,True
+63,Ponds Product 63,6,Ponds,Model-1926,High quality ponds product 63 from Ponds,22968.29,33080,40738.11,3.7,32x83x19 cm,False
+64,Chen One Suit,2,Chen One,Model-1174,High quality chen one suit from Chen One,7070.39,9431,11750.94,4.28,60x10x2 cm,True
+65,Reebok Product 65,7,Reebok,Model-1302,High quality reebok product 65 from Reebok,2626.96,3662,4075.96,0.35,44x53x14 cm,True
+66,Furniture Mall Product 66,5,Furniture Mall,Model-8616,High quality furniture mall product 66 from Furniture Mall,12186.75,16135,18533.49,1.45,85x43x20 cm,False
+67,Bonanza Suit,2,Bonanza,Model-2194,High quality bonanza suit from Bonanza,29719.64,43701,51251.73,3.79,56x82x42 cm,True
+68,Sapphire Kurta,2,Sapphire,Model-4457,High quality sapphire kurta from Sapphire,4497.05,7164,7990.99,7.09,95x70x49 cm,True
+69,Bonanza Shirt,2,Bonanza,Model-2437,High quality bonanza shirt from Bonanza,5203.95,6567,7906.59,0.19,70x32x18 cm,True
+70,Oxford Product 70,8,Oxford,Model-4493,High quality oxford product 70 from Oxford,4272.07,5496,6569.81,1.0,14x45x40 cm,True
+71,Reebok Product 71,7,Reebok,Model-7586,High quality reebok product 71 from Reebok,5750.84,7350,9042.58,0.13,28x60x17 cm,True
+72,Bonanza Suit,2,Bonanza,Model-3480,High quality bonanza suit from Bonanza,25741.45,37610,48874.06,8.2,24x28x12 cm,True
+73,Clean & Clear Product 73,6,Clean & Clear,Model-2251,High quality clean & clear product 73 from Clean & Clear,4427.77,6056,7314.28,7.86,82x37x10 cm,False
+74,Staedtler Product 74,8,Staedtler,Model-8288,High quality staedtler product 74 from Staedtler,11474.56,16509,18207.77,0.88,88x87x39 cm,True
+75,Mitsubishi Product 75,4,Mitsubishi,Model-7236,High quality mitsubishi product 75 from Mitsubishi,24033.1,30634,38118.15,0.64,54x21x50 cm,False
+76,Samsung TV 14,1,Samsung,Model-8319,High quality samsung tv 14 from Samsung,32208.86,41203,49381.36,8.51,42x62x25 cm,True
+77,Interwood Product 77,5,Interwood,Model-4536,High quality interwood product 77 from Interwood,26834.97,39207,48766.7,7.6,71x30x46 cm,True
+78,Oxford Product 78,8,Oxford,Model-9988,High quality oxford product 78 from Oxford,29734.05,37618,41636.95,2.0,66x53x11 cm,True
+79,Chen One Shirt,2,Chen One,Model-3582,High quality chen one shirt from Chen One,9839.46,12329,14962.15,6.28,22x66x20 cm,False
+80,Ponds Product 80,6,Ponds,Model-4475,High quality ponds product 80 from Ponds,33415.14,41984,53625.98,7.64,99x61x27 cm,False
+81,Garnier Product 81,6,Garnier,Model-8506,High quality garnier product 81 from Garnier,23756.03,39188,44815.18,3.77,71x21x22 cm,True
+82,Chen One Pants,2,Chen One,Model-8644,High quality chen one pants from Chen One,20823.36,26210,32672.08,4.33,67x28x42 cm,False
+83,Pilot Product 83,8,Pilot,Model-2720,High quality pilot product 83 from Pilot,29868.77,37698,43065.83,1.32,66x16x23 cm,False
+84,Interwood Product 84,5,Interwood,Model-1236,High quality interwood product 84 from Interwood,26776.55,43041,55191.34,8.16,16x20x25 cm,True
+85,Habitt Product 85,5,Habitt,Model-4224,High quality habitt product 85 from Habitt,8136.65,10347,11529.24,2.07,80x57x10 cm,True
+86,Oxford Product 86,8,Oxford,Model-2824,High quality oxford product 86 from Oxford,6916.36,9515,11933.15,1.23,54x79x22 cm,True
+87,Oxford Product 87,8,Oxford,Model-5059,High quality oxford product 87 from Oxford,9628.22,13087,14791.62,0.69,12x32x27 cm,True
+88,Staedtler Product 88,8,Staedtler,Model-6871,High quality staedtler product 88 from Staedtler,8630.72,13145,16379.56,0.41,70x71x46 cm,True
+89,L'Oreal Product 89,6,L'Oreal,Model-2186,High quality l'oreal product 89 from L'Oreal,8828.66,12315,15771.14,3.54,31x28x38 cm,True
+90,Habitt Product 90,5,Habitt,Model-6432,High quality habitt product 90 from Habitt,26111.29,42148,46554.73,1.57,95x27x39 cm,True
+91,Interwood Product 91,5,Interwood,Model-8412,High quality interwood product 91 from Interwood,14034.74,19650,24340.28,6.51,98x83x42 cm,False
+92,Furniture Mall Product 92,5,Furniture Mall,Model-1065,High quality furniture mall product 92 from Furniture Mall,37940.16,49329,54862.79,7.89,23x52x26 cm,True
+93,Mitchells Milk,3,Mitchells,Model-6926,High quality mitchells milk from Mitchells,17020.51,23163,25593.63,0.31,95x59x18 cm,False
+94,Honda Product 94,4,Honda,Model-2301,High quality honda product 94 from Honda,10316.8,15313,19160.09,8.96,90x10x27 cm,True
+95,Pelikan Product 95,8,Pelikan,Model-4204,High quality pelikan product 95 from Pelikan,4449.5,6263,7288.57,1.52,34x27x38 cm,False
+96,Under Armour Product 96,7,Under Armour,Model-1667,High quality under armour product 96 from Under Armour,23266.43,38441,48077.45,1.82,39x58x27 cm,True
+97,L'Oreal Product 97,6,L'Oreal,Model-8181,High quality l'oreal product 97 from L'Oreal,19648.05,25293,28432.75,0.28,30x90x16 cm,False
+98,Bonanza Dress,2,Bonanza,Model-5872,High quality bonanza dress from Bonanza,9045.59,11856,13142.58,4.01,32x78x48 cm,True
+99,Suzuki Product 99,4,Suzuki,Model-1286,High quality suzuki product 99 from Suzuki,19730.8,24698,31687.24,0.43,29x46x38 cm,True
+100,Staedtler Product 100,8,Staedtler,Model-2819,High quality staedtler product 100 from Staedtler,21945.12,35404,45575.83,1.33,48x99x21 cm,True
+101,Staedtler Product 101,8,Staedtler,Model-9573,High quality staedtler product 101 from Staedtler,21738.4,27591,33026.06,0.52,24x52x43 cm,True
+102,Fair & Lovely Product 102,6,Fair & Lovely,Model-7974,High quality fair & lovely product 102 from Fair & Lovely,3646.39,5698,6763.7,1.59,13x23x11 cm,True
+103,Dollar Product 103,8,Dollar,Model-6424,High quality dollar product 103 from Dollar,2172.79,3525,3953.48,1.01,62x61x15 cm,True
+104,Oxford Product 104,8,Oxford,Model-2261,High quality oxford product 104 from Oxford,33611.4,47117,58671.9,0.04,69x61x36 cm,True
+105,Ponds Product 105,6,Ponds,Model-8621,High quality ponds product 105 from Ponds,19926.03,28207,35174.54,5.06,96x14x50 cm,False
+106,Habitt Product 106,5,Habitt,Model-7837,High quality habitt product 106 from Habitt,8845.72,11693,14174.57,4.64,50x84x13 cm,False
+107,Oppo Tablet 9,1,Oppo,Model-2753,High quality oppo tablet 9 from Oppo,20545.3,27917,31599.65,5.78,75x72x31 cm,True
+108,IKEA Product 108,5,IKEA,Model-7239,High quality ikea product 108 from IKEA,35010.56,49716,55649.22,5.03,59x45x45 cm,True
+109,Nissan Product 109,4,Nissan,Model-4958,High quality nissan product 109 from Nissan,19917.65,32833,42669.79,6.64,49x72x38 cm,True
+110,Puma Product 110,7,Puma,Model-6570,High quality puma product 110 from Puma,12134.12,17621,20604.56,0.51,23x17x50 cm,True
+111,Fair & Lovely Product 111,6,Fair & Lovely,Model-6070,High quality fair & lovely product 111 from Fair & Lovely,29291.93,42462,46805.11,2.27,14x78x48 cm,True
+112,Garnier Product 112,6,Garnier,Model-9562,High quality garnier product 112 from Garnier,14813.1,18796,22439.21,0.95,58x44x45 cm,False
+113,Habitt Product 113,5,Habitt,Model-5290,High quality habitt product 113 from Habitt,11062.91,14526,16876.37,1.14,84x12x47 cm,True
+114,Daihatsu Product 114,4,Daihatsu,Model-5615,High quality daihatsu product 114 from Daihatsu,14289.81,19552,22060.42,4.22,67x32x18 cm,True
+115,Oppo Tablet 8,1,Oppo,Model-7093,High quality oppo tablet 8 from Oppo,21212.91,32213,39967.83,4.12,46x82x16 cm,True
+116,Dollar Product 116,8,Dollar,Model-4531,High quality dollar product 116 from Dollar,34969.54,46793,56168.76,0.25,35x49x26 cm,True
+117,Clean & Clear Product 117,6,Clean & Clear,Model-3899,High quality clean & clear product 117 from Clean & Clear,5399.8,8453,10428.95,1.23,29x23x5 cm,True
+118,Fair & Lovely Product 118,6,Fair & Lovely,Model-5312,High quality fair & lovely product 118 from Fair & Lovely,22282.55,34489,43527.71,0.22,97x98x3 cm,False
+119,Staedtler Product 119,8,Staedtler,Model-5031,High quality staedtler product 119 from Staedtler,18732.73,24872,30579.3,0.35,27x44x44 cm,True
+120,Gul Ahmed Shirt,2,Gul Ahmed,Model-9755,High quality gul ahmed shirt from Gul Ahmed,3632.08,5951,7326.65,1.86,46x89x43 cm,False
+121,National Foods Milk,3,National Foods,Model-7005,High quality national foods milk from National Foods,32693.98,48382,61779.73,0.89,12x69x27 cm,False
+122,Nissan Product 122,4,Nissan,Model-2174,High quality nissan product 122 from Nissan,562.64,841,1008.41,7.72,37x33x37 cm,False
+123,Gul Ahmed Pants,2,Gul Ahmed,Model-7722,High quality gul ahmed pants from Gul Ahmed,19375.32,32154,39568.39,7.94,18x43x17 cm,True
+124,Under Armour Product 124,7,Under Armour,Model-9683,High quality under armour product 124 from Under Armour,7560.18,10850,14030.95,1.17,50x10x30 cm,True
+125,Nestle Biscuits,3,Nestle,Model-6192,High quality nestle biscuits from Nestle,9616.69,12641,14226.66,0.86,77x38x1 cm,True
+126,QMobile Headphones 2,1,QMobile,Model-3313,High quality qmobile headphones 2 from QMobile,37338.75,47790,60130.04,6.13,93x34x24 cm,True
+127,Pilot Product 127,8,Pilot,Model-7149,High quality pilot product 127 from Pilot,32258.49,40973,46571.64,0.42,92x61x10 cm,True
+128,Chen One Shirt,2,Chen One,Model-2685,High quality chen one shirt from Chen One,6315.22,8933,10032.47,3.88,49x23x40 cm,True
+129,Tecno Headphones 14,1,Tecno,Model-2928,High quality tecno headphones 14 from Tecno,22978.5,35731,42788.28,9.18,97x30x45 cm,False
+130,Nissan Product 130,4,Nissan,Model-2647,High quality nissan product 130 from Nissan,15285.05,23932,28229.44,8.39,12x87x43 cm,True
+131,Dollar Product 131,8,Dollar,Model-5631,High quality dollar product 131 from Dollar,18348.05,29036,33194.11,1.62,82x20x4 cm,True
+132,Chenab Product 132,5,Chenab,Model-5145,High quality chenab product 132 from Chenab,3968.22,5667,7238.76,2.28,88x100x30 cm,True
+133,Alkaram Dress,2,Alkaram,Model-9980,High quality alkaram dress from Alkaram,8610.93,13532,15567.55,4.13,31x44x1 cm,True
+134,Pelikan Product 134,8,Pelikan,Model-5702,High quality pelikan product 134 from Pelikan,18862.23,26786,32244.24,1.39,72x17x30 cm,True
+135,Staedtler Product 135,8,Staedtler,Model-7159,High quality staedtler product 135 from Staedtler,11714.84,14766,16761.09,1.05,82x15x28 cm,True
+136,Fair & Lovely Product 136,6,Fair & Lovely,Model-4679,High quality fair & lovely product 136 from Fair & Lovely,27584.86,42470,50216.66,4.74,27x49x1 cm,True
+137,Gul Ahmed Kurta,2,Gul Ahmed,Model-3115,High quality gul ahmed kurta from Gul Ahmed,3288.31,4369,5367.98,2.82,38x39x23 cm,True
+138,Infinix Camera 9,1,Infinix,Model-6829,High quality infinix camera 9 from Infinix,25393.45,38910,48576.19,7.31,59x24x14 cm,True
+139,Interwood Product 139,5,Interwood,Model-2972,High quality interwood product 139 from Interwood,2842.34,3598,4107.28,1.21,78x73x38 cm,True
+140,Sapphire Scarf,2,Sapphire,Model-9401,High quality sapphire scarf from Sapphire,4965.51,7909,8910.94,3.1,79x31x43 cm,True
+141,Nissan Product 141,4,Nissan,Model-2267,High quality nissan product 141 from Nissan,12422.73,18117,21365.93,8.04,96x15x36 cm,True
+142,Huawei Laptop 19,1,Huawei,Model-4326,High quality huawei laptop 19 from Huawei,29189.05,37951,41875.18,8.43,23x91x36 cm,True
+143,Under Armour Product 143,7,Under Armour,Model-3587,High quality under armour product 143 from Under Armour,17220.71,24531,29257.41,0.08,50x62x39 cm,True
+144,Mitsubishi Product 144,4,Mitsubishi,Model-6674,High quality mitsubishi product 144 from Mitsubishi,13153.89,18039,23244.9,3.0,77x76x45 cm,False
+145,Chen One Shirt,2,Chen One,Model-5954,High quality chen one shirt from Chen One,23773.92,35829,43080.02,1.54,92x86x7 cm,True
+146,Oxford Product 146,8,Oxford,Model-4552,High quality oxford product 146 from Oxford,24378.38,39922,45858.74,1.31,75x77x22 cm,True
+147,Tecno Tablet 8,1,Tecno,Model-9092,High quality tecno tablet 8 from Tecno,10139.05,13121,16919.83,6.95,32x77x35 cm,False
+148,Ponds Product 148,6,Ponds,Model-6251,High quality ponds product 148 from Ponds,38318.8,48203,58738.76,8.49,69x78x36 cm,True
+149,QMobile TV 5,1,QMobile,Model-5331,High quality qmobile tv 5 from QMobile,5676.45,7360,9265.39,5.16,47x81x47 cm,True
+150,Samsung Headphones 2,1,Samsung,Model-3891,High quality samsung headphones 2 from Samsung,17354.94,24444,27470.98,8.62,79x60x16 cm,True
+151,National Foods Biscuits,3,National Foods,Model-5712,High quality national foods biscuits from National Foods,21617.3,33987,42529.83,0.76,49x51x10 cm,True
+152,Ponds Product 152,6,Ponds,Model-4576,High quality ponds product 152 from Ponds,22061.36,29520,34574.08,3.17,63x16x19 cm,True
+153,Dollar Product 153,8,Dollar,Model-9593,High quality dollar product 153 from Dollar,24903.82,34959,41705.35,0.18,87x17x34 cm,True
+154,Mitsubishi Product 154,4,Mitsubishi,Model-8471,High quality mitsubishi product 154 from Mitsubishi,2914.93,4191,5429.82,1.79,10x85x11 cm,True
+155,Toyota Product 155,4,Toyota,Model-9091,High quality toyota product 155 from Toyota,19611.94,24628,28749.51,9.8,74x75x29 cm,True
+156,Dollar Product 156,8,Dollar,Model-6403,High quality dollar product 156 from Dollar,22604.64,33348,39923.02,1.07,39x56x34 cm,True
+157,L'Oreal Product 157,6,L'Oreal,Model-6332,High quality l'oreal product 157 from L'Oreal,1436.45,1861,2209.12,1.25,42x23x8 cm,True
+158,Staedtler Product 158,8,Staedtler,Model-9298,High quality staedtler product 158 from Staedtler,22720.98,29763,36226.31,1.29,24x72x49 cm,False
+159,Dollar Product 159,8,Dollar,Model-7735,High quality dollar product 159 from Dollar,32410.1,49220,62409.39,1.0,98x70x6 cm,True
+160,Staedtler Product 160,8,Staedtler,Model-9810,High quality staedtler product 160 from Staedtler,5645.31,8534,9546.0,1.16,43x74x31 cm,True
+161,Chenab Product 161,5,Chenab,Model-3501,High quality chenab product 161 from Chenab,12747.29,21187,23578.4,4.85,56x72x14 cm,True
+162,Clean & Clear Product 162,6,Clean & Clear,Model-3884,High quality clean & clear product 162 from Clean & Clear,13600.53,22610,28806.44,1.12,60x55x8 cm,True
+163,Pelikan Product 163,8,Pelikan,Model-8818,High quality pelikan product 163 from Pelikan,5224.6,8584,10654.78,0.36,19x46x20 cm,True
+164,Alkaram Kurta,2,Alkaram,Model-6447,High quality alkaram kurta from Alkaram,31125.62,42084,48113.16,7.9,80x15x50 cm,False
+165,Shan Foods Rice,3,Shan Foods,Model-8580,High quality shan foods rice from Shan Foods,24602.61,33251,40150.3,1.07,86x86x50 cm,True
+166,Adidas Product 166,7,Adidas,Model-5341,High quality adidas product 166 from Adidas,35170.76,45904,54023.11,0.55,35x43x1 cm,False
+167,Garnier Product 167,6,Garnier,Model-3689,High quality garnier product 167 from Garnier,2683.47,3937,4475.68,1.29,52x71x13 cm,True
+168,Vivo Smartphone 12,1,Vivo,Model-1311,High quality vivo smartphone 12 from Vivo,1533.3,2469,3093.11,0.32,77x20x16 cm,True
+169,L'Oreal Product 169,6,L'Oreal,Model-2538,High quality l'oreal product 169 from L'Oreal,3014.87,3887,4823.78,0.47,42x58x9 cm,False
+170,Clean & Clear Product 170,6,Clean & Clear,Model-5423,High quality clean & clear product 170 from Clean & Clear,25485.9,36923,44794.21,4.58,75x77x50 cm,False
+171,Interwood Product 171,5,Interwood,Model-3564,High quality interwood product 171 from Interwood,20249.74,27782,33319.62,5.06,90x18x15 cm,True
+172,Oxford Product 172,8,Oxford,Model-5953,High quality oxford product 172 from Oxford,26477.8,33849,37393.94,1.34,97x38x23 cm,True
+173,Oppo Smartphone 9,1,Oppo,Model-2873,High quality oppo smartphone 9 from Oppo,15660.68,22462,26530.91,4.0,66x59x19 cm,True
+174,Under Armour Product 174,7,Under Armour,Model-2310,High quality under armour product 174 from Under Armour,6705.74,11157,13412.52,0.86,93x36x22 cm,True
+175,Daihatsu Product 175,4,Daihatsu,Model-4545,High quality daihatsu product 175 from Daihatsu,17538.43,22304,24546.14,2.17,34x85x47 cm,True
+176,Fair & Lovely Product 176,6,Fair & Lovely,Model-5756,High quality fair & lovely product 176 from Fair & Lovely,970.39,1222,1418.85,9.01,94x89x47 cm,True
+177,Alkaram Shirt,2,Alkaram,Model-6373,High quality alkaram shirt from Alkaram,20777.83,26731,29535.73,2.67,55x21x40 cm,False
+178,Oxford Product 178,8,Oxford,Model-3671,High quality oxford product 178 from Oxford,13428.01,18083,20116.02,0.82,22x72x34 cm,True
+179,Samsung Speaker 7,1,Samsung,Model-8638,High quality samsung speaker 7 from Samsung,2095.99,3081,3612.73,7.81,28x11x25 cm,True
+180,Nike Product 180,7,Nike,Model-7715,High quality nike product 180 from Nike,11806.13,17565,21712.86,0.2,16x44x8 cm,True
+181,Pelikan Product 181,8,Pelikan,Model-4996,High quality pelikan product 181 from Pelikan,28773.33,37765,44049.3,0.62,33x45x44 cm,False
+182,Puma Product 182,7,Puma,Model-4425,High quality puma product 182 from Puma,10036.94,15669,17857.05,1.22,41x100x47 cm,True
+183,Interwood Product 183,5,Interwood,Model-3621,High quality interwood product 183 from Interwood,26903.78,44171,48884.03,4.48,16x22x31 cm,True
+184,L'Oreal Product 184,6,L'Oreal,Model-2799,High quality l'oreal product 184 from L'Oreal,11564.51,17258,22245.4,4.47,12x26x44 cm,True
+185,National Foods Chocolate,3,National Foods,Model-2751,High quality national foods chocolate from National Foods,29205.84,44228,56949.01,1.27,93x37x13 cm,True
+186,Alkaram Scarf,2,Alkaram,Model-2173,High quality alkaram scarf from Alkaram,9867.8,15432,17875.33,9.56,50x42x20 cm,True
+187,Nestle Tea,3,Nestle,Model-4935,High quality nestle tea from Nestle,3973.42,5125,5907.32,1.05,73x75x27 cm,True
+188,Fair & Lovely Product 188,6,Fair & Lovely,Model-1628,High quality fair & lovely product 188 from Fair & Lovely,36300.72,48493,56542.89,3.06,67x71x45 cm,True
+189,Adidas Product 189,7,Adidas,Model-3301,High quality adidas product 189 from Adidas,20370.88,31960,40115.05,1.76,81x88x34 cm,False
+190,Khaadi Pants,2,Khaadi,Model-8375,High quality khaadi pants from Khaadi,13690.64,18015,22999.57,3.31,12x34x19 cm,True
+191,Bonanza Scarf,2,Bonanza,Model-4638,High quality bonanza scarf from Bonanza,10087.03,13906,16106.93,2.25,72x68x35 cm,False
+192,Nissan Product 192,4,Nissan,Model-7418,High quality nissan product 192 from Nissan,10826.19,17836,22714.32,4.02,58x47x8 cm,True
+193,Daihatsu Product 193,4,Daihatsu,Model-1136,High quality daihatsu product 193 from Daihatsu,2484.84,3441,3987.89,4.34,37x74x33 cm,True
+194,Pelikan Product 194,8,Pelikan,Model-3158,High quality pelikan product 194 from Pelikan,32441.07,41269,53455.36,0.06,92x68x38 cm,True
+195,QMobile Smartphone 10,1,QMobile,Model-9179,High quality qmobile smartphone 10 from QMobile,12684.16,16145,17850.34,0.45,16x42x26 cm,True
+196,Under Armour Product 196,7,Under Armour,Model-5520,High quality under armour product 196 from Under Armour,30238.06,43843,51905.68,0.37,35x32x10 cm,True
+197,Fair & Lovely Product 197,6,Fair & Lovely,Model-7429,High quality fair & lovely product 197 from Fair & Lovely,939.31,1406,1683.1,5.31,72x16x28 cm,True
+198,National Foods Oil,3,National Foods,Model-8962,High quality national foods oil from National Foods,23749.39,32332,36561.29,1.28,35x74x37 cm,True
+199,Garnier Product 199,6,Garnier,Model-3698,High quality garnier product 199 from Garnier,28176.37,39786,47268.96,1.85,92x30x19 cm,False
+200,Tecno TV 2,1,Tecno,Model-1633,High quality tecno tv 2 from Tecno,4873.32,6774,8752.0,1.12,11x20x18 cm,True
+201,Shan Foods Tea,3,Shan Foods,Model-5056,High quality shan foods tea from Shan Foods,30912.01,47029,52054.11,0.8,95x83x43 cm,True
+202,Garnier Product 202,6,Garnier,Model-7991,High quality garnier product 202 from Garnier,23048.82,31734,36306.75,5.87,79x45x12 cm,True
+203,Staedtler Product 203,8,Staedtler,Model-5672,High quality staedtler product 203 from Staedtler,19822.24,25119,30841.5,0.74,16x25x37 cm,False
+204,Dollar Product 204,8,Dollar,Model-1324,High quality dollar product 204 from Dollar,16027.68,22095,27176.96,1.94,12x89x23 cm,True
+205,Pelikan Product 205,8,Pelikan,Model-3697,High quality pelikan product 205 from Pelikan,17439.21,25290,29352.1,1.31,91x46x21 cm,False
+206,Vivo Charger 15,1,Vivo,Model-6635,High quality vivo charger 15 from Vivo,25902.63,33761,40432.03,8.23,92x98x12 cm,True
+207,Adidas Product 207,7,Adidas,Model-9472,High quality adidas product 207 from Adidas,2562.14,3368,4110.18,1.18,44x60x24 cm,True
+208,Chenab Product 208,5,Chenab,Model-6417,High quality chenab product 208 from Chenab,31511.9,42655,52668.91,0.63,55x87x29 cm,True
+209,Fair & Lovely Product 209,6,Fair & Lovely,Model-4595,High quality fair & lovely product 209 from Fair & Lovely,32200.43,41113,49759.07,3.81,52x82x30 cm,True
+210,Alkaram Shalwar,2,Alkaram,Model-2020,High quality alkaram shalwar from Alkaram,18185.19,28943,36270.82,3.86,94x60x29 cm,True
+211,Unilever Juice,3,Unilever,Model-8288,High quality unilever juice from Unilever,5183.49,6949,8193.3,0.15,96x100x42 cm,True
+212,Adidas Product 212,7,Adidas,Model-4814,High quality adidas product 212 from Adidas,21212.61,32325,37105.02,1.1,61x80x44 cm,False
+213,Bonanza Shalwar,2,Bonanza,Model-5327,High quality bonanza shalwar from Bonanza,9632.02,14626,18622.02,7.68,35x95x7 cm,True
+214,Fair & Lovely Product 214,6,Fair & Lovely,Model-5475,High quality fair & lovely product 214 from Fair & Lovely,35497.43,49421,63063.11,0.92,76x100x18 cm,False
+215,Habitt Product 215,5,Habitt,Model-8154,High quality habitt product 215 from Habitt,7855.48,11546,13516.04,2.65,23x38x39 cm,True
+216,Adidas Product 216,7,Adidas,Model-2159,High quality adidas product 216 from Adidas,1599.17,2068,2355.13,0.27,94x45x5 cm,True
+217,Garnier Product 217,6,Garnier,Model-7714,High quality garnier product 217 from Garnier,21694.51,31512,36320.64,4.84,66x73x32 cm,True
+218,Mitchells Juice,3,Mitchells,Model-5507,High quality mitchells juice from Mitchells,24943.97,38757,46071.57,1.27,56x70x24 cm,True
+219,Ponds Product 219,6,Ponds,Model-2340,High quality ponds product 219 from Ponds,8363.48,10507,12737.4,2.31,57x50x28 cm,True
+220,Tecno Laptop 16,1,Tecno,Model-3876,High quality tecno laptop 16 from Tecno,14405.45,22061,28555.3,7.48,54x63x13 cm,True
+221,Alkaram Dupatta,2,Alkaram,Model-3875,High quality alkaram dupatta from Alkaram,24038.38,32169,38784.3,4.53,87x14x27 cm,True
+222,Pelikan Product 222,8,Pelikan,Model-5842,High quality pelikan product 222 from Pelikan,9679.16,14366,16257.99,1.76,28x80x40 cm,True
+223,Adidas Product 223,7,Adidas,Model-7026,High quality adidas product 223 from Adidas,20451.11,25609,31762.3,1.58,14x51x24 cm,True
+224,Nike Product 224,7,Nike,Model-9111,High quality nike product 224 from Nike,37807.09,47406,52590.81,1.75,19x80x24 cm,True
+225,Tecno Speaker 14,1,Tecno,Model-3339,High quality tecno speaker 14 from Tecno,8386.02,12361,15846.19,8.77,47x86x44 cm,False
+226,IKEA Product 226,5,IKEA,Model-2757,High quality ikea product 226 from IKEA,20932.25,33478,40918.34,5.69,64x62x34 cm,False
+227,Mitchells Biscuits,3,Mitchells,Model-8804,High quality mitchells biscuits from Mitchells,35075.62,47686,60312.9,1.21,18x37x21 cm,False
+228,Pelikan Product 228,8,Pelikan,Model-2004,High quality pelikan product 228 from Pelikan,4027.31,5162,6499.74,1.04,40x33x13 cm,False
+229,Mitsubishi Product 229,4,Mitsubishi,Model-1851,High quality mitsubishi product 229 from Mitsubishi,3958.68,6553,7962.25,3.86,77x47x27 cm,True
+230,Suzuki Product 230,4,Suzuki,Model-2114,High quality suzuki product 230 from Suzuki,5373.5,8241,10394.41,8.47,87x76x47 cm,True
+231,Oxford Product 231,8,Oxford,Model-1127,High quality oxford product 231 from Oxford,19057.56,28034,33923.79,1.11,71x72x4 cm,False
+232,Sapphire Shalwar,2,Sapphire,Model-2522,High quality sapphire shalwar from Sapphire,2322.82,3676,4597.28,5.41,90x77x7 cm,True
+233,Staedtler Product 233,8,Staedtler,Model-4738,High quality staedtler product 233 from Staedtler,931.17,1351,1729.59,0.39,100x37x38 cm,True
+234,Vivo Charger 7,1,Vivo,Model-7550,High quality vivo charger 7 from Vivo,8148.88,11210,14378.02,3.79,83x61x45 cm,True
+235,Adidas Product 235,7,Adidas,Model-1998,High quality adidas product 235 from Adidas,30231.06,49213,62026.18,0.19,46x96x43 cm,True
+236,Ponds Product 236,6,Ponds,Model-2735,High quality ponds product 236 from Ponds,34753.21,48499,57373.36,0.44,24x63x22 cm,True
+237,Oxford Product 237,8,Oxford,Model-6013,High quality oxford product 237 from Oxford,18683.02,26876,31874.86,0.76,78x25x49 cm,True
+238,Habitt Product 238,5,Habitt,Model-8979,High quality habitt product 238 from Habitt,5157.53,6771,7518.1,3.98,69x45x15 cm,True
+239,Reebok Product 239,7,Reebok,Model-1791,High quality reebok product 239 from Reebok,21338.14,30763,35289.15,1.82,51x64x42 cm,True
+240,Daihatsu Product 240,4,Daihatsu,Model-3239,High quality daihatsu product 240 from Daihatsu,30276.06,49005,60769.7,2.98,12x24x47 cm,True
+241,Khaadi Scarf,2,Khaadi,Model-3412,High quality khaadi scarf from Khaadi,6534.14,9679,11841.06,5.14,58x66x31 cm,False
+242,Engro Juice,3,Engro,Model-6501,High quality engro juice from Engro,18771.75,29906,36383.32,0.3,83x10x28 cm,False
+243,Mitchells Juice,3,Mitchells,Model-2454,High quality mitchells juice from Mitchells,5182.2,8253,9516.2,0.93,24x66x50 cm,True
+244,Bonanza Pants,2,Bonanza,Model-3937,High quality bonanza pants from Bonanza,4130.32,5342,6352.06,6.59,58x28x48 cm,True
+245,IKEA Product 245,5,IKEA,Model-6064,High quality ikea product 245 from IKEA,1184.06,1847,2105.77,5.98,76x30x42 cm,True
+246,Infinix Speaker 1,1,Infinix,Model-6376,High quality infinix speaker 1 from Infinix,27084.73,38568,48009.29,4.74,31x41x49 cm,False
+247,Nestle Biscuits,3,Nestle,Model-9058,High quality nestle biscuits from Nestle,8808.09,12830,15574.16,0.67,16x81x3 cm,False
+248,L'Oreal Product 248,6,L'Oreal,Model-1078,High quality l'oreal product 248 from L'Oreal,22925.71,36087,40358.21,3.03,69x40x20 cm,True
+249,Puma Product 249,7,Puma,Model-8737,High quality puma product 249 from Puma,15077.75,18865,24440.95,0.31,59x58x46 cm,False
+250,Honda Product 250,4,Honda,Model-8743,High quality honda product 250 from Honda,13548.22,18922,23457.25,0.56,82x77x7 cm,True
+251,Shan Foods Biscuits,3,Shan Foods,Model-5578,High quality shan foods biscuits from Shan Foods,31912.58,47201,52121.44,0.57,57x21x29 cm,True
+252,Daihatsu Product 252,4,Daihatsu,Model-3426,High quality daihatsu product 252 from Daihatsu,20312.11,27051,31133.08,1.45,53x16x46 cm,True
+253,Oxford Product 253,8,Oxford,Model-6881,High quality oxford product 253 from Oxford,33426.88,44802,51341.39,1.48,23x51x3 cm,True
+254,Mitchells Tea,3,Mitchells,Model-7773,High quality mitchells tea from Mitchells,24710.25,34673,40997.09,1.68,24x72x45 cm,True
+255,Bonanza Shalwar,2,Bonanza,Model-8885,High quality bonanza shalwar from Bonanza,5388.37,6769,7718.32,2.73,65x76x9 cm,False
+256,Staedtler Product 256,8,Staedtler,Model-1476,High quality staedtler product 256 from Staedtler,25901.32,42330,51962.26,1.69,14x89x46 cm,True
+257,Fair & Lovely Product 257,6,Fair & Lovely,Model-8240,High quality fair & lovely product 257 from Fair & Lovely,9103.26,13853,15773.47,4.24,79x13x26 cm,False
+258,Suzuki Product 258,4,Suzuki,Model-1626,High quality suzuki product 258 from Suzuki,32275.88,42460,50149.46,3.35,30x77x1 cm,False
+259,Adidas Product 259,7,Adidas,Model-3729,High quality adidas product 259 from Adidas,21039.33,31342,34734.48,1.53,99x72x27 cm,True
+260,Habitt Product 260,5,Habitt,Model-1062,High quality habitt product 260 from Habitt,22531.36,29870,38367.2,1.59,90x59x23 cm,True
+261,Samsung Speaker 18,1,Samsung,Model-7594,High quality samsung speaker 18 from Samsung,31419.23,44754,52408.14,4.34,73x56x19 cm,False
+262,IKEA Product 262,5,IKEA,Model-2268,High quality ikea product 262 from IKEA,3971.02,5600,7094.97,9.77,70x31x5 cm,False
+263,Habitt Product 263,5,Habitt,Model-4732,High quality habitt product 263 from Habitt,19542.17,32235,39553.05,2.15,35x95x7 cm,True
+264,Suzuki Product 264,4,Suzuki,Model-7861,High quality suzuki product 264 from Suzuki,14574.89,19805,22889.69,6.13,12x89x18 cm,True
+265,Pilot Product 265,8,Pilot,Model-3204,High quality pilot product 265 from Pilot,592.96,976,1223.69,1.57,97x19x27 cm,True
+266,Engro Oil,3,Engro,Model-2619,High quality engro oil from Engro,25882.17,40759,46056.07,1.65,76x89x20 cm,True
+267,Honda Product 267,4,Honda,Model-6541,High quality honda product 267 from Honda,6143.43,9119,11000.31,6.46,21x26x37 cm,True
+268,Khaadi Dupatta,2,Khaadi,Model-8101,High quality khaadi dupatta from Khaadi,14261.07,18751,22259.2,7.44,25x47x31 cm,True
+269,Habitt Product 269,5,Habitt,Model-5775,High quality habitt product 269 from Habitt,11442.68,18973,23874.4,1.59,82x99x20 cm,True
+270,Staedtler Product 270,8,Staedtler,Model-8232,High quality staedtler product 270 from Staedtler,26370.72,37297,41797.3,1.83,78x45x21 cm,False
+271,Ponds Product 271,6,Ponds,Model-2934,High quality ponds product 271 from Ponds,21853.28,28088,32808.82,8.43,60x40x19 cm,False
+272,Adidas Product 272,7,Adidas,Model-6510,High quality adidas product 272 from Adidas,13016.42,18904,23919.74,1.98,68x25x31 cm,True
+273,Adidas Product 273,7,Adidas,Model-3008,High quality adidas product 273 from Adidas,26345.2,41237,48949.48,0.65,63x26x17 cm,False
+274,Huawei Tablet 17,1,Huawei,Model-4369,High quality huawei tablet 17 from Huawei,22418.91,37306,45045.46,3.54,14x52x18 cm,True
+275,Garnier Product 275,6,Garnier,Model-1548,High quality garnier product 275 from Garnier,16584.87,25393,29997.82,1.2,89x13x43 cm,True
+276,Infinix Charger 2,1,Infinix,Model-5270,High quality infinix charger 2 from Infinix,28537.2,39580,51411.3,2.63,54x43x31 cm,True
+277,Shan Foods Milk,3,Shan Foods,Model-1439,High quality shan foods milk from Shan Foods,30316.62,39219,48050.13,1.95,97x28x47 cm,True
+278,Engro Bread,3,Engro,Model-2517,High quality engro bread from Engro,14056.27,17582,21540.54,1.05,58x24x24 cm,True
+279,Adidas Product 279,7,Adidas,Model-3509,High quality adidas product 279 from Adidas,31900.32,48374,61060.71,0.14,35x35x31 cm,False
+280,Mitsubishi Product 280,4,Mitsubishi,Model-8127,High quality mitsubishi product 280 from Mitsubishi,20656.37,28810,36269.15,4.05,68x75x31 cm,True
+281,Khaadi Shalwar,2,Khaadi,Model-4458,High quality khaadi shalwar from Khaadi,13803.13,18068,21134.94,7.97,98x76x8 cm,True
+282,Puma Product 282,7,Puma,Model-8274,High quality puma product 282 from Puma,31092.08,46763,54957.88,1.51,36x93x28 cm,True
+283,Engro Milk,3,Engro,Model-5390,High quality engro milk from Engro,33811.41,49245,57237.2,1.56,10x56x23 cm,True
+284,Clean & Clear Product 284,6,Clean & Clear,Model-4284,High quality clean & clear product 284 from Clean & Clear,26422.57,33707,39000.24,5.24,56x77x42 cm,False
+285,Garnier Product 285,6,Garnier,Model-3125,High quality garnier product 285 from Garnier,34387.78,46606,57427.4,4.88,88x96x30 cm,False
+286,Under Armour Product 286,7,Under Armour,Model-6509,High quality under armour product 286 from Under Armour,29509.33,40473,46861.24,1.94,84x68x31 cm,True
+287,Engro Juice,3,Engro,Model-9564,High quality engro juice from Engro,6127.82,10192,12648.06,0.94,33x77x2 cm,True
+288,Pelikan Product 288,8,Pelikan,Model-9941,High quality pelikan product 288 from Pelikan,6706.44,8680,9616.02,0.08,16x57x12 cm,True
+289,Ponds Product 289,6,Ponds,Model-3504,High quality ponds product 289 from Ponds,6838.42,10839,13660.3,5.54,92x42x27 cm,True
+290,Furniture Mall Product 290,5,Furniture Mall,Model-6043,High quality furniture mall product 290 from Furniture Mall,4177.73,5940,6705.26,6.5,50x13x3 cm,True
+291,Gul Ahmed Dupatta,2,Gul Ahmed,Model-3391,High quality gul ahmed dupatta from Gul Ahmed,27355.98,38557,45274.17,4.68,91x91x33 cm,True
+292,Daihatsu Product 292,4,Daihatsu,Model-8605,High quality daihatsu product 292 from Daihatsu,14428.36,19966,23845.04,8.57,50x58x40 cm,True
+293,Interwood Product 293,5,Interwood,Model-8547,High quality interwood product 293 from Interwood,16964.91,23591,29333.45,6.95,47x93x24 cm,True
+294,Oxford Product 294,8,Oxford,Model-4494,High quality oxford product 294 from Oxford,15359.51,21257,27097.58,1.99,94x28x18 cm,True
+295,Alkaram Shalwar,2,Alkaram,Model-2148,High quality alkaram shalwar from Alkaram,28210.24,35412,38960.71,8.02,68x16x33 cm,False
+296,Chen One Pants,2,Chen One,Model-6943,High quality chen one pants from Chen One,2559.69,3447,4100.83,7.98,51x84x4 cm,False
+297,Gul Ahmed Scarf,2,Gul Ahmed,Model-3953,High quality gul ahmed scarf from Gul Ahmed,5897.54,9820,11715.98,1.08,73x89x29 cm,True
+298,Nike Product 298,7,Nike,Model-4551,High quality nike product 298 from Nike,16792.18,26112,32947.23,0.12,29x48x38 cm,True
+299,Nissan Product 299,4,Nissan,Model-3976,High quality nissan product 299 from Nissan,2666.82,3870,4713.3,7.4,100x27x19 cm,True
+300,Nike Product 300,7,Nike,Model-8779,High quality nike product 300 from Nike,26233.02,38859,45896.8,1.46,82x59x5 cm,False
+301,Fair & Lovely Product 301,6,Fair & Lovely,Model-8788,High quality fair & lovely product 301 from Fair & Lovely,22736.56,33131,42983.26,9.4,38x34x2 cm,False
+302,Gul Ahmed Dupatta,2,Gul Ahmed,Model-5330,High quality gul ahmed dupatta from Gul Ahmed,5924.12,7694,9588.28,9.79,86x64x3 cm,True
+303,Chenab Product 303,5,Chenab,Model-8126,High quality chenab product 303 from Chenab,24510.06,36601,45136.0,6.05,46x66x25 cm,True
+304,Chen One Shalwar,2,Chen One,Model-7604,High quality chen one shalwar from Chen One,22231.31,30285,35164.13,1.64,65x65x14 cm,False
+305,Pelikan Product 305,8,Pelikan,Model-3541,High quality pelikan product 305 from Pelikan,28544.84,38911,45904.52,0.51,54x56x14 cm,False
+306,Khaadi Dress,2,Khaadi,Model-9181,High quality khaadi dress from Khaadi,2827.65,4387,5422.92,8.72,45x91x5 cm,True
+307,Nike Product 307,7,Nike,Model-3148,High quality nike product 307 from Nike,17825.14,28501,32575.37,1.91,19x65x15 cm,False
+308,Mitsubishi Product 308,4,Mitsubishi,Model-1126,High quality mitsubishi product 308 from Mitsubishi,16604.3,21668,27167.43,4.18,82x98x37 cm,True
+309,Shan Foods Juice,3,Shan Foods,Model-5573,High quality shan foods juice from Shan Foods,20622.6,28184,31880.5,0.09,37x70x18 cm,True
+310,Huawei Tablet 13,1,Huawei,Model-2670,High quality huawei tablet 13 from Huawei,803.79,1291,1433.15,2.12,71x42x37 cm,True
+311,Fair & Lovely Product 311,6,Fair & Lovely,Model-1283,High quality fair & lovely product 311 from Fair & Lovely,31879.17,49080,63280.6,3.58,29x91x25 cm,True
+312,QMobile Charger 7,1,QMobile,Model-8491,High quality qmobile charger 7 from QMobile,20839.82,30820,35918.86,3.48,62x54x20 cm,False
+313,Honda Product 313,4,Honda,Model-2937,High quality honda product 313 from Honda,19765.44,28010,32703.55,9.75,33x94x12 cm,True
+314,Oppo Smartphone 6,1,Oppo,Model-3675,High quality oppo smartphone 6 from Oppo,17055.95,24827,29809.79,5.05,82x47x2 cm,True
+315,Garnier Product 315,6,Garnier,Model-2874,High quality garnier product 315 from Garnier,18873.87,31232,38671.81,1.45,12x97x13 cm,False
+316,Pilot Product 316,8,Pilot,Model-9153,High quality pilot product 316 from Pilot,32603.13,41038,53156.56,1.81,54x18x35 cm,False
+317,Chen One Scarf,2,Chen One,Model-2536,High quality chen one scarf from Chen One,20434.87,27663,32350.94,6.59,35x36x18 cm,True
+318,Clean & Clear Product 318,6,Clean & Clear,Model-8483,High quality clean & clear product 318 from Clean & Clear,839.76,1058,1328.58,0.86,32x96x44 cm,False
+319,Gul Ahmed Dress,2,Gul Ahmed,Model-6744,High quality gul ahmed dress from Gul Ahmed,25013.76,33976,40427.25,0.93,62x68x49 cm,False
+320,Samsung Headphones 5,1,Samsung,Model-1511,High quality samsung headphones 5 from Samsung,1672.37,2171,2789.03,0.88,80x25x20 cm,True
+321,Oxford Product 321,8,Oxford,Model-1220,High quality oxford product 321 from Oxford,937.14,1469,1666.22,1.8,90x59x26 cm,True
+322,Adidas Product 322,7,Adidas,Model-1695,High quality adidas product 322 from Adidas,14529.36,18464,22760.9,1.86,30x87x9 cm,True
+323,Gul Ahmed Pants,2,Gul Ahmed,Model-3585,High quality gul ahmed pants from Gul Ahmed,26637.3,37161,43441.27,3.96,76x65x40 cm,True
+324,Garnier Product 324,6,Garnier,Model-2894,High quality garnier product 324 from Garnier,36718.07,48030,59015.97,9.2,76x92x3 cm,True
+325,Tecno Charger 12,1,Tecno,Model-1812,High quality tecno charger 12 from Tecno,22359.93,35715,45932.08,8.1,18x88x42 cm,True
+326,Reebok Product 326,7,Reebok,Model-3947,High quality reebok product 326 from Reebok,23973.81,35483,41903.87,1.03,94x27x33 cm,True
+327,Honda Product 327,4,Honda,Model-1412,High quality honda product 327 from Honda,29695.07,38237,43965.88,9.05,35x68x37 cm,True
+328,Habitt Product 328,5,Habitt,Model-9808,High quality habitt product 328 from Habitt,15633.02,22971,27252.13,8.32,26x72x29 cm,True
+329,Ponds Product 329,6,Ponds,Model-2410,High quality ponds product 329 from Ponds,8288.48,11671,13412.37,6.5,65x86x16 cm,True
+330,Chenab Product 330,5,Chenab,Model-5278,High quality chenab product 330 from Chenab,19054.49,26095,30564.31,9.21,22x98x11 cm,False
+331,L'Oreal Product 331,6,L'Oreal,Model-7739,High quality l'oreal product 331 from L'Oreal,8953.26,12322,15085.55,0.76,85x58x6 cm,True
+332,Garnier Product 332,6,Garnier,Model-1206,High quality garnier product 332 from Garnier,8160.32,13405,16660.23,2.57,73x71x17 cm,False
+333,Nestle Tea,3,Nestle,Model-2683,High quality nestle tea from Nestle,10184.77,13413,15981.93,0.54,59x20x6 cm,True
+334,Interwood Product 334,5,Interwood,Model-4278,High quality interwood product 334 from Interwood,9142.66,12254,14743.6,4.39,24x32x32 cm,True
+335,Alkaram Kurta,2,Alkaram,Model-5715,High quality alkaram kurta from Alkaram,15001.42,22043,27510.64,1.12,86x12x36 cm,False
+336,Tecno Headphones 9,1,Tecno,Model-4067,High quality tecno headphones 9 from Tecno,20708.27,28783,32085.08,9.05,25x12x44 cm,True
+337,Chenab Product 337,5,Chenab,Model-3671,High quality chenab product 337 from Chenab,35473.68,48758,58570.68,4.24,38x41x29 cm,True
+338,Pelikan Product 338,8,Pelikan,Model-6714,High quality pelikan product 338 from Pelikan,1361.79,2014,2392.24,1.96,80x12x44 cm,True
+339,Pelikan Product 339,8,Pelikan,Model-5010,High quality pelikan product 339 from Pelikan,14615.9,18765,22863.25,1.77,18x24x15 cm,True
+340,Habitt Product 340,5,Habitt,Model-9171,High quality habitt product 340 from Habitt,5739.68,8992,10076.41,8.43,15x85x36 cm,True
+341,Engro Milk,3,Engro,Model-4067,High quality engro milk from Engro,1816.87,2932,3626.13,0.79,22x77x24 cm,True
+342,Infinix Smartphone 1,1,Infinix,Model-5490,High quality infinix smartphone 1 from Infinix,24452.48,37200,46950.42,3.77,89x76x32 cm,True
+343,Garnier Product 343,6,Garnier,Model-6196,High quality garnier product 343 from Garnier,16456.99,25159,28093.53,4.19,36x13x5 cm,True
+344,Furniture Mall Product 344,5,Furniture Mall,Model-4617,High quality furniture mall product 344 from Furniture Mall,23240.59,35764,42832.16,5.33,29x53x43 cm,False
+345,Ponds Product 345,6,Ponds,Model-8702,High quality ponds product 345 from Ponds,22769.32,29216,33259.61,2.89,64x44x41 cm,True
+346,Tecno Laptop 20,1,Tecno,Model-8700,High quality tecno laptop 20 from Tecno,28626.81,41091,50017.21,0.44,57x73x47 cm,False
+347,Honda Product 347,4,Honda,Model-4461,High quality honda product 347 from Honda,8406.76,12709,15622.84,1.85,53x37x4 cm,True
+348,Vivo Camera 20,1,Vivo,Model-7397,High quality vivo camera 20 from Vivo,19553.26,27115,31237.19,8.09,96x27x10 cm,True
+349,Habitt Product 349,5,Habitt,Model-2985,High quality habitt product 349 from Habitt,10001.99,12703,16394.71,4.23,47x21x2 cm,True
+350,QMobile Camera 17,1,QMobile,Model-4357,High quality qmobile camera 17 from QMobile,18670.37,25292,32689.75,9.25,15x92x39 cm,False
+351,Nissan Product 351,4,Nissan,Model-5989,High quality nissan product 351 from Nissan,30364.19,47358,56795.88,1.99,82x59x14 cm,True
+352,Chenab Product 352,5,Chenab,Model-9795,High quality chenab product 352 from Chenab,32571.86,44172,55545.43,0.42,29x14x15 cm,False
+353,Nissan Product 353,4,Nissan,Model-7494,High quality nissan product 353 from Nissan,28737.35,41391,51736.7,0.32,93x72x46 cm,True
+354,Sapphire Pants,2,Sapphire,Model-4863,High quality sapphire pants from Sapphire,1314.29,2179,2560.28,5.15,56x84x12 cm,True
+355,Chen One Kurta,2,Chen One,Model-7341,High quality chen one kurta from Chen One,16454.32,22208,24592.33,8.87,41x13x39 cm,True
+356,Staedtler Product 356,8,Staedtler,Model-5800,High quality staedtler product 356 from Staedtler,20241.56,30275,36446.92,1.25,51x68x25 cm,False
+357,Pelikan Product 357,8,Pelikan,Model-6590,High quality pelikan product 357 from Pelikan,8971.47,11535,13555.35,0.44,78x88x44 cm,True
+358,Toyota Product 358,4,Toyota,Model-9196,High quality toyota product 358 from Toyota,27735.45,39235,45622.58,2.18,59x85x33 cm,True
+359,Bonanza Suit,2,Bonanza,Model-5426,High quality bonanza suit from Bonanza,10301.51,14931,17729.5,8.8,34x95x42 cm,True
+360,Pilot Product 360,8,Pilot,Model-1638,High quality pilot product 360 from Pilot,7688.74,11048,12998.66,1.58,43x27x16 cm,True
+361,QMobile TV 10,1,QMobile,Model-6936,High quality qmobile tv 10 from QMobile,14536.92,23190,26193.46,6.65,78x88x13 cm,True
+362,Interwood Product 362,5,Interwood,Model-3624,High quality interwood product 362 from Interwood,7933.26,10404,13174.46,5.04,63x76x14 cm,True
+363,Samsung Headphones 6,1,Samsung,Model-5792,High quality samsung headphones 6 from Samsung,686.88,876,1048.7,4.33,14x93x23 cm,False
+364,Reebok Product 364,7,Reebok,Model-8687,High quality reebok product 364 from Reebok,4767.27,7223,8231.74,1.31,22x76x29 cm,False
+365,Khaadi Scarf,2,Khaadi,Model-8041,High quality khaadi scarf from Khaadi,14798.36,18757,21374.68,1.9,10x24x15 cm,True
+366,Shan Foods Rice,3,Shan Foods,Model-5017,High quality shan foods rice from Shan Foods,28365.94,41916,51846.5,0.08,75x63x15 cm,False
+367,Clean & Clear Product 367,6,Clean & Clear,Model-2254,High quality clean & clear product 367 from Clean & Clear,25551.74,37434,41603.29,1.88,84x57x43 cm,False
+368,Interwood Product 368,5,Interwood,Model-2977,High quality interwood product 368 from Interwood,29159.09,38448,45504.38,6.23,80x55x42 cm,False
+369,Chen One Suit,2,Chen One,Model-8919,High quality chen one suit from Chen One,4223.25,6735,7645.69,1.64,64x86x40 cm,False
+370,Oxford Product 370,8,Oxford,Model-1519,High quality oxford product 370 from Oxford,9195.65,12255,15766.87,0.16,83x11x25 cm,True
+371,Sapphire Suit,2,Sapphire,Model-3206,High quality sapphire suit from Sapphire,18840.63,29473,33743.16,3.42,24x46x12 cm,True
+372,Bonanza Scarf,2,Bonanza,Model-6775,High quality bonanza scarf from Bonanza,9624.32,12465,16000.81,1.75,99x76x33 cm,False
+373,Oppo Smartphone 5,1,Oppo,Model-1036,High quality oppo smartphone 5 from Oppo,1267.27,2035,2514.08,6.74,78x38x30 cm,True
+374,Oxford Product 374,8,Oxford,Model-2273,High quality oxford product 374 from Oxford,4055.29,5507,6522.27,1.65,23x82x18 cm,True
+375,Nestle Tea,3,Nestle,Model-7609,High quality nestle tea from Nestle,18416.39,23607,29856.58,0.74,51x31x42 cm,True
+376,Garnier Product 376,6,Garnier,Model-6415,High quality garnier product 376 from Garnier,29080.5,42958,54696.61,3.96,18x38x33 cm,True
+377,Pilot Product 377,8,Pilot,Model-2494,High quality pilot product 377 from Pilot,3105.43,4659,5560.3,1.33,51x59x43 cm,True
+378,Pilot Product 378,8,Pilot,Model-3313,High quality pilot product 378 from Pilot,2845.61,3865,4728.74,0.43,47x65x41 cm,True
+379,Chenab Product 379,5,Chenab,Model-7202,High quality chenab product 379 from Chenab,10133.17,15068,16642.56,3.0,27x63x17 cm,True
+380,Nissan Product 380,4,Nissan,Model-2194,High quality nissan product 380 from Nissan,18378.63,30278,37528.19,6.17,95x28x44 cm,True
+381,Alkaram Shalwar,2,Alkaram,Model-7077,High quality alkaram shalwar from Alkaram,32965.9,43651,53106.33,2.16,78x82x8 cm,False
+382,Furniture Mall Product 382,5,Furniture Mall,Model-6055,High quality furniture mall product 382 from Furniture Mall,10079.12,14074,16066.75,1.21,47x51x26 cm,False
+383,Staedtler Product 383,8,Staedtler,Model-4000,High quality staedtler product 383 from Staedtler,19605.93,27965,31697.52,0.53,71x50x29 cm,True
+384,Tecno Laptop 7,1,Tecno,Model-2076,High quality tecno laptop 7 from Tecno,4616.19,7461,8380.95,7.93,88x27x34 cm,False
+385,Infinix Speaker 11,1,Infinix,Model-2042,High quality infinix speaker 11 from Infinix,16501.91,25386,28380.09,1.56,100x80x41 cm,False
+386,Adidas Product 386,7,Adidas,Model-5870,High quality adidas product 386 from Adidas,11641.23,16851,21814.83,1.82,15x90x1 cm,True
+387,Nissan Product 387,4,Nissan,Model-6709,High quality nissan product 387 from Nissan,6187.0,9683,11472.3,5.08,85x94x31 cm,False
+388,Interwood Product 388,5,Interwood,Model-6603,High quality interwood product 388 from Interwood,6733.88,9845,11817.46,9.38,100x15x33 cm,True
+389,Honda Product 389,4,Honda,Model-2165,High quality honda product 389 from Honda,27424.49,42908,55633.75,3.49,22x18x38 cm,True
+390,Khaadi Shirt,2,Khaadi,Model-1201,High quality khaadi shirt from Khaadi,33938.82,45893,50533.06,0.55,48x39x39 cm,True
+391,Garnier Product 391,6,Garnier,Model-1532,High quality garnier product 391 from Garnier,24901.83,37932,43632.82,8.88,97x66x41 cm,True
+392,Nike Product 392,7,Nike,Model-4895,High quality nike product 392 from Nike,5344.2,8036,9353.75,1.58,64x92x48 cm,True
+393,Chen One Scarf,2,Chen One,Model-6495,High quality chen one scarf from Chen One,27464.92,44254,53445.32,9.2,56x37x15 cm,True
+394,Tecno Camera 6,1,Tecno,Model-7603,High quality tecno camera 6 from Tecno,21027.9,29795,34799.91,3.38,50x57x6 cm,True
+395,Unilever Tea,3,Unilever,Model-5516,High quality unilever tea from Unilever,18567.52,30053,35313.1,1.1,40x77x30 cm,True
+396,Pelikan Product 396,8,Pelikan,Model-5628,High quality pelikan product 396 from Pelikan,16358.78,27021,34389.73,0.54,79x45x49 cm,True
+397,Infinix Camera 5,1,Infinix,Model-2255,High quality infinix camera 5 from Infinix,37475.4,48119,57265.89,2.63,60x31x5 cm,True
+398,Pilot Product 398,8,Pilot,Model-5047,High quality pilot product 398 from Pilot,598.63,923,1097.94,0.73,33x97x30 cm,True
+399,Under Armour Product 399,7,Under Armour,Model-1676,High quality under armour product 399 from Under Armour,29051.49,37927,42296.97,1.86,13x45x20 cm,True
+400,Engro Bread,3,Engro,Model-5183,High quality engro bread from Engro,20737.03,30873,36841.04,1.43,87x19x26 cm,True
+401,Infinix Speaker 16,1,Infinix,Model-1979,High quality infinix speaker 16 from Infinix,24894.5,37494,48130.57,4.71,50x82x35 cm,True
+402,Interwood Product 402,5,Interwood,Model-1903,High quality interwood product 402 from Interwood,20602.93,30123,33400.71,9.31,13x77x37 cm,False
+403,Bonanza Dupatta,2,Bonanza,Model-6109,High quality bonanza dupatta from Bonanza,14752.67,19116,22406.95,6.13,94x36x34 cm,True
+404,Daihatsu Product 404,4,Daihatsu,Model-1949,High quality daihatsu product 404 from Daihatsu,8753.97,13135,15888.34,7.55,45x89x8 cm,True
+405,Alkaram Suit,2,Alkaram,Model-4007,High quality alkaram suit from Alkaram,12542.07,17040,21800.59,5.8,42x27x50 cm,True
+406,Ponds Product 406,6,Ponds,Model-5196,High quality ponds product 406 from Ponds,27994.53,46522,51264.79,2.38,49x17x9 cm,True
+407,Clean & Clear Product 407,6,Clean & Clear,Model-7562,High quality clean & clear product 407 from Clean & Clear,18941.64,24147,30975.23,2.04,62x66x40 cm,True
+408,Daihatsu Product 408,4,Daihatsu,Model-1802,High quality daihatsu product 408 from Daihatsu,29003.62,45581,53246.31,0.2,73x81x33 cm,False
+409,L'Oreal Product 409,6,L'Oreal,Model-2733,High quality l'oreal product 409 from L'Oreal,19374.17,32132,36378.5,3.56,11x84x21 cm,False
+410,L'Oreal Product 410,6,L'Oreal,Model-1944,High quality l'oreal product 410 from L'Oreal,27182.8,35308,45063.66,0.85,11x90x20 cm,True
+411,Ponds Product 411,6,Ponds,Model-9361,High quality ponds product 411 from Ponds,13203.4,17282,21514.71,3.72,73x62x45 cm,True
+412,Reebok Product 412,7,Reebok,Model-9815,High quality reebok product 412 from Reebok,7442.85,11483,14845.44,0.65,69x59x37 cm,False
+413,Vivo TV 18,1,Vivo,Model-7166,High quality vivo tv 18 from Vivo,7803.05,10744,13232.43,8.56,100x69x21 cm,False
+414,Adidas Product 414,7,Adidas,Model-1270,High quality adidas product 414 from Adidas,22433.15,30360,37297.96,1.99,89x51x2 cm,True
+415,Fair & Lovely Product 415,6,Fair & Lovely,Model-5169,High quality fair & lovely product 415 from Fair & Lovely,34216.18,49529,60749.2,8.85,90x81x24 cm,False
+416,Fair & Lovely Product 416,6,Fair & Lovely,Model-7863,High quality fair & lovely product 416 from Fair & Lovely,8757.64,11190,14509.77,7.57,22x24x34 cm,True
+417,Infinix Charger 12,1,Infinix,Model-9981,High quality infinix charger 12 from Infinix,23001.06,30783,34598.07,2.97,44x40x34 cm,True
+418,Nike Product 418,7,Nike,Model-4660,High quality nike product 418 from Nike,10948.25,13961,16208.88,0.01,32x78x9 cm,True
+419,Interwood Product 419,5,Interwood,Model-2582,High quality interwood product 419 from Interwood,19203.9,27828,34951.79,4.21,76x63x6 cm,True
+420,Ponds Product 420,6,Ponds,Model-6826,High quality ponds product 420 from Ponds,33542.22,49349,61068.21,0.82,88x44x28 cm,True
+421,Adidas Product 421,7,Adidas,Model-2737,High quality adidas product 421 from Adidas,9749.85,15104,17631.98,1.85,94x58x18 cm,False
+422,Puma Product 422,7,Puma,Model-4839,High quality puma product 422 from Puma,11431.03,15673,18431.68,1.02,37x19x17 cm,False
+423,Nike Product 423,7,Nike,Model-9758,High quality nike product 423 from Nike,22260.63,35333,42255.43,0.14,65x36x22 cm,True
+424,Oxford Product 424,8,Oxford,Model-8004,High quality oxford product 424 from Oxford,29205.76,42314,53672.16,0.19,35x14x48 cm,True
+425,Chen One Pants,2,Chen One,Model-8237,High quality chen one pants from Chen One,12969.88,16820,21514.06,1.62,39x32x31 cm,True
+426,Pilot Product 426,8,Pilot,Model-3471,High quality pilot product 426 from Pilot,2398.6,3022,3393.68,1.39,45x38x49 cm,True
+427,National Foods Chocolate,3,National Foods,Model-9014,High quality national foods chocolate from National Foods,10564.84,13299,16280.75,1.41,37x32x24 cm,True
+428,Puma Product 428,7,Puma,Model-5185,High quality puma product 428 from Puma,7272.35,10286,13142.2,0.05,45x65x5 cm,False
+429,Chen One Kurta,2,Chen One,Model-8638,High quality chen one kurta from Chen One,7898.94,12174,14820.51,7.0,34x27x31 cm,False
+430,Suzuki Product 430,4,Suzuki,Model-4605,High quality suzuki product 430 from Suzuki,21226.2,27788,31302.17,0.85,73x19x18 cm,True
+431,Furniture Mall Product 431,5,Furniture Mall,Model-7187,High quality furniture mall product 431 from Furniture Mall,7270.95,9276,10896.14,3.36,52x78x37 cm,True
+432,Sapphire Kurta,2,Sapphire,Model-9152,High quality sapphire kurta from Sapphire,6624.87,9095,10881.59,3.76,54x97x4 cm,True
+433,Alkaram Suit,2,Alkaram,Model-7267,High quality alkaram suit from Alkaram,21225.02,31953,37234.05,7.73,99x92x14 cm,True
+434,Oxford Product 434,8,Oxford,Model-2731,High quality oxford product 434 from Oxford,10035.61,13210,15438.34,0.54,41x10x46 cm,True
+435,Tecno TV 1,1,Tecno,Model-3807,High quality tecno tv 1 from Tecno,1442.69,2057,2306.47,3.95,65x18x37 cm,False
+436,Chenab Product 436,5,Chenab,Model-2801,High quality chenab product 436 from Chenab,5443.35,8259,9981.24,9.28,70x64x21 cm,False
+437,Nissan Product 437,4,Nissan,Model-3175,High quality nissan product 437 from Nissan,32443.13,42907,55633.04,2.63,56x86x11 cm,True
+438,Chenab Product 438,5,Chenab,Model-9533,High quality chenab product 438 from Chenab,500.76,655,801.45,5.58,44x39x22 cm,True
+439,Bonanza Dupatta,2,Bonanza,Model-5023,High quality bonanza dupatta from Bonanza,6863.17,9388,10966.56,5.27,27x99x36 cm,True
+440,IKEA Product 440,5,IKEA,Model-8015,High quality ikea product 440 from IKEA,36276.62,45880,59403.88,0.65,31x63x3 cm,True
+441,Chen One Pants,2,Chen One,Model-2554,High quality chen one pants from Chen One,6314.5,8841,9739.44,3.27,80x14x44 cm,True
+442,Nike Product 442,7,Nike,Model-5899,High quality nike product 442 from Nike,33274.04,48976,61836.81,1.61,21x68x40 cm,True
+443,Staedtler Product 443,8,Staedtler,Model-7994,High quality staedtler product 443 from Staedtler,15310.4,22669,27848.42,0.03,35x15x6 cm,True
+444,Daihatsu Product 444,4,Daihatsu,Model-4097,High quality daihatsu product 444 from Daihatsu,1374.77,2198,2442.72,8.74,64x79x24 cm,True
+445,Chenab Product 445,5,Chenab,Model-9293,High quality chenab product 445 from Chenab,26265.15,34167,40691.31,6.66,78x50x4 cm,True
+446,Honda Product 446,4,Honda,Model-1019,High quality honda product 446 from Honda,4295.51,5476,7020.62,6.21,35x36x7 cm,True
+447,Tecno Camera 11,1,Tecno,Model-4948,High quality tecno camera 11 from Tecno,21448.4,29566,34778.98,1.38,33x41x18 cm,False
+448,Furniture Mall Product 448,5,Furniture Mall,Model-8409,High quality furniture mall product 448 from Furniture Mall,8435.57,12125,14357.85,5.53,49x96x26 cm,True
+449,Adidas Product 449,7,Adidas,Model-3169,High quality adidas product 449 from Adidas,21883.26,34100,39552.63,0.42,76x68x49 cm,True
+450,Oppo Charger 20,1,Oppo,Model-7042,High quality oppo charger 20 from Oppo,34110.68,47864,61310.24,4.55,64x50x15 cm,True
+451,Unilever Biscuits,3,Unilever,Model-6337,High quality unilever biscuits from Unilever,35183.79,48356,53651.16,1.81,45x11x8 cm,True
+452,Infinix Speaker 8,1,Infinix,Model-8793,High quality infinix speaker 8 from Infinix,13975.92,21776,28147.85,8.99,91x81x35 cm,False
+453,Chen One Shalwar,2,Chen One,Model-6173,High quality chen one shalwar from Chen One,16076.43,22929,28659.73,8.42,28x56x15 cm,False
+454,Mitsubishi Product 454,4,Mitsubishi,Model-3026,High quality mitsubishi product 454 from Mitsubishi,24063.68,34432,40352.65,5.11,94x89x36 cm,True
+455,Staedtler Product 455,8,Staedtler,Model-9233,High quality staedtler product 455 from Staedtler,14195.37,22338,28034.77,1.5,23x65x8 cm,False
+456,National Foods Juice,3,National Foods,Model-3030,High quality national foods juice from National Foods,2521.7,3843,4916.92,0.94,13x59x33 cm,True
+457,Fair & Lovely Product 457,6,Fair & Lovely,Model-2264,High quality fair & lovely product 457 from Fair & Lovely,458.43,641,720.54,9.82,31x22x2 cm,True
+458,Vivo TV 14,1,Vivo,Model-2867,High quality vivo tv 14 from Vivo,8856.92,13981,15463.95,9.04,30x10x26 cm,True
+459,Unilever Bread,3,Unilever,Model-6423,High quality unilever bread from Unilever,21753.48,35302,40954.69,1.34,97x41x5 cm,False
+460,Adidas Product 460,7,Adidas,Model-6127,High quality adidas product 460 from Adidas,38256.05,48951,63367.53,1.41,78x38x32 cm,True
+461,Nike Product 461,7,Nike,Model-9258,High quality nike product 461 from Nike,10906.28,16895,20165.6,0.38,33x58x32 cm,True
+462,Samsung TV 13,1,Samsung,Model-3940,High quality samsung tv 13 from Samsung,2901.96,4206,4692.2,0.45,94x51x10 cm,True
+463,Mitchells Chocolate,3,Mitchells,Model-2150,High quality mitchells chocolate from Mitchells,9996.08,14307,15794.57,1.18,12x55x29 cm,False
+464,Clean & Clear Product 464,6,Clean & Clear,Model-1080,High quality clean & clear product 464 from Clean & Clear,29833.76,44443,49884.62,3.98,32x91x20 cm,False
+465,Honda Product 465,4,Honda,Model-4298,High quality honda product 465 from Honda,886.62,1166,1342.39,5.14,61x46x39 cm,True
+466,Clean & Clear Product 466,6,Clean & Clear,Model-5774,High quality clean & clear product 466 from Clean & Clear,20264.64,27100,33471.48,9.31,74x85x31 cm,True
+467,Mitsubishi Product 467,4,Mitsubishi,Model-4335,High quality mitsubishi product 467 from Mitsubishi,30405.01,39398,47415.42,5.63,62x97x15 cm,True
+468,QMobile Smartphone 6,1,QMobile,Model-1375,High quality qmobile smartphone 6 from QMobile,8043.26,10824,12044.8,3.2,75x29x20 cm,True
+469,Mitsubishi Product 469,4,Mitsubishi,Model-7467,High quality mitsubishi product 469 from Mitsubishi,5639.85,7718,9422.95,3.78,75x13x9 cm,True
+470,Unilever Tea,3,Unilever,Model-5020,High quality unilever tea from Unilever,23515.59,29544,34462.55,1.99,26x81x29 cm,True
+471,Pilot Product 471,8,Pilot,Model-2722,High quality pilot product 471 from Pilot,25229.88,31634,38534.62,0.99,85x73x7 cm,True
+472,Chenab Product 472,5,Chenab,Model-5454,High quality chenab product 472 from Chenab,10814.8,15724,18271.96,2.84,65x43x29 cm,False
+473,Nike Product 473,7,Nike,Model-7313,High quality nike product 473 from Nike,10713.08,16249,20988.25,1.26,96x40x22 cm,True
+474,Vivo Tablet 6,1,Vivo,Model-3500,High quality vivo tablet 6 from Vivo,22427.62,35322,40217.35,3.81,61x56x36 cm,True
+475,Chen One Dupatta,2,Chen One,Model-1060,High quality chen one dupatta from Chen One,32377.89,44090,55112.01,3.27,81x76x34 cm,True
+476,Adidas Product 476,7,Adidas,Model-9139,High quality adidas product 476 from Adidas,8370.64,10915,13648.93,0.48,22x63x18 cm,False
+477,Staedtler Product 477,8,Staedtler,Model-8063,High quality staedtler product 477 from Staedtler,32922.12,42546,51261.96,0.67,55x35x5 cm,True
+478,Clean & Clear Product 478,6,Clean & Clear,Model-8367,High quality clean & clear product 478 from Clean & Clear,10774.43,17954,20764.18,1.08,20x100x38 cm,True
+479,Adidas Product 479,7,Adidas,Model-9129,High quality adidas product 479 from Adidas,29003.53,36972,42917.68,1.02,27x17x28 cm,True
+480,Shan Foods Biscuits,3,Shan Foods,Model-5272,High quality shan foods biscuits from Shan Foods,470.76,740,897.02,1.05,88x93x30 cm,False
+481,Clean & Clear Product 481,6,Clean & Clear,Model-7715,High quality clean & clear product 481 from Clean & Clear,6015.08,8883,10436.41,4.22,26x96x3 cm,False
+482,Unilever Biscuits,3,Unilever,Model-4861,High quality unilever biscuits from Unilever,39808.24,49849,64545.16,1.24,12x59x26 cm,False
+483,Vivo Headphones 8,1,Vivo,Model-4647,High quality vivo headphones 8 from Vivo,24047.4,30581,34520.97,4.22,33x62x39 cm,True
+484,Chen One Dress,2,Chen One,Model-4296,High quality chen one dress from Chen One,5097.85,6727,7807.1,5.64,58x95x2 cm,True
+485,Honda Product 485,4,Honda,Model-2792,High quality honda product 485 from Honda,8509.28,14053,16483.15,2.99,37x100x27 cm,True
+486,Alkaram Pants,2,Alkaram,Model-7711,High quality alkaram pants from Alkaram,874.34,1424,1752.69,3.75,68x65x18 cm,True
+487,IKEA Product 487,5,IKEA,Model-6108,High quality ikea product 487 from IKEA,17895.1,23561,28350.47,7.65,26x62x50 cm,True
+488,Puma Product 488,7,Puma,Model-3239,High quality puma product 488 from Puma,6845.03,10065,12285.53,0.19,89x26x31 cm,True
+489,Interwood Product 489,5,Interwood,Model-7809,High quality interwood product 489 from Interwood,12155.45,18143,19985.49,3.27,71x28x37 cm,True
+490,Oxford Product 490,8,Oxford,Model-3018,High quality oxford product 490 from Oxford,21188.96,26691,29687.6,0.6,55x14x25 cm,True
+491,Honda Product 491,4,Honda,Model-3927,High quality honda product 491 from Honda,24205.12,34251,43371.34,9.12,68x55x15 cm,True
+492,Pelikan Product 492,8,Pelikan,Model-4422,High quality pelikan product 492 from Pelikan,27640.24,36731,47320.3,0.02,26x79x2 cm,True
+493,Habitt Product 493,5,Habitt,Model-7406,High quality habitt product 493 from Habitt,35678.29,47649,60574.93,1.08,53x99x6 cm,True
+494,IKEA Product 494,5,IKEA,Model-8996,High quality ikea product 494 from IKEA,14392.18,18760,23573.73,6.4,25x82x50 cm,True
+495,Oxford Product 495,8,Oxford,Model-3792,High quality oxford product 495 from Oxford,21846.35,30339,33411.87,0.47,61x91x19 cm,True
+496,Daihatsu Product 496,4,Daihatsu,Model-1762,High quality daihatsu product 496 from Daihatsu,9288.66,13740,15650.45,5.0,92x59x10 cm,True
+497,Khaadi Shalwar,2,Khaadi,Model-3063,High quality khaadi shalwar from Khaadi,27609.76,34861,39483.86,8.61,77x24x41 cm,True
+498,Mitchells Tea,3,Mitchells,Model-1759,High quality mitchells tea from Mitchells,35387.3,45585,54704.42,1.27,78x55x50 cm,True
+499,Pilot Product 499,8,Pilot,Model-1783,High quality pilot product 499 from Pilot,2603.39,3641,4624.97,1.75,15x74x31 cm,False
+500,Reebok Product 500,7,Reebok,Model-3253,High quality reebok product 500 from Reebok,32372.04,44964,54965.12,1.09,65x43x37 cm,True
+501,Sapphire Suit,2,Sapphire,Model-5221,High quality sapphire suit from Sapphire,4089.57,5634,6248.79,8.65,22x66x1 cm,True
+502,National Foods Tea,3,National Foods,Model-9055,High quality national foods tea from National Foods,4903.68,6398,7216.72,1.02,70x17x37 cm,True
+503,Chen One Scarf,2,Chen One,Model-1940,High quality chen one scarf from Chen One,16165.54,21559,26515.95,3.84,93x80x50 cm,False
+504,Shan Foods Oil,3,Shan Foods,Model-9435,High quality shan foods oil from Shan Foods,9054.73,15085,18263.68,1.66,15x23x35 cm,True
+505,Nike Product 505,7,Nike,Model-3078,High quality nike product 505 from Nike,27797.72,44352,54780.24,0.05,22x14x21 cm,True
+506,Chenab Product 506,5,Chenab,Model-7850,High quality chenab product 506 from Chenab,35428.72,49791,61351.18,8.56,33x98x24 cm,True
+507,Gul Ahmed Scarf,2,Gul Ahmed,Model-7906,High quality gul ahmed scarf from Gul Ahmed,11123.03,15441,18606.27,7.57,95x87x46 cm,True
+508,Pilot Product 508,8,Pilot,Model-8218,High quality pilot product 508 from Pilot,11138.39,16651,18913.59,1.63,76x53x40 cm,False
+509,Nissan Product 509,4,Nissan,Model-5793,High quality nissan product 509 from Nissan,18130.49,27720,35061.8,3.82,30x60x40 cm,True
+510,Garnier Product 510,6,Garnier,Model-6039,High quality garnier product 510 from Garnier,33115.7,44339,52445.49,4.4,54x22x24 cm,True
+511,Gul Ahmed Pants,2,Gul Ahmed,Model-3848,High quality gul ahmed pants from Gul Ahmed,12415.52,17133,19197.49,9.78,42x63x25 cm,False
+512,Garnier Product 512,6,Garnier,Model-7093,High quality garnier product 512 from Garnier,13054.01,16781,21286.72,0.97,85x40x41 cm,True
+513,QMobile Laptop 19,1,QMobile,Model-3698,High quality qmobile laptop 19 from QMobile,14058.45,21313,27076.22,3.19,30x43x22 cm,False
+514,Interwood Product 514,5,Interwood,Model-6443,High quality interwood product 514 from Interwood,28817.81,40377,52256.06,2.25,80x30x6 cm,False
+515,Sapphire Suit,2,Sapphire,Model-5777,High quality sapphire suit from Sapphire,7852.41,12505,13954.54,1.57,57x31x21 cm,True
+516,QMobile Tablet 3,1,QMobile,Model-6155,High quality qmobile tablet 3 from QMobile,27194.37,39869,44919.58,9.15,17x63x30 cm,True
+517,Huawei Speaker 6,1,Huawei,Model-2263,High quality huawei speaker 6 from Huawei,12832.7,19777,23174.82,5.92,33x53x37 cm,True
+518,Suzuki Product 518,4,Suzuki,Model-4069,High quality suzuki product 518 from Suzuki,1903.71,2407,3076.4,6.7,23x66x5 cm,True
+519,Alkaram Dress,2,Alkaram,Model-6161,High quality alkaram dress from Alkaram,23505.97,34068,39561.7,7.82,15x13x21 cm,True
+520,Dollar Product 520,8,Dollar,Model-9549,High quality dollar product 520 from Dollar,28375.2,47224,55575.16,0.5,54x28x22 cm,True
+521,Chen One Kurta,2,Chen One,Model-6810,High quality chen one kurta from Chen One,2603.51,3646,4110.88,7.66,39x22x47 cm,True
+522,Huawei Laptop 11,1,Huawei,Model-5426,High quality huawei laptop 11 from Huawei,31891.63,44510,49420.94,9.59,85x19x28 cm,True
+523,Dollar Product 523,8,Dollar,Model-5818,High quality dollar product 523 from Dollar,30664.58,40799,45481.34,1.86,79x63x4 cm,True
+524,Clean & Clear Product 524,6,Clean & Clear,Model-4173,High quality clean & clear product 524 from Clean & Clear,25745.04,40543,52134.59,1.24,31x84x44 cm,False
+525,Fair & Lovely Product 525,6,Fair & Lovely,Model-8169,High quality fair & lovely product 525 from Fair & Lovely,7376.01,12164,13513.52,7.81,23x89x21 cm,False
+526,Vivo Smartphone 20,1,Vivo,Model-4880,High quality vivo smartphone 20 from Vivo,21733.01,32566,37215.54,3.18,30x86x24 cm,True
+527,Gul Ahmed Scarf,2,Gul Ahmed,Model-8440,High quality gul ahmed scarf from Gul Ahmed,12837.28,16870,18980.14,9.6,69x70x38 cm,True
+528,Furniture Mall Product 528,5,Furniture Mall,Model-2986,High quality furniture mall product 528 from Furniture Mall,12329.62,15968,17852.97,0.71,67x67x13 cm,False
+529,Shan Foods Milk,3,Shan Foods,Model-8838,High quality shan foods milk from Shan Foods,28025.04,38337,49783.72,0.79,18x88x30 cm,True
+530,Interwood Product 530,5,Interwood,Model-4943,High quality interwood product 530 from Interwood,9645.56,15331,18112.22,3.41,68x70x9 cm,True
+531,Bonanza Scarf,2,Bonanza,Model-6805,High quality bonanza scarf from Bonanza,556.79,699,868.92,9.61,57x26x47 cm,True
+532,Adidas Product 532,7,Adidas,Model-8610,High quality adidas product 532 from Adidas,21414.53,27038,30114.63,0.66,89x58x1 cm,True
+533,Puma Product 533,7,Puma,Model-7226,High quality puma product 533 from Puma,28670.01,47347,52443.67,0.77,22x76x3 cm,False
+534,Tecno Camera 15,1,Tecno,Model-1173,High quality tecno camera 15 from Tecno,27756.36,37899,49040.41,6.02,11x82x49 cm,True
+535,Under Armour Product 535,7,Under Armour,Model-3839,High quality under armour product 535 from Under Armour,27176.6,44091,56670.76,0.71,47x11x16 cm,False
+536,Ponds Product 536,6,Ponds,Model-5461,High quality ponds product 536 from Ponds,18269.93,25174,31952.68,3.5,55x80x37 cm,False
+537,Interwood Product 537,5,Interwood,Model-3185,High quality interwood product 537 from Interwood,4342.95,6719,7675.83,6.35,64x72x37 cm,True
+538,Interwood Product 538,5,Interwood,Model-6621,High quality interwood product 538 from Interwood,8795.81,14352,16288.69,1.29,36x25x40 cm,True
+539,Gul Ahmed Shalwar,2,Gul Ahmed,Model-6713,High quality gul ahmed shalwar from Gul Ahmed,28343.9,41770,47143.16,3.46,61x42x45 cm,True
+540,Puma Product 540,7,Puma,Model-2979,High quality puma product 540 from Puma,18642.64,29779,36467.34,0.01,43x35x16 cm,False
+541,Toyota Product 541,4,Toyota,Model-6999,High quality toyota product 541 from Toyota,11137.0,14183,16690.57,7.54,56x61x5 cm,True
+542,Daihatsu Product 542,4,Daihatsu,Model-8861,High quality daihatsu product 542 from Daihatsu,33857.45,49152,54349.24,0.78,37x65x48 cm,False
+543,Ponds Product 543,6,Ponds,Model-2237,High quality ponds product 543 from Ponds,33558.17,46974,60863.64,1.57,26x26x13 cm,True
+544,Engro Biscuits,3,Engro,Model-1801,High quality engro biscuits from Engro,664.5,890,996.0,0.88,65x76x17 cm,False
+545,QMobile Charger 15,1,QMobile,Model-4962,High quality qmobile charger 15 from QMobile,9642.59,15633,19716.56,5.11,62x27x2 cm,True
+546,Habitt Product 546,5,Habitt,Model-2175,High quality habitt product 546 from Habitt,25003.81,32919,41332.9,6.11,79x95x49 cm,False
+547,Chenab Product 547,5,Chenab,Model-6037,High quality chenab product 547 from Chenab,21506.76,32236,38715.07,5.44,53x17x39 cm,True
+548,Vivo Speaker 12,1,Vivo,Model-1622,High quality vivo speaker 12 from Vivo,35102.68,45077,58428.25,4.21,44x25x32 cm,False
+549,Mitsubishi Product 549,4,Mitsubishi,Model-6964,High quality mitsubishi product 549 from Mitsubishi,4283.48,6483,7407.92,6.5,22x67x47 cm,True
+550,National Foods Rice,3,National Foods,Model-4445,High quality national foods rice from National Foods,24859.32,36096,45172.63,1.33,97x20x39 cm,True
+551,Pilot Product 551,8,Pilot,Model-5902,High quality pilot product 551 from Pilot,4304.72,5904,7402.55,1.25,27x53x3 cm,True
+552,Khaadi Dress,2,Khaadi,Model-2925,High quality khaadi dress from Khaadi,5638.17,7982,9680.09,2.55,40x85x34 cm,True
+553,Puma Product 553,7,Puma,Model-8758,High quality puma product 553 from Puma,26600.97,34397,43694.68,1.85,30x82x3 cm,True
+554,Furniture Mall Product 554,5,Furniture Mall,Model-7941,High quality furniture mall product 554 from Furniture Mall,20290.72,28019,35506.12,4.73,81x24x46 cm,True
+555,Suzuki Product 555,4,Suzuki,Model-6738,High quality suzuki product 555 from Suzuki,5735.61,8915,10509.65,5.53,98x43x46 cm,True
+556,QMobile Camera 16,1,QMobile,Model-4393,High quality qmobile camera 16 from QMobile,3386.29,5463,7005.59,4.24,68x91x23 cm,True
+557,Interwood Product 557,5,Interwood,Model-1556,High quality interwood product 557 from Interwood,34130.88,46499,53714.38,0.64,72x88x27 cm,True
+558,Dollar Product 558,8,Dollar,Model-7371,High quality dollar product 558 from Dollar,29228.23,47340,55412.94,1.21,82x28x20 cm,True
+559,Chenab Product 559,5,Chenab,Model-5643,High quality chenab product 559 from Chenab,24058.94,34769,42527.73,6.61,22x87x26 cm,True
+560,Dollar Product 560,8,Dollar,Model-4417,High quality dollar product 560 from Dollar,2921.56,3845,4371.71,1.12,77x44x2 cm,True
+561,L'Oreal Product 561,6,L'Oreal,Model-9195,High quality l'oreal product 561 from L'Oreal,5062.8,6452,7578.03,1.02,92x16x7 cm,True
+562,Under Armour Product 562,7,Under Armour,Model-6877,High quality under armour product 562 from Under Armour,22607.39,31515,39749.23,1.28,91x52x18 cm,False
+563,Suzuki Product 563,4,Suzuki,Model-7585,High quality suzuki product 563 from Suzuki,20619.27,29264,34298.52,6.44,40x37x40 cm,False
+564,Adidas Product 564,7,Adidas,Model-3449,High quality adidas product 564 from Adidas,20920.86,34243,42023.79,0.72,12x97x18 cm,False
+565,Adidas Product 565,7,Adidas,Model-3708,High quality adidas product 565 from Adidas,11830.47,18645,23993.24,0.73,69x65x48 cm,False
+566,Unilever Chocolate,3,Unilever,Model-7646,High quality unilever chocolate from Unilever,22342.39,30864,39610.58,0.52,20x84x38 cm,True
+567,Samsung Camera 10,1,Samsung,Model-2887,High quality samsung camera 10 from Samsung,14619.47,18576,20587.1,8.53,55x30x48 cm,True
+568,Daihatsu Product 568,4,Daihatsu,Model-9594,High quality daihatsu product 568 from Daihatsu,12543.7,17592,20111.39,9.1,80x89x6 cm,True
+569,Alkaram Scarf,2,Alkaram,Model-3240,High quality alkaram scarf from Alkaram,25290.75,40452,48435.17,7.78,63x16x28 cm,True
+570,Suzuki Product 570,4,Suzuki,Model-9257,High quality suzuki product 570 from Suzuki,2274.21,3395,4319.55,9.77,58x87x3 cm,True
+571,Sapphire Dupatta,2,Sapphire,Model-2997,High quality sapphire dupatta from Sapphire,1115.93,1587,1895.86,9.91,54x59x17 cm,True
+572,Mitchells Milk,3,Mitchells,Model-3580,High quality mitchells milk from Mitchells,9915.13,14356,18384.2,0.11,49x82x25 cm,True
+573,National Foods Chocolate,3,National Foods,Model-4599,High quality national foods chocolate from National Foods,18445.71,30067,33794.88,0.41,59x27x27 cm,False
+574,Infinix Camera 6,1,Infinix,Model-7685,High quality infinix camera 6 from Infinix,8568.82,12977,14910.71,1.88,17x71x2 cm,False
+575,Furniture Mall Product 575,5,Furniture Mall,Model-9745,High quality furniture mall product 575 from Furniture Mall,35124.0,47368,58103.25,6.03,66x42x31 cm,True
+576,Daihatsu Product 576,4,Daihatsu,Model-2653,High quality daihatsu product 576 from Daihatsu,9789.06,13345,14724.1,6.45,78x57x44 cm,False
+577,Samsung Smartphone 4,1,Samsung,Model-8112,High quality samsung smartphone 4 from Samsung,5022.45,6466,7416.47,3.59,81x39x28 cm,True
+578,Puma Product 578,7,Puma,Model-8883,High quality puma product 578 from Puma,20786.09,32373,39202.39,0.4,34x59x17 cm,True
+579,Huawei Camera 9,1,Huawei,Model-4848,High quality huawei camera 9 from Huawei,7636.14,9735,11365.29,5.47,98x85x33 cm,True
+580,Oxford Product 580,8,Oxford,Model-1356,High quality oxford product 580 from Oxford,15781.58,26116,30954.11,0.16,60x58x30 cm,True
+581,Chen One Suit,2,Chen One,Model-5761,High quality chen one suit from Chen One,3977.45,5478,6876.81,1.67,36x37x8 cm,False
+582,Nike Product 582,7,Nike,Model-9994,High quality nike product 582 from Nike,8322.31,12584,13994.25,0.94,51x35x49 cm,True
+583,Interwood Product 583,5,Interwood,Model-9760,High quality interwood product 583 from Interwood,19158.86,31110,40174.98,7.82,16x95x41 cm,True
+584,Toyota Product 584,4,Toyota,Model-1173,High quality toyota product 584 from Toyota,37340.63,48654,55936.88,3.96,82x54x4 cm,False
+585,Dollar Product 585,8,Dollar,Model-5710,High quality dollar product 585 from Dollar,29442.53,37989,48630.95,0.16,78x99x21 cm,True
+586,Furniture Mall Product 586,5,Furniture Mall,Model-6141,High quality furniture mall product 586 from Furniture Mall,20691.89,28146,33777.72,6.78,94x67x26 cm,True
+587,Nike Product 587,7,Nike,Model-8109,High quality nike product 587 from Nike,36537.43,48814,56756.93,0.71,87x86x30 cm,True
+588,L'Oreal Product 588,6,L'Oreal,Model-3318,High quality l'oreal product 588 from L'Oreal,4814.47,7137,8604.22,0.9,62x25x37 cm,True
+589,Toyota Product 589,4,Toyota,Model-6372,High quality toyota product 589 from Toyota,21808.42,33173,39029.71,8.1,64x97x23 cm,True
+590,Oxford Product 590,8,Oxford,Model-9349,High quality oxford product 590 from Oxford,14591.39,21896,25703.26,1.93,62x65x5 cm,True
+591,Unilever Biscuits,3,Unilever,Model-2330,High quality unilever biscuits from Unilever,34840.56,46516,56151.58,0.21,29x93x24 cm,True
+592,Pilot Product 592,8,Pilot,Model-5495,High quality pilot product 592 from Pilot,886.04,1425,1808.11,1.0,18x89x16 cm,False
+593,IKEA Product 593,5,IKEA,Model-2111,High quality ikea product 593 from IKEA,7225.76,11645,14651.01,9.64,51x43x23 cm,True
+594,Interwood Product 594,5,Interwood,Model-5471,High quality interwood product 594 from Interwood,6642.48,10597,12060.68,8.78,21x81x21 cm,True
+595,Chen One Pants,2,Chen One,Model-1268,High quality chen one pants from Chen One,29362.29,42180,53114.7,0.12,86x41x2 cm,True
+596,Fair & Lovely Product 596,6,Fair & Lovely,Model-4833,High quality fair & lovely product 596 from Fair & Lovely,29979.01,44068,56239.22,5.53,90x48x4 cm,False
+597,Tecno Laptop 14,1,Tecno,Model-8654,High quality tecno laptop 14 from Tecno,14635.99,18399,22461.18,3.47,21x50x8 cm,True
+598,Chenab Product 598,5,Chenab,Model-1132,High quality chenab product 598 from Chenab,23322.92,33955,38834.35,1.9,33x57x37 cm,True
+599,QMobile Speaker 3,1,QMobile,Model-9801,High quality qmobile speaker 3 from QMobile,5087.76,8251,10323.05,1.64,85x84x24 cm,True
+600,Clean & Clear Product 600,6,Clean & Clear,Model-5578,High quality clean & clear product 600 from Clean & Clear,36320.67,47599,54760.04,2.49,58x87x45 cm,True
+601,QMobile Speaker 18,1,QMobile,Model-8409,High quality qmobile speaker 18 from QMobile,4812.62,6726,8591.66,8.17,54x41x28 cm,True
+602,Engro Milk,3,Engro,Model-4461,High quality engro milk from Engro,25481.6,37272,46046.76,1.1,66x46x48 cm,True
+603,Suzuki Product 603,4,Suzuki,Model-2597,High quality suzuki product 603 from Suzuki,29715.73,40489,51463.53,0.5,22x54x42 cm,True
+604,Furniture Mall Product 604,5,Furniture Mall,Model-5570,High quality furniture mall product 604 from Furniture Mall,21565.25,30919,39322.02,2.38,30x30x48 cm,True
+605,Gul Ahmed Shirt,2,Gul Ahmed,Model-7187,High quality gul ahmed shirt from Gul Ahmed,29352.76,39121,46737.71,4.52,14x93x47 cm,True
+606,Puma Product 606,7,Puma,Model-4416,High quality puma product 606 from Puma,20337.7,27043,30140.27,0.23,54x43x34 cm,False
+607,Furniture Mall Product 607,5,Furniture Mall,Model-5085,High quality furniture mall product 607 from Furniture Mall,3312.92,4954,5514.04,5.46,86x79x25 cm,True
+608,Samsung Camera 10,1,Samsung,Model-6253,High quality samsung camera 10 from Samsung,7334.76,10780,13121.44,1.8,74x61x15 cm,True
+609,Staedtler Product 609,8,Staedtler,Model-6071,High quality staedtler product 609 from Staedtler,13336.04,17474,21449.17,0.08,78x15x42 cm,True
+610,Adidas Product 610,7,Adidas,Model-9365,High quality adidas product 610 from Adidas,13017.1,18636,22119.13,0.19,10x24x17 cm,True
+611,Tecno Smartphone 9,1,Tecno,Model-2857,High quality tecno smartphone 9 from Tecno,29283.66,38779,43983.66,6.89,17x87x4 cm,True
+612,Oxford Product 612,8,Oxford,Model-2448,High quality oxford product 612 from Oxford,2685.25,4319,5064.96,1.76,17x10x19 cm,False
+613,Alkaram Kurta,2,Alkaram,Model-6096,High quality alkaram kurta from Alkaram,19629.32,29799,33805.27,7.41,90x61x42 cm,True
+614,Furniture Mall Product 614,5,Furniture Mall,Model-6957,High quality furniture mall product 614 from Furniture Mall,20093.77,29508,37183.31,4.64,89x59x36 cm,True
+615,Chenab Product 615,5,Chenab,Model-1439,High quality chenab product 615 from Chenab,6753.05,8669,10916.51,7.88,41x76x18 cm,False
+616,Ponds Product 616,6,Ponds,Model-5494,High quality ponds product 616 from Ponds,6198.35,9508,11171.06,0.98,16x17x3 cm,True
+617,Unilever Biscuits,3,Unilever,Model-8869,High quality unilever biscuits from Unilever,16440.03,24985,27618.79,0.37,11x74x39 cm,True
+618,Infinix Tablet 2,1,Infinix,Model-8558,High quality infinix tablet 2 from Infinix,28485.57,41380,52241.83,3.47,64x75x35 cm,True
+619,Garnier Product 619,6,Garnier,Model-2974,High quality garnier product 619 from Garnier,21032.88,32398,41916.03,7.07,31x26x4 cm,True
+620,Engro Tea,3,Engro,Model-1507,High quality engro tea from Engro,1815.92,2948,3374.47,0.69,12x79x16 cm,True
+621,Ponds Product 621,6,Ponds,Model-4942,High quality ponds product 621 from Ponds,23541.06,33101,37358.63,3.89,74x86x19 cm,True
+622,Engro Oil,3,Engro,Model-2550,High quality engro oil from Engro,905.26,1177,1445.88,0.29,66x31x19 cm,True
+623,Honda Product 623,4,Honda,Model-4206,High quality honda product 623 from Honda,35559.53,48286,57523.99,6.52,22x28x3 cm,True
+624,Adidas Product 624,7,Adidas,Model-3944,High quality adidas product 624 from Adidas,1644.82,2394,3078.02,0.67,35x29x26 cm,False
+625,Adidas Product 625,7,Adidas,Model-5573,High quality adidas product 625 from Adidas,27008.47,34226,40295.23,0.56,66x73x48 cm,True
+626,Honda Product 626,4,Honda,Model-1313,High quality honda product 626 from Honda,10962.27,13855,15500.98,1.23,86x91x48 cm,False
+627,Huawei Tablet 1,1,Huawei,Model-4040,High quality huawei tablet 1 from Huawei,2879.64,3665,4468.0,0.82,96x100x39 cm,True
+628,Shan Foods Milk,3,Shan Foods,Model-4228,High quality shan foods milk from Shan Foods,11619.52,15857,18687.65,1.37,95x22x24 cm,True
+629,Garnier Product 629,6,Garnier,Model-9728,High quality garnier product 629 from Garnier,1895.81,2894,3439.11,7.76,50x80x26 cm,False
+630,Oxford Product 630,8,Oxford,Model-5083,High quality oxford product 630 from Oxford,31970.41,41558,52862.2,0.41,31x89x50 cm,True
+631,Toyota Product 631,4,Toyota,Model-1383,High quality toyota product 631 from Toyota,15587.67,25538,29078.8,0.76,49x71x48 cm,True
+632,Chen One Shalwar,2,Chen One,Model-7545,High quality chen one shalwar from Chen One,37999.76,48368,58322.45,5.14,74x54x19 cm,False
+633,Khaadi Shalwar,2,Khaadi,Model-9742,High quality khaadi shalwar from Khaadi,23269.24,29233,34210.48,1.41,70x56x8 cm,False
+634,Interwood Product 634,5,Interwood,Model-9209,High quality interwood product 634 from Interwood,6448.53,9430,10577.75,7.05,40x57x39 cm,True
+635,Staedtler Product 635,8,Staedtler,Model-3076,High quality staedtler product 635 from Staedtler,22728.13,35876,41256.77,1.18,85x93x4 cm,True
+636,Adidas Product 636,7,Adidas,Model-8775,High quality adidas product 636 from Adidas,6052.42,8290,10339.47,0.94,71x71x45 cm,True
+637,Daihatsu Product 637,4,Daihatsu,Model-1209,High quality daihatsu product 637 from Daihatsu,2445.97,3761,4198.76,0.19,88x44x18 cm,True
+638,Chenab Product 638,5,Chenab,Model-8388,High quality chenab product 638 from Chenab,19374.37,30475,39331.61,6.78,70x76x4 cm,True
+639,Daihatsu Product 639,4,Daihatsu,Model-9234,High quality daihatsu product 639 from Daihatsu,17665.7,27374,30561.4,8.32,28x100x19 cm,False
+640,Pilot Product 640,8,Pilot,Model-8322,High quality pilot product 640 from Pilot,24562.1,32567,38308.44,1.93,96x44x19 cm,True
+641,National Foods Biscuits,3,National Foods,Model-5446,High quality national foods biscuits from National Foods,1741.95,2590,3272.01,1.38,47x69x41 cm,False
+642,Under Armour Product 642,7,Under Armour,Model-9776,High quality under armour product 642 from Under Armour,12151.95,20066,24364.12,1.35,80x50x20 cm,False
+643,Nike Product 643,7,Nike,Model-9005,High quality nike product 643 from Nike,9268.84,12671,16280.56,1.25,11x45x34 cm,True
+644,Toyota Product 644,4,Toyota,Model-1143,High quality toyota product 644 from Toyota,2509.31,3808,4745.19,7.79,94x11x36 cm,True
+645,Alkaram Suit,2,Alkaram,Model-7576,High quality alkaram suit from Alkaram,1872.62,3061,3730.07,8.26,24x81x5 cm,True
+646,Tecno Speaker 5,1,Tecno,Model-4099,High quality tecno speaker 5 from Tecno,22484.41,34348,42816.42,6.55,17x64x9 cm,True
+647,Daihatsu Product 647,4,Daihatsu,Model-7332,High quality daihatsu product 647 from Daihatsu,21824.5,29372,37945.5,1.87,53x83x31 cm,True
+648,Alkaram Shalwar,2,Alkaram,Model-4714,High quality alkaram shalwar from Alkaram,17504.25,25201,29836.11,1.6,64x75x15 cm,True
+649,Chenab Product 649,5,Chenab,Model-4775,High quality chenab product 649 from Chenab,33273.49,47042,54177.49,0.38,45x26x42 cm,True
+650,Garnier Product 650,6,Garnier,Model-6451,High quality garnier product 650 from Garnier,27368.11,37608,42857.22,0.42,22x25x46 cm,True
+651,Under Armour Product 651,7,Under Armour,Model-2957,High quality under armour product 651 from Under Armour,5085.49,7773,9430.97,0.61,98x92x27 cm,True
+652,Bonanza Dupatta,2,Bonanza,Model-4917,High quality bonanza dupatta from Bonanza,2798.7,3791,4254.75,3.94,20x19x19 cm,True
+653,Alkaram Suit,2,Alkaram,Model-1004,High quality alkaram suit from Alkaram,19060.64,27469,31485.76,8.58,38x61x41 cm,False
+654,Sapphire Scarf,2,Sapphire,Model-5938,High quality sapphire scarf from Sapphire,15475.9,22058,24742.3,6.59,42x100x28 cm,True
+655,Nestle Biscuits,3,Nestle,Model-3695,High quality nestle biscuits from Nestle,13303.88,16684,21357.6,0.02,55x93x10 cm,False
+656,Alkaram Pants,2,Alkaram,Model-7986,High quality alkaram pants from Alkaram,31729.01,42531,48731.54,6.02,35x87x7 cm,True
+657,Furniture Mall Product 657,5,Furniture Mall,Model-8018,High quality furniture mall product 657 from Furniture Mall,34232.84,47124,56023.51,8.83,50x56x15 cm,False
+658,Puma Product 658,7,Puma,Model-1854,High quality puma product 658 from Puma,29970.67,47637,60001.05,0.05,24x90x17 cm,True
+659,Bonanza Dress,2,Bonanza,Model-5394,High quality bonanza dress from Bonanza,28523.29,35722,39658.48,1.46,80x96x32 cm,True
+660,Engro Juice,3,Engro,Model-2298,High quality engro juice from Engro,877.69,1454,1809.02,0.4,79x51x17 cm,True
+661,Gul Ahmed Kurta,2,Gul Ahmed,Model-8732,High quality gul ahmed kurta from Gul Ahmed,23459.39,31371,38148.55,6.12,28x30x34 cm,True
+662,Pilot Product 662,8,Pilot,Model-1182,High quality pilot product 662 from Pilot,32693.58,45003,52911.74,0.56,31x58x49 cm,True
+663,Chen One Dress,2,Chen One,Model-5808,High quality chen one dress from Chen One,20134.62,28175,33630.46,7.78,78x13x35 cm,True
+664,Interwood Product 664,5,Interwood,Model-3620,High quality interwood product 664 from Interwood,25430.14,39598,49714.55,1.1,11x12x48 cm,True
+665,Gul Ahmed Scarf,2,Gul Ahmed,Model-1122,High quality gul ahmed scarf from Gul Ahmed,570.67,908,1053.84,0.36,71x52x24 cm,True
+666,QMobile Charger 13,1,QMobile,Model-9356,High quality qmobile charger 13 from QMobile,12357.37,17292,19959.6,0.64,41x36x16 cm,False
+667,Dollar Product 667,8,Dollar,Model-2826,High quality dollar product 667 from Dollar,28048.45,38605,45571.6,1.18,13x36x9 cm,True
+668,Pelikan Product 668,8,Pelikan,Model-2541,High quality pelikan product 668 from Pelikan,6698.06,10105,12146.98,1.05,53x77x23 cm,True
+669,Unilever Bread,3,Unilever,Model-1081,High quality unilever bread from Unilever,29487.94,45090,49657.85,1.03,29x72x29 cm,True
+670,Nike Product 670,7,Nike,Model-9494,High quality nike product 670 from Nike,28636.16,43766,54427.52,1.19,48x37x37 cm,True
+671,Oppo Laptop 8,1,Oppo,Model-8395,High quality oppo laptop 8 from Oppo,22324.39,30921,36326.05,8.83,17x70x30 cm,True
+672,Bonanza Scarf,2,Bonanza,Model-2982,High quality bonanza scarf from Bonanza,9867.01,14137,16235.91,4.16,96x76x34 cm,False
+673,Oxford Product 673,8,Oxford,Model-8331,High quality oxford product 673 from Oxford,24676.36,40985,51079.47,1.94,89x73x23 cm,True
+674,QMobile TV 13,1,QMobile,Model-8796,High quality qmobile tv 13 from QMobile,6318.67,8467,10755.09,1.13,56x94x27 cm,False
+675,Pelikan Product 675,8,Pelikan,Model-6617,High quality pelikan product 675 from Pelikan,12878.79,20066,25195.27,1.09,42x100x4 cm,False
+676,National Foods Biscuits,3,National Foods,Model-3215,High quality national foods biscuits from National Foods,944.94,1469,1830.77,0.64,63x83x46 cm,True
+677,Adidas Product 677,7,Adidas,Model-5289,High quality adidas product 677 from Adidas,2765.11,3875,4596.5,0.91,78x39x2 cm,True
+678,Staedtler Product 678,8,Staedtler,Model-3666,High quality staedtler product 678 from Staedtler,19467.24,29043,33110.78,0.29,76x16x1 cm,True
+679,IKEA Product 679,5,IKEA,Model-8099,High quality ikea product 679 from IKEA,20864.6,31686,36720.7,7.3,59x60x6 cm,True
+680,Chen One Pants,2,Chen One,Model-8234,High quality chen one pants from Chen One,23849.88,35000,40034.3,7.95,31x75x20 cm,True
+681,Engro Milk,3,Engro,Model-9892,High quality engro milk from Engro,6233.04,9569,11269.9,1.12,28x81x8 cm,True
+682,Suzuki Product 682,4,Suzuki,Model-8124,High quality suzuki product 682 from Suzuki,33773.46,49799,61784.61,9.52,84x22x47 cm,True
+683,IKEA Product 683,5,IKEA,Model-8744,High quality ikea product 683 from IKEA,30165.93,40844,47831.33,9.54,26x45x48 cm,True
+684,Chenab Product 684,5,Chenab,Model-1419,High quality chenab product 684 from Chenab,10640.63,13964,17133.4,2.87,21x73x46 cm,False
+685,Bonanza Kurta,2,Bonanza,Model-8021,High quality bonanza kurta from Bonanza,8764.74,13026,15920.73,0.6,83x100x43 cm,True
+686,Daihatsu Product 686,4,Daihatsu,Model-5067,High quality daihatsu product 686 from Daihatsu,22577.89,30191,34667.55,2.82,87x25x33 cm,False
+687,Interwood Product 687,5,Interwood,Model-3961,High quality interwood product 687 from Interwood,6174.74,8414,9327.44,3.52,97x27x45 cm,True
+688,Furniture Mall Product 688,5,Furniture Mall,Model-3177,High quality furniture mall product 688 from Furniture Mall,17200.97,28022,31255.88,8.47,69x12x12 cm,True
+689,Nike Product 689,7,Nike,Model-2513,High quality nike product 689 from Nike,9337.78,14738,16677.14,0.4,62x77x22 cm,True
+690,Pilot Product 690,8,Pilot,Model-6878,High quality pilot product 690 from Pilot,4772.32,7166,8719.29,1.24,59x11x22 cm,False
+691,Honda Product 691,4,Honda,Model-6565,High quality honda product 691 from Honda,16705.69,27431,30212.85,0.99,84x34x16 cm,True
+692,Puma Product 692,7,Puma,Model-8916,High quality puma product 692 from Puma,8344.33,12456,15538.73,1.36,84x28x23 cm,True
+693,Chen One Dupatta,2,Chen One,Model-7529,High quality chen one dupatta from Chen One,11232.2,17153,22194.45,9.27,12x69x17 cm,False
+694,Mitsubishi Product 694,4,Mitsubishi,Model-9175,High quality mitsubishi product 694 from Mitsubishi,7090.41,9316,11397.25,5.77,50x57x17 cm,True
+695,Nissan Product 695,4,Nissan,Model-9081,High quality nissan product 695 from Nissan,25599.48,35816,39594.03,7.04,76x28x21 cm,True
+696,Khaadi Dupatta,2,Khaadi,Model-3576,High quality khaadi dupatta from Khaadi,31716.4,42452,49118.07,6.99,55x35x17 cm,True
+697,Tecno Speaker 18,1,Tecno,Model-2172,High quality tecno speaker 18 from Tecno,974.37,1244,1506.48,2.12,22x17x13 cm,False
+698,Daihatsu Product 698,4,Daihatsu,Model-3240,High quality daihatsu product 698 from Daihatsu,31396.22,49299,57751.4,1.92,92x82x43 cm,True
+699,Vivo TV 5,1,Vivo,Model-9892,High quality vivo tv 5 from Vivo,26933.46,40033,49831.35,8.2,76x60x4 cm,True
+700,Huawei Charger 11,1,Huawei,Model-9221,High quality huawei charger 11 from Huawei,26276.86,35385,39326.19,8.74,65x89x28 cm,True
+701,Unilever Biscuits,3,Unilever,Model-5711,High quality unilever biscuits from Unilever,7052.33,10437,11687.76,1.11,24x55x8 cm,True
+702,Engro Chocolate,3,Engro,Model-9424,High quality engro chocolate from Engro,33791.4,42805,52390.7,0.96,10x37x8 cm,True
+703,Puma Product 703,7,Puma,Model-7153,High quality puma product 703 from Puma,2501.9,4006,4572.18,0.16,27x59x50 cm,True
+704,Tecno Smartphone 12,1,Tecno,Model-7491,High quality tecno smartphone 12 from Tecno,20144.54,30545,35595.56,9.35,30x70x13 cm,True
+705,Huawei Tablet 5,1,Huawei,Model-6759,High quality huawei tablet 5 from Huawei,16018.29,23837,29533.17,8.72,61x38x39 cm,True
+706,Toyota Product 706,4,Toyota,Model-4833,High quality toyota product 706 from Toyota,11118.03,15329,17341.14,5.74,60x14x5 cm,True
+707,Daihatsu Product 707,4,Daihatsu,Model-4046,High quality daihatsu product 707 from Daihatsu,29147.29,39275,46795.05,9.67,31x96x40 cm,True
+708,Mitsubishi Product 708,4,Mitsubishi,Model-2592,High quality mitsubishi product 708 from Mitsubishi,21849.72,33623,41272.81,7.06,33x22x7 cm,False
+709,Daihatsu Product 709,4,Daihatsu,Model-9967,High quality daihatsu product 709 from Daihatsu,37847.57,49181,63618.82,0.8,40x96x10 cm,False
+710,Vivo TV 19,1,Vivo,Model-7897,High quality vivo tv 19 from Vivo,11295.76,16471,20363.91,3.18,34x97x11 cm,False
+711,Garnier Product 711,6,Garnier,Model-6453,High quality garnier product 711 from Garnier,15635.69,25594,28184.74,9.21,50x88x12 cm,True
+712,Fair & Lovely Product 712,6,Fair & Lovely,Model-4969,High quality fair & lovely product 712 from Fair & Lovely,17386.65,23814,27313.81,4.23,20x10x16 cm,True
+713,Furniture Mall Product 713,5,Furniture Mall,Model-6712,High quality furniture mall product 713 from Furniture Mall,31048.77,47245,54920.59,9.99,72x90x43 cm,False
+714,Chenab Product 714,5,Chenab,Model-9644,High quality chenab product 714 from Chenab,21482.01,29660,36694.06,6.15,59x97x27 cm,True
+715,Ponds Product 715,6,Ponds,Model-4071,High quality ponds product 715 from Ponds,11301.14,14163,16476.32,9.93,49x11x25 cm,True
+716,Bonanza Pants,2,Bonanza,Model-6950,High quality bonanza pants from Bonanza,29751.89,47791,56649.02,0.15,54x71x29 cm,True
+717,Pilot Product 717,8,Pilot,Model-4089,High quality pilot product 717 from Pilot,1681.2,2763,3445.65,1.69,74x98x41 cm,False
+718,Vivo Speaker 16,1,Vivo,Model-2505,High quality vivo speaker 16 from Vivo,13874.53,18639,23760.36,0.93,66x21x13 cm,False
+719,Gul Ahmed Scarf,2,Gul Ahmed,Model-6393,High quality gul ahmed scarf from Gul Ahmed,11519.66,16217,18078.26,4.52,62x31x12 cm,True
+720,Mitchells Rice,3,Mitchells,Model-5718,High quality mitchells rice from Mitchells,11001.6,14778,17222.6,0.74,61x62x13 cm,False
+721,Interwood Product 721,5,Interwood,Model-2767,High quality interwood product 721 from Interwood,20725.37,27436,34201.41,8.73,44x96x4 cm,True
+722,Sapphire Dress,2,Sapphire,Model-7992,High quality sapphire dress from Sapphire,1266.05,1934,2241.3,0.17,33x24x35 cm,True
+723,Puma Product 723,7,Puma,Model-8553,High quality puma product 723 from Puma,36779.91,46881,53818.1,1.36,61x79x23 cm,False
+724,Pelikan Product 724,8,Pelikan,Model-3695,High quality pelikan product 724 from Pelikan,24512.9,32772,36221.09,0.37,77x55x44 cm,True
+725,Unilever Tea,3,Unilever,Model-3641,High quality unilever tea from Unilever,21744.84,30937,36106.72,1.84,24x63x14 cm,True
+726,Sapphire Shalwar,2,Sapphire,Model-3192,High quality sapphire shalwar from Sapphire,30457.86,39460,45403.7,2.81,24x19x25 cm,False
+727,Dollar Product 727,8,Dollar,Model-1246,High quality dollar product 727 from Dollar,37361.41,47606,52752.99,1.22,26x42x18 cm,True
+728,Reebok Product 728,7,Reebok,Model-2472,High quality reebok product 728 from Reebok,2146.18,2734,3340.52,0.9,58x98x4 cm,True
+729,Fair & Lovely Product 729,6,Fair & Lovely,Model-1016,High quality fair & lovely product 729 from Fair & Lovely,12771.36,18638,21131.47,2.53,20x61x48 cm,True
+730,Samsung Laptop 8,1,Samsung,Model-1162,High quality samsung laptop 8 from Samsung,2613.64,3552,4298.46,8.95,71x89x35 cm,False
+731,IKEA Product 731,5,IKEA,Model-2766,High quality ikea product 731 from IKEA,30533.7,47746,60787.08,4.61,37x31x15 cm,True
+732,IKEA Product 732,5,IKEA,Model-1335,High quality ikea product 732 from IKEA,26636.95,33757,40763.95,0.33,70x92x17 cm,False
+733,Nestle Tea,3,Nestle,Model-2644,High quality nestle tea from Nestle,24038.95,30817,38142.83,1.2,21x86x18 cm,False
+734,Under Armour Product 734,7,Under Armour,Model-9246,High quality under armour product 734 from Under Armour,26299.45,40820,45628.9,0.63,31x10x10 cm,False
+735,Toyota Product 735,4,Toyota,Model-9609,High quality toyota product 735 from Toyota,33635.58,44108,54684.68,3.89,20x24x11 cm,True
+736,Mitsubishi Product 736,4,Mitsubishi,Model-7462,High quality mitsubishi product 736 from Mitsubishi,30538.89,40434,47936.12,1.6,90x92x42 cm,True
+737,Furniture Mall Product 737,5,Furniture Mall,Model-4184,High quality furniture mall product 737 from Furniture Mall,22642.34,30765,39263.36,9.34,49x69x50 cm,True
+738,Samsung Tablet 18,1,Samsung,Model-7429,High quality samsung tablet 18 from Samsung,6685.17,9576,11879.91,6.83,76x71x8 cm,True
+739,Oxford Product 739,8,Oxford,Model-7094,High quality oxford product 739 from Oxford,16436.44,24773,29469.56,1.98,84x56x4 cm,True
+740,Ponds Product 740,6,Ponds,Model-9918,High quality ponds product 740 from Ponds,4833.05,6241,7349.1,5.88,42x76x12 cm,True
+741,Nike Product 741,7,Nike,Model-7267,High quality nike product 741 from Nike,33680.7,47143,58973.22,0.22,96x27x33 cm,True
+742,Vivo TV 20,1,Vivo,Model-3583,High quality vivo tv 20 from Vivo,1729.71,2818,3655.48,5.64,66x53x39 cm,False
+743,Pilot Product 743,8,Pilot,Model-7925,High quality pilot product 743 from Pilot,15964.68,21775,25146.52,1.42,21x37x19 cm,True
+744,Vivo Smartphone 2,1,Vivo,Model-3214,High quality vivo smartphone 2 from Vivo,29278.76,40044,46232.02,0.71,77x50x42 cm,True
+745,Nike Product 745,7,Nike,Model-7603,High quality nike product 745 from Nike,7647.76,11500,14581.96,0.77,87x72x29 cm,True
+746,Under Armour Product 746,7,Under Armour,Model-4109,High quality under armour product 746 from Under Armour,1309.86,1657,1962.09,1.97,47x59x18 cm,True
+747,Daihatsu Product 747,4,Daihatsu,Model-1170,High quality daihatsu product 747 from Daihatsu,14931.76,18890,21242.77,8.88,29x35x42 cm,True
+748,Honda Product 748,4,Honda,Model-5071,High quality honda product 748 from Honda,31402.95,42893,55388.67,0.15,85x40x24 cm,False
+749,IKEA Product 749,5,IKEA,Model-8588,High quality ikea product 749 from IKEA,18272.4,23588,26842.53,0.78,12x83x34 cm,True
+750,Honda Product 750,4,Honda,Model-6161,High quality honda product 750 from Honda,16721.93,27560,31604.81,2.35,38x48x8 cm,True
+751,Adidas Product 751,7,Adidas,Model-9900,High quality adidas product 751 from Adidas,22187.52,30937,39178.06,0.07,67x11x15 cm,False
+752,National Foods Bread,3,National Foods,Model-2862,High quality national foods bread from National Foods,35430.32,44293,50726.41,0.28,15x67x20 cm,True
+753,Pilot Product 753,8,Pilot,Model-1917,High quality pilot product 753 from Pilot,6264.22,9478,11236.93,1.24,32x31x33 cm,False
+754,Mitchells Oil,3,Mitchells,Model-6032,High quality mitchells oil from Mitchells,27277.23,42485,51934.79,0.77,87x68x50 cm,True
+755,Garnier Product 755,6,Garnier,Model-1642,High quality garnier product 755 from Garnier,24018.76,31786,39641.81,8.65,93x33x42 cm,False
+756,Tecno TV 17,1,Tecno,Model-5463,High quality tecno tv 17 from Tecno,28918.03,45655,51035.32,2.47,61x26x27 cm,False
+757,Vivo Smartphone 12,1,Vivo,Model-2309,High quality vivo smartphone 12 from Vivo,27851.55,39049,46593.89,5.03,84x80x16 cm,False
+758,Interwood Product 758,5,Interwood,Model-1826,High quality interwood product 758 from Interwood,27097.26,39646,47972.99,8.83,26x76x47 cm,True
+759,Shan Foods Milk,3,Shan Foods,Model-7047,High quality shan foods milk from Shan Foods,551.1,750,877.49,0.88,47x21x11 cm,True
+760,Khaadi Scarf,2,Khaadi,Model-8967,High quality khaadi scarf from Khaadi,17719.88,27180,34857.21,9.88,59x66x50 cm,True
+761,Habitt Product 761,5,Habitt,Model-6744,High quality habitt product 761 from Habitt,37166.73,48956,59391.57,7.04,83x13x15 cm,True
+762,Habitt Product 762,5,Habitt,Model-8141,High quality habitt product 762 from Habitt,20894.59,31037,39017.62,5.54,39x70x27 cm,True
+763,Chen One Dupatta,2,Chen One,Model-8009,High quality chen one dupatta from Chen One,5371.42,8606,10371.2,3.0,45x11x42 cm,True
+764,Adidas Product 764,7,Adidas,Model-4566,High quality adidas product 764 from Adidas,26066.75,39846,48950.99,0.33,97x33x49 cm,False
+765,Oxford Product 765,8,Oxford,Model-7312,High quality oxford product 765 from Oxford,15967.8,22431,24998.45,1.82,99x66x6 cm,False
+766,Fair & Lovely Product 766,6,Fair & Lovely,Model-6545,High quality fair & lovely product 766 from Fair & Lovely,27645.94,38185,43511.23,2.85,72x85x17 cm,True
+767,Sapphire Shirt,2,Sapphire,Model-7394,High quality sapphire shirt from Sapphire,21677.95,27368,34224.6,4.11,55x60x14 cm,True
+768,Infinix Camera 14,1,Infinix,Model-4448,High quality infinix camera 14 from Infinix,8221.06,13488,14864.48,2.79,23x32x45 cm,True
+769,Staedtler Product 769,8,Staedtler,Model-6050,High quality staedtler product 769 from Staedtler,35940.06,45901,54881.88,1.39,63x66x26 cm,True
+770,Puma Product 770,7,Puma,Model-7277,High quality puma product 770 from Puma,544.16,761,871.45,1.89,58x72x37 cm,False
+771,Staedtler Product 771,8,Staedtler,Model-7011,High quality staedtler product 771 from Staedtler,15977.31,23437,28153.47,0.75,34x95x32 cm,False
+772,Sapphire Pants,2,Sapphire,Model-4287,High quality sapphire pants from Sapphire,751.52,1050,1248.48,9.44,71x79x49 cm,True
+773,Chen One Dupatta,2,Chen One,Model-1792,High quality chen one dupatta from Chen One,4158.07,5857,6484.11,0.36,44x57x41 cm,False
+774,Toyota Product 774,4,Toyota,Model-9503,High quality toyota product 774 from Toyota,18520.96,24648,27370.18,6.4,18x32x47 cm,True
+775,Puma Product 775,7,Puma,Model-1786,High quality puma product 775 from Puma,16527.48,24265,28635.65,0.19,73x65x48 cm,False
+776,Under Armour Product 776,7,Under Armour,Model-7948,High quality under armour product 776 from Under Armour,36900.6,49281,54604.66,0.36,94x64x23 cm,False
+777,QMobile TV 1,1,QMobile,Model-1932,High quality qmobile tv 1 from QMobile,27449.16,39148,50154.86,9.11,17x69x22 cm,True
+778,Habitt Product 778,5,Habitt,Model-3520,High quality habitt product 778 from Habitt,29770.17,46499,58277.95,2.96,52x14x10 cm,False
+779,Daihatsu Product 779,4,Daihatsu,Model-9973,High quality daihatsu product 779 from Daihatsu,29823.95,43327,53587.87,3.87,96x16x48 cm,True
+780,Gul Ahmed Dress,2,Gul Ahmed,Model-4454,High quality gul ahmed dress from Gul Ahmed,34486.66,43401,55124.26,7.29,35x93x44 cm,True
+781,Habitt Product 781,5,Habitt,Model-5607,High quality habitt product 781 from Habitt,30993.92,41599,48095.14,2.8,58x46x12 cm,True
+782,Nestle Bread,3,Nestle,Model-8730,High quality nestle bread from Nestle,23260.32,35875,44018.61,0.3,100x68x15 cm,False
+783,Shan Foods Juice,3,Shan Foods,Model-7478,High quality shan foods juice from Shan Foods,28734.58,42472,49166.42,1.79,34x68x35 cm,True
+784,Furniture Mall Product 784,5,Furniture Mall,Model-8194,High quality furniture mall product 784 from Furniture Mall,23607.98,37063,47199.43,8.17,99x18x33 cm,True
+785,Furniture Mall Product 785,5,Furniture Mall,Model-2417,High quality furniture mall product 785 from Furniture Mall,21847.09,36000,42755.43,4.48,22x38x25 cm,True
+786,Samsung Smartphone 1,1,Samsung,Model-8469,High quality samsung smartphone 1 from Samsung,21396.23,30399,37514.7,2.23,77x13x20 cm,True
+787,Sapphire Pants,2,Sapphire,Model-8410,High quality sapphire pants from Sapphire,11558.21,16609,21136.1,6.83,79x99x34 cm,False
+788,Dollar Product 788,8,Dollar,Model-7092,High quality dollar product 788 from Dollar,3333.0,5464,7071.61,1.68,96x44x27 cm,True
+789,Nissan Product 789,4,Nissan,Model-5278,High quality nissan product 789 from Nissan,7032.51,10921,13343.68,4.93,37x38x36 cm,True
+790,Puma Product 790,7,Puma,Model-5406,High quality puma product 790 from Puma,23379.45,36702,46920.24,0.28,33x53x43 cm,False
+791,Furniture Mall Product 791,5,Furniture Mall,Model-9196,High quality furniture mall product 791 from Furniture Mall,9183.68,13806,16903.68,2.57,64x18x13 cm,True
+792,Nike Product 792,7,Nike,Model-8947,High quality nike product 792 from Nike,17688.91,24677,30210.55,0.79,50x31x13 cm,True
+793,Adidas Product 793,7,Adidas,Model-1346,High quality adidas product 793 from Adidas,20113.98,28398,35809.49,0.55,68x34x32 cm,True
+794,Mitsubishi Product 794,4,Mitsubishi,Model-9419,High quality mitsubishi product 794 from Mitsubishi,4322.49,6198,7488.03,3.19,66x57x19 cm,True
+795,Sapphire Suit,2,Sapphire,Model-8139,High quality sapphire suit from Sapphire,9430.44,13627,16489.22,1.21,37x45x7 cm,True
+796,Gul Ahmed Shalwar,2,Gul Ahmed,Model-8860,High quality gul ahmed shalwar from Gul Ahmed,2081.29,3387,4097.43,5.16,45x48x27 cm,False
+797,Alkaram Kurta,2,Alkaram,Model-3061,High quality alkaram kurta from Alkaram,8589.32,12758,15495.21,5.49,53x70x31 cm,True
+798,Tecno Smartphone 11,1,Tecno,Model-5306,High quality tecno smartphone 11 from Tecno,33152.17,43335,50572.48,0.22,99x43x16 cm,False
+799,Tecno Smartphone 12,1,Tecno,Model-6544,High quality tecno smartphone 12 from Tecno,30873.54,47253,54784.43,3.14,74x12x37 cm,True
+800,Staedtler Product 800,8,Staedtler,Model-8951,High quality staedtler product 800 from Staedtler,3540.97,4827,5608.92,1.84,42x85x12 cm,True
