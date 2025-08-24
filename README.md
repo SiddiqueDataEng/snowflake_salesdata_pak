@@ -1,204 +1,213 @@
-# Snowflake Sales Data Analysis Project
+# Pakistan Sales Data Analysis Project
 
 ## 🚀 Project Overview
 
-This comprehensive Snowflake project demonstrates end-to-end sales data analysis capabilities, from data ingestion and staging to advanced analytics and business intelligence. The project showcases Snowflake's powerful features for data warehousing, analytics, and governance.
+This comprehensive Snowflake project demonstrates a complete **OLTP → OLAP → Data Science** pipeline for Pakistan Sales Data Analysis. The project showcases end-to-end data analytics capabilities, from transactional data management to advanced analytics and machine learning insights.
 
 ## 📊 Project Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Data Sources  │    │   Staging      │    │   Production   │
+│   Data Sources  │    │   OLTP DB      │    │   OLAP DWH      │
 │                 │    │                 │    │                 │
-│ • sales_data.csv│───▶│ • Raw Tables   │───▶│ • Fact Tables  │
-│ • orders*.csv   │    │ • File Formats │    │ • Dimension    │
-│                 │    │ • Stages       │    │ • Views        │
+│ • CSV Files     │───▶│ • 3NF Normalized│───▶│ • Star Schema   │
+│ • Generated     │    │ • Transactional │    │ • Analytical    │
+│ • Pakistan Data │    │ • Operational   │    │ • BI Ready      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
-                                │
-                                ▼
-                       ┌─────────────────┐
-                       │   Analytics     │
-                       │                 │
-                       │ • BI Views      │
-                       │ • Materialized  │
-                       │ • Advanced SQL  │
-                       └─────────────────┘
+                                │                        │
+                                ▼                        ▼
+                       ┌─────────────────┐    ┌─────────────────┐
+                       │   ETL Process   │    │   Streamlit     │
+                       │   (Python/SQL)  │    │   Dashboard     │
+                       │                 │    │   (Analytics+ML)│
+                       └─────────────────┘    └─────────────────┘
 ```
 
 ## 🏗️ Project Structure
 
+### Core Components
+- **OLTP Database**: `PAKISTAN_SALES_OLTP_DB` - Fully normalized transactional database (3NF)
+- **OLAP Data Warehouse**: `PAKISTAN_SALES_OLAP_DB` - Star schema analytical database
+- **ETL Pipeline**: Complete data transformation from OLTP to OLAP
+- **Streamlit Dashboard**: Interactive analytics and machine learning insights
+- **Data Generation**: Python script for realistic Pakistani market data
+
 ### Database & Schemas
-- **Database**: `SNOWFLAKE_SALES_DATA_ANALYSIS_DB`
-- **Schemas**:
-  - `STAGING`: Raw data ingestion and processing
-  - `DEV`: Development and testing
-  - `PROD`: Production data and analytics
+
+#### OLTP Database (`PAKISTAN_SALES_OLTP_DB`)
+- **STAGING**: Raw data ingestion and validation
+- **OLTP**: Operational transactional data (3NF normalized)
+- **AUDIT**: Audit and logging information
+
+#### OLAP Database (`PAKISTAN_SALES_OLAP_DB`)
+- **DIMENSIONS**: Dimension tables for star schema
+- **FACTS**: Fact tables for analytical queries
+- **AGGREGATES**: Pre-aggregated data for performance
+- **ANALYTICS**: Analytical views and derived metrics
 
 ### Warehouses
-- `SNOWFLAKE_SALES_DATA_ANALYSIS_WH`: Main analytics warehouse
-- `SALES_ANALYTICS_WH`: Dedicated analytics processing
-- `SALES_LOADING_WH`: Data loading operations
+- `PAKISTAN_OLTP_WH`: OLTP operations (X-SMALL)
+- `PAKISTAN_LOADING_WH`: Data loading operations (SMALL)
+- `PAKISTAN_OLAP_WH`: OLAP analytical operations (SMALL)
+- `PAKISTAN_ETL_WH`: ETL and data processing (MEDIUM)
 
 ## 📁 File Descriptions
 
 ### Core SQL Files
 
-#### `ch02.sql` - Data Staging and Loading
-- Creates staging infrastructure (stages, file formats, tables)
-- Implements data loading procedures with error handling
-- Sets up change data capture with streams
+#### OLTP Setup (`oltp/01_oltp_database_setup.sql`)
+- Creates OLTP database with 3NF normalized structure
+- Sets up staging infrastructure (stages, file formats)
+- Creates operational tables for day-to-day transactions
+- Establishes warehouses and security policies
+
+#### OLTP Data Loading (`oltp/02_data_loading_oltp.sql`)
+- Implements data loading procedures for CSV files
+- Sets up error handling and data validation
+- Creates audit logging and monitoring
+- Establishes data quality checks
+
+#### OLAP Setup (`olap/03_olap_data_warehouse_setup.sql`)
+- Creates OLAP data warehouse with star schema design
+- Implements dimension and fact tables
+- Sets up pre-aggregated tables for performance
+- Establishes analytical views and metrics
+
+#### ETL Process (`olap/04_etl_oltp_to_olap.sql`)
+- Implements complete ETL pipeline from OLTP to OLAP
+- Creates data transformation and enrichment procedures
+- Sets up automated data loading and refresh
 - Establishes data quality monitoring
 
-#### `ch03.sql` - Data Transformation and BI
-- Creates enriched fact and dimension tables
-- Implements business logic and calculated fields
-- Builds business intelligence views
-- Sets up customer segmentation and product categorization
+### Python Applications
 
-#### `ch04.sql` - Advanced Analytics
-- Implements window functions for trend analysis
-- Creates RFM (Recency, Frequency, Monetary) analysis
-- Builds product lifecycle analytics
-- Sets up geographic and territorial analysis
+#### Data Generator (`generate_pakistan_sales_data.py`)
+- Generates realistic Pakistani market sales data
+- Creates 10,000+ sales records with authentic details
+- Includes 2,000 customers, 800 products, 75 stores
+- Covers all Pakistani provinces and major cities
 
-#### `ch05.sql` - Data Warehousing & Optimization
-- Implements table clustering and optimization
-- Creates materialized views for performance
-- Sets up automated maintenance procedures
-- Establishes data retention and archival policies
-
-#### `ch07.sql` - Data Governance & Security
-- Implements role-based access control (RBAC)
-- Sets up data masking and encryption
-- Creates row access policies
-- Establishes audit logging and compliance
+#### Streamlit Dashboard (`streamlit_dashboard.py`)
+- Interactive web-based analytics dashboard
+- Real-time data visualization from Snowflake
+- Machine learning insights (CLV prediction, recommendations)
+- Advanced filtering and segmentation capabilities
 
 ### Configuration Files
 
 #### `snowflake.toml`
-- Connection configurations for different environments
+- Connection configurations for Snowflake
 - Warehouse and database settings
 - Authentication parameters
 
-#### `db.txt`
-- Complete database setup script
-- Table creation and data loading
-- Initial data population
-
-#### `config.txt`
+#### `config.txt` & `account.txt`
 - Environment-specific configurations
-- Connection parameters for development/production
+- Connection parameters and account details
 
-### Data Files
-
-#### `sales_data.csv`
-- Main sales dataset with 2,825 records
-- Contains order details, customer information, and product data
-- Fields: Order details, quantities, prices, customer info, geographic data
+#### `requirements.txt` & `streamlit_requirements.txt`
+- Python dependencies for data generation and dashboard
 
 ## 🔧 Setup and Deployment
 
 ### Prerequisites
 - Snowflake account with ACCOUNTADMIN privileges
-- Snowflake CLI or web interface access
-- Python environment (optional, for data processing)
+- Python 3.8+ environment
+- Snowflake connector for Python
+- Streamlit for dashboard deployment
 
 ### Quick Start
 
-1. **Connect to Snowflake**
-   ```sql
-   -- Use the connection from snowflake.toml
-   -- Connection: sales_analysis_prod
+1. **Generate Sample Data**
+   ```bash
+   python generate_pakistan_sales_data.py
    ```
 
-2. **Run Database Setup**
+2. **Set Up Snowflake Infrastructure**
    ```sql
-   -- Execute db.txt contents
-   -- This creates the complete infrastructure
+   -- Execute in sequence:
+   -- 1. oltp/01_oltp_database_setup.sql
+   -- 2. oltp/02_data_loading_oltp.sql
+   -- 3. olap/03_olap_data_warehouse_setup.sql
+   -- 4. olap/04_etl_oltp_to_olap.sql
    ```
 
-3. **Execute Chapter Files**
-   ```sql
-   -- Run in sequence: ch02.sql, ch03.sql, ch04.sql, ch05.sql, ch07.sql
+3. **Deploy Streamlit Dashboard**
+   ```bash
+   pip install -r streamlit_requirements.txt
+   streamlit run streamlit_dashboard.py
    ```
 
 ### Step-by-Step Deployment
 
-#### Phase 1: Infrastructure Setup
-```sql
--- Execute db.txt to create database, schemas, and initial tables
--- This sets up the foundation for the entire project
+#### Phase 1: Data Generation
+```bash
+# Generate realistic Pakistani sales data
+python generate_pakistan_sales_data.py
 ```
 
-#### Phase 2: Data Staging (ch02.sql)
+#### Phase 2: OLTP Database Setup
 ```sql
--- Creates staging tables and data loading procedures
--- Implements error handling and data validation
--- Sets up change data capture
+-- Execute oltp/01_oltp_database_setup.sql
+-- Creates database, schemas, tables, and warehouses
 ```
 
-#### Phase 3: Data Transformation (ch03.sql)
+#### Phase 3: Data Loading
 ```sql
--- Creates enriched tables with business logic
--- Implements customer and product hierarchies
--- Builds business intelligence views
+-- Execute oltp/02_data_loading_oltp.sql
+-- Loads CSV data into OLTP database
 ```
 
-#### Phase 4: Advanced Analytics (ch04.sql)
+#### Phase 4: OLAP Data Warehouse
 ```sql
--- Implements advanced SQL analytics
--- Creates RFM analysis and customer segmentation
--- Builds product performance analytics
+-- Execute olap/03_olap_data_warehouse_setup.sql
+-- Creates analytical database with star schema
 ```
 
-#### Phase 5: Optimization (ch05.sql)
+#### Phase 5: ETL Implementation
 ```sql
--- Implements table clustering and optimization
--- Creates materialized views for performance
--- Sets up automated maintenance
+-- Execute olap/04_etl_oltp_to_olap.sql
+-- Implements data transformation pipeline
 ```
 
-#### Phase 6: Security & Governance (ch07.sql)
-```sql
--- Implements role-based access control
--- Sets up data masking and security policies
--- Establishes compliance and audit procedures
+#### Phase 6: Dashboard Deployment
+```bash
+# Deploy interactive analytics dashboard
+streamlit run streamlit_dashboard.py
 ```
 
 ## 📊 Key Features
 
 ### Data Management
-- **Automated Data Loading**: Streamlined CSV ingestion with error handling
-- **Data Quality Monitoring**: Comprehensive validation and quality checks
-- **Change Data Capture**: Real-time data change tracking with streams
-- **Data Retention**: Automated archival and cleanup procedures
+- **Realistic Data Generation**: Authentic Pakistani market data
+- **3NF Normalization**: Proper database design for OLTP
+- **Star Schema**: Optimized structure for analytics
+- **Automated ETL**: Streamlined data transformation pipeline
 
 ### Analytics Capabilities
-- **Business Intelligence Views**: Pre-built dashboards and reports
-- **Advanced SQL Analytics**: Window functions, aggregations, and calculations
-- **Customer Segmentation**: RFM analysis and customer classification
+- **Interactive Dashboard**: Real-time analytics with Streamlit
+- **Advanced SQL Analytics**: Window functions and aggregations
+- **Customer Segmentation**: RFM analysis and classification
 - **Product Analytics**: Performance tracking and lifecycle analysis
-- **Geographic Analysis**: Territorial and regional performance insights
+- **Geographic Analysis**: Provincial and city-level insights
+
+### Machine Learning
+- **Customer Lifetime Value**: Predictive analytics
+- **Product Recommendations**: ML-based suggestions
+- **Customer Segmentation**: Automated classification
+- **Trend Analysis**: Time-series forecasting
 
 ### Performance & Optimization
-- **Table Clustering**: Optimized data distribution for query performance
-- **Materialized Views**: Pre-computed aggregations for fast access
-- **Warehouse Management**: Dedicated warehouses for different workloads
+- **Materialized Views**: Pre-computed aggregations
+- **Strategic Clustering**: Optimized data distribution
+- **Dedicated Warehouses**: Workload-specific resources
 - **Query Optimization**: Performance monitoring and tuning
-
-### Security & Governance
-- **Role-Based Access Control**: Granular permissions for different user types
-- **Data Masking**: Sensitive data protection based on user roles
-- **Row Access Policies**: Territory and country-based data access control
-- **Audit Logging**: Comprehensive activity tracking and monitoring
-- **Data Classification**: Automated tagging and classification
 
 ## 👥 User Roles and Permissions
 
 ### Sales Analyst Role
-- Access to sales data and customer information
+- Access to analytical data and reports
 - Limited access to sensitive customer details
-- Can run analytics and generate reports
+- Can run analytics and generate insights
 - Territory-restricted data access
 
 ### Sales Manager Role
@@ -211,26 +220,20 @@ This comprehensive Snowflake project demonstrates end-to-end sales data analysis
 - Full access to all schemas and tables
 - Can create and modify data structures
 - Warehouse management capabilities
-- Data loading and transformation access
+- ETL and data transformation access
 
 ### Data Scientist Role
 - Access to production data for analysis
 - Can create new tables and views
-- Limited access to sensitive information
+- Machine learning model deployment
 - Analytics and modeling capabilities
-
-### Read-Only Role
-- View-only access to production data
-- No modification capabilities
-- Basic reporting access
-- Restricted to non-sensitive data
 
 ## 📈 Analytics and Reporting
 
 ### Pre-Built Views
 - **Sales Performance Dashboard**: Comprehensive sales metrics
-- **Customer Analytics**: Customer behavior and segmentation
-- **Product Performance**: Product lifecycle and performance metrics
+- **Customer Analytics**: Behavior and segmentation insights
+- **Product Performance**: Lifecycle and performance metrics
 - **Geographic Performance**: Regional and territorial analysis
 
 ### Key Metrics
@@ -243,7 +246,7 @@ This comprehensive Snowflake project demonstrates end-to-end sales data analysis
 - **Time Series Analysis**: Seasonal patterns and trends
 - **Customer Segmentation**: RFM analysis and classification
 - **Product Lifecycle**: Performance tracking and optimization
-- **Predictive Insights**: Trend analysis and forecasting
+- **Predictive Insights**: CLV prediction and forecasting
 
 ## 🔒 Security Features
 
@@ -276,7 +279,7 @@ This comprehensive Snowflake project demonstrates end-to-end sales data analysis
 ## 📋 Monitoring and Maintenance
 
 ### Automated Tasks
-- **Data Quality Monitoring**: Daily quality checks
+- **Data Quality Monitoring**: Continuous quality checks
 - **Performance Optimization**: Regular table maintenance
 - **Data Retention**: Automated archival procedures
 - **Security Monitoring**: Continuous security oversight
@@ -290,14 +293,14 @@ This comprehensive Snowflake project demonstrates end-to-end sales data analysis
 ## 🔄 Data Pipeline
 
 ### Ingestion
-1. **File Upload**: CSV files uploaded to staging
-2. **Data Validation**: Quality checks and validation
-3. **Error Handling**: Comprehensive error logging
-4. **Data Loading**: Staged data loaded to production
+1. **Data Generation**: Python script creates realistic CSV files
+2. **File Upload**: CSV files uploaded to Snowflake staging
+3. **Data Validation**: Quality checks and validation
+4. **OLTP Loading**: Data loaded into normalized tables
 
 ### Processing
-1. **Data Enrichment**: Business logic and calculations
-2. **Transformation**: Data cleaning and standardization
+1. **ETL Pipeline**: Automated transformation from OLTP to OLAP
+2. **Data Enrichment**: Business logic and calculations
 3. **Aggregation**: Summary tables and materialized views
 4. **Quality Assurance**: Continuous quality monitoring
 
@@ -305,39 +308,53 @@ This comprehensive Snowflake project demonstrates end-to-end sales data analysis
 1. **Analytics Views**: Pre-built dashboards and reports
 2. **Materialized Views**: Performance-optimized aggregations
 3. **Real-time Updates**: Change data capture and streaming
-4. **Access Control**: Role-based data access
+4. **Interactive Dashboard**: Streamlit-based analytics interface
 
 ## 📊 Sample Queries
 
 ### Basic Sales Analysis
 ```sql
 -- Total sales by year and month
-SELECT YEAR_ID, MONTH_ID, SUM(SALES) as TOTAL_SALES
-FROM PROD.SALES_FACT_ENRICHED
-GROUP BY YEAR_ID, MONTH_ID
-ORDER BY YEAR_ID DESC, MONTH_ID DESC;
+SELECT YEAR, MONTH_NAME, SUM(SALES_AMOUNT) as TOTAL_SALES
+FROM FACTS.FACT_SALES fs
+JOIN DIMENSIONS.DIM_TIME dt ON fs.TIME_KEY = dt.TIME_KEY
+GROUP BY YEAR, MONTH_NAME
+ORDER BY YEAR DESC, MONTH;
 ```
 
 ### Customer Segmentation
 ```sql
 -- Customer RFM analysis
-SELECT * FROM PROD.CUSTOMER_RFM_ANALYSIS
+SELECT * FROM ANALYTICS.CUSTOMER_RFM_ANALYSIS
 WHERE CUSTOMER_SEGMENT = 'Champions'
 ORDER BY RFM_TOTAL_SCORE DESC;
 ```
 
 ### Product Performance
 ```sql
--- Top performing products
-SELECT * FROM PROD.PRODUCT_PERFORMANCE_MV
-ORDER BY TOTAL_REVENUE DESC
-LIMIT 10;
+-- Top performing products by province
+SELECT 
+    dp.PRODUCT_NAME,
+    ds.PROVINCE,
+    SUM(fs.SALES_AMOUNT) as TOTAL_REVENUE
+FROM FACTS.FACT_SALES fs
+JOIN DIMENSIONS.DIM_PRODUCT dp ON fs.PRODUCT_KEY = dp.PRODUCT_KEY
+JOIN DIMENSIONS.DIM_STORE ds ON fs.STORE_KEY = ds.STORE_KEY
+GROUP BY dp.PRODUCT_NAME, ds.PROVINCE
+ORDER BY TOTAL_REVENUE DESC;
 ```
 
 ### Geographic Analysis
 ```sql
--- Regional performance
-SELECT * FROM PROD.GEOGRAPHIC_PERFORMANCE
+-- Provincial performance analysis
+SELECT 
+    ds.PROVINCE,
+    COUNT(DISTINCT fs.CUSTOMER_KEY) as UNIQUE_CUSTOMERS,
+    SUM(fs.SALES_AMOUNT) as TOTAL_REVENUE,
+    AVG(fs.SALES_AMOUNT) as AVG_ORDER_VALUE
+FROM FACTS.FACT_SALES fs
+JOIN DIMENSIONS.DIM_STORE ds ON fs.STORE_KEY = ds.STORE_KEY
+GROUP BY ds.PROVINCE
 ORDER BY TOTAL_REVENUE DESC;
 ```
 
@@ -347,13 +364,13 @@ ORDER BY TOTAL_REVENUE DESC;
 1. **Permission Errors**: Check role assignments and privileges
 2. **Performance Issues**: Verify warehouse sizing and clustering
 3. **Data Quality**: Review data quality monitoring views
-4. **Security Issues**: Check masking policies and access controls
+4. **Connection Issues**: Verify Snowflake credentials and network access
 
 ### Monitoring
-- Use `PROD.DATA_QUALITY_DASHBOARD` for data quality issues
-- Check `PROD.AUDIT_MONITORING` for access and security events
-- Monitor `PROD.PERFORMANCE_MONITORING` for performance issues
-- Review `PROD.SECURITY_MONITORING` for security alerts
+- Use `ANALYTICS.DATA_QUALITY_DASHBOARD` for data quality issues
+- Check `AUDIT.AUDIT_MONITORING` for access and security events
+- Monitor `ANALYTICS.PERFORMANCE_MONITORING` for performance issues
+- Review `ANALYTICS.SECURITY_MONITORING` for security alerts
 
 ## 📚 Additional Resources
 
@@ -361,6 +378,7 @@ ORDER BY TOTAL_REVENUE DESC;
 - [Snowflake Documentation](https://docs.snowflake.com/)
 - [SQL Reference](https://docs.snowflake.com/en/sql-reference/)
 - [Best Practices](https://docs.snowflake.com/en/user-guide/best-practices-overview.html)
+- [Streamlit Documentation](https://docs.streamlit.io/)
 
 ### Training
 - [Snowflake University](https://learn.snowflake.com/)
@@ -369,7 +387,7 @@ ORDER BY TOTAL_REVENUE DESC;
 
 ## 🤝 Contributing
 
-This project is designed as a comprehensive example of Snowflake capabilities. To contribute:
+This project demonstrates comprehensive Snowflake capabilities for sales data analysis. To contribute:
 
 1. Review the existing structure and patterns
 2. Follow the established naming conventions
@@ -394,4 +412,5 @@ For issues or questions:
 **Project Version**: 1.0  
 **Last Updated**: December 2024  
 **Snowflake Version**: Compatible with all current versions  
-**Maintainer**: Data Engineering Team
+**Maintainer**: Data Engineering Team  
+**Focus**: Pakistan Sales Data Analysis with OLTP/OLAP Architecture
