@@ -1,0 +1,389 @@
+-- =====================================================
+-- PAKISTAN SALES DATA ANALYSIS PROJECT
+-- BUSINESS INTELLIGENCE AND ADVANCED ANALYTICS
+-- =====================================================
+-- This script contains business intelligence queries including:
+-- - RFM Customer Analysis
+-- - Cohort Analysis
+-- - Product Lifecycle Analysis
+-- - Performance Dashboards
+-- - Advanced Business Metrics
+
+USE ROLE ACCOUNTADMIN;
+USE DATABASE PAKISTAN_SALES_OLAP_DB;
+USE WAREHOUSE PAKISTAN_OLAP_WH;
+
+-- =====================================================
+-- 1. RFM CUSTOMER ANALYSIS (Recency, Frequency, Monetary)
+-- =====================================================
+
+-- Comprehensive RFM analysis with scoring
+CREATE OR REPLACE VIEW ANALYTICS.RFM_CUSTOMER_ANALYSIS AS
+WITH rfm_calculations AS (
+    SELECT 
+        c.CUSTOMER_KEY,
+        c.CUSTOMER_FULL_NAME,
+        c.PRIMARY_PROVINCE,
+        c.CUSTOMER_SEGMENT,
+        c.INCOME_BAND,
+        -- Recency: Days since last order
+        COALESCE(c.DAYS_SINCE_LAST_ORDER, 999) as RECENCY_DAYS,
+        -- Frequency: Total number of orders
+        COALESCE(c.TOTAL_ORDERS, 0) as FREQUENCY_ORDERS,
+        -- Monetary: Total amount spent
+        COALESCE(c.TOTAL_SPENT, 0) as MONETARY_AMOUNT,
+        -- Additional metrics
+        COALESCE(c.AVG_ORDER_VALUE, 0) as AVG_ORDER_VALUE,
+        c.REGISTRATION_DATE,
+        c.LAST_ORDER_DATE
+    FROM DIMENSIONS.DIM_CUSTOMER c
+    WHERE c.IS_ACTIVE = TRUE
+),
+rfm_scoring AS (
+    SELECT 
+        *,
+        -- Recency scoring (1-5, lower is better)
+        CASE 
+            WHEN RECENCY_DAYS <= 30 THEN 5
+            WHEN RECENCY_DAYS <= 60 THEN 4
+            WHEN RECENCY_DAYS <= 90 THEN 3
+            WHEN RECENCY_DAYS <= 180 THEN 2
+            ELSE 1
+        END as RECENCY_SCORE,
+        
+        -- Frequency scoring (1-5, higher is better)
+        CASE 
+            WHEN FREQUENCY_ORDERS >= 20 THEN 5
+            WHEN FREQUENCY_ORDERS >= 15 THEN 4
+            WHEN FREQUENCY_ORDERS >= 10 THEN 3
+            WHEN FREQUENCY_ORDERS >= 5 THEN 2
+            ELSE 1
+        END as FREQUENCY_SCORE,
+        
+        -- Monetary scoring (1-5, higher is better)
+        CASE 
+            WHEN MONETARY_AMOUNT >= 10000 THEN 5
+            WHEN MONETARY_AMOUNT >= 5000 THEN 4
+            WHEN MONETARY_AMOUNT >= 2000 THEN 3
+            WHEN MONETARY_AMOUNT >= 500 THEN 2
+            ELSE 1
+        END as MONETARY_SCORE
+    FROM rfm_calculations
+)
+SELECT 
+    *,
+    -- Combined RFM score
+    (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) as RFM_TOTAL_SCORE,
+    
+    -- Customer segmentation based on RFM
+    CASE 
+        WHEN (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) >= 13 THEN 'Champions'
+        WHEN (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) >= 11 THEN 'Loyal Customers'
+        WHEN (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) >= 9 THEN 'At Risk'
+        WHEN (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) >= 7 THEN 'Can\'t Lose Them'
+        WHEN (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) >= 5 THEN 'About to Sleep'
+        WHEN (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) >= 3 THEN 'Lost'
+        ELSE 'Lost'
+    END as RFM_SEGMENT,
+    
+    -- Priority level for marketing
+    CASE 
+        WHEN (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) >= 13 THEN 'High Priority'
+        WHEN (RECENCY_SCORE + FREQUENCY_SCORE + MONETARY_SCORE) >= 9 THEN 'Medium Priority'
+        ELSE 'Low Priority'
+    END as MARKETING_PRIORITY
+    
+FROM rfm_scoring
+ORDER BY RFM_TOTAL_SCORE DESC;
+
+-- =====================================================
+-- 2. COHORT ANALYSIS - CUSTOMER RETENTION
+-- =====================================================
+
+-- Customer cohort analysis by registration month
+CREATE OR REPLACE VIEW ANALYTICS.CUSTOMER_COHORT_ANALYSIS AS
+WITH customer_cohorts AS (
+    SELECT 
+        c.CUSTOMER_KEY,
+        c.CUSTOMER_FULL_NAME,
+        c.REGISTRATION_DATE,
+        DATE_TRUNC('month', c.REGISTRATION_DATE) as COHORT_MONTH,
+        c.LAST_ORDER_DATE,
+        c.TOTAL_ORDERS,
+        c.TOTAL_SPENT
+    FROM DIMENSIONS.DIM_CUSTOMER c
+    WHERE c.IS_ACTIVE = TRUE
+),
+monthly_activity AS (
+    SELECT 
+        cc.CUSTOMER_KEY,
+        cc.COHORT_MONTH,
+        cc.TOTAL_ORDERS,
+        cc.TOTAL_SPENT,
+        -- Calculate months since registration
+        DATEDIFF('month', cc.COHORT_MONTH, CURRENT_DATE()) as MONTHS_SINCE_REGISTRATION,
+        -- Activity in each month
+        CASE 
+            WHEN cc.TOTAL_ORDERS > 0 THEN 1 
+            ELSE 0 
+        END as IS_ACTIVE_MONTH
+    FROM customer_cohorts cc
+)
+SELECT 
+    COHORT_MONTH,
+    COUNT(DISTINCT CUSTOMER_KEY) as COHORT_SIZE,
+    SUM(TOTAL_ORDERS) as TOTAL_COHORT_ORDERS,
+    SUM(TOTAL_SPENT) as TOTAL_COHORT_SPENDING,
+    AVG(TOTAL_ORDERS) as AVG_ORDERS_PER_CUSTOMER,
+    AVG(TOTAL_SPENT) as AVG_SPENDING_PER_CUSTOMER,
+    -- Retention metrics
+    COUNT(CASE WHEN MONTHS_SINCE_REGISTRATION >= 1 THEN CUSTOMER_KEY END) as CUSTOMERS_ACTIVE_MONTH_1,
+    COUNT(CASE WHEN MONTHS_SINCE_REGISTRATION >= 3 THEN CUSTOMER_KEY END) as CUSTOMERS_ACTIVE_MONTH_3,
+    COUNT(CASE WHEN MONTHS_SINCE_REGISTRATION >= 6 THEN CUSTOMER_KEY END) as CUSTOMERS_ACTIVE_MONTH_6,
+    COUNT(CASE WHEN MONTHS_SINCE_REGISTRATION >= 12 THEN CUSTOMER_KEY END) as CUSTOMERS_ACTIVE_MONTH_12,
+    -- Retention rates
+    ROUND(COUNT(CASE WHEN MONTHS_SINCE_REGISTRATION >= 1 THEN CUSTOMER_KEY END) * 100.0 / COUNT(DISTINCT CUSTOMER_KEY), 2) as RETENTION_RATE_MONTH_1,
+    ROUND(COUNT(CASE WHEN MONTHS_SINCE_REGISTRATION >= 3 THEN CUSTOMER_KEY END) * 100.0 / COUNT(DISTINCT CUSTOMER_KEY), 2) as RETENTION_RATE_MONTH_3,
+    ROUND(COUNT(CASE WHEN MONTHS_SINCE_REGISTRATION >= 6 THEN CUSTOMER_KEY END) * 100.0 / COUNT(DISTINCT CUSTOMER_KEY), 2) as RETENTION_RATE_MONTH_6,
+    ROUND(COUNT(CASE WHEN MONTHS_SINCE_REGISTRATION >= 12 THEN CUSTOMER_KEY END) * 100.0 / COUNT(DISTINCT CUSTOMER_KEY), 2) as RETENTION_RATE_MONTH_12
+FROM monthly_activity
+GROUP BY COHORT_MONTH
+ORDER BY COHORT_MONTH DESC;
+
+-- =====================================================
+-- 3. PRODUCT LIFECYCLE ANALYSIS
+-- =====================================================
+
+-- Product performance over time with lifecycle stages
+CREATE OR REPLACE VIEW ANALYTICS.PRODUCT_LIFECYCLE_ANALYSIS AS
+WITH product_monthly_performance AS (
+    SELECT 
+        dp.PRODUCT_KEY,
+        dp.PRODUCT_NAME,
+        dp.CATEGORY_NAME,
+        dp.BRAND,
+        dt.YEAR,
+        dt.MONTH_NAME,
+        dt.MONTH,
+        COUNT(DISTINCT fs.ORDER_ID) as MONTHLY_ORDERS,
+        SUM(fs.SALES_AMOUNT) as MONTHLY_REVENUE,
+        SUM(fs.QUANTITY) as MONTHLY_QUANTITY,
+        AVG(fs.SALES_AMOUNT) as MONTHLY_AVG_ORDER_VALUE
+    FROM FACTS.FACT_SALES fs
+    JOIN DIMENSIONS.DIM_PRODUCT dp ON fs.PRODUCT_KEY = dp.PRODUCT_KEY
+    JOIN DIMENSIONS.DIM_TIME dt ON fs.TIME_KEY = dt.TIME_KEY
+    GROUP BY dp.PRODUCT_KEY, dp.PRODUCT_NAME, dp.CATEGORY_NAME, dp.BRAND, dt.YEAR, dt.MONTH_NAME, dt.MONTH
+),
+product_trends AS (
+    SELECT 
+        *,
+        -- Moving averages for trend analysis
+        AVG(MONTHLY_REVENUE) OVER (
+            PARTITION BY PRODUCT_KEY 
+            ORDER BY YEAR, MONTH 
+            ROWS 2 PRECEDING
+        ) as MOVING_AVG_REVENUE_3_MONTHS,
+        
+        AVG(MONTHLY_ORDERS) OVER (
+            PARTITION BY PRODUCT_KEY 
+            ORDER BY YEAR, MONTH 
+            ROWS 2 PRECEDING
+        ) as MOVING_AVG_ORDERS_3_MONTHS,
+        
+        -- Growth rates
+        LAG(MONTHLY_REVENUE, 1) OVER (
+            PARTITION BY PRODUCT_KEY 
+            ORDER BY YEAR, MONTH
+        ) as PREVIOUS_MONTH_REVENUE,
+        
+        (MONTHLY_REVENUE - LAG(MONTHLY_REVENUE, 1) OVER (
+            PARTITION BY PRODUCT_KEY 
+            ORDER BY YEAR, MONTH
+        )) / NULLIF(LAG(MONTHLY_REVENUE, 1) OVER (
+            PARTITION BY PRODUCT_KEY 
+            ORDER BY YEAR, MONTH
+        ), 0) * 100 as REVENUE_GROWTH_PCT
+    FROM product_monthly_performance
+)
+SELECT 
+    *,
+    -- Product lifecycle stage classification
+    CASE 
+        WHEN REVENUE_GROWTH_PCT > 20 THEN 'Growth Phase'
+        WHEN REVENUE_GROWTH_PCT BETWEEN 0 AND 20 THEN 'Mature Phase'
+        WHEN REVENUE_GROWTH_PCT BETWEEN -20 AND 0 THEN 'Decline Phase'
+        ELSE 'End of Life'
+    END as LIFECYCLE_STAGE,
+    
+    -- Performance trend
+    CASE 
+        WHEN REVENUE_GROWTH_PCT > 10 THEN 'Strong Growth'
+        WHEN REVENUE_GROWTH_PCT > 0 THEN 'Moderate Growth'
+        WHEN REVENUE_GROWTH_PCT > -10 THEN 'Stable'
+        ELSE 'Declining'
+    END as PERFORMANCE_TREND,
+    
+    -- Market position
+    CASE 
+        WHEN MONTHLY_REVENUE > 10000 THEN 'High Revenue'
+        WHEN MONTHLY_REVENUE > 5000 THEN 'Medium Revenue'
+        WHEN MONTHLY_REVENUE > 1000 THEN 'Low Revenue'
+        ELSE 'Very Low Revenue'
+    END as REVENUE_CATEGORY
+    
+FROM product_trends
+ORDER BY PRODUCT_KEY, YEAR, MONTH;
+
+-- =====================================================
+-- 4. PERFORMANCE DASHBOARD METRICS
+-- =====================================================
+
+-- Executive dashboard with key performance indicators
+CREATE OR REPLACE VIEW ANALYTICS.EXECUTIVE_DASHBOARD AS
+WITH kpi_calculations AS (
+    SELECT 
+        -- Time-based metrics
+        COUNT(DISTINCT CASE WHEN dt.YEAR = YEAR(CURRENT_DATE()) THEN fs.ORDER_ID END) as CURRENT_YEAR_ORDERS,
+        COUNT(DISTINCT CASE WHEN dt.YEAR = YEAR(CURRENT_DATE()) - 1 THEN fs.ORDER_ID END) as PREVIOUS_YEAR_ORDERS,
+        SUM(CASE WHEN dt.YEAR = YEAR(CURRENT_DATE()) THEN fs.SALES_AMOUNT END) as CURRENT_YEAR_REVENUE,
+        SUM(CASE WHEN dt.YEAR = YEAR(CURRENT_DATE()) - 1 THEN fs.SALES_AMOUNT END) as PREVIOUS_YEAR_REVENUE,
+        
+        -- Customer metrics
+        COUNT(DISTINCT CASE WHEN c.IS_ACTIVE = TRUE THEN c.CUSTOMER_KEY END) as ACTIVE_CUSTOMERS,
+        COUNT(DISTINCT CASE WHEN c.DAYS_SINCE_LAST_ORDER <= 30 THEN c.CUSTOMER_KEY END) as ENGAGED_CUSTOMERS_30_DAYS,
+        COUNT(DISTINCT CASE WHEN c.DAYS_SINCE_LAST_ORDER <= 90 THEN c.CUSTOMER_KEY END) as ENGAGED_CUSTOMERS_90_DAYS,
+        
+        -- Product metrics
+        COUNT(DISTINCT CASE WHEN dp.IS_ACTIVE = TRUE THEN dp.PRODUCT_KEY END) as ACTIVE_PRODUCTS,
+        COUNT(DISTINCT CASE WHEN dp.TOTAL_REVENUE > 10000 THEN dp.PRODUCT_KEY END) as HIGH_PERFORMING_PRODUCTS,
+        
+        -- Store metrics
+        COUNT(DISTINCT CASE WHEN s.IS_ACTIVE = TRUE THEN s.STORE_KEY END) as ACTIVE_STORES,
+        AVG(CASE WHEN s.IS_ACTIVE = TRUE THEN s.TOTAL_SALES END) as AVG_STORE_SALES,
+        
+        -- Employee metrics
+        COUNT(DISTINCT CASE WHEN e.IS_ACTIVE = TRUE THEN e.EMPLOYEE_KEY END) as ACTIVE_EMPLOYEES,
+        AVG(CASE WHEN e.IS_ACTIVE = TRUE THEN e.SALARY END) as AVG_EMPLOYEE_SALARY
+        
+    FROM FACTS.FACT_SALES fs
+    JOIN DIMENSIONS.DIM_TIME dt ON fs.TIME_KEY = dt.TIME_KEY
+    JOIN DIMENSIONS.DIM_CUSTOMER c ON fs.CUSTOMER_KEY = c.CUSTOMER_KEY
+    JOIN DIMENSIONS.DIM_PRODUCT dp ON fs.PRODUCT_KEY = dp.PRODUCT_KEY
+    JOIN DIMENSIONS.DIM_STORE s ON fs.STORE_KEY = s.STORE_KEY
+    JOIN DIMENSIONS.DIM_EMPLOYEE e ON s.STORE_ID = e.STORE_ID
+)
+SELECT 
+    -- Revenue KPIs
+    CURRENT_YEAR_REVENUE as TOTAL_CURRENT_YEAR_REVENUE,
+    PREVIOUS_YEAR_REVENUE as TOTAL_PREVIOUS_YEAR_REVENUE,
+    ROUND((CURRENT_YEAR_REVENUE - PREVIOUS_YEAR_REVENUE) / NULLIF(PREVIOUS_YEAR_REVENUE, 0) * 100, 2) as REVENUE_GROWTH_PCT,
+    
+    -- Order KPIs
+    CURRENT_YEAR_ORDERS as TOTAL_CURRENT_YEAR_ORDERS,
+    PREVIOUS_YEAR_ORDERS as TOTAL_PREVIOUS_YEAR_ORDERS,
+    ROUND((CURRENT_YEAR_ORDERS - PREVIOUS_YEAR_ORDERS) / NULLIF(PREVIOUS_YEAR_ORDERS, 0) * 100, 2) as ORDER_GROWTH_PCT,
+    
+    -- Customer KPIs
+    ACTIVE_CUSTOMERS as TOTAL_ACTIVE_CUSTOMERS,
+    ENGAGED_CUSTOMERS_30_DAYS as CUSTOMERS_ACTIVE_30_DAYS,
+    ENGAGED_CUSTOMERS_90_DAYS as CUSTOMERS_ACTIVE_90_DAYS,
+    ROUND(ENGAGED_CUSTOMERS_30_DAYS * 100.0 / NULLIF(ACTIVE_CUSTOMERS, 0), 2) as CUSTOMER_ENGAGEMENT_RATE_30_DAYS,
+    ROUND(ENGAGED_CUSTOMERS_90_DAYS * 100.0 / NULLIF(ACTIVE_CUSTOMERS, 0), 2) as CUSTOMER_ENGAGEMENT_RATE_90_DAYS,
+    
+    -- Product KPIs
+    ACTIVE_PRODUCTS as TOTAL_ACTIVE_PRODUCTS,
+    HIGH_PERFORMING_PRODUCTS as TOTAL_HIGH_PERFORMING_PRODUCTS,
+    ROUND(HIGH_PERFORMING_PRODUCTS * 100.0 / NULLIF(ACTIVE_PRODUCTS, 0), 2) as HIGH_PERFORMING_PRODUCTS_PCT,
+    
+    -- Store KPIs
+    ACTIVE_STORES as TOTAL_ACTIVE_STORES,
+    ROUND(AVG_STORE_SALES, 2) as AVERAGE_STORE_SALES,
+    
+    -- Employee KPIs
+    ACTIVE_EMPLOYEES as TOTAL_ACTIVE_EMPLOYEES,
+    ROUND(AVG_EMPLOYEE_SALARY, 2) as AVERAGE_EMPLOYEE_SALARY,
+    
+    -- Calculated metrics
+    ROUND(CURRENT_YEAR_REVENUE / NULLIF(ACTIVE_CUSTOMERS, 0), 2) as REVENUE_PER_CUSTOMER,
+    ROUND(CURRENT_YEAR_REVENUE / NULLIF(ACTIVE_STORES, 0), 2) as REVENUE_PER_STORE,
+    ROUND(CURRENT_YEAR_REVENUE / NULLIF(ACTIVE_EMPLOYEES, 0), 2) as REVENUE_PER_EMPLOYEE
+    
+FROM kpi_calculations;
+
+-- =====================================================
+-- 5. ADVANCED BUSINESS METRICS
+-- =====================================================
+
+-- Customer lifetime value analysis
+CREATE OR REPLACE VIEW ANALYTICS.CUSTOMER_LIFETIME_VALUE AS
+SELECT 
+    c.CUSTOMER_KEY,
+    c.CUSTOMER_FULL_NAME,
+    c.PRIMARY_PROVINCE,
+    c.CUSTOMER_SEGMENT,
+    c.INCOME_BAND,
+    c.REGISTRATION_DATE,
+    c.LAST_ORDER_DATE,
+    c.TOTAL_ORDERS,
+    c.TOTAL_SPENT,
+    c.AVG_ORDER_VALUE,
+    
+    -- Customer lifetime metrics
+    DATEDIFF('day', c.REGISTRATION_DATE, COALESCE(c.LAST_ORDER_DATE, CURRENT_DATE())) as CUSTOMER_LIFETIME_DAYS,
+    DATEDIFF('month', c.REGISTRATION_DATE, COALESCE(c.LAST_ORDER_DATE, CURRENT_DATE())) as CUSTOMER_LIFETIME_MONTHS,
+    
+    -- Purchase frequency
+    CASE 
+        WHEN c.TOTAL_ORDERS > 1 THEN 
+            DATEDIFF('day', c.REGISTRATION_DATE, COALESCE(c.LAST_ORDER_DATE, CURRENT_DATE())) / NULLIF(c.TOTAL_ORDERS - 1, 0)
+        ELSE NULL 
+    END as DAYS_BETWEEN_PURCHASES,
+    
+    -- Customer lifetime value calculations
+    c.TOTAL_SPENT as CLV_TOTAL,
+    ROUND(c.TOTAL_SPENT / NULLIF(DATEDIFF('month', c.REGISTRATION_DATE, COALESCE(c.LAST_ORDER_DATE, CURRENT_DATE())), 0), 2) as CLV_PER_MONTH,
+    ROUND(c.TOTAL_SPENT / NULLIF(c.TOTAL_ORDERS, 0), 2) as CLV_PER_ORDER,
+    
+    -- Predictive CLV (simple model)
+    ROUND(c.AVG_ORDER_VALUE * c.TOTAL_ORDERS * 1.2, 2) as PREDICTED_FUTURE_CLV,
+    
+    -- Customer health score
+    CASE 
+        WHEN c.DAYS_SINCE_LAST_ORDER <= 30 AND c.TOTAL_ORDERS >= 5 THEN 'Excellent'
+        WHEN c.DAYS_SINCE_LAST_ORDER <= 60 AND c.TOTAL_ORDERS >= 3 THEN 'Good'
+        WHEN c.DAYS_SINCE_LAST_ORDER <= 90 AND c.TOTAL_ORDERS >= 2 THEN 'Fair'
+        WHEN c.DAYS_SINCE_LAST_ORDER <= 180 THEN 'At Risk'
+        ELSE 'Churning'
+    END as CUSTOMER_HEALTH_SCORE,
+    
+    -- Retention probability
+    CASE 
+        WHEN c.DAYS_SINCE_LAST_ORDER <= 30 THEN 0.95
+        WHEN c.DAYS_SINCE_LAST_ORDER <= 60 THEN 0.80
+        WHEN c.DAYS_SINCE_LAST_ORDER <= 90 THEN 0.60
+        WHEN c.DAYS_SINCE_LAST_ORDER <= 180 THEN 0.30
+        ELSE 0.10
+    END as RETENTION_PROBABILITY
+    
+FROM DIMENSIONS.DIM_CUSTOMER c
+WHERE c.IS_ACTIVE = TRUE
+ORDER BY CLV_TOTAL DESC;
+
+-- =====================================================
+-- 6. QUERY EXECUTION AND TESTING
+-- =====================================================
+
+-- Test all business intelligence views
+SELECT 'Testing RFM_CUSTOMER_ANALYSIS' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.RFM_CUSTOMER_ANALYSIS
+UNION ALL
+SELECT 'Testing CUSTOMER_COHORT_ANALYSIS' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.CUSTOMER_COHORT_ANALYSIS
+UNION ALL
+SELECT 'Testing PRODUCT_LIFECYCLE_ANALYSIS' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.PRODUCT_LIFECYCLE_ANALYSIS
+UNION ALL
+SELECT 'Testing EXECUTIVE_DASHBOARD' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.EXECUTIVE_DASHBOARD
+UNION ALL
+SELECT 'Testing CUSTOMER_LIFETIME_VALUE' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.CUSTOMER_LIFETIME_VALUE;
+
+-- =====================================================
+-- END OF BUSINESS INTELLIGENCE QUERIES
+-- =====================================================

@@ -1,0 +1,441 @@
+-- =====================================================
+-- PAKISTAN SALES DATA ANALYSIS PROJECT
+-- SPECIALIZED ANALYTICAL QUERIES
+-- =====================================================
+-- This script contains specialized analytical queries including:
+-- - Sales Performance Analysis
+-- - Geographic Performance Insights
+-- - Time Series Analysis
+-- - Cross-Dimensional Analytics
+-- - Advanced Statistical Functions
+
+USE ROLE ACCOUNTADMIN;
+USE DATABASE PAKISTAN_SALES_OLAP_DB;
+USE WAREHOUSE PAKISTAN_OLAP_WH;
+
+-- =====================================================
+-- 1. SALES PERFORMANCE ANALYSIS WITH ADVANCED METRICS
+-- =====================================================
+
+-- Sales performance by time periods with advanced calculations
+CREATE OR REPLACE VIEW ANALYTICS.SALES_PERFORMANCE_ANALYSIS AS
+WITH sales_periods AS (
+    SELECT 
+        dt.YEAR,
+        dt.QUARTER_NAME,
+        dt.MONTH_NAME,
+        dt.SEASON,
+        dt.IS_WEEKEND,
+        dt.IS_HOLIDAY,
+        COUNT(DISTINCT fs.ORDER_ID) as ORDERS_COUNT,
+        COUNT(DISTINCT fs.CUSTOMER_KEY) as UNIQUE_CUSTOMERS,
+        SUM(fs.SALES_AMOUNT) as TOTAL_REVENUE,
+        SUM(fs.QUANTITY) as TOTAL_QUANTITY,
+        AVG(fs.SALES_AMOUNT) as AVG_ORDER_VALUE,
+        MIN(fs.SALES_AMOUNT) as MIN_ORDER_VALUE,
+        MAX(fs.SALES_AMOUNT) as MAX_ORDER_VALUE,
+        STDDEV(fs.SALES_AMOUNT) as ORDER_VALUE_STDDEV
+    FROM FACTS.FACT_SALES fs
+    JOIN DIMENSIONS.DIM_TIME dt ON fs.TIME_KEY = dt.TIME_KEY
+    GROUP BY dt.YEAR, dt.QUARTER_NAME, dt.MONTH_NAME, dt.SEASON, dt.IS_WEEKEND, dt.IS_HOLIDAY
+),
+sales_metrics AS (
+    SELECT 
+        *,
+        -- Growth calculations
+        LAG(TOTAL_REVENUE, 1) OVER (ORDER BY YEAR, QUARTER_NAME, MONTH_NAME) as PREVIOUS_PERIOD_REVENUE,
+        LAG(ORDERS_COUNT, 1) OVER (ORDER BY YEAR, QUARTER_NAME, MONTH_NAME) as PREVIOUS_PERIOD_ORDERS,
+        
+        -- Moving averages
+        AVG(TOTAL_REVENUE) OVER (ORDER BY YEAR, QUARTER_NAME, MONTH_NAME ROWS 2 PRECEDING) as MOVING_AVG_REVENUE_3_PERIODS,
+        AVG(ORDERS_COUNT) OVER (ORDER BY YEAR, QUARTER_NAME, MONTH_NAME ROWS 2 PRECEDING) as MOVING_AVG_ORDERS_3_PERIODS,
+        
+        -- Cumulative totals
+        SUM(TOTAL_REVENUE) OVER (ORDER BY YEAR, QUARTER_NAME, MONTH_NAME ROWS UNBOUNDED PRECEDING) as CUMULATIVE_REVENUE,
+        SUM(ORDERS_COUNT) OVER (ORDER BY YEAR, QUARTER_NAME, MONTH_NAME ROWS UNBOUNDED PRECEDING) as CUMULATIVE_ORDERS,
+        
+        -- Percentile rankings
+        PERCENT_RANK() OVER (ORDER BY TOTAL_REVENUE) as REVENUE_PERCENTILE,
+        PERCENT_RANK() OVER (ORDER BY ORDERS_COUNT) as ORDERS_PERCENTILE
+    FROM sales_periods
+)
+SELECT 
+    *,
+    -- Growth rates
+    ROUND((TOTAL_REVENUE - PREVIOUS_PERIOD_REVENUE) / NULLIF(PREVIOUS_PERIOD_REVENUE, 0) * 100, 2) as REVENUE_GROWTH_PCT,
+    ROUND((ORDERS_COUNT - PREVIOUS_PERIOD_ORDERS) / NULLIF(PREVIOUS_PERIOD_ORDERS, 0) * 100, 2) as ORDERS_GROWTH_PCT,
+    
+    -- Performance indicators
+    CASE 
+        WHEN TOTAL_REVENUE > MOVING_AVG_REVENUE_3_PERIODS THEN 'Above Trend'
+        WHEN TOTAL_REVENUE < MOVING_AVG_REVENUE_3_PERIODS THEN 'Below Trend'
+        ELSE 'On Trend'
+    END as REVENUE_TREND_STATUS,
+    
+    CASE 
+        WHEN ORDERS_COUNT > MOVING_AVG_ORDERS_3_PERIODS THEN 'Above Trend'
+        WHEN ORDERS_COUNT < MOVING_AVG_ORDERS_3_PERIODS THEN 'Below Trend'
+        ELSE 'On Trend'
+    END as ORDERS_TREND_STATUS,
+    
+    -- Seasonality analysis
+    CASE 
+        WHEN SEASON = 'Summer' AND TOTAL_REVENUE > AVG(TOTAL_REVENUE) OVER (PARTITION BY SEASON) THEN 'High Summer Performance'
+        WHEN SEASON = 'Winter' AND TOTAL_REVENUE > AVG(TOTAL_REVENUE) OVER (PARTITION BY SEASON) THEN 'High Winter Performance'
+        WHEN SEASON = 'Spring' AND TOTAL_REVENUE > AVG(TOTAL_REVENUE) OVER (PARTITION BY SEASON) THEN 'High Spring Performance'
+        WHEN SEASON = 'Autumn' AND TOTAL_REVENUE > AVG(TOTAL_REVENUE) OVER (PARTITION BY SEASON) THEN 'High Autumn Performance'
+        ELSE 'Seasonal Average'
+    END as SEASONAL_PERFORMANCE
+    
+FROM sales_metrics
+ORDER BY YEAR DESC, QUARTER_NAME, MONTH_NAME;
+
+-- =====================================================
+-- 2. GEOGRAPHIC PERFORMANCE INSIGHTS
+-- =====================================================
+
+-- Provincial performance analysis with ranking and trends
+CREATE OR REPLACE VIEW ANALYTICS.GEOGRAPHIC_PERFORMANCE_ANALYSIS AS
+WITH provincial_metrics AS (
+    SELECT 
+        ds.PROVINCE,
+        ds.CITY,
+        COUNT(DISTINCT fs.ORDER_ID) as TOTAL_ORDERS,
+        COUNT(DISTINCT fs.CUSTOMER_KEY) as UNIQUE_CUSTOMERS,
+        SUM(fs.SALES_AMOUNT) as TOTAL_REVENUE,
+        SUM(fs.QUANTITY) as TOTAL_QUANTITY,
+        AVG(fs.SALES_AMOUNT) as AVG_ORDER_VALUE,
+        COUNT(DISTINCT dp.CATEGORY_NAME) as PRODUCT_CATEGORIES,
+        COUNT(DISTINCT dp.BRAND) as PRODUCT_BRANDS
+    FROM FACTS.FACT_SALES fs
+    JOIN DIMENSIONS.DIM_STORE ds ON fs.STORE_KEY = ds.STORE_KEY
+    JOIN DIMENSIONS.DIM_PRODUCT dp ON fs.PRODUCT_KEY = dp.PRODUCT_KEY
+    GROUP BY ds.PROVINCE, ds.CITY
+),
+provincial_rankings AS (
+    SELECT 
+        *,
+        -- Provincial rankings
+        RANK() OVER (ORDER BY TOTAL_REVENUE DESC) as PROVINCE_REVENUE_RANK,
+        DENSE_RANK() OVER (ORDER BY TOTAL_REVENUE DESC) as PROVINCE_REVENUE_DENSE_RANK,
+        RANK() OVER (ORDER BY TOTAL_ORDERS DESC) as PROVINCE_ORDERS_RANK,
+        RANK() OVER (ORDER BY UNIQUE_CUSTOMERS DESC) as PROVINCE_CUSTOMERS_RANK,
+        
+        -- City rankings within province
+        RANK() OVER (PARTITION BY PROVINCE ORDER BY TOTAL_REVENUE DESC) as CITY_REVENUE_RANK_IN_PROVINCE,
+        RANK() OVER (PARTITION BY PROVINCE ORDER BY TOTAL_ORDERS DESC) as CITY_ORDERS_RANK_IN_PROVINCE,
+        
+        -- Percentile rankings
+        PERCENT_RANK() OVER (ORDER BY TOTAL_REVENUE) as REVENUE_PERCENTILE,
+        PERCENT_RANK() OVER (ORDER BY TOTAL_ORDERS) as ORDERS_PERCENTILE,
+        
+        -- Provincial averages
+        AVG(TOTAL_REVENUE) OVER (PARTITION BY PROVINCE) as PROVINCE_AVG_REVENUE,
+        AVG(TOTAL_ORDERS) OVER (PARTITION BY PROVINCE) as PROVINCE_AVG_ORDERS,
+        AVG(UNIQUE_CUSTOMERS) OVER (PARTITION BY PROVINCE) as PROVINCE_AVG_CUSTOMERS
+    FROM provincial_metrics
+)
+SELECT 
+    *,
+    -- Performance vs provincial average
+    CASE 
+        WHEN TOTAL_REVENUE > PROVINCE_AVG_REVENUE THEN 'Above Provincial Average'
+        WHEN TOTAL_REVENUE < PROVINCE_AVG_REVENUE THEN 'Below Provincial Average'
+        ELSE 'At Provincial Average'
+    END as REVENUE_VS_PROVINCE_AVG,
+    
+    -- Market penetration
+    ROUND(TOTAL_REVENUE / SUM(TOTAL_REVENUE) OVER () * 100, 2) as MARKET_SHARE_PCT,
+    ROUND(TOTAL_ORDERS / SUM(TOTAL_ORDERS) OVER () * 100, 2) as ORDER_SHARE_PCT,
+    
+    -- Customer density
+    ROUND(TOTAL_REVENUE / NULLIF(UNIQUE_CUSTOMERS, 0), 2) as REVENUE_PER_CUSTOMER,
+    ROUND(TOTAL_ORDERS / NULLIF(UNIQUE_CUSTOMERS, 0), 2) as ORDERS_PER_CUSTOMER,
+    
+    -- Product diversity
+    ROUND(PRODUCT_CATEGORIES * 100.0 / MAX(PRODUCT_CATEGORIES) OVER (), 2) as CATEGORY_DIVERSITY_SCORE,
+    ROUND(PRODUCT_BRANDS * 100.0 / MAX(PRODUCT_BRANDS) OVER (), 2) as BRAND_DIVERSITY_SCORE
+    
+FROM provincial_rankings
+ORDER BY PROVINCE_REVENUE_RANK, CITY_REVENUE_RANK_IN_PROVINCE;
+
+-- =====================================================
+-- 3. TIME SERIES ANALYSIS WITH ADVANCED FUNCTIONS
+-- =====================================================
+
+-- Advanced time series analysis with seasonal decomposition
+CREATE OR REPLACE VIEW ANALYTICS.TIME_SERIES_ANALYSIS AS
+WITH daily_sales AS (
+    SELECT 
+        dt.FULL_DATE,
+        dt.YEAR,
+        dt.MONTH_NAME,
+        dt.DAY_OF_WEEK,
+        dt.IS_WEEKEND,
+        dt.IS_HOLIDAY,
+        COUNT(DISTINCT fs.ORDER_ID) as DAILY_ORDERS,
+        SUM(fs.SALES_AMOUNT) as DAILY_REVENUE,
+        COUNT(DISTINCT fs.CUSTOMER_KEY) as DAILY_CUSTOMERS,
+        AVG(fs.SALES_AMOUNT) as DAILY_AVG_ORDER_VALUE
+    FROM FACTS.FACT_SALES fs
+    JOIN DIMENSIONS.DIM_TIME dt ON fs.TIME_KEY = dt.TIME_KEY
+    GROUP BY dt.FULL_DATE, dt.YEAR, dt.MONTH_NAME, dt.DAY_OF_WEEK, dt.IS_WEEKEND, dt.IS_HOLIDAY
+),
+time_series_metrics AS (
+    SELECT 
+        *,
+        -- Moving averages for trend analysis
+        AVG(DAILY_REVENUE) OVER (ORDER BY FULL_DATE ROWS 6 PRECEDING) as MOVING_AVG_REVENUE_7_DAYS,
+        AVG(DAILY_REVENUE) OVER (ORDER BY FULL_DATE ROWS 13 PRECEDING) as MOVING_AVG_REVENUE_14_DAYS,
+        AVG(DAILY_REVENUE) OVER (ORDER BY FULL_DATE ROWS 29 PRECEDING) as MOVING_AVG_REVENUE_30_DAYS,
+        
+        -- Moving averages for orders
+        AVG(DAILY_ORDERS) OVER (ORDER BY FULL_DATE ROWS 6 PRECEDING) as MOVING_AVG_ORDERS_7_DAYS,
+        AVG(DAILY_ORDERS) OVER (ORDER BY FULL_DATE ROWS 13 PRECEDING) as MOVING_AVG_ORDERS_14_DAYS,
+        AVG(DAILY_ORDERS) OVER (ORDER BY FULL_DATE ROWS 29 PRECEDING) as MOVING_AVG_ORDERS_30_DAYS,
+        
+        -- Growth rates
+        LAG(DAILY_REVENUE, 1) OVER (ORDER BY FULL_DATE) as PREVIOUS_DAY_REVENUE,
+        LAG(DAILY_REVENUE, 7) OVER (ORDER BY FULL_DATE) as PREVIOUS_WEEK_REVENUE,
+        LAG(DAILY_REVENUE, 30) OVER (ORDER BY FULL_DATE) as PREVIOUS_MONTH_REVENUE,
+        
+        -- Cumulative totals
+        SUM(DAILY_REVENUE) OVER (ORDER BY FULL_DATE ROWS UNBOUNDED PRECEDING) as CUMULATIVE_REVENUE,
+        SUM(DAILY_ORDERS) OVER (ORDER BY FULL_DATE ROWS UNBOUNDED PRECEDING) as CUMULATIVE_ORDERS,
+        
+        -- Day of week patterns
+        AVG(DAILY_REVENUE) OVER (PARTITION BY DAY_OF_WEEK) as DOW_AVG_REVENUE,
+        AVG(DAILY_ORDERS) OVER (PARTITION BY DAY_OF_WEEK) as DOW_AVG_ORDERS,
+        
+        -- Seasonal patterns
+        AVG(DAILY_REVENUE) OVER (PARTITION BY MONTH_NAME) as MONTHLY_AVG_REVENUE,
+        AVG(DAILY_ORDERS) OVER (PARTITION BY MONTH_NAME) as MONTHLY_AVG_ORDERS
+    FROM daily_sales
+)
+SELECT 
+    *,
+    -- Growth calculations
+    ROUND((DAILY_REVENUE - PREVIOUS_DAY_REVENUE) / NULLIF(PREVIOUS_DAY_REVENUE, 0) * 100, 2) as DAY_OVER_DAY_GROWTH_PCT,
+    ROUND((DAILY_REVENUE - PREVIOUS_WEEK_REVENUE) / NULLIF(PREVIOUS_WEEK_REVENUE, 0) * 100, 2) as WEEK_OVER_WEEK_GROWTH_PCT,
+    ROUND((DAILY_REVENUE - PREVIOUS_MONTH_REVENUE) / NULLIF(PREVIOUS_MONTH_REVENUE, 0) * 100, 2) as MONTH_OVER_MONTH_GROWTH_PCT,
+    
+    -- Trend analysis
+    CASE 
+        WHEN DAILY_REVENUE > MOVING_AVG_REVENUE_7_DAYS THEN 'Above 7-Day Trend'
+        WHEN DAILY_REVENUE < MOVING_AVG_REVENUE_7_DAYS THEN 'Below 7-Day Trend'
+        ELSE 'On 7-Day Trend'
+    END as REVENUE_TREND_7_DAYS,
+    
+    CASE 
+        WHEN DAILY_REVENUE > MOVING_AVG_REVENUE_30_DAYS THEN 'Above 30-Day Trend'
+        WHEN DAILY_REVENUE < MOVING_AVG_REVENUE_30_DAYS THEN 'Below 30-Day Trend'
+        ELSE 'On 30-Day Trend'
+    END as REVENUE_TREND_30_DAYS,
+    
+    -- Day of week performance
+    CASE 
+        WHEN DAILY_REVENUE > DOW_AVG_REVENUE THEN 'Above DOW Average'
+        WHEN DAILY_REVENUE < DOW_AVG_REVENUE THEN 'Below DOW Average'
+        ELSE 'At DOW Average'
+    END as DOW_PERFORMANCE,
+    
+    -- Seasonal performance
+    CASE 
+        WHEN DAILY_REVENUE > MONTHLY_AVG_REVENUE THEN 'Above Monthly Average'
+        WHEN DAILY_REVENUE < MONTHLY_AVG_REVENUE THEN 'Below Monthly Average'
+        ELSE 'At Monthly Average'
+    END as MONTHLY_PERFORMANCE,
+    
+    -- Volatility indicators
+    CASE 
+        WHEN ABS(DAY_OVER_DAY_GROWTH_PCT) > 50 THEN 'High Volatility'
+        WHEN ABS(DAY_OVER_DAY_GROWTH_PCT) > 25 THEN 'Medium Volatility'
+        WHEN ABS(DAY_OVER_DAY_GROWTH_PCT) > 10 THEN 'Low Volatility'
+        ELSE 'Stable'
+    END as VOLATILITY_LEVEL
+    
+FROM time_series_metrics
+ORDER BY FULL_DATE DESC;
+
+-- =====================================================
+-- 4. CROSS-DIMENSIONAL ANALYTICS
+-- =====================================================
+
+-- Customer-Product-Store cross-dimensional analysis
+CREATE OR REPLACE VIEW ANALYTICS.CROSS_DIMENSIONAL_ANALYSIS AS
+WITH cross_metrics AS (
+    SELECT 
+        -- Customer dimensions
+        dc.CUSTOMER_SEGMENT,
+        dc.INCOME_BAND,
+        dc.PRIMARY_PROVINCE,
+        
+        -- Product dimensions
+        dp.CATEGORY_NAME,
+        dp.BRAND,
+        
+        -- Store dimensions
+        ds.PROVINCE as STORE_PROVINCE,
+        ds.CITY as STORE_CITY,
+        
+        -- Time dimensions
+        dt.YEAR,
+        dt.QUARTER_NAME,
+        dt.SEASON,
+        
+        -- Aggregated metrics
+        COUNT(DISTINCT fs.ORDER_ID) as CROSS_ORDERS,
+        SUM(fs.SALES_AMOUNT) as CROSS_REVENUE,
+        SUM(fs.QUANTITY) as CROSS_QUANTITY,
+        COUNT(DISTINCT fs.CUSTOMER_KEY) as UNIQUE_CUSTOMERS,
+        COUNT(DISTINCT fs.PRODUCT_KEY) as UNIQUE_PRODUCTS,
+        COUNT(DISTINCT fs.STORE_KEY) as UNIQUE_STORES
+    FROM FACTS.FACT_SALES fs
+    JOIN DIMENSIONS.DIM_CUSTOMER dc ON fs.CUSTOMER_KEY = dc.CUSTOMER_KEY
+    JOIN DIMENSIONS.DIM_PRODUCT dp ON fs.PRODUCT_KEY = dp.PRODUCT_KEY
+    JOIN DIMENSIONS.DIM_STORE ds ON fs.STORE_KEY = ds.STORE_KEY
+    JOIN DIMENSIONS.DIM_TIME dt ON fs.TIME_KEY = dt.TIME_KEY
+    GROUP BY 
+        dc.CUSTOMER_SEGMENT, dc.INCOME_BAND, dc.PRIMARY_PROVINCE,
+        dp.CATEGORY_NAME, dp.BRAND,
+        ds.PROVINCE, ds.CITY,
+        dt.YEAR, dt.QUARTER_NAME, dt.SEASON
+),
+cross_rankings AS (
+    SELECT 
+        *,
+        -- Ranking within customer segment
+        RANK() OVER (PARTITION BY CUSTOMER_SEGMENT ORDER BY CROSS_REVENUE DESC) as REVENUE_RANK_IN_SEGMENT,
+        RANK() OVER (PARTITION BY CUSTOMER_SEGMENT ORDER BY CROSS_ORDERS DESC) as ORDERS_RANK_IN_SEGMENT,
+        
+        -- Ranking within product category
+        RANK() OVER (PARTITION BY CATEGORY_NAME ORDER BY CROSS_REVENUE DESC) as REVENUE_RANK_IN_CATEGORY,
+        RANK() OVER (PARTITION BY CATEGORY_NAME ORDER BY CROSS_ORDERS DESC) as ORDERS_RANK_IN_CATEGORY,
+        
+        -- Ranking within store province
+        RANK() OVER (PARTITION BY STORE_PROVINCE ORDER BY CROSS_REVENUE DESC) as REVENUE_RANK_IN_STORE_PROVINCE,
+        RANK() OVER (PARTITION BY STORE_PROVINCE ORDER BY CROSS_ORDERS DESC) as ORDERS_RANK_IN_STORE_PROVINCE,
+        
+        -- Percentile rankings
+        PERCENT_RANK() OVER (ORDER BY CROSS_REVENUE) as OVERALL_REVENUE_PERCENTILE,
+        PERCENT_RANK() OVER (ORDER BY CROSS_ORDERS) as OVERALL_ORDERS_PERCENTILE,
+        
+        -- Cross-dimensional averages
+        AVG(CROSS_REVENUE) OVER (PARTITION BY CUSTOMER_SEGMENT) as SEGMENT_AVG_REVENUE,
+        AVG(CROSS_REVENUE) OVER (PARTITION BY CATEGORY_NAME) as CATEGORY_AVG_REVENUE,
+        AVG(CROSS_REVENUE) OVER (PARTITION BY STORE_PROVINCE) as STORE_PROVINCE_AVG_REVENUE
+    FROM cross_metrics
+)
+SELECT 
+    *,
+    -- Performance indicators
+    CASE 
+        WHEN CROSS_REVENUE > SEGMENT_AVG_REVENUE THEN 'Above Segment Average'
+        WHEN CROSS_REVENUE < SEGMENT_AVG_REVENUE THEN 'Below Segment Average'
+        ELSE 'At Segment Average'
+    END as SEGMENT_PERFORMANCE,
+    
+    CASE 
+        WHEN CROSS_REVENUE > CATEGORY_AVG_REVENUE THEN 'Above Category Average'
+        WHEN CROSS_REVENUE < CATEGORY_AVG_REVENUE THEN 'Below Category Average'
+        ELSE 'At Category Average'
+    END as CATEGORY_PERFORMANCE,
+    
+    CASE 
+        WHEN CROSS_REVENUE > STORE_PROVINCE_AVG_REVENUE THEN 'Above Store Province Average'
+        WHEN CROSS_REVENUE < STORE_PROVINCE_AVG_REVENUE THEN 'Below Store Province Average'
+        ELSE 'At Store Province Average'
+    END as STORE_PROVINCE_PERFORMANCE,
+    
+    -- Market penetration
+    ROUND(CROSS_REVENUE / SUM(CROSS_REVENUE) OVER () * 100, 4) as MARKET_SHARE_PCT,
+    ROUND(CROSS_ORDERS / SUM(CROSS_ORDERS) OVER () * 100, 4) as ORDER_SHARE_PCT,
+    
+    -- Efficiency metrics
+    ROUND(CROSS_REVENUE / NULLIF(UNIQUE_CUSTOMERS, 0), 2) as REVENUE_PER_CUSTOMER,
+    ROUND(CROSS_REVENUE / NULLIF(UNIQUE_PRODUCTS, 0), 2) as REVENUE_PER_PRODUCT,
+    ROUND(CROSS_REVENUE / NULLIF(UNIQUE_STORES, 0), 2) as REVENUE_PER_STORE
+    
+FROM cross_rankings
+ORDER BY CROSS_REVENUE DESC;
+
+-- =====================================================
+-- 5. ADVANCED STATISTICAL FUNCTIONS
+-- =====================================================
+
+-- Statistical analysis of sales data
+CREATE OR REPLACE VIEW ANALYTICS.STATISTICAL_ANALYSIS AS
+WITH sales_statistics AS (
+    SELECT 
+        -- Product performance statistics
+        dp.CATEGORY_NAME,
+        dp.BRAND,
+        COUNT(DISTINCT fs.ORDER_ID) as ORDER_COUNT,
+        SUM(fs.SALES_AMOUNT) as TOTAL_REVENUE,
+        AVG(fs.SALES_AMOUNT) as MEAN_ORDER_VALUE,
+        MEDIAN(fs.SALES_AMOUNT) as MEDIAN_ORDER_VALUE,
+        MIN(fs.SALES_AMOUNT) as MIN_ORDER_VALUE,
+        MAX(fs.SALES_AMOUNT) as MAX_ORDER_VALUE,
+        STDDEV(fs.SALES_AMOUNT) as ORDER_VALUE_STDDEV,
+        VARIANCE(fs.SALES_AMOUNT) as ORDER_VALUE_VARIANCE,
+        PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY fs.SALES_AMOUNT) as Q1_ORDER_VALUE,
+        PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY fs.SALES_AMOUNT) as Q3_ORDER_VALUE,
+        PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY fs.SALES_AMOUNT) as P90_ORDER_VALUE,
+        PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY fs.SALES_AMOUNT) as P95_ORDER_VALUE
+    FROM FACTS.FACT_SALES fs
+    JOIN DIMENSIONS.DIM_PRODUCT dp ON fs.PRODUCT_KEY = dp.PRODUCT_KEY
+    GROUP BY dp.CATEGORY_NAME, dp.BRAND
+)
+SELECT 
+    *,
+    -- Statistical measures
+    (MAX_ORDER_VALUE - MIN_ORDER_VALUE) as RANGE_ORDER_VALUE,
+    (Q3_ORDER_VALUE - Q1_ORDER_VALUE) as INTERQUARTILE_RANGE,
+    ROUND(ORDER_VALUE_STDDEV / NULLIF(MEAN_ORDER_VALUE, 0) * 100, 2) as COEFFICIENT_OF_VARIATION,
+    
+    -- Outlier detection
+    CASE 
+        WHEN MEAN_ORDER_VALUE + (2 * ORDER_VALUE_STDDEV) < MAX_ORDER_VALUE THEN 'Has High Outliers'
+        WHEN MEAN_ORDER_VALUE - (2 * ORDER_VALUE_STDDEV) > MIN_ORDER_VALUE THEN 'Has Low Outliers'
+        ELSE 'No Significant Outliers'
+    END as OUTLIER_ANALYSIS,
+    
+    -- Distribution shape indicators
+    CASE 
+        WHEN MEAN_ORDER_VALUE > MEDIAN_ORDER_VALUE THEN 'Right-Skewed'
+        WHEN MEAN_ORDER_VALUE < MEDIAN_ORDER_VALUE THEN 'Left-Skewed'
+        ELSE 'Symmetric'
+    END as DISTRIBUTION_SHAPE,
+    
+    -- Performance classification
+    CASE 
+        WHEN TOTAL_REVENUE > AVG(TOTAL_REVENUE) OVER () THEN 'Above Average Revenue'
+        ELSE 'Below Average Revenue'
+    END as REVENUE_PERFORMANCE,
+    
+    CASE 
+        WHEN ORDER_COUNT > AVG(ORDER_COUNT) OVER () THEN 'Above Average Orders'
+        ELSE 'Below Average Orders'
+    END as ORDER_PERFORMANCE
+    
+FROM sales_statistics
+ORDER BY TOTAL_REVENUE DESC;
+
+-- =====================================================
+-- 6. QUERY EXECUTION AND TESTING
+-- =====================================================
+
+-- Test all specialized analytical views
+SELECT 'Testing SALES_PERFORMANCE_ANALYSIS' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.SALES_PERFORMANCE_ANALYSIS
+UNION ALL
+SELECT 'Testing GEOGRAPHIC_PERFORMANCE_ANALYSIS' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.GEOGRAPHIC_PERFORMANCE_ANALYSIS
+UNION ALL
+SELECT 'Testing TIME_SERIES_ANALYSIS' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.TIME_SERIES_ANALYSIS
+UNION ALL
+SELECT 'Testing CROSS_DIMENSIONAL_ANALYSIS' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.CROSS_DIMENSIONAL_ANALYSIS
+UNION ALL
+SELECT 'Testing STATISTICAL_ANALYSIS' as TEST_NAME, COUNT(*) as RECORD_COUNT FROM ANALYTICS.STATISTICAL_ANALYSIS;
+
+-- =====================================================
+-- END OF SPECIALIZED ANALYTICAL QUERIES
+-- =====================================================
